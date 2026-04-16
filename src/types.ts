@@ -32,6 +32,9 @@ export type PersonType = PersonDataType & {
   id: string;
   name: string;
   categories?: string[];
+  isGouv?: boolean;
+  party?: PartyType;
+  episodeDate?: string;
 };
 
 export type CurrentType = {

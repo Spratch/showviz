@@ -520,6 +520,13 @@
             "full_name": "Divers gauche",
             "full_name_en": "Miscellaneous left",
             "full_name_de": "Sonstiges übrig"
+          },
+          {
+            "name": "DVG",
+            "full_name": "l'Engagement",
+            "full_name_en": "l'Engagement",
+            "full_name_de": "l'Engagement",
+            "keyword": "Arnaud Montebourg"
           }
         ]
       }
