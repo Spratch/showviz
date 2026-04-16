@@ -1,0 +1,1898 @@
+{
+  "title": "Quelle époque !",
+  "channel": "France 2",
+  "start": "2022-09-24",
+  "end": "",
+  "diffusions": [
+    {
+      "id": "01-01",
+      "date": "2022-09-24",
+      "guestsIds": [
+        "jean-luc-melenchon",
+        "nicky-doll",
+        "marco-mouly",
+        "yann-moix",
+        "laurence-ferrari",
+        "jean-paul-rouve",
+        "cindy-bruna",
+        "pere-mathieu"
+      ],
+      "viewers": 1100000,
+      "viewersPercentage": 17.4
+    },
+    {
+      "id": "01-02",
+      "date": "2022-10-01",
+      "guestsIds": [
+        "rachida-dati",
+        "magali-berdah",
+        "patrick-timsit",
+        "christophe-ono-dit-biot",
+        "ciryl-gane",
+        "sarah-marx",
+        "l-equipe-de-france-senior-de-natation-synchronisee"
+      ],
+      "viewers": 940000,
+      "viewersPercentage": 13
+    },
+    {
+      "id": "01-03",
+      "date": "2022-10-08",
+      "guestsIds": [
+        "sandrine-rousseau",
+        "michel-cymes",
+        "tibo-inshape",
+        "david-aguilar",
+        "rebecca-zlotowski",
+        "luz"
+      ],
+      "viewers": 926000,
+      "viewersPercentage": 12.5
+    },
+    {
+      "id": "01-04",
+      "date": "2022-10-15",
+      "guestsIds": [
+        "gabriel-attal",
+        "elsa-zylberstein",
+        "fabrice-arfi",
+        "marie-cau",
+        "jeremy-ferrari",
+        "dora-moutot",
+        "julien-meimon"
+      ],
+      "viewers": 1010000,
+      "viewersPercentage": 13.6
+    },
+    {
+      "id": "01-05",
+      "date": "2022-10-22",
+      "guestsIds": [
+        "francois-hollande",
+        "caroline-fourest",
+        "sebastien-thoen",
+        "paul-el-kharrat",
+        "emmanuelle-seigner",
+        "francois-lenglet"
+      ],
+      "viewers": 1080000,
+      "viewersPercentage": 15
+    },
+    {
+      "id": "01-06",
+      "date": "2022-10-29",
+      "guestsIds": [
+        "nicolas-bedos",
+        "francois-cluzet",
+        "nadine-morano",
+        "doully",
+        "ragnar-le-breton",
+        "franz-olivier-giesbert",
+        "les-tatoueurs-dodie-et-tin-tin"
+      ],
+      "viewers": 1180000,
+      "viewersPercentage": 18.6
+    },
+    {
+      "id": "01-07",
+      "date": "2022-11-05",
+      "guestsIds": [
+        "monica-bellucci",
+        "gad-elmaleh",
+        "clementine-autain",
+        "frederic-lenoir",
+        "sofiane-pamart",
+        "flora-nicol"
+      ],
+      "viewers": 1120000,
+      "viewersPercentage": 12.5
+    },
+    {
+      "id": "01-08",
+      "date": "2022-11-12",
+      "guestsIds": [
+        "dany-leprince",
+        "nikita-bellucci",
+        "ana-girardot",
+        "anissa-bonnefont",
+        "claire-nouvian",
+        "mathias-wargon",
+        "fabrice-eboue",
+        "olivier-morice"
+      ],
+      "viewers": 1230000,
+      "viewersPercentage": 14.1
+    },
+    {
+      "id": "01-09",
+      "date": "2022-11-19",
+      "guestsIds": [
+        "michel-drucker",
+        "faustine-bollaert",
+        "chicandier",
+        "olivier-veran",
+        "negar-haeri",
+        "yasin-hansye",
+        "guillaume-auda"
+      ],
+      "viewers": 1080000,
+      "viewersPercentage": 16.4
+    },
+    {
+      "id": "01-10",
+      "date": "2022-12-10",
+      "guestsIds": [
+        "laeticia-hallyday",
+        "joeystarr",
+        "bilal-hassani",
+        "clement-beaune",
+        "philippine-leroy-beaulieu"
+      ],
+      "viewers": 1050000,
+      "viewersPercentage": 14.6
+    },
+    {
+      "id": "01-11",
+      "date": "2022-12-17",
+      "guestsIds": [
+        "vincent-lacoste",
+        "sandrine-kiberlain",
+        "fred-musa",
+        "philippe-tournon",
+        "maryse-burgot",
+        "jordan-bardella",
+        "les-gaillards",
+        "julie-de-bona"
+      ],
+      "viewers": 944000,
+      "viewersPercentage": 12
+    },
+    {
+      "id": "01-12",
+      "date": "2023-01-07",
+      "guestsIds": [
+        "francois-ruffin",
+        "indira-ampiot",
+        "alex-vizorek",
+        "louise-aubery",
+        "jean-luc-reichmann",
+        "perico-legasse",
+        "jeremy-ferrer"
+      ],
+      "viewers": 1040000,
+      "viewersPercentage": 18.5
+    },
+    {
+      "id": "01-13",
+      "date": "2023-01-14",
+      "guestsIds": [
+        "daniel-cohn-bendit",
+        "christiane-taubira",
+        "jean-pascal-zadi",
+        "rosa-bursztein",
+        "stephane-tapie",
+        "sophie-davant"
+      ],
+      "viewers": 1230000,
+      "viewersPercentage": 17.2
+    },
+    {
+      "id": "01-14",
+      "date": "2023-01-21",
+      "guestsIds": [
+        "roselyne-bachelot",
+        "maxime-chattam",
+        "berenice-bejo",
+        "michel-hazanavicius",
+        "dominique-seux",
+        "thomas-porcher",
+        "neila-moore",
+        "sdm",
+        "youssouf-fofana"
+      ],
+      "viewers": 1150000,
+      "viewersPercentage": 19.4
+    },
+    {
+      "id": "01-15",
+      "date": "2023-01-28",
+      "guestsIds": [
+        "natacha-polony",
+        "raphael-enthoven",
+        "mathieu-bock-cote",
+        "ruth-elkrief",
+        "benjamin-duhamel",
+        "pablo-pillaud-vivien",
+        "charles-consigny",
+        "ahmed-sylla",
+        "stephane-bak",
+        "noemie-sylberg"
+      ],
+      "viewers": 1150000,
+      "viewersPercentage": 15.2
+    },
+    {
+      "id": "01-16",
+      "date": "2023-02-04",
+      "guestsIds": [
+        "marlene-schiappa",
+        "marion-marechal",
+        "alain-marschall",
+        "olivier-truchot",
+        "philippe-besson",
+        "waly-dia",
+        "justine-dupont"
+      ],
+      "viewers": 1050000,
+      "viewersPercentage": 17.7
+    },
+    {
+      "id": "01-17",
+      "date": "2023-02-11",
+      "guestsIds": [
+        "michael-zemmour",
+        "dominique-seux",
+        "cyril-feraud",
+        "isabelle-coutant-peyre",
+        "elise-goldfarb",
+        "julia-layani",
+        "clementine-celarie",
+        "dominique-de-villepin",
+        "florent-dabadie",
+        "philippe-lacheau",
+        "elodie-fontan",
+        "jean-charles-deniau",
+        "charles-sobhraj"
+      ],
+      "viewers": 1200000,
+      "viewersPercentage": 15.5
+    },
+    {
+      "id": "01-18",
+      "date": "2023-02-18",
+      "guestsIds": [
+        "kev-adams",
+        "clara-luciani",
+        "julia-vignali",
+        "andre-manoukian",
+        "bernard-henri-levy",
+        "lisa-demma",
+        "philippe-jaenada",
+        "mariana-laprie",
+        "muriel-melki"
+      ],
+      "viewers": 1130000,
+      "viewersPercentage": 18.3
+    },
+    {
+      "id": "01-19",
+      "date": "2023-02-25",
+      "guestsIds": [
+        "yann-moix",
+        "michael-youn",
+        "evelyne-dheliat",
+        "philippe-croizon",
+        "monsieur-pof",
+        "pierre-servent",
+        "stephane-guillon"
+      ],
+      "viewers": 1410000,
+      "viewersPercentage": 18.6
+    },
+    {
+      "id": "01-20",
+      "date": "2023-03-11",
+      "guestsIds": [
+        "elise-lucet",
+        "sonia-mabrouk",
+        "solene-chalvon-fioriti",
+        "crazy-sally",
+        "daniel-riolo",
+        "nathalie-saint-cricq",
+        "jean-viard",
+        "brice-teinturier",
+        "thomas-legrand"
+      ],
+      "viewers": 1260000,
+      "viewersPercentage": 18.2
+    },
+    {
+      "id": "01-21",
+      "date": "2023-03-18",
+      "guestsIds": [
+        "pierre-lescure",
+        "michel-denisot",
+        "patrick-bruel",
+        "benjamin-duhamel",
+        "jean-michel-aphatie",
+        "anne-rosencher",
+        "eric-zemmour"
+      ],
+      "viewers": 1320000,
+      "viewersPercentage": 20.7
+    },
+    {
+      "id": "01-22",
+      "date": "2023-03-25",
+      "guestsIds": [
+        "vincent-lagaf",
+        "laure-calamy",
+        "tristan-waleckx",
+        "violette-d-urso",
+        "enrico-macias",
+        "olivier-veran"
+      ],
+      "viewers": 1290000,
+      "viewersPercentage": 21.3
+    },
+    {
+      "id": "01-23",
+      "date": "2023-04-01",
+      "guestsIds": [
+        "anne-sinclair",
+        "eric-antoine",
+        "xavier-de-moulins",
+        "jeanne-herry",
+        "camila-pinzon",
+        "elodie-bouchez"
+      ],
+      "viewers": 1380000,
+      "viewersPercentage": 22.4
+    },
+    {
+      "id": "01-24",
+      "date": "2023-04-08",
+      "guestsIds": [
+        "arnaud-ducret",
+        "bruce-toussaint",
+        "nawell-madani",
+        "dimitri-rassam",
+        "laurent-berger",
+        "margaux-cassan"
+      ],
+      "viewers": 1400000,
+      "viewersPercentage": 17.7
+    },
+    {
+      "id": "01-25",
+      "date": "2023-04-15",
+      "guestsIds": [
+        "alain-duhamel",
+        "frederic-beigbeder",
+        "nicolas-philibert",
+        "isabelle-carre",
+        "jean-luc-lemoine",
+        "sarah-barukh",
+        "dany-boon"
+      ],
+      "viewers": 1590000,
+      "viewersPercentage": 17.9
+    },
+    {
+      "id": "01-26",
+      "date": "2023-04-22",
+      "guestsIds": [
+        "daniel-auteuil",
+        "tony-parker",
+        "david-ginola",
+        "christine-ockrent",
+        "victoria-bedos",
+        "vanessa-montalbano"
+      ],
+      "viewers": 1360000,
+      "viewersPercentage": 16.8
+    },
+    {
+      "id": "01-27",
+      "date": "2023-04-29",
+      "guestsIds": [
+        "eric-naulleau",
+        "cecile-duflot",
+        "jean-michel-aphatie",
+        "sonia-mabrouk",
+        "ludovic-vigogne",
+        "anne-rosencher",
+        "darius-rochebin",
+        "christophe-barbier",
+        "jean-massiet",
+        "frederic-dabi",
+        "bernard-guetta"
+      ],
+      "viewers": 1400000,
+      "viewersPercentage": 21.5
+    },
+    {
+      "id": "01-28",
+      "date": "2023-05-06",
+      "guestsIds": [
+        "manu-payet",
+        "marianne-james",
+        "corinne-masiero",
+        "vincent-chalembert",
+        "alain-bauer",
+        "hugo-micheron",
+        "joel-bouraima"
+      ],
+      "viewers": 1150000,
+      "viewersPercentage": 18.7
+    },
+    {
+      "id": "01-29",
+      "date": "2023-05-20",
+      "guestsIds": [
+        "basile-boli",
+        "mathieu-madenian",
+        "camille-combal",
+        "alice-pol",
+        "frederic-hazan",
+        "bruno-le-maire",
+        "wahiba-gallart",
+        "pone",
+        "manuel-ferrara"
+      ],
+      "viewers": 1060000,
+      "viewersPercentage": 18.4
+    },
+    {
+      "id": "01-30",
+      "date": "2023-05-27",
+      "guestsIds": [
+        "gims",
+        "rima-abdul-malak",
+        "amelie-mauresmo",
+        "ibrahim-maalouf",
+        "michel-denisot",
+        "thomas-langmann",
+        "felix-marquardt"
+      ],
+      "viewers": 840000,
+      "viewersPercentage": 14.1
+    },
+    {
+      "id": "01-31",
+      "date": "2023-06-03",
+      "guestsIds": [
+        "apolline-de-malherbe",
+        "ramzy-bedia",
+        "franck-gastambide",
+        "adriana-karembeu",
+        "fabien-olicard",
+        "pierre-amaury-crespeau",
+        "nicky-champa",
+        "eric-dupond-moretti"
+      ],
+      "viewers": 1080000,
+      "viewersPercentage": 18.8
+    },
+    {
+      "id": "01-32",
+      "date": "2023-06-10",
+      "guestsIds": [
+        "aymeric-caron",
+        "nikos-aliagas",
+        "roselyne-bachelot",
+        "chloe-nabedian",
+        "amelie-de-bourbon-parme",
+        "heidi-sevestre"
+      ],
+      "viewers": 1150000,
+      "viewersPercentage": 20.1
+    },
+    {
+      "id": "01-33",
+      "date": "2023-06-17",
+      "guestsIds": [
+        "daphne-burki",
+        "les-queens-de-drag-race-france",
+        "thierry-ardisson",
+        "philippe-corti",
+        "lucie-carrasco",
+        "negar-haeri",
+        "audrey-crespo-mara",
+        "julie-gayet"
+      ],
+      "viewers": 1120000,
+      "viewersPercentage": 20
+    },
+    {
+      "id": "01-34",
+      "date": "2023-06-24",
+      "guestsIds": [
+        "christophe-dechavanne",
+        "patrice-carmouze",
+        "philippe-caveriviere",
+        "bertrand-chameroy",
+        "valerie-damidot",
+        "klek-entos",
+        "yannick-alleno"
+      ],
+      "viewers": 698000,
+      "viewersPercentage": 14.4
+    },
+    {
+      "id": "02-01",
+      "date": "2023-09-09",
+      "guestsIds": [
+        "gerald-darmanin",
+        "kad-merad",
+        "jacques-weber",
+        "aurelie-casse",
+        "eva-ionesco",
+        "jonathan-cohen",
+        "bruno-ginesty"
+      ],
+      "viewers": 875000,
+      "viewersPercentage": 19.4
+    },
+    {
+      "id": "02-02",
+      "date": "2023-09-16",
+      "guestsIds": [
+        "muriel-robin",
+        "pierre-arditi",
+        "thomas-piketty",
+        "julia-cage",
+        "dadju",
+        "victoria-dauberville",
+        "mathieu-forget",
+        "alain-juppe"
+      ],
+      "viewers": 1070000,
+      "viewersPercentage": 21
+    },
+    {
+      "id": "02-03",
+      "date": "2023-09-23",
+      "guestsIds": [
+        "luc-besson",
+        "franck-dubosc",
+        "jacquemus",
+        "theo-curin",
+        "maud-pruvost",
+        "helene-gateau"
+      ],
+      "viewers": 1050000,
+      "viewersPercentage": 17.9
+    },
+    {
+      "id": "02-04",
+      "date": "2023-09-30",
+      "guestsIds": [
+        "pascal-obispo",
+        "fabien-roussel",
+        "zahia-dehar",
+        "sophia-aram",
+        "yann-moix"
+      ],
+      "viewers": 1060000,
+      "viewersPercentage": 21
+    },
+    {
+      "id": "02-05",
+      "date": "2023-10-07",
+      "guestsIds": [
+        "benjamin-castaldi",
+        "mathilde-seigner",
+        "cedric-doumbe",
+        "bruno-patino",
+        "alain-duhamel",
+        "carine-roitfeld"
+      ],
+      "viewers": 879000,
+      "viewersPercentage": 17.1
+    },
+    {
+      "id": "02-06",
+      "date": "2023-10-14",
+      "guestsIds": [
+        "edouard-philippe",
+        "gilles-kepel",
+        "philippe-lellouche",
+        "guillaume-auda",
+        "laurence-haim",
+        "laurent-dagenais",
+        "estelle-denis",
+        "gerard-miller"
+      ],
+      "viewers": 1510000,
+      "viewersPercentage": 21
+    },
+    {
+      "id": "02-07",
+      "date": "2023-10-21",
+      "guestsIds": [
+        "francois-hollande",
+        "caroline-fourest",
+        "matthieu-pigasse",
+        "nathalie-saint-cricq",
+        "hugo-micheron",
+        "eric-brunet",
+        "yann-bouvier"
+      ],
+      "viewers": 1130000,
+      "viewersPercentage": 20.3
+    },
+    {
+      "id": "02-08",
+      "date": "2023-10-28",
+      "guestsIds": [
+        "nagui",
+        "benjamin-lavernhe",
+        "bruno-solo",
+        "clara-morgane",
+        "stephane-allix",
+        "francois-xavier-menage",
+        "gerard-araud",
+        "francois-xavier-bustillo"
+      ],
+      "viewers": 1350000,
+      "viewersPercentage": 17.2
+    },
+    {
+      "id": "02-09",
+      "date": "2023-11-11",
+      "guestsIds": [
+        "gerard-jugnot",
+        "kev-adams",
+        "alessandra-sublet",
+        "cirque-du-soleil",
+        "florent-manaudou",
+        "agnes-vahramian",
+        "camille-aumont-carnel"
+      ],
+      "viewers": 1380000,
+      "viewersPercentage": 22.7
+    },
+    {
+      "id": "02-10",
+      "date": "2023-11-18",
+      "guestsIds": [
+        "florent-pagny",
+        "valerie-lemercier",
+        "messmer",
+        "alix-poisson",
+        "jean-xavier-de-lestrade",
+        "jacques-attali",
+        "alain-minc",
+        "sadeck-berrabah"
+      ],
+      "viewers": 1450000,
+      "viewersPercentage": 25.6
+    },
+    {
+      "id": "02-11",
+      "date": "2023-11-25",
+      "guestsIds": [
+        "karine-le-marchand",
+        "stephane-bern",
+        "helene-segara",
+        "eddy-de-pretto",
+        "alex-vizorek"
+      ],
+      "viewers": 1430000,
+      "viewersPercentage": 21.1
+    },
+    {
+      "id": "02-12",
+      "date": "2023-12-02",
+      "guestsIds": [
+        "franz-olivier-giesbert",
+        "natacha-polony",
+        "benjamin-duhamel",
+        "ruth-elkrief",
+        "bruno-jeudy",
+        "anna-cabana",
+        "jean-baptiste-marteau",
+        "brice-teinturier",
+        "pablo-pillaud-vivien",
+        "camille-vigogne"
+      ],
+      "viewers": 1230000,
+      "viewersPercentage": 19
+    },
+    {
+      "id": "02-13",
+      "date": "2023-12-16",
+      "guestsIds": [
+        "eric-dupond-moretti",
+        "vianney",
+        "jeff-panacloc",
+        "xavier-niel",
+        "sebastien-thoen",
+        "pascale-arbillot",
+        "hannah-levin-seiderman",
+        "esther-abrami"
+      ],
+      "viewers": 1030000,
+      "viewersPercentage": 10.8
+    },
+    {
+      "id": "02-14",
+      "date": "2023-12-23",
+      "guestsIds": [
+        "jade-joy-hallyday",
+        "eve-gilles",
+        "judith-godreche",
+        "laura-laune",
+        "thomas-jolly",
+        "jerome-fourquet",
+        "nina-metayer"
+      ],
+      "viewers": 1220000,
+      "viewersPercentage": 20.5
+    },
+    {
+      "id": "02-15",
+      "date": "2024-01-13",
+      "guestsIds": [
+        "michel-drucker",
+        "flavie-flament",
+        "thomas-sotto",
+        "marie-portolano",
+        "abnousse-shalmani",
+        "jessie-inchauspe",
+        "brice-teinturier",
+        "nicolas-beytout",
+        "olivier-beaumont"
+      ],
+      "viewers": 1210000,
+      "viewersPercentage": 17
+    },
+    {
+      "id": "02-16",
+      "date": "2024-01-20",
+      "guestsIds": [
+        "yvan-attal",
+        "sonia-rolland",
+        "pauline-desmonts",
+        "marc-simoncini",
+        "raphael-enthoven",
+        "apolline-de-malherbe",
+        "jean-dominique-merchet"
+      ],
+      "viewers": 1200000,
+      "viewersPercentage": 19.4
+    },
+    {
+      "id": "02-17",
+      "date": "2024-01-27",
+      "guestsIds": [
+        "faustine-bollaert",
+        "redouane-bougheraba",
+        "joyce-jonathan",
+        "laurie-darmon",
+        "frederic-saldmann",
+        "gerald-bronner",
+        "gerard-davet",
+        "fabrice-lhomme"
+      ],
+      "viewers": 1160000,
+      "viewersPercentage": 15.2
+    },
+    {
+      "id": "02-18",
+      "date": "2024-02-03",
+      "guestsIds": [
+        "gerard-larcher",
+        "pierre-arditi",
+        "helena-noguerra",
+        "jimmy-mohamed",
+        "cyril-feraud",
+        "marie-s-infiltre"
+      ],
+      "viewers": 1580000,
+      "viewersPercentage": 16.1
+    },
+    {
+      "id": "02-19",
+      "date": "2024-02-10",
+      "guestsIds": [
+        "isabelle-mergault",
+        "jean-luc-reichmann",
+        "laurent-lafitte",
+        "alexandre-kominek",
+        "angele-marrey",
+        "eve-simonet",
+        "patrice-duhamel",
+        "douchka-volaric"
+      ],
+      "viewers": 1460000,
+      "viewersPercentage": 16.2
+    },
+    {
+      "id": "02-20",
+      "date": "2024-02-24",
+      "guestsIds": [
+        "francois-marie-banier",
+        "teddy-riner",
+        "patrick-timsit",
+        "michele-laroque",
+        "iris-mittenaere",
+        "diego-el-glaoui",
+        "pavlo-et-viktoriya-matyusha"
+      ],
+      "viewers": 1270000,
+      "viewersPercentage": 21.5
+    },
+    {
+      "id": "02-21",
+      "date": "2024-03-02",
+      "guestsIds": [
+        "sylvie-vartan",
+        "jeremy-ferrari",
+        "brigitte-fossey",
+        "darius-rochebin",
+        "theo-ould",
+        "delphine-serreau"
+      ],
+      "viewers": 1380000,
+      "viewersPercentage": 21.6
+    },
+    {
+      "id": "02-22",
+      "date": "2024-03-09",
+      "guestsIds": [
+        "christine-dupont-de-ligonnes",
+        "bertram-de-verdun",
+        "philippe-etchebest",
+        "patrick-fiori",
+        "marie-claude-pietragalla",
+        "nicolas-conquer",
+        "melissa-bell",
+        "aurelien-lejeune"
+      ],
+      "viewers": 1270000,
+      "viewersPercentage": 22.9
+    },
+    {
+      "id": "02-23",
+      "date": "2024-03-16",
+      "guestsIds": [
+        "amanda-lear",
+        "jean-paul-gaultier",
+        "booder",
+        "jean-marc-dumontet",
+        "emmanuel-perrotin",
+        "charlotte-lemay"
+      ],
+      "viewers": 1290000,
+      "viewersPercentage": 20.7
+    },
+    {
+      "id": "02-24",
+      "date": "2024-03-23",
+      "guestsIds": [
+        "lara-fabian",
+        "christine-angot",
+        "caroline-receveur",
+        "zoe-clauzure",
+        "natacha-polony",
+        "bernard-henri-levy"
+      ],
+      "viewers": 883000,
+      "viewersPercentage": 20.1
+    },
+    {
+      "id": "02-25",
+      "date": "2024-03-30",
+      "guestsIds": [
+        "anthony-delon",
+        "samuel-le-bihan",
+        "vahina-giocante",
+        "francois-sureau",
+        "alain-bauer"
+      ],
+      "viewers": 1090000,
+      "viewersPercentage": 19.5
+    },
+    {
+      "id": "02-26",
+      "date": "2024-04-06",
+      "guestsIds": [
+        "denis-brogniart",
+        "tony-estanguet",
+        "raphaelle-bacque",
+        "veronika-loubry",
+        "matthieu-lartot",
+        "alexis-jandard",
+        "piche"
+      ],
+      "viewers": 1240000,
+      "viewersPercentage": 21.9
+    },
+    {
+      "id": "02-27",
+      "date": "2024-04-20",
+      "guestsIds": [
+        "nicoletta",
+        "anne-parillaud",
+        "k-maro",
+        "depielo",
+        "solene-chalvon-fioriti",
+        "helene-sussman",
+        "ronald-virag"
+      ],
+      "viewers": 1230000,
+      "viewersPercentage": 23.3
+    },
+    {
+      "id": "02-28",
+      "date": "2024-04-27",
+      "guestsIds": [
+        "artus",
+        "claire-chazal",
+        "herve-mathoux",
+        "laure-boulleau",
+        "wim-hof",
+        "claude-atcher"
+      ],
+      "viewers": 1060000,
+      "viewersPercentage": 19.5
+    },
+    {
+      "id": "02-29",
+      "date": "2024-05-04",
+      "guestsIds": [
+        "adriana-karembeu",
+        "cristina-cordula",
+        "maitena-biraben",
+        "hakim-jemili",
+        "gerald-kierzek",
+        "caroline-vigneaux",
+        "sœur-albertine"
+      ],
+      "viewers": 1290000,
+      "viewersPercentage": 22.6
+    },
+    {
+      "id": "02-30",
+      "date": "2024-05-18",
+      "guestsIds": [
+        "francis-ford-coppola",
+        "pierre-antoine-capton",
+        "pierre-lescure",
+        "agathe-riedinger",
+        "malou-khebizi",
+        "jean-imbert",
+        "femi-the-scorpion"
+      ],
+      "viewers": 974000,
+      "viewersPercentage": 18.5
+    },
+    {
+      "id": "02-31",
+      "date": "2024-05-25",
+      "guestsIds": [
+        "arielle-dombasle",
+        "laurent-luyat",
+        "gerard-holtz",
+        "nantenin-keita",
+        "vincent-gautronneau",
+        "jean-michel-decugis",
+        "nadege-erika",
+        "waxx"
+      ],
+      "viewers": 886000,
+      "viewersPercentage": 19.2
+    },
+    {
+      "id": "02-32",
+      "date": "2024-06-01",
+      "guestsIds": [
+        "jacques-seguela",
+        "julian-bugier",
+        "maryse-burgot",
+        "michelle-dayan",
+        "jeanne-damas",
+        "arnaud-valois",
+        "yanns",
+        "olivier-goy"
+      ],
+      "viewers": 1050000,
+      "viewersPercentage": 19.9
+    },
+    {
+      "id": "02-33",
+      "date": "2024-06-15",
+      "guestsIds": [
+        "matthieu-chedid",
+        "thibault-cauvin",
+        "dany-boon",
+        "laurence-arne",
+        "tomer-sisley",
+        "berenice-bejo",
+        "agustin-galiana",
+        "gael-tchakaloff"
+      ],
+      "viewers": 1220000,
+      "viewersPercentage": 19.6
+    },
+    {
+      "id": "03-01",
+      "date": "2024-09-21",
+      "guestsIds": [
+        "flavie-flament",
+        "julien-arnaud",
+        "arthur",
+        "sonia-mabrouk",
+        "caroline-fourest",
+        "tony-estanguet",
+        "charli-evan",
+        "femi-the-scorpion",
+        "aurelie-aubert"
+      ],
+      "viewers": 1080000,
+      "viewersPercentage": 21
+    },
+    {
+      "id": "03-02",
+      "date": "2024-09-28",
+      "guestsIds": [
+        "isabelle-nanty",
+        "lucien-jean-baptiste",
+        "francois-xavier-demaison",
+        "patrick-timsit",
+        "victor-belmondo",
+        "theo-christine",
+        "swann-perisse",
+        "alain-robert",
+        "rym-momtaz",
+        "karine-makari"
+      ],
+      "viewers": 1130000,
+      "viewersPercentage": 19
+    },
+    {
+      "id": "03-03",
+      "date": "2024-10-05",
+      "guestsIds": [
+        "jean-pierre-foucault",
+        "dimitri-pavade",
+        "beatrice-dalle",
+        "roman-kolinka",
+        "valerie-trierweiler",
+        "constance-vergara",
+        "rym-momtaz",
+        "kamel-daoud",
+        "le-club-france-football-p-p-t",
+        "vincent-lemire"
+      ],
+      "viewers": 1240000,
+      "viewersPercentage": 23.2
+    },
+    {
+      "id": "03-04",
+      "date": "2024-10-12",
+      "guestsIds": [
+        "adele-exarchopoulos",
+        "francois-civil",
+        "gilles-lellouche",
+        "michael-youn",
+        "barbara-schulz",
+        "alain-marschall",
+        "olivier-truchot",
+        "helene-rolles",
+        "werenoi",
+        "jean-michel-decugis",
+        "vincent-gautronneau"
+      ],
+      "viewers": 1130000,
+      "viewersPercentage": 18.4
+    },
+    {
+      "id": "03-05",
+      "date": "2024-10-19",
+      "guestsIds": [
+        "david-hallyday",
+        "nagui",
+        "roselyne-bachelot",
+        "hassan-guerrar",
+        "karim-bouamrane",
+        "jeremy-nicollin"
+      ],
+      "viewers": 1310000,
+      "viewersPercentage": 21.6
+    },
+    {
+      "id": "03-06",
+      "date": "2024-10-26",
+      "guestsIds": [
+        "zaho-de-sagazan",
+        "michel-fugain",
+        "alexia-laroche-joubert",
+        "anaide-rozam",
+        "marie-colomb",
+        "laurent-gerra",
+        "sebastien-lecornu",
+        "matthieu-jasseron",
+        "francis-ngannou"
+      ],
+      "viewers": 1300000,
+      "viewersPercentage": 21.4
+    },
+    {
+      "id": "03-07",
+      "date": "2024-11-09",
+      "guestsIds": [
+        "ael-pagny",
+        "jordan-bardella",
+        "francois-ruffin",
+        "louisa-hareb",
+        "sarah-saldmann",
+        "maryse-burgot",
+        "thomas-snegaroff",
+        "gaspard-g",
+        "florent-peyre"
+      ],
+      "viewers": 1190000,
+      "viewersPercentage": 22.2
+    },
+    {
+      "id": "03-08",
+      "date": "2024-11-16",
+      "guestsIds": [
+        "michel-denisot",
+        "francois-hollande",
+        "pablo-mira",
+        "nikola-karabatic",
+        "luka-karabatic",
+        "elise-lucet",
+        "pauline-deroulede"
+      ],
+      "viewers": 1410000,
+      "viewersPercentage": 23.5
+    },
+    {
+      "id": "03-09",
+      "date": "2024-11-23",
+      "guestsIds": [
+        "lorant-deutsch",
+        "sebastien-thoen",
+        "elisabeth-borne",
+        "michel-hazanavicius",
+        "dominique-de-villepin",
+        "lucky-love",
+        "ludovic-boukherma",
+        "zoran-boukherma"
+      ],
+      "viewers": 1260000,
+      "viewersPercentage": 21.5
+    },
+    {
+      "id": "03-10",
+      "date": "2024-12-07",
+      "guestsIds": [
+        "sylvain-tesson",
+        "roselyne-bachelot",
+        "jerome-fourquet",
+        "jean-charles-de-castelbajac",
+        "ines-mathieu",
+        "michael-canitrot",
+        "olivier-guez",
+        "olivier-latry",
+        "philippe-villeneuve",
+        "regis-mathieu",
+        "sœur-albertine",
+        "fabrice-d-almeida"
+      ],
+      "viewers": 1580000,
+      "viewersPercentage": 20.7
+    },
+    {
+      "id": "03-11",
+      "date": "2024-12-21",
+      "guestsIds": [
+        "gad-elmaleh",
+        "audrey-fleurot",
+        "thierry-lhermitte",
+        "nawell-madani",
+        "redouane-bougheraba",
+        "jerome-le-banner",
+        "frederic-lenoir",
+        "lamya-essemlali",
+        "paul-watson",
+        "hanna-assouline"
+      ],
+      "viewers": 1230000,
+      "viewersPercentage": 22.4
+    },
+    {
+      "id": "03-12",
+      "date": "2025-01-04",
+      "guestsIds": [
+        "jenifer",
+        "jeremy-ferrari",
+        "arnaud-tsamere",
+        "baptiste-lecaplain",
+        "valentin-noyon",
+        "angelique-angarni-filopon",
+        "jacques-weber"
+      ],
+      "viewers": 1250000,
+      "viewersPercentage": 17.8
+    },
+    {
+      "id": "03-13",
+      "date": "2025-01-11",
+      "guestsIds": [
+        "alix-bouilhaguet",
+        "asma-mhalla",
+        "charles-consigny",
+        "brice-teinturier",
+        "darius-rochebin",
+        "david-djaiz",
+        "laurence-haim",
+        "jean-michel-aphatie",
+        "melissa-bell",
+        "pablo-pillaud-vivien",
+        "yann-moix",
+        "sonia-mabrouk"
+      ],
+      "viewers": 1150000,
+      "viewersPercentage": 17.7
+    },
+    {
+      "id": "03-14",
+      "date": "2025-01-18",
+      "guestsIds": [
+        "thierry-breton",
+        "vincent-lagaf",
+        "stephane-de-groodt",
+        "clotilde-courau",
+        "christine-ockrent",
+        "charline-vanhoenacker",
+        "fatou-guinea",
+        "alain-aspect",
+        "charlie-dalin"
+      ],
+      "viewers": 1230000,
+      "viewersPercentage": 19.4
+    },
+    {
+      "id": "03-15",
+      "date": "2025-01-25",
+      "guestsIds": [
+        "francois-cluzet",
+        "michele-bernier",
+        "franck-dubosc",
+        "ginette-kolinka",
+        "esther-senot",
+        "jean-noel-barrot",
+        "donovan-haessy",
+        "percujam"
+      ],
+      "viewers": 1080000,
+      "viewersPercentage": 15.9
+    },
+    {
+      "id": "03-16",
+      "date": "2025-02-01",
+      "guestsIds": [
+        "jean-paul-rouve",
+        "victoria-abril",
+        "eric-dupond-moretti",
+        "philippe-lellouche",
+        "evelyne-dheliat",
+        "jimmy-mohamed",
+        "elsa-levy",
+        "lydia-hadjara",
+        "elena-nagapetyan"
+      ],
+      "viewers": 1320000,
+      "viewersPercentage": 22.3
+    },
+    {
+      "id": "03-17",
+      "date": "2025-02-08",
+      "guestsIds": [
+        "marina-fois",
+        "marc-lavoine",
+        "santa",
+        "hugues-aufray",
+        "benjamin-tranie",
+        "nathalie-iannetta",
+        "edith-lemay",
+        "michael-jeremiasz",
+        "guillaume-erner",
+        "roberto-saviano"
+      ],
+      "viewers": 986000,
+      "viewersPercentage": 20.9
+    },
+    {
+      "id": "03-18",
+      "date": "2025-02-15",
+      "guestsIds": [
+        "kyan-khojandi",
+        "michele-laroque",
+        "david-foenkinos",
+        "anne-roumanoff",
+        "violette-dorange"
+      ],
+      "viewers": 1170000,
+      "viewersPercentage": 15.3
+    },
+    {
+      "id": "03-19",
+      "date": "2025-03-01",
+      "guestsIds": [
+        "fabrice-luchini",
+        "barbara-schulz",
+        "david-pujadas",
+        "elodie-poux",
+        "gerard-araud",
+        "benoit-salmon",
+        "ryan-malcolm",
+        "phindile-ndlovu"
+      ],
+      "viewers": 1350000,
+      "viewersPercentage": 23.8
+    },
+    {
+      "id": "03-20",
+      "date": "2025-03-08",
+      "guestsIds": [
+        "caroline-darian",
+        "karine-le-marchand",
+        "gerald-darmanin",
+        "joel-dicker",
+        "cyril-feraud",
+        "laurent-luyat",
+        "thierry-cotillard"
+      ],
+      "viewers": 1300000,
+      "viewersPercentage": 23.9
+    },
+    {
+      "id": "03-21",
+      "date": "2025-03-15",
+      "guestsIds": [
+        "christine-angot",
+        "jean-luc-reichmann",
+        "emilien",
+        "chantal-goya",
+        "sebastien-meyer",
+        "arnaud-vaillant",
+        "nora-t-lamontagne"
+      ],
+      "viewers": 1390000,
+      "viewersPercentage": 27.7
+    },
+    {
+      "id": "03-22",
+      "date": "2025-03-22",
+      "guestsIds": [
+        "pierre-arditi",
+        "francoise-fabian",
+        "leonard-lasry",
+        "aliocha-schneider",
+        "jonathan-anguelov",
+        "victor-castanet",
+        "chico-and-the-gypsies"
+      ],
+      "viewers": 986000,
+      "viewersPercentage": 19.6
+    },
+    {
+      "id": "03-23",
+      "date": "2025-03-29",
+      "guestsIds": [
+        "alex-lutz",
+        "golshifteh-farahani",
+        "antoine-de-caunes",
+        "caroline-delage",
+        "bernard-montiel",
+        "philippe-gloaguen",
+        "freaky-hoody",
+        "en-passant"
+      ],
+      "viewers": 1220000,
+      "viewersPercentage": 26
+    },
+    {
+      "id": "03-24",
+      "date": "2025-04-05",
+      "guestsIds": [
+        "michel-drucker",
+        "nicolas-demorand",
+        "daniel-cohn-bendit",
+        "larusso",
+        "sabrina-salerno",
+        "guihome"
+      ],
+      "viewers": 1280000,
+      "viewersPercentage": 25
+    },
+    {
+      "id": "03-25",
+      "date": "2025-04-12",
+      "guestsIds": [
+        "louane",
+        "garou",
+        "nine-d-urso",
+        "laurent-baffie",
+        "oleksandra-matviitchouk",
+        "james-ellroy",
+        "yoann-offredo"
+      ],
+      "viewers": 1370000,
+      "viewersPercentage": 26.5
+    },
+    {
+      "id": "03-26",
+      "date": "2025-04-26",
+      "guestsIds": [
+        "sofiane-zermani",
+        "melvil-poupaud",
+        "roselyne-bachelot",
+        "frederic-lopez",
+        "roman-doduik",
+        "lorene-vivier",
+        "francois-sureau"
+      ],
+      "viewers": 1120000,
+      "viewersPercentage": 19.3
+    },
+    {
+      "id": "03-27",
+      "date": "2025-05-03",
+      "guestsIds": [
+        "nicolas-bedos",
+        "anny-duperey",
+        "louis-sarkozy",
+        "mathieu-madenian",
+        "anne-akrich",
+        "axel-auriant"
+      ],
+      "viewers": 1180000,
+      "viewersPercentage": 23.4
+    },
+    {
+      "id": "03-28",
+      "date": "2025-05-10",
+      "guestsIds": [
+        "thierry-ardisson",
+        "adriana-karembeu",
+        "apolline-de-malherbe",
+        "suzane",
+        "raphael-pitti",
+        "bill-francois"
+      ],
+      "viewers": 1150000,
+      "viewersPercentage": 20.6
+    },
+    {
+      "id": "03-29",
+      "date": "2025-05-24",
+      "guestsIds": [
+        "jarry",
+        "amel-bent",
+        "raphael-quenard",
+        "olivier-goy",
+        "jacques-seguela",
+        "benoit-paire"
+      ],
+      "viewers": 1010000,
+      "viewersPercentage": 17.1
+    },
+    {
+      "id": "03-30",
+      "date": "2025-05-31",
+      "guestsIds": [
+        "michel-polnareff",
+        "denis-brogniart",
+        "camille-rowe",
+        "tarek-boudali",
+        "philippe-collin",
+        "esther-abrami",
+        "mila-smidt"
+      ],
+      "viewers": 910000,
+      "viewersPercentage": 8.6
+    },
+    {
+      "id": "03-31",
+      "date": "2025-06-07",
+      "guestsIds": [
+        "nagui",
+        "bruno-guillon",
+        "valerie-begue",
+        "camille-cerf",
+        "magali-ripoll",
+        "yoann-riou",
+        "marie-pierre-planchon",
+        "donovan-haessy",
+        "julien-granel"
+      ],
+      "viewers": 1020000,
+      "viewersPercentage": 19.3
+    },
+    {
+      "id": "04-01",
+      "date": "2025-09-20",
+      "guestsIds": [
+        "dany-boon",
+        "audrey-crespo-mara",
+        "zaz",
+        "pauline-loques",
+        "theodore-pellerin",
+        "anastasia-fomitchova",
+        "la-team-french-touch"
+      ],
+      "viewers": 915000,
+      "viewersPercentage": 19.1
+    },
+    {
+      "id": "04-02",
+      "date": "2025-09-27",
+      "guestsIds": [
+        "sheila",
+        "eric-dupond-moretti",
+        "marc-olivier-fogiel",
+        "julie-depardieu",
+        "matthieu-nina",
+        "julien-cohen"
+      ],
+      "viewers": 1140000,
+      "viewersPercentage": 25
+    },
+    {
+      "id": "04-03",
+      "date": "2025-10-04",
+      "guestsIds": [
+        "didier-bourdon",
+        "elsa-zylberstein",
+        "darius-rochebin",
+        "rita-ora",
+        "cristina-cordula",
+        "fabien-frankel",
+        "mosimann",
+        "nordine-ganso"
+      ],
+      "viewers": 953000,
+      "viewersPercentage": 18.2
+    },
+    {
+      "id": "04-04",
+      "date": "2025-10-11",
+      "guestsIds": [
+        "chantal-ladesou",
+        "kev-adams",
+        "arthur",
+        "laury-thilleman",
+        "jimmy-gressier",
+        "matthieu-lartot",
+        "les-mannequins-de-«-debout-en-bouts-»",
+        "martin-weill"
+      ],
+      "viewers": 1180000,
+      "viewersPercentage": 23.9
+    },
+    {
+      "id": "04-05",
+      "date": "2025-10-18",
+      "guestsIds": [
+        "patrick-fiori",
+        "frederic-poggi",
+        "amelie-nothomb",
+        "alain-juppe",
+        "benjamin-biolay",
+        "nicolas-demorand",
+        "sonia-devillers",
+        "benjamin-duhamel",
+        "karine-joly",
+        "greg-crozier"
+      ],
+      "viewers": 936000,
+      "viewersPercentage": 19.2
+    },
+    {
+      "id": "04-06",
+      "date": "2025-11-01",
+      "guestsIds": [
+        "jean-paul-rouve",
+        "eleonora-galasso",
+        "manu-payet",
+        "xavier-bertrand",
+        "franz-olivier-giesbert",
+        "haroun",
+        "alexandre-jacquier"
+      ],
+      "viewers": 1150000,
+      "viewersPercentage": 17.5
+    },
+    {
+      "id": "04-07",
+      "date": "2025-11-08",
+      "guestsIds": [
+        "benoit-poelvoorde",
+        "pascal-elbe",
+        "amanda-lear",
+        "matthieu-ricard",
+        "ines-de-la-fressange",
+        "augustin-trapenard",
+        "jean-xavier-de-lestrade",
+        "alix-poisson"
+      ],
+      "viewers": 942000,
+      "viewersPercentage": 20.7
+    },
+    {
+      "id": "04-08",
+      "date": "2025-11-15",
+      "guestsIds": [
+        "booder",
+        "diane-kruger",
+        "anamaria-vartolomei",
+        "lucas-bravo",
+        "william-leymergie",
+        "thomas-sotto",
+        "jimmy-mohamed",
+        "enora-malagre",
+        "cirque-du-soleil",
+        "lou-deleuze",
+        "thomas-croisiere"
+      ],
+      "viewers": 1030000,
+      "viewersPercentage": 18.9
+    },
+    {
+      "id": "04-09",
+      "date": "2025-11-22",
+      "guestsIds": [
+        "julien-clerc",
+        "vitaa",
+        "christine-ockrent",
+        "isabelle-ithurburu",
+        "bernard-de-la-villardiere",
+        "laurence-bloch",
+        "sarah-lezito",
+        "kilian-bron"
+      ],
+      "viewers": 1090000,
+      "viewersPercentage": 20.8
+    },
+    {
+      "id": "04-10",
+      "date": "2025-11-29",
+      "guestsIds": [
+        "artus",
+        "jean-louis-aubert",
+        "matthias-lambert",
+        "justine-levy",
+        "benoit-saint-denis",
+        "pierre-gastineau",
+        "antoine-izambard"
+      ],
+      "viewers": 1100000,
+      "viewersPercentage": 17.9
+    },
+    {
+      "id": "04-11",
+      "date": "2025-12-13",
+      "guestsIds": [
+        "alexis-michalik",
+        "florent-peyre",
+        "hinaupoko-deveze",
+        "frederic-gilbert",
+        "jordan-bardella",
+        "roselyne-bachelot",
+        "faudel",
+        "natacha-polony"
+      ],
+      "viewers": 1130000,
+      "viewersPercentage": 19.9
+    },
+    {
+      "id": "04-12",
+      "date": "2025-12-20",
+      "guestsIds": [
+        "muriel-robin",
+        "louise-bourgoin",
+        "antoine-de-caunes",
+        "philippe-manœuvre",
+        "lou-deleuze",
+        "serge-papin",
+        "laurent-luyat",
+        "samuel-hartman"
+      ],
+      "viewers": 1040000,
+      "viewersPercentage": 17.7
+    },
+    {
+      "id": "04-13",
+      "date": "2026-01-10",
+      "guestsIds": [
+        "pierre-arditi",
+        "francis-huster",
+        "julie-bourges",
+        "isabelle-morizet",
+        "jean-michel-aulas",
+        "philippe-caveriviere",
+        "jimmy-sax"
+      ],
+      "viewers": 1130000,
+      "viewersPercentage": 21.5
+    },
+    {
+      "id": "04-14",
+      "date": "2026-01-17",
+      "guestsIds": [
+        "josiane-balasko",
+        "marilou-berry",
+        "guillaume-durand",
+        "juju-fitcats",
+        "philippe-lellouche",
+        "philippe-besson",
+        "adil-rami",
+        "alexandre-devecchio",
+        "clement-huot"
+      ],
+      "viewers": 940000,
+      "viewersPercentage": 17.5
+    },
+    {
+      "id": "04-15",
+      "date": "2026-01-24",
+      "guestsIds": [
+        "bruno-solo",
+        "elie-semoun",
+        "ophelie-meunier",
+        "alessandra-sublet",
+        "alain-finkielkraut",
+        "violette-viannay",
+        "sonja-nemes",
+        "marine-leonardi"
+      ],
+      "viewers": 1160000,
+      "viewersPercentage": 19.9
+    },
+    {
+      "id": "04-16",
+      "date": "2026-01-31",
+      "guestsIds": [
+        "philippe-lacheau",
+        "elodie-fontan",
+        "tarek-boudali",
+        "julien-arruti",
+        "jean-luc-reichmann",
+        "ahmed-sylla",
+        "maryse-burgot",
+        "david-pujadas",
+        "veronika-loubry",
+        "sebastien-tellier",
+        "matthieu-stefani"
+      ],
+      "viewers": 1190000,
+      "viewersPercentage": 15.3
+    },
+    {
+      "id": "04-17",
+      "date": "2026-02-28",
+      "guestsIds": [
+        "sting",
+        "marine-delterme",
+        "patrick-bruel",
+        "arnaud-ducret",
+        "michel-edouard-leclerc",
+        "jerome-de-warzee",
+        "cecile-giroud",
+        "kody",
+        "damien-gillard"
+      ],
+      "viewers": 1020000,
+      "viewersPercentage": 18.2
+    },
+    {
+      "id": "04-18",
+      "date": "2026-03-07",
+      "guestsIds": [
+        "michel-houellebecq",
+        "frederic-lo",
+        "valerie-bonneton",
+        "jeremy-ferrari",
+        "denis-brogniart",
+        "darius-rochebin",
+        "solene-chalvon-fioriti",
+        "francois-henri-deserable",
+        "stephanie-perez"
+      ],
+      "viewers": 961000,
+      "viewersPercentage": 17.5
+    },
+    {
+      "id": "04-19",
+      "date": "2026-03-14",
+      "guestsIds": [
+        "gilbert-montagne",
+        "clementine-celarie",
+        "christine-ockrent",
+        "pascal-bruckner",
+        "elodie-gossuin",
+        "cyril-benzaquen"
+      ],
+      "viewers": 1220000,
+      "viewersPercentage": 24
+    },
+    {
+      "id": "04-20",
+      "date": "2026-03-21",
+      "guestsIds": [
+        "enrico-macias",
+        "catherine-ceylac",
+        "arnaud-tsamere",
+        "jonathan-lambert",
+        "cecile-hernandez",
+        "leandre"
+      ],
+      "viewers": 890000,
+      "viewersPercentage": 19
+    },
+    {
+      "id": "04-21",
+      "date": "2026-03-28",
+      "guestsIds": [
+        "nikos-aliagas",
+        "jean-luc-lemoine",
+        "claire-chazal",
+        "lulu-gainsbourg",
+        "jacques-attali",
+        "alain-minc",
+        "chicandier",
+        "melissa-anton"
+      ],
+      "viewers": 931000,
+      "viewersPercentage": 13.7
+    },
+    {
+      "id": "04-22",
+      "date": "2026-04-04",
+      "guestsIds": [
+        "gerard-jugnot",
+        "helene-mercier-arnault",
+        "julian-bugier",
+        "commandante-audrey-renard",
+        "david-foenkinos",
+        "sebastien-thoen"
+      ],
+      "viewers": 945000,
+      "viewersPercentage": 18.4
+    },
+    {
+      "id": "04-23",
+      "date": "2026-04-11",
+      "guestsIds": [
+        "camille-cottin",
+        "louis-garrel",
+        "francois-berleand",
+        "isabel-marant",
+        "robert-menard",
+        "arnaud-montebourg",
+        "peri-cochin",
+        "pierre-thevenoux"
+      ],
+      "viewers": 1110000,
+      "viewersPercentage": 21.8
+    }
+  ]
+}
