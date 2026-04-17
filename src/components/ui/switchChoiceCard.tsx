@@ -19,7 +19,7 @@ export function SwitchChoiceCard({
   id: string;
 }) {
   return (
-    <FieldLabel htmlFor={id} className="max-w-[40ch]">
+    <FieldLabel htmlFor={id} className="sm:max-w-[40ch]">
       <Field orientation="horizontal">
         <FieldContent>
           <FieldTitle className="font-display text-sm">{title}</FieldTitle>

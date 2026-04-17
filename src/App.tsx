@@ -1,129 +1,131 @@
 import { Hemicycle } from "@hemicycle/core";
+import { useAtomValue, useSetAtom } from "jotai";
 import { motion } from "motion/react";
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 import { FieldGroup } from "./components/ui/field";
 import PersonCircle from "./components/ui/personCircle";
+import { SliderControlled } from "./components/ui/sliderControlled";
 import { SwitchChoiceCard } from "./components/ui/switchChoiceCard";
-import families from "./data/families.json";
-import people from "./data/people.json";
 import quelleEpoque from "./data/quelle-epoque.json";
-import type { FamilyType, PartyType, PersonType, ShowType } from "./types";
+import useScreenWidth from "./hooks/useScreenWidth";
+import { convertedDateRangeAtom, showDateRangeAtom } from "./lib/atoms";
+import { getPersonInfos, partiesOrder } from "./lib/utils";
+import type { PersonType, ShowType } from "./types";
 
 export default function App() {
   const shows: ShowType[] = [quelleEpoque];
   const data = shows[0];
-  const currents = (families as FamilyType[]).flatMap((f) => f.currents);
-  const partiesOrder = new Map(
-    currents.flatMap((c) => c.parties).map((p, i) => [p.full_name, i]),
-  );
 
-  const getPartyInfos = (party: PartyType) => {
-    const partyCurrent = currents.find((c) =>
-      c.parties.flatMap((p) => p.full_name).includes(party.name),
-    );
-    const partyAbbr = partyCurrent?.parties.find(
-      (p) => p.full_name === party.name,
-    )?.name;
-    return partyCurrent
-      ? { color: partyCurrent.color, abbr: partyAbbr, partyCurrent }
-      : { color: "lime", abbr: party.name, partyCurrent };
-  };
+  const seasonMap = useMemo(() => {
+    return data.diffusions.reduce(
+      (acc, episode) => {
+        const season = episode.id.split("-")[0];
 
-  const getPersonInfos = (
-    personId: string,
-    episodeDate: string,
-  ): PersonType | null => {
-    const person: PersonType | undefined = (people as PersonType[]).find(
-      (p) => p.id === personId,
-    );
-    if (!person || !(person.parties.length > 0)) return null;
-    const foundParty =
-      person.parties.find(
-        (party) =>
-          (party.start ? party.start <= episodeDate : true) &&
-          (party.end ? party.end >= episodeDate : true),
-      ) || null;
-    const isGouv = person.parties.some(
-      (party) =>
-        (party.start ? party.start <= episodeDate : true) &&
-        (party.end ? party.end >= episodeDate : true) &&
-        party.name === "Gouvernement",
-    );
-    const { abbr, color, partyCurrent } = foundParty
-      ? getPartyInfos(foundParty)
-      : {};
-    const party = foundParty
-      ? {
-          name: foundParty.name,
-          abbr,
-          color,
-          partyCurrent,
+        if (!acc[season]) {
+          acc[season] = {
+            id: season,
+            episodes: [],
+            seasonGuests: [],
+            politicalGuests: [],
+          };
         }
-      : undefined;
 
-    return { ...person, party, isGouv, episodeDate };
-  };
+        const episodeGuests = episode.guestsIds.map((guestId) =>
+          getPersonInfos(guestId, episode.date),
+        );
 
-  const seasonMap = data.diffusions.reduce(
-    (acc, episode) => {
-      const season = episode.id.split("-")[0];
+        const episodePoliticalGuests = episodeGuests.filter(
+          (guest) => guest?.party,
+        );
 
-      if (!acc[season]) {
-        acc[season] = {
-          id: season,
-          episodes: [],
-          seasonGuests: [],
-          politicalGuests: [],
-        };
-      }
+        acc[season].episodes.push(episode);
+        acc[season].seasonGuests.push(...episodeGuests);
+        acc[season].politicalGuests.push(...episodePoliticalGuests);
 
-      const episodeGuests = episode.guestsIds.map((guestId) =>
-        getPersonInfos(guestId, episode.date),
-      );
+        return acc;
+      },
+      {} as Record<
+        string,
+        {
+          id: string;
+          episodes: typeof data.diffusions;
+          seasonGuests: ReturnType<typeof getPersonInfos>[];
+          politicalGuests: ReturnType<typeof getPersonInfos>[];
+        }
+      >,
+    );
+  }, [data]);
+  const seasons = useMemo(() => Object.values(seasonMap), [seasonMap]);
 
-      const episodePoliticalGuests = episodeGuests.filter(
-        (guest) => guest?.party,
-      );
+  const setShowDateRange = useSetAtom(showDateRangeAtom);
+  useEffect(() => {
+    const sortedSeasons = seasons.sort((a, b) => a.id.localeCompare(b.id));
+    const firstEpisodeDate = new Date(
+      sortedSeasons[0].episodes[0].date,
+    ).getTime();
+    const lastEpisodeDate = new Date(
+      sortedSeasons.at(-1)!.episodes.at(-1)!.date,
+    ).getTime();
+    setShowDateRange({ min: firstEpisodeDate, max: lastEpisodeDate });
+  }, [seasons, setShowDateRange]);
 
-      acc[season].episodes.push(episode);
-      acc[season].seasonGuests.push(...episodeGuests);
-      acc[season].politicalGuests.push(...episodePoliticalGuests);
+  const [min, max] = useAtomValue(convertedDateRangeAtom);
 
-      return acc;
-    },
-    {} as Record<
-      string,
-      {
-        id: string;
-        episodes: typeof data.diffusions;
-        seasonGuests: ReturnType<typeof getPersonInfos>[];
-        politicalGuests: ReturnType<typeof getPersonInfos>[];
-      }
-    >,
-  );
+  const displayedSeasons = seasons
+    .map((season) => {
+      const filteredEpisodes = season.episodes.filter((e) => {
+        const episodeDate = new Date(e.date);
+        return episodeDate >= min && episodeDate <= max;
+      });
+      const filterGuests = (guests: PersonType[]) =>
+        guests.filter((g) =>
+          filteredEpisodes.flatMap((e) => e.guestsIds).includes(g.id),
+        );
+      const filteredPoliticalGuests = filterGuests(season.politicalGuests);
+      const filteredGuests = filterGuests(season.seasonGuests);
+      if (filteredEpisodes.length === 0) return null;
 
-  const seasons = Object.values(seasonMap);
-
-  const fakeParliamentMembers = seasons
-    .flatMap((s) => s.politicalGuests)
-    .filter(Boolean)
-    .sort((a, b) => {
-      return (
-        (partiesOrder.get(a?.party?.name) ?? Infinity) -
-        (partiesOrder.get(b?.party?.name) ?? Infinity)
-      );
+      return {
+        ...season,
+        politicalGuests: filteredPoliticalGuests,
+        seasonGuests: filteredGuests,
+        episodes: filteredEpisodes,
+      };
     })
-    .filter((m) => m !== null);
+    .filter((s) => s !== null);
+
+  const fakeParliamentMembers = useMemo(() => {
+    return displayedSeasons
+      .flatMap((s) => s.politicalGuests)
+      .sort((a, b) => {
+        return (
+          (partiesOrder.get(a?.party?.name) ?? Infinity) -
+          (partiesOrder.get(b?.party?.name) ?? Infinity)
+        );
+      })
+      .filter((m) => m !== null);
+  }, [displayedSeasons]);
+
+  const screenWidth = useScreenWidth();
+  const isSmall = screenWidth < 640 || fakeParliamentMembers.length < 15;
+  const isMedium =
+    (screenWidth < 768 && !isSmall) ||
+    (fakeParliamentMembers.length < 32 && fakeParliamentMembers.length > 14);
 
   const hemicycle = new Hemicycle({
-    rows: 5,
+    rows: Math.max(
+      1,
+      Math.round(
+        fakeParliamentMembers.length / (isSmall ? 8 : isMedium ? 9 : 10),
+      ),
+    ),
     orderBy: "radial",
-    totalSeats: fakeParliamentMembers.length,
-    outerRadius: 480,
-    innerRadius: 100,
+    totalSeats:
+      fakeParliamentMembers.length > 0 ? fakeParliamentMembers.length : 1,
+    outerRadius: isSmall ? 220 : isMedium ? 300 : 480,
+    innerRadius: isSmall ? 30 : isMedium ? 80 : 100,
     totalAngle: 180,
-    rowMargin: 300,
   });
   const hemicycleLayout = hemicycle.getSeatsLayout();
 
@@ -137,7 +139,7 @@ export default function App() {
           Appartenances politiques des invités de&nbsp;
           <span className="text-olive-800 italic">{data.title}</span>
         </h1>
-        <FieldGroup className="flex w-full flex-row gap-2.5 font-mono text-xs/tight">
+        <FieldGroup className="flex w-full flex-col gap-2.5 font-mono text-xs/tight sm:flex-row">
           <SwitchChoiceCard
             title="Focus politique"
             description="N'afficher que les épisodes avec des invités politiques"
@@ -163,21 +165,23 @@ export default function App() {
             }}
             checked={showParliament}
           />
+
+          <SliderControlled title="Filtrer par date" />
         </FieldGroup>
       </header>
 
       {!showParliament ? (
-        <section className="flex max-w-5xl flex-col gap-8 px-2">
-          {seasons
+        <section className="flex w-full max-w-5xl flex-col gap-8 px-2">
+          {displayedSeasons
             .sort((a, b) => b.id.localeCompare(a.id))
             .map((season) => {
               return (
                 <section key={season.id} className="flex flex-col gap-2">
                   <div className="flex flex-wrap items-baseline justify-between gap-x-2 font-mono text-olive-700">
-                    <div className="flex items-baseline gap-2">
+                    <div className="flex items-baseline gap-2 text-sm sm:text-base">
                       <h2>
                         S{season.id}
-                        <span className="ml-2 text-sm text-olive-600">
+                        <span className="ml-1.5 text-xs text-olive-600 sm:ml-2 sm:text-sm">
                           {season.episodes[0].date.split("-")[0]}-
                           {
                             season.episodes[
@@ -186,7 +190,7 @@ export default function App() {
                           }
                         </span>
                       </h2>
-                      <p className="text-sm text-olive-500">
+                      <p className="text-xs text-olive-500 sm:text-sm">
                         [
                         <span className="italic">
                           {season.episodes.length} épisodes
@@ -194,7 +198,7 @@ export default function App() {
                         ]
                       </p>
                     </div>
-                    <p className="text-sm text-olive-500">
+                    <p className="text-xs text-olive-500 sm:text-sm">
                       [
                       <span className="text-olive-700">
                         {season.politicalGuests.length} politiques
@@ -229,7 +233,7 @@ export default function App() {
                             className={`flex flex-row items-center ${politicalGuests.length > 0 ? "border" : hideNeutralEpisodes ? "hidden" : ""} gap-px rounded-4xl border-olive-400 bg-olive-300`}
                             key={episode.id}
                           >
-                            <div className="-m-px flex aspect-square h-16 shrink-0 flex-wrap content-center items-center justify-center rounded-full border border-olive-400 bg-olive-300 p-3 hover:bg-olive-200">
+                            <div className="-m-px flex aspect-square h-10 shrink-0 flex-wrap content-center items-center justify-center rounded-full border border-olive-400 bg-olive-300 p-1.5 hover:bg-olive-200 sm:h-12 sm:p-2 md:h-16 md:p-3">
                               {Array.from({
                                 length: episode.guestsIds.length,
                               }).map((_, i) => {
@@ -239,7 +243,7 @@ export default function App() {
                                 return (
                                   <span
                                     key={i}
-                                    className={`aspect-square w-2.5 rounded-full bg-(--current-color)/75 ${guest?.isGouv ? "border border-olive-600" : ""}`}
+                                    className={`aspect-square w-1.75 rounded-full bg-(--current-color)/75 sm:w-2 md:w-2.5 ${guest?.isGouv ? "border border-olive-600" : ""}`}
                                     style={
                                       {
                                         "--current-color":
@@ -273,17 +277,18 @@ export default function App() {
             })}
         </section>
       ) : (
-        <section className="flex w-full max-w-5xl grow flex-wrap items-center justify-center px-2">
+        <section className="flex w-full max-w-5xl grow flex-wrap items-center justify-center overflow-hidden px-2">
           <div className="relative mt-72">
-            {fakeParliamentMembers.map((guest, index) => {
-              return (
-                <PersonCircle
-                  key={guest.episodeDate + guest.id}
-                  person={guest}
-                  position={hemicycleLayout[index]}
-                />
-              );
-            })}
+            {fakeParliamentMembers.length > 0 &&
+              fakeParliamentMembers.map((guest, index) => {
+                return (
+                  <PersonCircle
+                    key={guest.episodeDate + guest.id}
+                    person={guest}
+                    position={hemicycleLayout[index]}
+                  />
+                );
+              })}
           </div>
         </section>
       )}

@@ -14,7 +14,7 @@ export default function PersonCircle({
       id={person.episodeDate + person.id}
       href={`https://fr.wikipedia.org/wiki/${person?.name}`}
       target="_blank"
-      className={`ring-ring flex aspect-square w-16 flex-col items-center justify-center rounded-full bg-(--current-color)/75 p-1.5 ring-offset-2 outline-0 hover:bg-(--current-color)/30 focus-visible:ring-2 ${person?.isGouv ? "border-2 border-olive-600" : ""} ${position ? "absolute" : "relative"}`}
+      className={`ring-ring flex aspect-square w-10 flex-col items-center justify-center rounded-full bg-(--current-color)/75 p-1.5 ring-offset-2 outline-0 hover:bg-(--current-color)/30 focus-visible:ring-2 sm:w-12 md:w-16 ${person?.isGouv ? "border-2 border-olive-600" : ""} ${position ? "absolute" : "relative"}`}
       style={
         {
           "--current-color": person?.party?.color,
@@ -23,7 +23,9 @@ export default function PersonCircle({
         } as React.CSSProperties
       }
     >
-      <p className="font-mono text-sm text-olive-800">{person?.party?.abbr}</p>
+      <p className="font-mono text-xs text-olive-800 sm:text-sm">
+        {person?.party?.abbr}
+      </p>
     </motion.a>
   );
 }
