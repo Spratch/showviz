@@ -1,3 +1,4 @@
+import { Hemicycle } from "@hemicycle/core";
 import { motion } from "motion/react";
 import { useState } from "react";
 import "./App.css";
@@ -104,6 +105,28 @@ export default function App() {
 
   const seasons = Object.values(seasonMap);
 
+  const fakeParliamentMembers = seasons
+    .flatMap((s) => s.politicalGuests)
+    .filter(Boolean)
+    .sort((a, b) => {
+      return (
+        (partiesOrder.get(a?.party?.name) ?? Infinity) -
+        (partiesOrder.get(b?.party?.name) ?? Infinity)
+      );
+    })
+    .filter((m) => m !== null);
+
+  const hemicycle = new Hemicycle({
+    rows: 5,
+    orderBy: "radial",
+    totalSeats: fakeParliamentMembers.length,
+    outerRadius: 480,
+    innerRadius: 100,
+    totalAngle: 180,
+    rowMargin: 300,
+  });
+  const hemicycleLayout = hemicycle.getSeatsLayout();
+
   const [hideNeutralEpisodes, setHideNeutralEpisodes] = useState(false);
   const [showParliament, setShowParliament] = useState(false);
 
@@ -132,7 +155,12 @@ export default function App() {
             title="Vue parlement"
             description="Afficher les politiques en parlement"
             id="show-parliament"
-            onCheckedChange={() => setShowParliament((prev) => !prev)}
+            onCheckedChange={() => {
+              setShowParliament((prev) => !prev);
+              if (!hideNeutralEpisodes && !showParliament) {
+                setHideNeutralEpisodes(true);
+              }
+            }}
             checked={showParliament}
           />
         </FieldGroup>
@@ -245,25 +273,18 @@ export default function App() {
             })}
         </section>
       ) : (
-        <section className="flex max-w-5xl flex-wrap px-2">
-          {seasons
-            .flatMap((s) => s.politicalGuests)
-            .filter(Boolean)
-            .sort((a, b) => {
-              return (
-                (partiesOrder.get(a?.party?.name) ?? Infinity) -
-                (partiesOrder.get(b?.party?.name) ?? Infinity)
-              );
-            })
-            .map((guest) => {
-              if (!guest) return null;
+        <section className="flex w-full max-w-5xl grow flex-wrap items-center justify-center px-2">
+          <div className="relative mt-72">
+            {fakeParliamentMembers.map((guest, index) => {
               return (
                 <PersonCircle
                   key={guest.episodeDate + guest.id}
                   person={guest}
+                  position={hemicycleLayout[index]}
                 />
               );
             })}
+          </div>
         </section>
       )}
     </main>
