@@ -4,16 +4,17 @@ import { motion } from "motion/react";
 export default function PersonCircle({
   person,
   position = undefined,
+  viewMode = undefined,
 }: {
   person: PersonType;
   position?: { x: number; y: number } | undefined;
+  viewMode?: boolean | undefined;
 }) {
   return (
-    <motion.a
+    <motion.div
       layoutId={person.episodeDate + person.id}
+      layoutDependency={position?.x || viewMode}
       id={person.episodeDate + person.id}
-      href={`https://fr.wikipedia.org/wiki/${person?.name}`}
-      target="_blank"
       className={`ring-ring flex aspect-square w-10 flex-col items-center justify-center rounded-full bg-(--current-color)/75 p-1.5 ring-offset-2 outline-0 hover:bg-(--current-color)/30 focus-visible:ring-2 sm:w-12 md:w-16 ${person?.isGouv ? "border-2 border-olive-600" : ""} ${position ? "absolute" : "relative"}`}
       style={
         {
@@ -26,6 +27,6 @@ export default function PersonCircle({
       <p className="font-mono text-xs text-olive-800 sm:text-sm">
         {person?.party?.abbr}
       </p>
-    </motion.a>
+    </motion.div>
   );
 }

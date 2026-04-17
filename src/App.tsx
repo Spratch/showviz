@@ -1,6 +1,5 @@
 import { Hemicycle } from "@hemicycle/core";
 import { useAtomValue, useSetAtom } from "jotai";
-import { motion } from "motion/react";
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 import { FieldGroup } from "./components/ui/field";
@@ -135,10 +134,33 @@ export default function App() {
   return (
     <main className="flex min-h-svh w-svw flex-col items-center bg-olive-200 py-8 text-olive-600 antialiased">
       <header className="flex w-full max-w-5xl flex-col items-start justify-between gap-4 px-2 pb-6 md:pt-8">
-        <h1 className="font-display max-w-[30ch] text-2xl/tight font-medium text-pretty">
-          Appartenances politiques des invités de&nbsp;
-          <span className="text-olive-800 italic">{data.title}</span>
-        </h1>
+        <div className="flex w-full items-baseline-last justify-between">
+          <h1 className="font-display max-w-[30ch] text-2xl/tight font-medium text-pretty">
+            Appartenances politiques des invités de&nbsp;
+            <span className="text-olive-800 italic">{data.title}</span>
+          </h1>
+          <p className="font-mono text-xs text-olive-500 sm:text-sm">
+            [
+            <span className="text-olive-700">
+              {displayedSeasons.flatMap((s) => s.politicalGuests).length}{" "}
+              politiques
+            </span>
+            &thinsp;/&thinsp;
+            {
+              displayedSeasons.flatMap((s) => s.seasonGuests).length
+            } invités{" "}
+            <span className="text-olive-700">
+              (
+              {(
+                (displayedSeasons.flatMap((s) => s.politicalGuests).length /
+                  displayedSeasons.flatMap((s) => s.seasonGuests).length) *
+                100
+              ).toFixed(1)}
+              %)
+            </span>
+            ]
+          </p>
+        </div>
         <FieldGroup className="flex w-full flex-col gap-2.5 font-mono text-xs/tight sm:flex-row">
           <SwitchChoiceCard
             title="Focus politique"
@@ -203,7 +225,7 @@ export default function App() {
                       <span className="text-olive-700">
                         {season.politicalGuests.length} politiques
                       </span>
-                      /{season.seasonGuests.length} invités{" "}
+                      &thinsp;/&thinsp;{season.seasonGuests.length} invités{" "}
                       <span className="text-olive-700">
                         (
                         {(
@@ -228,8 +250,7 @@ export default function App() {
                             g.episodeDate === episode.date,
                         );
                         return (
-                          <motion.article
-                            layoutId={`episode-${episode.id}`}
+                          <article
                             className={`flex flex-row items-center ${politicalGuests.length > 0 ? "border" : hideNeutralEpisodes ? "hidden" : ""} gap-px rounded-4xl border-olive-400 bg-olive-300`}
                             key={episode.id}
                           >
@@ -263,12 +284,13 @@ export default function App() {
                                     <PersonCircle
                                       key={episode.id + guest.id}
                                       person={guest}
+                                      viewMode={hideNeutralEpisodes}
                                     />
                                   );
                                 })}
                               </div>
                             )}
-                          </motion.article>
+                          </article>
                         );
                       })}
                   </div>
