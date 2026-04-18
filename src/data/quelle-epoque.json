@@ -1893,6 +1893,24 @@
       ],
       "viewers": 1110000,
       "viewersPercentage": 21.8
+    },
+    {
+      "id": "04-24",
+      "date": "2026-04-18",
+      "guestsIds": [
+        "patrick-timsit",
+        "philippe-etchebest",
+        "stephanie-le-quellec",
+        "lorie-pester",
+        "segolene-royal",
+        "jean-francois-cope",
+        "philippe-croizon",
+        "suzana-sabino",
+        "jesse",
+        "worakls"
+      ],
+      "viewers": 10,
+      "viewersPercentage": 10
     }
   ]
 }

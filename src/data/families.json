@@ -1,5 +1,29 @@
 [
   {
+    "name": "Extrême gauche",
+    "name_en": "Far left",
+    "name_de": "Linksextremismus",
+    "color": "#BB0000",
+    "currents": [
+      {
+        "name": "Trotskiste",
+        "name_en": "Trotskiste",
+        "name_de": "Trotskist",
+        "color": "#BB0000",
+        "keyword": "Trotskisme",
+        "parties": [
+          {
+            "name": "LO",
+            "full_name": "Lutte ouvrière",
+            "full_name_en": "Workers' Struggle",
+            "full_name_de": "Arbeiterkampf",
+            "keyword": "Lutte ouvrière"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Gauche",
     "name_en": "Left",
     "name_de": "Links",
@@ -527,6 +551,13 @@
             "full_name_en": "l'Engagement",
             "full_name_de": "l'Engagement",
             "keyword": "Arnaud Montebourg"
+          },
+          {
+            "name": "ND",
+            "full_name": "Nouvelle Donne",
+            "full_name_en": "Nouvelle Donne",
+            "full_name_de": "Nouvelle Donne",
+            "keyword": "Nouvelle Donne (parti politique)"
           }
         ]
       }
@@ -687,6 +718,13 @@
             "keyword": "Renaissance (parti)"
           },
           {
+            "name": "SN",
+            "full_name": "Serviteur du peuple",
+            "full_name_en": "Servant of the People",
+            "full_name_de": "Diener des Volkes",
+            "keyword": "Serviteur du peuple (parti politique)"
+          },
+          {
             "name": "Gouv",
             "full_name": "Gouvernement",
             "full_name_en": "Government",
@@ -845,6 +883,117 @@
             "full_name_en": "The Centrists",
             "full_name_de": "Die Zentristen",
             "keyword": "Les Centristes - Le Nouveau Centre"
+          }
+        ]
+      },
+      {
+        "name": "Centriste écologiste",
+        "name_en": "Ecologist center",
+        "name_de": "Ecologischer Zentrum",
+        "color": "#4B9749",
+        "keyword": "Politique environnementale",
+        "parties": [
+          {
+            "name": "ÉAC",
+            "full_name": "Écologie au centre",
+            "full_name_en": "Ecology at the Centre",
+            "full_name_de": "Ökologie im Zentrum",
+            "keyword": "Écologie au centre"
+          }
+        ]
+      },
+      {
+        "name": "Protectionniste",
+        "name_en": "Protectionnist",
+        "name_de": "Protektionistisch",
+        "color": "#89D9FE",
+        "keyword": "Résistons",
+        "parties": [
+          {
+            "name": "RES",
+            "full_name": "Résistons !",
+            "full_name_en": "Résistons",
+            "full_name_de": "Résistons",
+            "keyword": "Résistons"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Autres",
+    "name_en": "Others",
+    "name_de": "Andere",
+    "color": "#CDCCCD",
+    "currents": [
+      {
+        "name": "Autres",
+        "name_en": "Others",
+        "name_de": "Andere",
+        "color": "#CDCCCD",
+        "keyword": "Non-inscrit à l'Assemblée nationale",
+        "parties": [
+          {
+            "name": "Indé",
+            "full_name": "Indépendant",
+            "full_name_en": "Independent",
+            "full_name_de": "Unabhängig",
+            "keyword": "Indépendant (politique) #France"
+          },
+          {
+            "name": "Autres",
+            "full_name": "Autres",
+            "full_name_en": "Others",
+            "full_name_de": "Andere",
+            "keyword": "Non-inscrit à l'Assemblée nationale"
+          }
+        ]
+      },
+      {
+        "name": "Indépendant d'Algérie",
+        "name_en": "Independent of Algeria",
+        "name_de": "Unabhängig von Algerien",
+        "color": "#DAD9DA",
+        "parties": [
+          {
+            "name": "MA",
+            "full_name": "Musulmans algériens",
+            "full_name_en": "Algerian Muslims",
+            "full_name_de": "Algerische Muslime"
+          },
+          {
+            "name": "UDMA",
+            "full_name": "Union démocratique du manifeste algérien",
+            "full_name_en": "Democratic Union of the Algerian Manifesto",
+            "full_name_de": "Demokratische Union des Algerischen Manifests"
+          },
+          {
+            "name": "MIDFA",
+            "full_name": "Musulman indépendant pour la défense du fédéralisme algérien",
+            "full_name_en": "Independent Muslim in defense of Algerian federalism",
+            "full_name_de": "Unabhängiger Muslim zur Verteidigung des algerischen Föderalismus"
+          },
+          {
+            "name": "FAEAS",
+            "full_name": "Formation administrative des élus d'Algérie et du Sahara",
+            "full_name_en": "Administrative training for elected officials from Algeria and the Sahara",
+            "full_name_de": "Verwaltungsschulung für gewählte Amtsträger aus Algerien und der Sahara",
+            "keyword": "Regroupement national pour l'unité de la République"
+          }
+        ]
+      },
+      {
+        "name": "Animaliste",
+        "name_en": "Animalist",
+        "name_de": "Animalist",
+        "color": "#AF6FAD",
+        "parties": [
+          {
+            "name": "PA",
+            "full_name": "Parti animaliste",
+            "full_name_en": "Animalist Party",
+            "full_name_de": "Animalistische Partei",
+            "keyword": "Parti animaliste"
           }
         ]
       }
@@ -1118,6 +1267,13 @@
             "full_name_en": "Various far right",
             "full_name_de": "Verschiedene externe Rechte",
             "keyword": "Divers extrême droite"
+          },
+          {
+            "name": "UPR",
+            "full_name": "Union populaire républicaine",
+            "full_name_en": "Popular Republican Union",
+            "full_name_de": "Republikanische Volksunion",
+            "keyword": "Union populaire républicaine (2007)"
           }
         ]
       },
@@ -1230,6 +1386,13 @@
             "full_name": "Rassemblement national",
             "full_name_en": "National gathering",
             "full_name_de": "Nationale Versammlung"
+          },
+          {
+            "name": "LP",
+            "full_name": "Les Patriotes",
+            "full_name_en": "Les Patriotes",
+            "full_name_de": "Les Patriotes",
+            "keyword": "Les Patriotes (parti politique)"
           }
         ]
       },
@@ -1455,70 +1618,6 @@
             "full_name_en": "Bonapartists",
             "full_name_de": "Bonapartisten",
             "keyword": "Bonapartisme"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Autres",
-    "name_en": "Others",
-    "name_de": "Andere",
-    "color": "#CDCCCD",
-    "currents": [
-      {
-        "name": "Autres",
-        "name_en": "Others",
-        "name_de": "Andere",
-        "color": "#CDCCCD",
-        "keyword": "Non-inscrit à l'Assemblée nationale",
-        "parties": [
-          {
-            "name": "Indé",
-            "full_name": "Indépendant",
-            "full_name_en": "Independent",
-            "full_name_de": "Unabhängig",
-            "keyword": "Indépendant (politique) #France"
-          },
-          {
-            "name": "Autres",
-            "full_name": "Autres",
-            "full_name_en": "Others",
-            "full_name_de": "Andere",
-            "keyword": "Non-inscrit à l'Assemblée nationale"
-          }
-        ]
-      },
-      {
-        "name": "Indépendant d'Algérie",
-        "name_en": "Independent of Algeria",
-        "name_de": "Unabhängig von Algerien",
-        "color": "#DAD9DA",
-        "parties": [
-          {
-            "name": "MA",
-            "full_name": "Musulmans algériens",
-            "full_name_en": "Algerian Muslims",
-            "full_name_de": "Algerische Muslime"
-          },
-          {
-            "name": "UDMA",
-            "full_name": "Union démocratique du manifeste algérien",
-            "full_name_en": "Democratic Union of the Algerian Manifesto",
-            "full_name_de": "Demokratische Union des Algerischen Manifests"
-          },
-          {
-            "name": "MIDFA",
-            "full_name": "Musulman indépendant pour la défense du fédéralisme algérien",
-            "full_name_en": "Independent Muslim in defense of Algerian federalism",
-            "full_name_de": "Unabhängiger Muslim zur Verteidigung des algerischen Föderalismus"
-          },
-          {
-            "name": "FAEAS",
-            "full_name": "Formation administrative des élus d'Algérie et du Sahara",
-            "full_name_en": "Administrative training for elected officials from Algeria and the Sahara",
-            "full_name_de": "Verwaltungsschulung für gewählte Amtsträger aus Algerien und der Sahara",
-            "keyword": "Regroupement national pour l'unité de la République"
           }
         ]
       }

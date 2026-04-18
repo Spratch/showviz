@@ -12,6 +12,13 @@ export type ShowType = {
   }[];
 };
 
+export type SeasonType = {
+  id: string;
+  politicalGuests: PersonType[];
+  seasonGuests: PersonType[];
+  episodes: ShowType["diffusions"];
+};
+
 export type PartyType = {
   name: string;
   start?: string;

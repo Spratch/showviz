@@ -29,6 +29,11 @@
         "name": "Parti socialiste",
         "start": "1976-01-01",
         "end": "2008-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2000-03-27",
+        "end": "2002-05-06"
       }
     ]
   },
@@ -223,9 +228,9 @@
   {
     "id": "david-aguilar",
     "name": "David Aguilar",
-    "birthDate": "1905-11-25",
+    "birthDate": "1999-01-01",
     "gender": "masculin",
-    "categories": ["joueur ou joueuse de rugby à XV"],
+    "categories": ["inventeur", "youtubeur ou youtubeuse"],
     "parties": []
   },
   {
@@ -774,7 +779,17 @@
     ],
     "parties": [
       {
-        "name": "Renaissance"
+        "name": "Renaissance",
+        "start": "2016-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2020-07-26",
+        "end": "2024-01-11"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2025-03-05"
       }
     ]
   },
@@ -1253,18 +1268,18 @@
         "end": "2018-01-01"
       },
       {
-        "name": "Identité-Libertés",
-        "start": "2024-01-01"
-      },
-      {
         "name": "Rassemblement national",
         "start": "2018-01-01",
         "end": "2022-01-01"
       },
       {
         "name": "Reconquête",
-        "start": "2022-01-01",
-        "end": "2024-01-01"
+        "start": "2022-04-19",
+        "end": "2024-06-12"
+      },
+      {
+        "name": "Identité-Libertés",
+        "start": "2024-10-07"
       }
     ]
   },
@@ -2629,7 +2644,8 @@
     ],
     "parties": [
       {
-        "name": "Renaissance"
+        "name": "Renaissance",
+        "start": "2017-11-25"
       },
       {
         "name": "Union pour un mouvement populaire",
@@ -2637,7 +2653,8 @@
       },
       {
         "name": "Les Républicains",
-        "start": "2015-01-01"
+        "start": "2015-01-01",
+        "end": "2017-10-31"
       },
       {
         "name": "Gouvernement",
@@ -5732,9 +5749,9 @@
   {
     "id": "emilien",
     "name": "Émilien",
-    "birthDate": "0207-01-01",
+    "birthDate": "2002-12-13",
     "gender": "masculin",
-    "categories": ["personnalité politique"],
+    "categories": ["étudiant ou étudiante", "personnalité de l'audiovisuel"],
     "parties": []
   },
   {
@@ -6518,6 +6535,15 @@
         "name": "Les Républicains",
         "start": "2015-05-30",
         "end": "2017-12-11"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2021-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2010-11-14",
+        "end": "2012-05-10"
       }
     ]
   },
@@ -6982,6 +7008,7 @@
     "gender": "masculin",
     "categories": [
       "DJ de club",
+      "disc jockey",
       "auteur-compositeur ou autrice-compositrice",
       "auteur-compositeur-interprète ou autrice-compositrice-interprète",
       "chanteur ou chanteuse",
@@ -7509,6 +7536,1921 @@
     "birthDate": "1984-01-01",
     "gender": "masculin",
     "categories": ["humoriste", "acteur ou actrice", "scénariste"],
+    "parties": []
+  },
+  {
+    "id": "emmanuel-macron",
+    "name": "Emmanuel Macron",
+    "birthDate": "1977-12-21",
+    "gender": "masculin",
+    "categories": [
+      "banquier d'affaires",
+      "banquier",
+      "haut fonctionnaire ou haute fonctionnaire",
+      "homme ou femme d'État",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2016-04-01"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "2006-01-01",
+        "end": "2009-01-01"
+      },
+      {
+        "name": "indépendant",
+        "start": "2009-01-01",
+        "end": "2016-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-05-07"
+      }
+    ]
+  },
+  {
+    "id": "anna-colin-lebedev",
+    "name": "Anna Colin Lebedev",
+    "birthDate": "1975-07-06",
+    "gender": "féminin",
+    "categories": [
+      "sociologue",
+      "chercheur ou chercheuse",
+      "professeur d'université",
+      "politologue"
+    ],
+    "parties": []
+  },
+  {
+    "id": "bruno-tertrais",
+    "name": "Bruno Tertrais",
+    "birthDate": "1962-11-09",
+    "gender": "masculin",
+    "categories": [
+      "analyste politique",
+      "professeur d'université",
+      "politologue"
+    ],
+    "parties": []
+  },
+  {
+    "id": "alexandra-de-hoop-scheffer",
+    "name": "Alexandra de Hoop Scheffer",
+    "birthDate": "1982-09-01",
+    "gender": "féminin",
+    "categories": ["analyste politique", "écrivain ou écrivaine", "lobbyiste"],
+    "parties": []
+  },
+  {
+    "id": "aurore-berge",
+    "name": "Aurore Bergé",
+    "birthDate": "1986-11-13",
+    "gender": "féminin",
+    "categories": ["cadres de la fonction publique", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "end": "2017-02-01"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2017-02-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2023-07-20",
+        "end": "2024-09-21"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-12-24"
+      }
+    ]
+  },
+  {
+    "id": "olivier-marleix",
+    "name": "Olivier Marleix",
+    "birthDate": "1971-02-06",
+    "gender": "masculin",
+    "categories": ["cadres de la fonction publique", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Rassemblement pour la République",
+        "end": "2002-01-01"
+      }
+    ]
+  },
+  {
+    "id": "celine-verzeletti",
+    "name": "Céline Verzeletti",
+    "birthDate": "1969-02-16",
+    "gender": "féminin",
+    "categories": [
+      "employés civils et agents de service de la fonction publique",
+      "syndicaliste"
+    ],
+    "parties": [
+      {
+        "name": "La France insoumise",
+        "start": "2024-06-14"
+      },
+      {
+        "name": "Parti communiste français",
+        "end": "2024-06-14"
+      }
+    ]
+  },
+  {
+    "id": "volodymyr-zelensky",
+    "name": "Volodymyr Zelensky",
+    "birthDate": "1978-01-25",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Serviteur du peuple",
+        "start": "2017-12-02"
+      }
+    ]
+  },
+  {
+    "id": "christine-lagarde",
+    "name": "Christine Lagarde",
+    "birthDate": "1956-01-01",
+    "gender": "féminin",
+    "categories": [
+      "sportif ou sportive",
+      "banquier",
+      "diplomate",
+      "économiste",
+      "personnalité politique",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2007-01-01",
+        "end": "2011-01-01"
+      }
+    ]
+  },
+  {
+    "id": "leon-deffontaines",
+    "name": "Léon Deffontaines",
+    "birthDate": "1996-03-15",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Mouvement des jeunes communistes de France",
+        "start": "2013-01-01",
+        "end": "2016-01-01"
+      },
+      {
+        "name": "Parti communiste français",
+        "start": "2016-01-01"
+      }
+    ]
+  },
+  {
+    "id": "francois-xavier-bellamy",
+    "name": "François-Xavier Bellamy",
+    "birthDate": "1985-10-11",
+    "gender": "masculin",
+    "categories": ["essayiste", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Divers droite",
+        "start": "2008-01-01",
+        "end": ""
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2017-02-09"
+      }
+    ]
+  },
+  {
+    "id": "raphael-glucksmann",
+    "name": "Raphaël Glucksmann",
+    "birthDate": "1979-10-15",
+    "gender": "masculin",
+    "categories": [
+      "auteur ou autrice de non-fiction",
+      "journaliste",
+      "politologue",
+      "documentaliste",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Alternative libérale",
+        "start": "2006-09-01",
+        "end": "2007-03-06"
+      },
+      {
+        "name": "Place publique",
+        "start": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "id": "marie-toussaint",
+    "name": "Marie Toussaint",
+    "birthDate": "1987-05-27",
+    "gender": "féminin",
+    "categories": ["écologiste", "juriste", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Les Écologistes",
+        "start": "2010-01-01"
+      },
+      {
+        "name": "Les Verts",
+        "start": "2005-01-01",
+        "end": "2010-01-01"
+      }
+    ]
+  },
+  {
+    "id": "manon-aubry",
+    "name": "Manon Aubry",
+    "birthDate": "1989-12-22",
+    "gender": "féminin",
+    "categories": [
+      "humanitaire",
+      "nageur ou nageuse",
+      "militant social",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "La France insoumise",
+        "start": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "id": "valerie-hayer",
+    "name": "Valérie Hayer",
+    "birthDate": "1986-04-06",
+    "gender": "féminin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2017-01-01"
+      },
+      {
+        "name": "Union des démocrates et indépendants",
+        "end": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "id": "yannick-jadot",
+    "name": "Yannick Jadot",
+    "birthDate": "1967-07-27",
+    "gender": "masculin",
+    "categories": ["écologiste", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Les Verts",
+        "start": "1999-01-01",
+        "end": "2010-01-01"
+      },
+      {
+        "name": "Les Écologistes",
+        "start": "2010-01-01"
+      }
+    ]
+  },
+  {
+    "id": "marine-tondelier",
+    "name": "Marine Tondelier",
+    "birthDate": "1986-08-23",
+    "gender": "féminin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Écologistes",
+        "start": "2009-01-01"
+      }
+    ]
+  },
+  {
+    "id": "yael-braun-pivet",
+    "name": "Yaël Braun-Pivet",
+    "birthDate": "1970-12-07",
+    "gender": "féminin",
+    "categories": [
+      "professions libérales et assimilés",
+      "personnalité politique",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2016-10-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2022-05-20",
+        "end": "2022-06-25"
+      }
+    ]
+  },
+  {
+    "id": "olivier-faure",
+    "name": "Olivier Faure",
+    "birthDate": "1968-08-18",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "1984-01-01"
+      }
+    ]
+  },
+  {
+    "id": "sabrina-agresti-roubache",
+    "name": "Sabrina Agresti-Roubache",
+    "birthDate": "1976-10-13",
+    "gender": "féminin",
+    "categories": [
+      "professions libérales et assimilés",
+      "chefs d'entreprise de 10 salariés ou plus",
+      "producteur ou productrice de télévision",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2022-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2023-07-20",
+        "end": "2024-09-21"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2026-02-26"
+      }
+    ]
+  },
+  {
+    "id": "aurelien-pradie",
+    "name": "Aurélien Pradié",
+    "birthDate": "1986-03-14",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2007-01-01",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30",
+        "end": "2024-06-26"
+      },
+      {
+        "name": "Divers droite",
+        "start": "2024-06-26"
+      }
+    ]
+  },
+  {
+    "id": "arnaud-murgia",
+    "name": "Arnaud Murgia",
+    "birthDate": "1984-11-16",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "fonctionnaire de catégorie A",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "end": "2022-09-07"
+      },
+      {
+        "name": "Divers droite",
+        "start": "2022-09-07"
+      }
+    ]
+  },
+  {
+    "id": "laure-lavalette",
+    "name": "Laure Lavalette",
+    "birthDate": "1976-04-16",
+    "gender": "féminin",
+    "categories": [
+      "personnes diverses sans activité professionnelle de moins de 60 ans sauf retraités",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement national",
+        "start": "1999-01-01"
+      },
+      {
+        "name": "Front national",
+        "start": "1997-01-01",
+        "end": "1999-01-01"
+      },
+      {
+        "name": "Mouvement national républicain"
+      }
+    ]
+  },
+  {
+    "id": "nicolas-mayer-rossignol",
+    "name": "Nicolas Mayer-Rossignol",
+    "birthDate": "1977-04-08",
+    "gender": "masculin",
+    "categories": [
+      "chefs d'entreprise de 10 salariés ou plus",
+      "personnalité politique",
+      "ingénieur"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ]
+  },
+  {
+    "id": "ian-brossat",
+    "name": "Ian Brossat",
+    "birthDate": "1980-04-23",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "enseignant ou enseignante"],
+    "parties": [
+      {
+        "name": "Parti communiste français",
+        "start": "1997-01-01"
+      }
+    ]
+  },
+  {
+    "id": "patrick-cohen",
+    "name": "Patrick Cohen",
+    "birthDate": "1962-09-07",
+    "gender": "masculin",
+    "categories": [
+      "animateur ou animatrice de radio",
+      "journaliste",
+      "animateur ou animatrice de télévision"
+    ],
+    "parties": []
+  },
+  {
+    "id": "etienne-leenhardt",
+    "name": "Étienne Leenhardt",
+    "birthDate": "1962-07-25",
+    "gender": "masculin",
+    "categories": ["journaliste", "présentateur ou présentatrice de journal"],
+    "parties": []
+  },
+  {
+    "id": "audrey-goutard",
+    "name": "Audrey Goutard",
+    "birthDate": "1971-09-10",
+    "gender": "féminin",
+    "categories": ["réalisateur ou réalisatrice de cinéma"],
+    "parties": []
+  },
+  {
+    "id": "marie-helene-thoraval",
+    "name": "Marie-Hélène Thoraval",
+    "birthDate": "1966-06-03",
+    "gender": "féminin",
+    "categories": [
+      "anciens cadres",
+      "cadre supérieur",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire",
+        "end": "2013-07-15"
+      },
+      {
+        "name": "Divers droite",
+        "start": "2013-12-17",
+        "end": "2015-05-19"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-19",
+        "end": "2021-01-01"
+      },
+      {
+        "name": "Horizons",
+        "start": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "id": "david-lisnard",
+    "name": "David Lisnard",
+    "birthDate": "1969-02-02",
+    "gender": "masculin",
+    "categories": [
+      "professions libérales et assimilés",
+      "chef ou cheffe d'entreprise",
+      "footballeur ou footballeuse",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Nouvelle Énergie",
+        "start": "2026-03-31"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30",
+        "end": "2026-03-31"
+      }
+    ]
+  },
+  {
+    "id": "mathilde-panot",
+    "name": "Mathilde Panot",
+    "birthDate": "1989-01-15",
+    "gender": "féminin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "La France insoumise",
+        "start": "2016-01-01"
+      }
+    ]
+  },
+  {
+    "id": "nicolas-daragon",
+    "name": "Nicolas Daragon",
+    "birthDate": "1972-03-12",
+    "gender": "masculin",
+    "categories": [
+      "professions libérales et assimilés",
+      "chef ou cheffe d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-09-21",
+        "end": "2024-12-23"
+      }
+    ]
+  },
+  {
+    "id": "johanna-rolland",
+    "name": "Johanna Rolland",
+    "birthDate": "1979-05-11",
+    "gender": "féminin",
+    "categories": [
+      "cadres de la fonction publique",
+      "fonctionnaire de catégorie A",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ]
+  },
+  {
+    "id": "louis-aliot",
+    "name": "Louis Aliot",
+    "birthDate": "1969-09-04",
+    "gender": "masculin",
+    "categories": [
+      "professions libérales et assimilés",
+      "personnalité politique",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement national"
+      }
+    ]
+  },
+  {
+    "id": "laetitia-linon",
+    "name": "Laëtitia Linon",
+    "birthDate": "1981-04-05",
+    "gender": "féminin",
+    "categories": ["militant ou militante"],
+    "parties": []
+  },
+  {
+    "id": "arnaud-diaz",
+    "name": "Arnaud Diaz",
+    "birthDate": "1976-01-01",
+    "gender": "masculin",
+    "categories": [
+      "professions intermédiaires administratives de la fonction publique",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Autres"
+      }
+    ]
+  },
+  {
+    "id": "yvette-vigie",
+    "name": "Yvette Vigié",
+    "birthDate": "1933-02-01",
+    "categories": [
+      "professions intermédiaires administratives de la fonction publique",
+      "personnalité politique"
+    ],
+    "parties": []
+  },
+  {
+    "id": "christophe-bechu",
+    "name": "Christophe Béchu",
+    "birthDate": "1974-06-11",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30",
+        "end": "2017-12-01"
+      },
+      {
+        "name": "Horizons",
+        "start": "2021-10-09"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2022-05-20",
+        "end": "2024-09-21"
+      }
+    ]
+  },
+  {
+    "id": "jeanne-barseghian",
+    "name": "Jeanne Barseghian",
+    "birthDate": "1980-12-06",
+    "gender": "féminin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "écologiste",
+      "juriste",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Écologistes",
+        "start": "2013-01-01"
+      }
+    ]
+  },
+  {
+    "id": "emmanuel-ferrand",
+    "name": "Emmanuel Ferrand",
+    "birthDate": "1969-05-01",
+    "gender": "masculin",
+    "categories": ["agriculteur ou agricultrice", "personnalité politique"],
+    "parties": []
+  },
+  {
+    "id": "fabien-verdier",
+    "name": "Fabien Verdier",
+    "birthDate": "1981-04-16",
+    "gender": "masculin",
+    "categories": [
+      "entrepreneur ou entrepreneuse",
+      "enseignant ou enseignante du secondaire",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "end": "2016-12-28"
+      },
+      {
+        "name": "Divers gauche"
+      }
+    ]
+  },
+  {
+    "id": "romain-thevenoud",
+    "name": "Romain Thévenoud",
+    "birthDate": "1980-08-01",
+    "gender": "masculin",
+    "categories": ["médecin généraliste"],
+    "parties": []
+  },
+  {
+    "id": "marine-le-pen",
+    "name": "Marine Le Pen",
+    "birthDate": "1968-08-05",
+    "gender": "féminin",
+    "categories": [
+      "cadres de la fonction publique",
+      "professions libérales et assimilés",
+      "juriste",
+      "personnalité politique",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement national",
+        "start": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "id": "jean-philippe-tanguy",
+    "name": "Jean-Philippe Tanguy",
+    "birthDate": "1986-03-25",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement national",
+        "start": "2020-11-23"
+      },
+      {
+        "name": "Debout la France",
+        "start": "2012-06-18",
+        "end": "2020-11-23"
+      }
+    ]
+  },
+  {
+    "id": "christiane-lambert",
+    "name": "Christiane Lambert",
+    "birthDate": "1961-06-25",
+    "gender": "féminin",
+    "categories": ["agriculteur ou agricultrice", "militant ou militante"],
+    "parties": []
+  },
+  {
+    "id": "karine-jacquemart",
+    "name": "Karine Jacquemart",
+    "birthDate": "1974-05-01",
+    "gender": "féminin",
+    "categories": [
+      "militant associatif ou militante associative",
+      "humanitaire"
+    ],
+    "parties": []
+  },
+  {
+    "id": "carlos-tavares",
+    "name": "Carlos Tavares",
+    "birthDate": "1958-08-14",
+    "gender": "masculin",
+    "categories": [
+      "chef ou cheffe d'entreprise",
+      "viticulteur ou viticultrice",
+      "entrepreneur ou entrepreneuse",
+      "ingénieur"
+    ],
+    "parties": []
+  },
+  {
+    "id": "boris-vallaud",
+    "name": "Boris Vallaud",
+    "birthDate": "1975-07-25",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "haut fonctionnaire ou haute fonctionnaire",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ]
+  },
+  {
+    "id": "clemence-guette",
+    "name": "Clémence Guetté",
+    "birthDate": "1991-03-15",
+    "gender": "féminin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "La France insoumise",
+        "start": "2016-01-01"
+      },
+      {
+        "name": "Parti de gauche",
+        "start": "2010-01-01"
+      }
+    ]
+  },
+  {
+    "id": "birgit-holzer",
+    "name": "Birgit Holzer",
+    "birthDate": "1981-01-01",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": []
+  },
+  {
+    "id": "geoffroy-didier",
+    "name": "Geoffroy Didier",
+    "birthDate": "1976-04-12",
+    "gender": "masculin",
+    "categories": [
+      "professions libérales et assimilés",
+      "personnalité politique",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30"
+      },
+      {
+        "name": "La Droite forte",
+        "start": "2012-07-01",
+        "end": "2018-07-12"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "end": "2015-05-30"
+      }
+    ]
+  },
+  {
+    "id": "guillaume-daret",
+    "name": "Guillaume Daret",
+    "birthDate": "1985-01-15",
+    "gender": "masculin",
+    "categories": ["journaliste de télévision", "journaliste"],
+    "parties": []
+  },
+  {
+    "id": "francois-beaudonnet",
+    "name": "François Beaudonnet",
+    "birthDate": "1968-04-13",
+    "gender": "masculin",
+    "categories": [
+      "journaliste de télévision",
+      "animateur ou animatrice de radio",
+      "journaliste"
+    ],
+    "parties": []
+  },
+  {
+    "id": "dorothee-ollieric",
+    "name": "Dorothée Olliéric",
+    "birthDate": "1966-11-17",
+    "gender": "féminin",
+    "categories": [
+      "journaliste grand reporter",
+      "correspondant ou correspondante de guerre",
+      "journaliste"
+    ],
+    "parties": []
+  },
+  {
+    "id": "marc-de-chalvron",
+    "name": "Marc de Chalvron",
+    "birthDate": "1975-01-01",
+    "gender": "masculin",
+    "categories": [
+      "journaliste",
+      "journaliste grand reporter",
+      "correspondant ou correspondante de guerre"
+    ],
+    "parties": []
+  },
+  {
+    "id": "stephanie-perez",
+    "name": "Stephanie Perez",
+    "birthDate": "1973-01-01",
+    "gender": "féminin",
+    "categories": [
+      "journaliste",
+      "journaliste grand reporter",
+      "correspondant ou correspondante de guerre"
+    ],
+    "parties": []
+  },
+  {
+    "id": "elsa-vidal",
+    "name": "Elsa Vidal",
+    "birthDate": "1974-01-01",
+    "gender": "féminin",
+    "categories": [
+      "journaliste",
+      "journaliste grand reporter",
+      "correspondant ou correspondante de guerre",
+      "humanitaire",
+      "essayiste",
+      "éditorialiste"
+    ],
+    "parties": []
+  },
+  {
+    "id": "patrice-moyon",
+    "name": "Patrice Moyon",
+    "birthDate": "1961-07-01",
+    "gender": "masculin",
+    "categories": ["journaliste", "chroniqueur ou chroniqueuse"],
+    "parties": []
+  },
+  {
+    "id": "jean-dominique-merchet",
+    "name": "Jean-Dominique Merchet",
+    "birthDate": "1959-10-26",
+    "gender": "masculin",
+    "categories": ["journaliste"]
+  },
+  {
+    "id": "nathalie-arthaud",
+    "name": "Nathalie Arthaud",
+    "birthDate": "1970-02-23",
+    "gender": "féminin",
+    "categories": [
+      "professeurs, professions scientifiques",
+      "instituteur ou institutrice",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Lutte ouvrière",
+        "start": "1988-01-01"
+      }
+    ]
+  },
+  {
+    "id": "francois-asselineau",
+    "name": "François Asselineau",
+    "birthDate": "1957-09-14",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "haut fonctionnaire ou haute fonctionnaire",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union populaire républicaine",
+        "start": "2007-01-01"
+      },
+      {
+        "name": "Rassemblement pour l'indépendance et la souveraineté de la France",
+        "start": "2006-01-01",
+        "end": "2007-01-01"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2004-01-01",
+        "end": "2006-01-01"
+      },
+      {
+        "name": "Rassemblement pour la France et l'indépendance de l'Europe",
+        "start": "1999-01-01",
+        "end": "2006-01-01"
+      }
+    ]
+  },
+  {
+    "id": "jean-marc-governatori",
+    "name": "Jean-Marc Governatori",
+    "birthDate": "1958-12-28",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "cadres de la fonction publique",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Écologie au centre",
+        "start": "2009-01-01"
+      },
+      {
+        "name": "La France en action",
+        "start": "2004-01-01",
+        "end": "2009-01-01"
+      }
+    ]
+  },
+  {
+    "id": "guillaume-lacroix",
+    "name": "Guillaume Lacroix",
+    "birthDate": "1976-02-11",
+    "gender": "masculin",
+    "categories": [
+      "personnalité politique",
+      "conseiller ou conseillère politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti radical de gauche"
+      }
+    ]
+  },
+  {
+    "id": "pierre-larrouturou",
+    "name": "Pierre Larrouturou",
+    "birthDate": "1964-10-19",
+    "gender": "masculin",
+    "categories": [
+      "ingénieurs et cadres techniques d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Europe Écologie - Les Verts",
+        "start": "2009-01-01",
+        "end": "2011-01-01"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "2002-01-01",
+        "end": "2009-01-01"
+      },
+      {
+        "name": "Nouvelle Donne",
+        "start": "2013-01-01"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "1988-01-01",
+        "end": "1992-01-01"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "2012-01-01",
+        "end": "2014-01-01"
+      }
+    ]
+  },
+  {
+    "id": "jean-lassalle",
+    "name": "Jean Lassalle",
+    "birthDate": "1955-05-03",
+    "gender": "masculin",
+    "categories": [
+      "professions libérales et assimilés",
+      "personnalité politique",
+      "entrepreneur ou entrepreneuse"
+    ],
+    "parties": [
+      {
+        "name": "Résistons !",
+        "start": "2016-08-26"
+      },
+      {
+        "name": "Union pour la démocratie française",
+        "end": "2007-11-01"
+      },
+      {
+        "name": "Mouvement démocrate",
+        "start": "2007-11-01",
+        "end": "2016-08-26"
+      }
+    ]
+  },
+  {
+    "id": "florian-philippot",
+    "name": "Florian Philippot",
+    "birthDate": "1981-10-24",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "haut fonctionnaire ou haute fonctionnaire",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement national",
+        "start": "2011-10-01",
+        "end": "2017-09-21"
+      },
+      {
+        "name": "Les Patriotes",
+        "start": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "id": "helene-thouy",
+    "name": "Hélène Thouy",
+    "birthDate": "1983-12-23",
+    "gender": "féminin",
+    "categories": ["personnalité politique", "avocat ou avocate"],
+    "parties": [
+      {
+        "name": "Parti animaliste",
+        "start": "2016-01-01"
+      }
+    ]
+  },
+  {
+    "id": "michel-barnier",
+    "name": "Michel Barnier",
+    "birthDate": "1951-01-09",
+    "gender": "masculin",
+    "categories": ["diplomate", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Union des démocrates pour la République",
+        "end": "1976-12-05"
+      },
+      {
+        "name": "Rassemblement pour la République",
+        "start": "1976-12-05",
+        "end": "2002-04-23"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2002-04-23",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "1993-03-30",
+        "end": "1997-06-04"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2004-03-31",
+        "end": "2005-06-02"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-09-05",
+        "end": "2024-12-13"
+      }
+    ]
+  },
+  {
+    "id": "manuel-bompard",
+    "name": "Manuel Bompard",
+    "birthDate": "1986-03-30",
+    "gender": "masculin",
+    "categories": [
+      "ingénieurs et cadres techniques d'entreprise",
+      "mathématicien ou mathématicienne",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "La France insoumise",
+        "start": "2016-01-01"
+      }
+    ]
+  },
+  {
+    "id": "marc-fesneau",
+    "name": "Marc Fesneau",
+    "birthDate": "1971-01-11",
+    "gender": "masculin",
+    "categories": ["cadres de la fonction publique", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Union pour la démocratie française",
+        "start": "1997-01-01",
+        "end": "2007-05-10"
+      },
+      {
+        "name": "Mouvement démocrate",
+        "start": "2007-05-10"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2018-10-16",
+        "end": "2024-09-21"
+      }
+    ]
+  },
+  {
+    "id": "coco",
+    "name": "Coco",
+    "birthDate": "1982-08-21",
+    "gender": "féminin",
+    "categories": [
+      "dessinateur de presse",
+      "dessinateur ou dessinatrice humoristique",
+      "créateur ou créatrice de bandes dessinées"
+    ],
+    "parties": []
+  },
+  {
+    "id": "riss",
+    "name": "Riss",
+    "birthDate": "1966-09-20",
+    "gender": "masculin",
+    "categories": ["créateur ou créatrice de bandes dessinées"],
+    "parties": []
+  },
+  {
+    "id": "richard-malka",
+    "name": "Richard Malka",
+    "birthDate": "1968-06-06",
+    "gender": "masculin",
+    "categories": [
+      "scénariste de bande dessinée",
+      "créateur ou créatrice de bandes dessinées",
+      "avocat ou avocate"
+    ],
+    "parties": []
+  },
+  {
+    "id": "yannick-haenel",
+    "name": "Yannick Haenel",
+    "birthDate": "1967-09-23",
+    "gender": "masculin",
+    "categories": ["écrivain ou écrivaine"],
+    "parties": []
+  },
+  {
+    "id": "juin",
+    "name": "Juin",
+    "birthDate": "1988-01-01",
+    "gender": "masculin",
+    "categories": [
+      "dessinateur de presse",
+      "dessinateur ou dessinatrice humoristique",
+      "créateur ou créatrice de bandes dessinées"
+    ],
+    "parties": []
+  },
+  {
+    "id": "françois-molins",
+    "name": "François Molins",
+    "birthDate": "1953-08-28",
+    "gender": "masculin",
+    "categories": ["magistrat ou magistrate"],
+    "parties": []
+  },
+  {
+    "id": "marjane-satrapi",
+    "name": "Marjane Satrapi",
+    "birthDate": "1969-11-22",
+    "gender": "féminin",
+    "categories": [
+      "réalisateur ou réalisatrice de cinéma",
+      "créateur ou créatrice de bandes dessinées"
+    ],
+    "parties": []
+  },
+  {
+    "id": "philippe-caverivière",
+    "name": "Philippe Caverivière",
+    "birthDate": "1971-02-08",
+    "gender": "masculin",
+    "categories": [
+      "chroniqueur de télévision",
+      "animateur ou animatrice de télévision",
+      "humoriste"
+    ],
+    "parties": []
+  },
+  {
+    "id": "gaspard-koenig",
+    "name": "Gaspard Koenig",
+    "birthDate": "1982-12-03",
+    "gender": "masculin",
+    "categories": [
+      "essayiste",
+      "romancier ou romancière",
+      "philosophe",
+      "personnalité politique"
+    ],
+    "parties": []
+  },
+  {
+    "id": "marc-levy",
+    "name": "Marc Levy",
+    "birthDate": "1961-10-16",
+    "gender": "masculin",
+    "categories": [
+      "romancier ou romancière",
+      "producteur ou productrice de cinéma",
+      "écrivain ou écrivaine",
+      "acteur ou actrice",
+      "scénariste"
+    ],
+    "parties": []
+  },
+  {
+    "id": "iannis-roder",
+    "name": "Iannis Roder",
+    "birthDate": "1971-01-01",
+    "gender": "masculin",
+    "categories": [
+      "enseignant ou enseignante du secondaire",
+      "formateur",
+      "historien ou historienne"
+    ],
+    "parties": []
+  },
+  {
+    "id": "bruno-retailleau",
+    "name": "Bruno Retailleau",
+    "birthDate": "1960-11-20",
+    "gender": "masculin",
+    "categories": ["permanent politique", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "start": "2015-01-01"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2012-01-01",
+        "end": "2015-01-01"
+      },
+      {
+        "name": "Mouvement pour la France",
+        "start": "1994-01-01",
+        "end": "2010-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-09-21"
+      }
+    ]
+  },
+  {
+    "id": "carole-delga",
+    "name": "Carole Delga",
+    "birthDate": "1971-08-19",
+    "gender": "féminin",
+    "categories": ["fonctionnaire de catégorie A", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ]
+  },
+  {
+    "id": "sophie-binet",
+    "name": "Sophie Binet",
+    "birthDate": "1982-01-05",
+    "gender": "féminin",
+    "categories": ["syndicaliste", "conseiller principal d'éducation"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "2008-01-01",
+        "end": "2013-01-01"
+      }
+    ]
+  },
+  {
+    "id": "gilles-gressani",
+    "name": "Gilles Gressani",
+    "birthDate": "1991-01-01",
+    "gender": "masculin",
+    "categories": [
+      "essayiste",
+      "enseignant-chercheur ou enseignante-chercheuse",
+      "politologue"
+    ],
+    "parties": []
+  },
+  {
+    "id": "laurent-wauquiez",
+    "name": "Laurent Wauquiez",
+    "birthDate": "1975-04-12",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "ministre",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2004-01-01",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2007-06-18",
+        "end": "2012-05-10"
+      }
+    ]
+  },
+  {
+    "id": "virginie-calmels",
+    "name": "Virginie Calmels",
+    "birthDate": "1971-02-11",
+    "gender": "féminin",
+    "categories": [
+      "personnalité politique",
+      "personnalité du monde des affaires"
+    ],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2014-01-01",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30"
+      }
+    ]
+  },
+  {
+    "id": "pierre-haski",
+    "name": "Pierre Haski",
+    "birthDate": "1953-04-08",
+    "gender": "masculin",
+    "categories": ["chroniqueur ou chroniqueuse", "journaliste"],
+    "parties": []
+  },
+  {
+    "id": "negzzia",
+    "name": "Negzzia",
+    "birthDate": "1990-02-09",
+    "gender": "féminin",
+    "categories": ["mannequin", "photographe"],
+    "parties": []
+  },
+  {
+    "id": "maxime-sbaihi",
+    "name": "Maxime Sbaïhi",
+    "birthDate": "1986-05-25",
+    "gender": "masculin",
+    "categories": ["économiste", "écrivain ou écrivaine"],
+    "parties": []
+  },
+  {
+    "id": "isabelle-labeyrie",
+    "name": "Isabelle Labeyrie",
+    "birthDate": "1966-02-01",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": []
+  },
+  {
+    "id": "rima-abdul-malak",
+    "name": "Rima Abdul Malak",
+    "birthDate": "1979-02-11",
+    "gender": "féminin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Gouvernement",
+        "start": "2019-12-12",
+        "end": "2024-01-11"
+      }
+    ]
+  },
+  {
+    "id": "eric-ciotti",
+    "name": "Éric Ciotti",
+    "birthDate": "1965-09-28",
+    "gender": "masculin",
+    "categories": ["cadres de la fonction publique", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Rassemblement pour la République",
+        "start": "1981-01-01",
+        "end": "2002-04-23"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2002-04-23",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30",
+        "end": "2024-06-14"
+      },
+      {
+        "name": "Union des droites pour la République",
+        "start": "2024-08-31"
+      }
+    ]
+  },
+  {
+    "id": "alexandre-saubot",
+    "name": "Alexandre Saubot",
+    "birthDate": "1965-02-01",
+    "gender": "masculin",
+    "categories": ["entrepreneur ou entrepreneuse", "lobbyiste"],
+    "parties": []
+  },
+  {
+    "id": "eve-szeftel",
+    "name": "Ève Szeftel",
+    "birthDate": "1979-01-08",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": []
+  },
+  {
+    "id": "axel-de-tarle",
+    "name": "Axel de Tarlé",
+    "birthDate": "1970-02-12",
+    "gender": "masculin",
+    "categories": [
+      "chroniqueur ou chroniqueuse",
+      "journaliste",
+      "animateur ou animatrice de télévision"
+    ],
+    "parties": []
+  },
+  {
+    "id": "antoine-foucher",
+    "name": "Antoine Foucher",
+    "birthDate": "1980-04-17",
+    "gender": "masculin",
+    "categories": ["lobbyiste"],
+    "parties": []
+  },
+  {
+    "id": "marylise-leon",
+    "name": "Marylise Léon",
+    "birthDate": "1976-11-23",
+    "gender": "féminin",
+    "categories": ["syndicaliste"],
+    "parties": []
+  },
+  {
+    "id": "anne-charlene-bezzina",
+    "name": "Anne-Charlène Bezzina",
+    "birthDate": "1987-07-20",
+    "gender": "féminin",
+    "categories": [
+      "constitutionnaliste",
+      "juriste",
+      "enseignant-chercheur ou enseignante-chercheuse",
+      "professeur d'université",
+      "politologue"
+    ],
+    "parties": []
+  },
+  {
+    "id": "tugdual-denis",
+    "name": "Tugdual Denis",
+    "birthDate": "1981-12-01",
+    "gender": "masculin",
+    "categories": ["journaliste", "écrivain ou écrivaine"],
+    "parties": []
+  },
+  {
+    "id": "amelie-de-montchalin",
+    "name": "Amélie de Montchalin",
+    "birthDate": "1985-06-19",
+    "gender": "féminin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2005-01-01",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30",
+        "end": "2016-12-01"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2016-12-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2019-03-31",
+        "end": "2022-07-04"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-12-23",
+        "end": "2026-02-22"
+      }
+    ]
+  },
+  {
+    "id": "gaelle-macke",
+    "name": "Gaëlle Macke",
+    "birthDate": "1971-01-01",
+    "gender": "féminin",
+    "categories": ["journailiste"],
+    "parties": []
+  },
+  {
+    "id": "eric-fottorino",
+    "name": "Éric Fottorino",
+    "birthDate": "1960-08-26",
+    "gender": "masculin",
+    "categories": ["journailiste", "écrivain ou écrivaine"],
+    "parties": []
+  },
+  {
+    "id": "jean-louis-borloo",
+    "name": "Jean-Louis Borloo",
+    "birthDate": "1951-04-07",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "avocat ou avocate"],
+    "parties": [
+      {
+        "name": "Union pour la démocratie française",
+        "start": "1998-01-01",
+        "end": "2002-04-22"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2002-04-22",
+        "end": "2010-04-01"
+      },
+      {
+        "name": "Parti radical",
+        "start": "2002-01-01",
+        "end": "2014-01-26"
+      },
+      {
+        "name": "Union des démocrates et indépendants",
+        "start": "2012-10-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2002-05-07",
+        "end": "2010-11-13"
+      }
+    ]
+  },
+  {
+    "id": "frederic-encel",
+    "name": "Frédéric Encel",
+    "birthDate": "1969-03-04",
+    "gender": "masculin",
+    "categories": [
+      "géopolitologue",
+      "essayiste",
+      "professeur d'université",
+      "politologue"
+    ],
+    "parties": []
+  },
+  {
+    "id": "inna-chevtchenko",
+    "name": "Inna Chevtchenko",
+    "birthDate": "1990-06-23",
+    "gender": "féminin",
+    "categories": [
+      "militant ou militante pour les droits des femmes",
+      "personnalité politique",
+      "écrivain ou écrivaine"
+    ],
+    "parties": []
+  },
+  {
+    "id": "gerard-biard",
+    "name": "Gérard Biard",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": []
+  },
+  {
+    "id": "jean-paul-palomeros",
+    "name": "Jean-Paul Paloméros",
+    "birthDate": "1953-08-13",
+    "gender": "masculin",
+    "categories": ["aviateur ou aviatrice", "officier"],
+    "parties": []
+  },
+  {
+    "id": "agnes-verdier-molinie",
+    "name": "Agnès Verdier-Molinié",
+    "birthDate": "1978-12-26",
+    "gender": "féminin",
+    "categories": ["lobbyiste", "essayiste"],
+    "parties": []
+  },
+  {
+    "id": "jean-yves-le-drian",
+    "name": "Jean-Yves Le Drian",
+    "birthDate": "1947-06-30",
+    "gender": "masculin",
+    "categories": [
+      "pensionné",
+      "historien ou historienne",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "1974-01-01",
+        "end": "2018-01-01"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2022-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-16",
+        "end": "2022-05-20"
+      }
+    ]
+  },
+  {
+    "id": "patrick-timsit",
+    "name": "Patrick Timsit",
+    "birthDate": "1959-07-15",
+    "gender": "masculin",
+    "categories": [
+      "acteur ou actrice de cinéma",
+      "animateur ou animatrice de radio",
+      "réalisateur ou réalisatrice de cinéma",
+      "humoriste",
+      "acteur ou actrice",
+      "scénariste"
+    ],
+    "parties": []
+  },
+  {
+    "id": "philippe-etchebest",
+    "name": "Philippe Etchebest",
+    "birthDate": "1966-12-02",
+    "gender": "masculin",
+    "categories": [
+      "chef cuisinier ou chef cuisinière",
+      "animateur ou animatrice de télévision"
+    ],
+    "parties": []
+  },
+  {
+    "id": "stephanie-le-quellec",
+    "name": "Stéphanie Le Quellec",
+    "birthDate": "1981-12-06",
+    "gender": "féminin",
+    "categories": ["chef cuisinier ou chef cuisinière"],
+    "parties": []
+  },
+  {
+    "id": "lorie-pester",
+    "name": "Lorie",
+    "birthDate": "1982-05-02",
+    "gender": "féminin",
+    "categories": [
+      "réalisateur ou réalisatrice de cinéma",
+      "acteur ou actrice de voix-off",
+      "chanteur ou chanteuse",
+      "acteur ou actrice"
+    ],
+    "parties": []
+  },
+  {
+    "id": "segolene-royal",
+    "name": "Ségolène Royal",
+    "birthDate": "1953-09-22",
+    "gender": "féminin",
+    "categories": ["personnalité politique", "avocat ou avocate"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "1978-01-01",
+        "end": "2017-05-17"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "2021-07-29",
+        "end": "2023-01-01"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "2024-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "1997-06-04",
+        "end": "2002-05-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2014-04-02",
+        "end": "2017-05-17"
+      }
+    ]
+  },
+  {
+    "id": "jean-francois-cope",
+    "name": "Jean-François Copé",
+    "birthDate": "1964-05-05",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "avocat ou avocate"],
+    "parties": [
+      {
+        "name": "Rassemblement pour la République",
+        "end": "2002-04-23"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2002-04-23",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2002-05-07",
+        "end": "2007-05-17"
+      }
+    ]
+  },
+  {
+    "id": "philippe-croizon",
+    "name": "Philippe Croizon",
+    "birthDate": "1968-03-20",
+    "gender": "masculin",
+    "categories": ["nageur ou nageuse", "pilote de course automobile"],
+    "parties": []
+  },
+  {
+    "id": "jesse-remond-lacroix",
+    "name": "Jessé Rémond Lacroix",
+    "birthDate": "1992-07-09",
+    "gender": "masculin",
+    "categories": ["humoriste", "écrivain ou écrivaine", "acteur ou actrice"],
+    "parties": []
+  },
+  {
+    "id": "worakls",
+    "name": "Worakls",
+    "birthDate": "1988-09-28",
+    "gender": "masculin",
+    "categories": [
+      "producteur ou productrice de disques",
+      "disc jockey",
+      "DJ de club",
+      "compositeur ou compositrice"
+    ],
     "parties": []
   }
 ]

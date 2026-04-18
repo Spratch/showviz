@@ -23,6 +23,7 @@ export default function PersonCircle({
           left: position?.x,
         } as React.CSSProperties
       }
+      title={person?.name + person.episodeDate}
     >
       <p className="font-mono text-xs text-olive-800 sm:text-sm">
         {person?.party?.abbr}

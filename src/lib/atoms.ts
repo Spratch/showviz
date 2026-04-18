@@ -1,6 +1,8 @@
 import { atom } from "jotai";
 import { getDateFromOrigin, monthIndex, startOfMonth } from "./utils";
 
+export const hideNeutralEpisodesAtom = atom(false);
+
 export const showDateRangeAtom = atom({ min: 0, max: 10000 });
 export const originTotalAtom = atom((get) => {
   const { min, max } = get(showDateRangeAtom);

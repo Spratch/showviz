@@ -15,12 +15,15 @@ export function SliderControlled({ title }: { title: string }) {
     }),
   );
   return (
-    <div className="grid w-full gap-3 rounded-lg border p-2.5 sm:max-w-[40ch]">
-      <div className="flex items-center justify-between gap-2">
-        <Label htmlFor="slider-date" className="font-display text-sm">
+    <div className="grid w-full gap-3 rounded-lg border p-2.5 text-sm max-sm:max-w-[40ch]">
+      <div className="flex flex-wrap items-center justify-between gap-x-2">
+        <Label
+          htmlFor="slider-date"
+          className="font-display text-sm text-nowrap"
+        >
           {title}
         </Label>
-        <span className="text-muted-foreground text-sm">
+        <span className="text-muted-foreground text-xs text-nowrap md:text-sm">
           {labels.join(" - ")}
         </span>
       </div>
