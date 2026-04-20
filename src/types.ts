@@ -1,4 +1,5 @@
 export type ShowType = {
+  slug: string;
   title: string;
   channel: string;
   start: string;

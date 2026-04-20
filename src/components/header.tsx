@@ -9,6 +9,7 @@ import {
 import { getDateFromOrigin } from "@/lib/utils";
 import type { SeasonType } from "@/types";
 import { useAtom, useAtomValue } from "jotai";
+import { useLocation } from "wouter";
 import { FieldGroup } from "./ui/field";
 import {
   Select,
@@ -30,7 +31,8 @@ export default function Header({
     hideNeutralEpisodesAtom,
   );
   const [showParliament, setShowParliament] = useAtom(showParliamentAtom);
-  const [selectedShow, setSelectedShow] = useAtom(selectedShowAtom);
+  const selectedShow = useAtomValue(selectedShowAtom);
+  const [, navigate] = useLocation();
   const titles = shows
     .sort((a, b) =>
       a.title === selectedShow.title
@@ -40,7 +42,7 @@ export default function Header({
           : 0,
     )
     .map((show) => ({
-      value: show.title,
+      value: show.slug,
       label: show.title,
       channel: show.channel,
     }));
@@ -65,12 +67,13 @@ export default function Header({
           </span>
           <Select
             items={titles}
-            onValueChange={(value) =>
-              setSelectedShow(shows.find((s) => s.title === value)!)
-            }
-            defaultValue={selectedShow.title}
+            onValueChange={(value) => navigate(`/${value}`)}
+            value={selectedShow.slug}
           >
-            <SelectTrigger className="hover:bg-muted relative z-0 -ml-2.5 inline-flex w-fit gap-x-2.5 border-none bg-transparent">
+            <SelectTrigger
+              className="hover:bg-muted relative z-0 -ml-2.5 inline-flex w-fit gap-x-2.5 border-none bg-transparent"
+              aria-label="Sélectionner une émission"
+            >
               <SelectValue className="text-2xl text-olive-800 italic" />
             </SelectTrigger>
             <SelectContent
