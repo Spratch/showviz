@@ -1,29 +1,25 @@
 import { Hemicycle } from "@hemicycle/core";
-import { useAtom, useAtomValue, useSetAtom } from "jotai";
-import { useEffect, useMemo, useState } from "react";
+import { useAtomValue, useSetAtom } from "jotai";
+import { useEffect, useMemo } from "react";
 import "./App.css";
+import Header from "./components/header";
+import PersonCircle from "./components/personCircle";
 import Season from "./components/season";
-import { FieldGroup } from "./components/ui/field";
-import PersonCircle from "./components/ui/personCircle";
-import { SliderControlled } from "./components/ui/sliderControlled";
-import { SwitchChoiceCard } from "./components/ui/switchChoiceCard";
-import levenement from "./data/l-evenement.json";
-import quelleEpoque from "./data/quelle-epoque.json";
 import useScreenWidth from "./hooks/useScreenWidth";
 import {
   convertedDateRangeAtom,
-  hideNeutralEpisodesAtom,
+  selectedShowAtom,
   showDateRangeAtom,
+  showParliamentAtom,
 } from "./lib/atoms";
 import { getPersonInfos, partiesOrder } from "./lib/utils";
-import type { PersonType, ShowType } from "./types";
+import type { PersonType } from "./types";
 
 export default function App() {
-  const shows: ShowType[] = [quelleEpoque, levenement];
-  const data = shows[0];
+  const selectedShow = useAtomValue(selectedShowAtom);
 
   const seasonMap = useMemo(() => {
-    return data.diffusions.reduce(
+    return selectedShow.diffusions.reduce(
       (acc, episode) => {
         const season = episode.id.split("-")[0];
 
@@ -54,13 +50,13 @@ export default function App() {
         string,
         {
           id: string;
-          episodes: typeof data.diffusions;
+          episodes: typeof selectedShow.diffusions;
           seasonGuests: ReturnType<typeof getPersonInfos>[];
           politicalGuests: ReturnType<typeof getPersonInfos>[];
         }
       >,
     );
-  }, [data]);
+  }, [selectedShow]);
   const seasons = useMemo(() => Object.values(seasonMap), [seasonMap]);
 
   const setShowDateRange = useSetAtom(showDateRangeAtom);
@@ -134,71 +130,11 @@ export default function App() {
   });
   const hemicycleLayout = hemicycle.getSeatsLayout();
 
-  const [hideNeutralEpisodes, setHideNeutralEpisodes] = useAtom(
-    hideNeutralEpisodesAtom,
-  );
-  const [showParliament, setShowParliament] = useState(false);
+  const showParliament = useAtomValue(showParliamentAtom);
 
   return (
     <main className="flex min-h-svh w-svw flex-col items-center bg-olive-200 py-8 text-olive-600 antialiased">
-      <header className="flex w-full max-w-5xl flex-col items-start justify-between gap-4 px-2 pb-6 md:pt-8">
-        <div className="flex w-full flex-col gap-2 md:flex-row md:items-baseline-last md:justify-between">
-          <h1 className="font-display max-w-[30ch] text-2xl/tight font-medium text-pretty">
-            Appartenances politiques des invités de&nbsp;
-            <span className="text-olive-800 italic">{data.title}</span>
-          </h1>
-          <p className="font-mono text-xs text-nowrap text-olive-500 sm:text-sm">
-            [
-            <span className="text-olive-700">
-              {displayedSeasons.flatMap((s) => s.politicalGuests).length}{" "}
-              politiques
-            </span>
-            &thinsp;/&thinsp;
-            {
-              displayedSeasons.flatMap((s) => s.seasonGuests).length
-            } invités{" "}
-            <span className="text-olive-700">
-              (
-              {(
-                (displayedSeasons.flatMap((s) => s.politicalGuests).length /
-                  displayedSeasons.flatMap((s) => s.seasonGuests).length) *
-                100
-              ).toFixed(1)}
-              %)
-            </span>
-            ]
-          </p>
-        </div>
-        <FieldGroup className="flex w-full flex-col gap-2.5 font-mono text-xs/tight sm:flex-row">
-          <SwitchChoiceCard
-            title="Focus politique"
-            description="N'afficher que les épisodes avec des invités politiques"
-            id="hide-neutral-episodes"
-            onCheckedChange={() => {
-              setHideNeutralEpisodes((prev) => !prev);
-              if (showParliament && hideNeutralEpisodes) {
-                setShowParliament(false);
-              }
-            }}
-            checked={hideNeutralEpisodes}
-          />
-
-          <SwitchChoiceCard
-            title="Vue parlement"
-            description="Afficher les politiques en parlement"
-            id="show-parliament"
-            onCheckedChange={() => {
-              setShowParliament((prev) => !prev);
-              if (!hideNeutralEpisodes && !showParliament) {
-                setHideNeutralEpisodes(true);
-              }
-            }}
-            checked={showParliament}
-          />
-
-          <SliderControlled title="Filtrer par date" />
-        </FieldGroup>
-      </header>
+      <Header displayedSeasons={displayedSeasons} />
 
       {!showParliament ? (
         <section className="flex w-full max-w-5xl flex-col gap-8 px-2">

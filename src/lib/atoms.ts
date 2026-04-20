@@ -1,7 +1,14 @@
+import levenement from "@/data/l-evenement.json";
+import quelleEpoque from "@/data/quelle-epoque.json";
+import type { ShowType } from "@/types";
 import { atom } from "jotai";
 import { getDateFromOrigin, monthIndex, startOfMonth } from "./utils";
 
+export const shows: ShowType[] = [quelleEpoque, levenement];
+export const selectedShowAtom = atom(shows[0]);
+
 export const hideNeutralEpisodesAtom = atom(false);
+export const showParliamentAtom = atom(false);
 
 export const showDateRangeAtom = atom({ min: 0, max: 10000 });
 export const originTotalAtom = atom((get) => {

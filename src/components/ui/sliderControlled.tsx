@@ -1,19 +1,17 @@
 import { Label } from "@/components/ui/label";
 import { Slider } from "@/components/ui/slider";
-import { filteredDateRangeAtom, originTotalAtom } from "@/lib/atoms";
-import { getDateFromOrigin } from "@/lib/utils";
-import { useAtom, useAtomValue } from "jotai";
+import { Slider as SliderPrimitive } from "@base-ui/react/slider";
 
-export function SliderControlled({ title }: { title: string }) {
-  const { origin, totalMonths } = useAtomValue(originTotalAtom);
-  const [range, setRange] = useAtom(filteredDateRangeAtom);
-
-  const labels = range.map((i) =>
-    getDateFromOrigin(origin, i).toLocaleDateString("fr", {
-      month: "2-digit",
-      year: "numeric",
-    }),
-  );
+export function SliderControlled({
+  title,
+  labels,
+  max,
+  ...props
+}: SliderPrimitive.Root.Props & {
+  title: string;
+  labels: string[];
+  max: number;
+}) {
   return (
     <div className="grid w-full gap-3 rounded-lg border p-2.5 text-sm max-sm:max-w-[40ch]">
       <div className="flex flex-wrap items-center justify-between gap-x-2">
@@ -27,16 +25,7 @@ export function SliderControlled({ title }: { title: string }) {
           {labels.join(" - ")}
         </span>
       </div>
-      <Slider
-        id="slider-date"
-        value={range}
-        onValueChange={(value) =>
-          setRange(value as number[] | readonly number[])
-        }
-        min={0}
-        max={totalMonths - 1}
-        step={1}
-      />
+      <Slider id="slider-date" min={0} max={max} step={1} {...props} />
     </div>
   );
 }

@@ -9452,5 +9452,18 @@
       "compositeur ou compositrice"
     ],
     "parties": []
+  },
+  {
+    "id": "joshua-zarka",
+    "name": "Joshua Zarka",
+    "birthDate": "1964-04-10",
+    "gender": "masculin",
+    "categories": ["diplomate"],
+    "parties": [
+      {
+        "name": "Likoud",
+        "start": "2024-05-01"
+      }
+    ]
   }
 ]

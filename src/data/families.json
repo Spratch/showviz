@@ -1434,6 +1434,22 @@
         ]
       },
       {
+        "name": "Suprémaciste",
+        "name_en": "Supremacist",
+        "name_de": "Supremacist",
+        "color": "#91735C",
+        "keyword": "Suprémacisme",
+        "parties": [
+          {
+            "name": "LIK",
+            "full_name": "Likoud",
+            "full_name_en": "Likoud",
+            "full_name_de": "Likoud",
+            "keyword": "Likoud"
+          }
+        ]
+      },
+      {
         "name": "Nationaliste antisémite/pétainiste",
         "name_en": "Anti-Semitic nationalist/Pétainist",
         "name_de": "Antisemitischer Nationalist/Pétainist",
