@@ -1,6 +1,6 @@
 import levenement from "@/data/l-evenement.json";
 import quelleEpoque from "@/data/quelle-epoque.json";
-import type { ShowType } from "@/types";
+import type { ShowType, TooltipContentType } from "@/types";
 import { atom } from "jotai";
 import { getDateFromOrigin, monthIndex, startOfMonth } from "./utils";
 
@@ -40,3 +40,5 @@ export const convertedDateRangeAtom = atom((get) => {
   const [min, max] = get(filteredDateRangeAtom);
   return [getDateFromOrigin(origin, min), getDateFromOrigin(origin, max + 1)];
 });
+
+export const tooltipContentAtom = atom<TooltipContentType | null>(null);

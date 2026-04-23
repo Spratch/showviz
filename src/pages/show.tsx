@@ -1,7 +1,8 @@
 import Header from "@/components/header";
 import PersonCircle from "@/components/personCircle";
 import Season from "@/components/season";
-import useScreenWidth from "@/hooks/useScreenWidth";
+import Tooltip from "@/components/ui/tooltip";
+import useScreenDimensions from "@/hooks/useScreenWidth";
 import {
   convertedDateRangeAtom,
   selectedShowAtom,
@@ -115,7 +116,8 @@ export default function Show({ params }: { params: { showSlug: string } }) {
       .filter((m) => m !== null);
   }, [displayedSeasons]);
 
-  const screenWidth = useScreenWidth();
+  const screenDimensions = useScreenDimensions();
+  const { screenWidth } = screenDimensions;
   const isSmall = screenWidth < 640 || fakeParliamentMembers.length < 15;
   const isMedium =
     (screenWidth < 768 && !isSmall) ||
@@ -166,6 +168,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
           </div>
         </section>
       )}
+      <Tooltip screenDimensions={screenDimensions} />
     </>
   );
 }

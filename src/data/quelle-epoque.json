@@ -16,7 +16,7 @@
         "laurence-ferrari",
         "jean-paul-rouve",
         "cindy-bruna",
-        "pere-mathieu"
+        "pere-matthieu"
       ],
       "viewers": 1100000,
       "viewersPercentage": 17.4
@@ -89,7 +89,8 @@
         "doully",
         "ragnar-le-breton",
         "franz-olivier-giesbert",
-        "les-tatoueurs-dodie-et-tin-tin"
+        "dodie",
+        "tin-tin"
       ],
       "viewers": 1180000,
       "viewersPercentage": 18.6
@@ -429,7 +430,7 @@
         "manu-payet",
         "marianne-james",
         "corinne-masiero",
-        "vincent-chalembert",
+        "vincent-chalambert",
         "alain-bauer",
         "hugo-micheron",
         "joel-bouraima"
@@ -731,7 +732,8 @@
       "id": "02-14",
       "date": "2023-12-23",
       "guestsIds": [
-        "jade-joy-hallyday",
+        "joy-hallyday",
+        "jade-hallyday",
         "eve-gilles",
         "judith-godreche",
         "laura-laune",
@@ -1910,8 +1912,8 @@
         "jesse",
         "worakls"
       ],
-      "viewers": 10,
-      "viewersPercentage": 10
+      "viewers": 974000,
+      "viewersPercentage": 18.9
     }
   ]
 }

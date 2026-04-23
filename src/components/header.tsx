@@ -10,6 +10,9 @@ import { getDateFromOrigin } from "@/lib/utils";
 import type { SeasonType } from "@/types";
 import { useAtom, useAtomValue } from "jotai";
 import { useLocation } from "wouter";
+import CalendarIcon from "~icons/tabler/calendar-event";
+import FilterIcon from "~icons/tabler/filter";
+import HemicycleIcon from "~icons/tabler/wifi";
 import { FieldGroup } from "./ui/field";
 import {
   Select,
@@ -133,6 +136,7 @@ export default function Header({
             }
           }}
           checked={hideNeutralEpisodes}
+          Icon={FilterIcon}
         />
 
         <SwitchChoiceCard
@@ -146,6 +150,7 @@ export default function Header({
             }
           }}
           checked={showParliament}
+          Icon={HemicycleIcon}
         />
 
         <SliderControlled
@@ -156,6 +161,7 @@ export default function Header({
           onValueChange={(value) =>
             setDateRange(value as number[] | readonly number[])
           }
+          Icon={CalendarIcon}
         />
       </FieldGroup>
     </header>

@@ -6,11 +6,17 @@ export function SliderControlled({
   title,
   labels,
   max,
+  Icon,
   ...props
 }: SliderPrimitive.Root.Props & {
   title: string;
   labels: string[];
   max: number;
+  Icon?: React.ForwardRefExoticComponent<
+    React.SVGProps<SVGSVGElement> & {
+      title?: string;
+    }
+  >;
 }) {
   return (
     <div className="grid w-full gap-3 rounded-lg border p-2.5 text-sm max-sm:max-w-[40ch]">
@@ -19,6 +25,7 @@ export function SliderControlled({
           htmlFor="slider-date"
           className="font-display text-sm text-nowrap"
         >
+          {Icon && <Icon className="mt-0.5" />}
           {title}
         </Label>
         <span className="text-muted-foreground text-xs text-nowrap md:text-sm">

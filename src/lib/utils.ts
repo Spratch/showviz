@@ -55,17 +55,21 @@ export const getPersonInfos = (
       parties: [],
     };
   const foundParty =
-    person.parties.find(
+    (person.parties &&
+      person.parties.find(
+        (party) =>
+          (party.start ? party.start <= episodeDate : true) &&
+          (party.end ? party.end >= episodeDate : true),
+      )) ||
+    null;
+  const isGouv =
+    person.parties &&
+    person.parties.some(
       (party) =>
         (party.start ? party.start <= episodeDate : true) &&
-        (party.end ? party.end >= episodeDate : true),
-    ) || null;
-  const isGouv = person.parties.some(
-    (party) =>
-      (party.start ? party.start <= episodeDate : true) &&
-      (party.end ? party.end >= episodeDate : true) &&
-      party.name === "Gouvernement",
-  );
+        (party.end ? party.end >= episodeDate : true) &&
+        party.name === "Gouvernement",
+    );
   const { abbr, color, partyCurrent } = foundParty
     ? getPartyInfos(foundParty)
     : {};

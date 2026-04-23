@@ -233,6 +233,13 @@
         "keyword": "Populisme de gauche",
         "parties": [
           {
+            "name": "PiD!",
+            "full_name": "Picardie Debout !",
+            "full_name_en": "Stand up!",
+            "full_name_de": "",
+            "keyword": "Debout (parti politique)"
+          },
+          {
             "name": "D!",
             "full_name": "Debout !",
             "full_name_en": "Stand up!",

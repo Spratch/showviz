@@ -43,6 +43,7 @@ export type PersonType = PersonDataType & {
   isGouv?: boolean;
   party?: PartyType;
   episodeDate?: string;
+  image?: string;
 };
 
 export type CurrentType = {
@@ -61,4 +62,13 @@ export type FamilyType = {
   name_de?: string;
   color: string;
   currents: CurrentType[];
+};
+
+export type TooltipContentType = {
+  x?: number;
+  y?: number;
+  guests: PersonType[];
+  politicalGuests: number;
+  episode: ShowType["diffusions"][number];
+  pageWidth?: number;
 };
