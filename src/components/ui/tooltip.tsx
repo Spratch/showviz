@@ -86,15 +86,29 @@ export function TooltipContent({ screenDimensions, tooltipContent }: Props) {
         onMouseLeave={() => setTooltipContent(null)}
       >
         <div className="bg-background border-border z-30 flex max-w-[40ch] flex-col gap-1.5 overflow-hidden overflow-x-hidden overflow-y-scroll rounded-lg border px-2.5 py-2">
-          <div className="font-display flex w-full items-center justify-between border-b border-dashed pb-1 text-xs">
-            <span>
-              Invité{guests.length > 1 ? "s" : ""} de l'émission du{" "}
-              {new Date(episode.date).toLocaleDateString("fr", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })}
-            </span>
+          <div className="font-display flex w-full items-center justify-between gap-2 border-b border-dashed pb-1 text-xs">
+            <div className="flex flex-col">
+              {episode.title && (
+                <p className="max-w-[35ch] font-medium text-balance">
+                  {episode.title}
+                </p>
+              )}
+              <span className="text-balance">
+                Invité
+                {guests.reduce(
+                  (n, g) => n + (g.gender === "masculin" ? 1 : -1),
+                  0,
+                ) > 0
+                  ? ""
+                  : "e"}
+                {guests.length > 1 ? "s" : ""} de l'émission du{" "}
+                {new Date(episode.date).toLocaleDateString("fr", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
+              </span>
+            </div>
             <Button
               size="icon-xs"
               aria-label="Fermer"
