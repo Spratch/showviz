@@ -69,7 +69,5 @@ export type TooltipContentType = {
   x?: number;
   y?: number;
   guests: PersonType[];
-  politicalGuests: number;
   episode: ShowType["diffusions"][number];
-  pageWidth?: number;
 };

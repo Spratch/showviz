@@ -21,23 +21,18 @@ export default function Tooltip(props: Omit<Props, "tooltipContent">) {
 
 export function TooltipContent({ screenDimensions, tooltipContent }: Props) {
   const setTooltipContent = useSetAtom(tooltipContentAtom);
-  const { x = 0, y = 0, guests, episode, politicalGuests } = tooltipContent!;
+  const { x = 0, y = 0, guests, episode } = tooltipContent!;
   const tooltipRef = useRef<HTMLDivElement>(null);
 
   // Calculate the position of the tooltip
   useEffect(() => {
     if (tooltipRef.current) {
-      // Calculate the minimum width of the tooltip from the size of the episode
       const circleWidth =
         screenDimensions.screenWidth < 640
           ? 40
           : screenDimensions.screenWidth < 768
             ? 48
             : 56;
-      // const episodeWidth =
-      //   (circleWidth + politicalGuests * circleWidth) %
-      //   screenDimensions.screenWidth;
-      // tooltipRef.current.style.minWidth = `${episodeWidth}px`;
 
       // Top position
       const tooltipHeight = tooltipRef.current.clientHeight;
@@ -61,7 +56,7 @@ export function TooltipContent({ screenDimensions, tooltipContent }: Props) {
         tooltipRef.current.style.right = "auto";
       }
     }
-  }, [y, x, screenDimensions, politicalGuests]);
+  }, [y, x, screenDimensions]);
 
   return (
     <>

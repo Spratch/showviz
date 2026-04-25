@@ -1,5 +1,5 @@
 import Header from "@/components/header";
-import PersonCircle from "@/components/personCircle";
+import HemicyclePersonCircle from "@/components/hemicyclePersonCircle";
 import Season from "@/components/season";
 import Tooltip from "@/components/ui/tooltip";
 import useScreenDimensions from "@/hooks/useScreenWidth";
@@ -188,7 +188,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
             {fakeParliamentMembers.length > 0 &&
               fakeParliamentMembers.map((guest, index) => {
                 return (
-                  <PersonCircle
+                  <HemicyclePersonCircle
                     key={guest.episodeDate + guest.id}
                     person={guest}
                     position={hemicycleLayout[index]}
