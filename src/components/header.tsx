@@ -64,7 +64,7 @@ export default function Header({
   return (
     <header className="flex w-full max-w-5xl flex-col items-start justify-between gap-4 px-2 pb-6 md:pt-8">
       <div className="flex w-full flex-col gap-2 md:flex-row md:items-baseline-last md:justify-between">
-        <h1 className="font-display max-w-[30ch] text-2xl/tight font-medium text-pretty">
+        <h1 className="font-display max-w-[40ch] text-2xl/tight font-medium text-balance">
           <span className="relative z-10">
             Appartenances politiques des&nbsp;invités&nbsp;de&nbsp;
           </span>
@@ -79,10 +79,7 @@ export default function Header({
             >
               <SelectValue className="text-2xl text-olive-800 italic" />
             </SelectTrigger>
-            <SelectContent
-              className="-mt-14.75 -ml-px border shadow-none ring-0"
-              align="start"
-            >
+            <SelectContent className="-mt-14.75 -ml-px border shadow-none ring-0">
               <SelectGroup className="flex flex-col gap-1">
                 {titles.map((item) => (
                   <SelectItem
