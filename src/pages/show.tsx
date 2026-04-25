@@ -5,6 +5,8 @@ import Tooltip from "@/components/ui/tooltip";
 import useScreenDimensions from "@/hooks/useScreenWidth";
 import {
   convertedDateRangeAtom,
+  filteredDateRangeAtom,
+  originTotalAtom,
   selectedShowAtom,
   showDateRangeAtom,
   showParliamentAtom,
@@ -68,6 +70,9 @@ export default function Show({ params }: { params: { showSlug: string } }) {
   const seasons = useMemo(() => Object.values(seasonMap), [seasonMap]);
 
   const setShowDateRange = useSetAtom(showDateRangeAtom);
+  const setDateRange = useSetAtom(filteredDateRangeAtom);
+  const { totalMonths } = useAtomValue(originTotalAtom);
+
   useEffect(() => {
     const sortedSeasons = seasons.sort((a, b) => a.id.localeCompare(b.id));
     const firstEpisodeDate = new Date(
@@ -77,7 +82,8 @@ export default function Show({ params }: { params: { showSlug: string } }) {
       sortedSeasons.at(-1)!.episodes.at(-1)!.date,
     ).getTime();
     setShowDateRange({ min: firstEpisodeDate, max: lastEpisodeDate });
-  }, [seasons, setShowDateRange]);
+    setDateRange([0, totalMonths - 1]);
+  }, [seasons, setShowDateRange, setDateRange, totalMonths]);
 
   const [min, max] = useAtomValue(convertedDateRangeAtom);
 
@@ -118,26 +124,50 @@ export default function Show({ params }: { params: { showSlug: string } }) {
 
   const screenDimensions = useScreenDimensions();
   const { screenWidth } = screenDimensions;
-  const isSmall = screenWidth < 640 || fakeParliamentMembers.length < 15;
-  const isMedium =
-    (screenWidth < 768 && !isSmall) ||
-    (fakeParliamentMembers.length < 32 && fakeParliamentMembers.length > 14);
+
+  function computeHemicycleParams(n: number, screenWidth: number) {
+    const isSmall = screenWidth < 640;
+    const isMedium = screenWidth < 768;
+
+    const outerRadius = isSmall ? 220 : isMedium ? 300 : 480;
+    const innerRadius = isSmall ? 30 : isMedium ? 80 : 100;
+    const dotPx = (isSmall ? 10 : isMedium ? 12 : 14) * 4;
+
+    let rows = 1;
+    for (let r = 1; r <= 30; r++) {
+      const rowSpacing = (outerRadius - innerRadius) / r;
+      const minSpacing = Math.min(rowSpacing, dotPx * 1.1);
+      let capacity = 0;
+      for (let i = 0; i < r; i++) {
+        const radius = innerRadius + rowSpacing * (i + 0.5);
+        capacity += Math.floor((Math.PI * radius) / minSpacing);
+      }
+      if (capacity >= n) {
+        rows = r;
+        break;
+      }
+    }
+
+    return { rows, outerRadius, innerRadius };
+  }
+
+  const n = fakeParliamentMembers.length || 1;
+  const { rows, outerRadius, innerRadius } = computeHemicycleParams(
+    n,
+    screenWidth,
+  );
 
   const hemicycle = new Hemicycle({
-    rows: Math.max(
-      1,
-      Math.round(
-        fakeParliamentMembers.length / (isSmall ? 8 : isMedium ? 9 : 10),
-      ),
-    ),
+    rows,
     orderBy: "radial",
-    totalSeats:
-      fakeParliamentMembers.length > 0 ? fakeParliamentMembers.length : 1,
-    outerRadius: isSmall ? 220 : isMedium ? 300 : 480,
-    innerRadius: isSmall ? 30 : isMedium ? 80 : 100,
-    totalAngle: 180,
+    totalSeats: n,
+    outerRadius,
+    innerRadius,
+    totalAngle: 190,
   });
-  const hemicycleLayout = hemicycle.getSeatsLayout();
+  const hemicycleLayout = hemicycle
+    .getSeatsLayout()
+    .sort((a, b) => a.radialIdx - b.radialIdx);
 
   const showParliament = useAtomValue(showParliamentAtom);
   return (
@@ -153,7 +183,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
             })}
         </section>
       ) : (
-        <section className="flex w-full max-w-5xl grow flex-wrap items-center justify-center overflow-hidden px-2">
+        <section className="flex w-full max-w-5xl grow flex-wrap items-center justify-center px-2">
           <div className="relative mt-72 -ml-10 sm:-ml-12 md:-ml-16">
             {fakeParliamentMembers.length > 0 &&
               fakeParliamentMembers.map((guest, index) => {
@@ -165,6 +195,9 @@ export default function Show({ params }: { params: { showSlug: string } }) {
                   />
                 );
               })}
+            <span className="font-display mx-auto text-center text-xl font-medium oldstyle-nums sm:text-2xl md:text-3xl">
+              {fakeParliamentMembers.length}
+            </span>
           </div>
         </section>
       )}

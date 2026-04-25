@@ -4,6 +4,8 @@
 @theme {
   --font-display: "IBM Plex Serif", serif;
   --font-mono: "IBM Plex Mono", monospace;
+
+  --text-2xs: 0.625rem;
 }
 
 @theme inline {
