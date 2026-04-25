@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "id": "schemas/people-schema.json",
+  "type": "array",
+  "description": "List of people",
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "description": "A person",
+    "required": ["id", "name", "gender", "categories", "parties"],
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Slugified name"
+      },
+      "name": {
+        "type": "string",
+        "description": "Full name"
+      },
+      "birthDate": {
+        "type": "string",
+        "description": "Person birth date (YYYY-MM-DD), if totally unknown, leave empty, if month or day unknown, replace by 01"
+      },
+      "gender": {
+        "type": "string",
+        "enum": ["masculin", "féminin", "mixte", "genre fluide"],
+        "description": "Assignated gender"
+      },
+      "categories": {
+        "type": "array",
+        "description": "List of occupations, professions, categories describing the person",
+        "uniqueItems": true
+      },
+      "parties": {
+        "type": "array",
+        "description": "List of political parties the person has been part of. Include 'Gouvernement' if they were part of it",
+        "uniqueItems": true,
+        "items": {
+          "type": "object",
+          "description": "Political party the person has been part of, with start and end",
+          "required": ["name"],
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Party full name"
+            },
+            "start": {
+              "type": "string",
+              "description": "Date since the person has been part of it (YYYY-MM-DD). If totally unknown, don't include this property, if month or day unknown, replace by 01"
+            },
+            "end": {
+              "type": "string",
+              "description": "Date until the person has been part of it (YYYY-MM-DD). If totally unknown, don't include this property, if month or day unknown, replace by 01"
+            }
+          }
+        }
+      },
+      "wikidataId": {
+        "type": "string",
+        "description": "Person wikidata ID, begin with a Q and followed by numbers"
+      },
+      "image": {
+        "type": "string",
+        "description": "URL to the person's wikimedia image"
+      }
+    }
+  }
+}

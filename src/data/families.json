@@ -323,6 +323,27 @@
             "full_name_en": "Socialist Party",
             "full_name_de": "Sozialistische Partei",
             "keyword": "Parti socialiste (France)"
+          },
+          {
+            "name": "Mtz",
+            "full_name": "Meretz",
+            "full_name_en": "Meretz",
+            "full_name_de": "Meretz",
+            "keyword": "Meretz"
+          },
+          {
+            "name": "DP",
+            "full_name": "Parti démocrate",
+            "full_name_en": "Democratic Party",
+            "full_name_de": "Demokratische Partei",
+            "keyword": "Parti démocrate (États-Unis)"
+          },
+          {
+            "name": "Fth",
+            "full_name": "Fatah",
+            "full_name_en": "Fatah",
+            "full_name_de": "Fatah",
+            "keyword": "Fatah"
           }
         ]
       },
@@ -413,6 +434,13 @@
             "full_name": "Mouvement républicain et citoyen",
             "full_name_en": "Republican and citizen movement",
             "full_name_de": "Republikanische und Bürgerbewegung"
+          },
+          {
+            "name": "GRS",
+            "full_name": "Gauche républicaine et socialiste",
+            "full_name_en": "Republican and Socialist Left",
+            "full_name_de": "Republikanische und sozialistische Linke",
+            "keyword": "Gauche républicaine et socialiste"
           }
         ]
       },

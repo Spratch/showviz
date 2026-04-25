@@ -1,0 +1,29 @@
+{
+  "slug": "dans-les-yeux-dagathe",
+  "title": "Dans les yeux d'Agathe",
+  "channel": "franceinfo",
+  "start": "2026-01-30",
+  "end": "",
+  "diffusions": [
+    {
+      "id": "01-01",
+      "date": "2026-01-30",
+      "guestsIds": ["xavier-bertrand"]
+    },
+    {
+      "id": "01-02",
+      "date": "2026-02-20",
+      "guestsIds": ["raphael-glucksmann"]
+    },
+    {
+      "id": "01-03",
+      "date": "2026-03-31",
+      "guestsIds": ["bruno-retailleau"]
+    },
+    {
+      "id": "01-04",
+      "date": "2026-04-22",
+      "guestsIds": ["francois-hollande"]
+    }
+  ]
+}

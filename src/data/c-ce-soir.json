@@ -1,0 +1,2452 @@
+{
+  "slug": "c-ce-soir",
+  "title": "C ce soir",
+  "channel": "France 5",
+  "start": "2021-01-25",
+  "end": "",
+  "diffusions": [
+    {
+      "id": "03-01",
+      "title": "Barnier : la censure et l’inconnu ?",
+      "date": "2024-12-02",
+      "guestsIds": [
+        "david-djaiz",
+        "jerome-sainte-marie",
+        "anne-charlene-bezzina",
+        "pauline-de-saint-remy",
+        "julia-cage",
+        "antoine-vermorel-marques"
+      ]
+    },
+    {
+      "id": "03-02",
+      "title": "Syrie : une révolution pour le meilleur et le pire ?",
+      "date": "2024-12-11",
+      "guestsIds": [
+        "wassim-nasr",
+        "veronique-nahoum-grappe",
+        "najah-albukai",
+        "georges-malbrunot",
+        "aysegul-sert",
+        "jean-pierre-perrin"
+      ]
+    },
+    {
+      "id": "03-03",
+      "title": "Syrie : Faut-il soutenir le nouveau régime ?",
+      "date": "2024-12-18",
+      "guestsIds": [
+        "agnes-levallois",
+        "firas-kontar",
+        "jean-francois-colosimo",
+        "marie-forestier",
+        "michel-duclos",
+        "hala-kodmani"
+      ]
+    },
+    {
+      "id": "03-04",
+      "title": "Procès Mazan : Un verdict pour l’histoire ?",
+      "date": "2024-12-19",
+      "guestsIds": [
+        "zoe-royaux",
+        "agnes-fichot",
+        "denis-salas",
+        "marion-dubreuil",
+        "rose-lamy",
+        "beatrice-zavarro"
+      ]
+    },
+    {
+      "id": "04-01",
+      "title": "Charlie Hebdo 10 ans après… Toujours Charlie ?",
+      "date": "2025-01-06",
+      "guestsIds": [
+        "aurelien-bellanger",
+        "marie-dose",
+        "henry-rousso",
+        "francois-molins",
+        "geraldine-muhlmann",
+        "brigitte-stora"
+      ]
+    },
+    {
+      "id": "04-02",
+      "title": "Syrie : La révolution peut-elle aboutir ?",
+      "date": "2025-01-07",
+      "guestsIds": [
+        "rym-momtaz",
+        "delphine-minoui",
+        "hala-kodmani",
+        "michel-duclos",
+        "maya-khadra"
+      ]
+    },
+    {
+      "id": "04-03",
+      "title": "Jean-Marie Le Pen Un héritage indélébile ?",
+      "date": "2025-01-08",
+      "guestsIds": [
+        "thomas-legrand",
+        "blanche-leridon",
+        "valerie-igounet",
+        "camille-vigogne-le-coat",
+        "philippe-collin",
+        "charles-sapin"
+      ]
+    },
+    {
+      "id": "04-04",
+      "title": "Trump-Musk : le nouvel empire de la force ?",
+      "date": "2025-01-09",
+      "guestsIds": [
+        "fabrice-epelboin",
+        "laure-mandeville",
+        "beatrice-mathieu",
+        "nathan-devers",
+        "thomas-snegaroff",
+        "chloe-ridel"
+      ]
+    },
+    {
+      "id": "04-05",
+      "title": "Los Angeles Prélude d’un monde invivable ?",
+      "date": "2025-01-13",
+      "guestsIds": [
+        "michel-lussault",
+        "agnes-pannier-runacher",
+        "gregory-allione",
+        "marine-calmet",
+        "matthieu-goar",
+        "valerie-masson-delmotte"
+      ]
+    },
+    {
+      "id": "04-06",
+      "title": "IVG : 50 ans après, le combat continue ?",
+      "date": "2025-01-14",
+      "guestsIds": [
+        "stephanie-henette-vauchez",
+        "claudine-monteil",
+        "olivier-bernard",
+        "mariana-otero",
+        "aurore-berge",
+        "lea-veinstein"
+      ]
+    },
+    {
+      "id": "04-07",
+      "title": "Censure : les limites de la méthode Bayrou ?",
+      "date": "2025-01-15",
+      "guestsIds": [
+        "roland-lescure",
+        "natacha-polony",
+        "jean-garrigues",
+        "julia-cage",
+        "mathieu-souquiere",
+        "alma-dufour"
+      ]
+    },
+    {
+      "id": "04-08",
+      "title": "Israël- Gaza : l’espoir et la prudence ?",
+      "date": "2025-01-16",
+      "guestsIds": [
+        "noam-ohana",
+        "nitzan-horowitz",
+        "alexandra-schwartzbrod",
+        "vincent-lemire",
+        "amelie-ferey",
+        "jadd-hilal"
+      ]
+    },
+    {
+      "id": "04-09",
+      "title": "TRUMP II : pacificateur ou pyromane ?",
+      "date": "2025-01-22",
+      "guestsIds": [
+        "isabelle-lasserre",
+        "florian-louis",
+        "guillaume-ancel",
+        "sylvie-kauffmann",
+        "pierre-haski"
+      ]
+    },
+    {
+      "id": "04-10",
+      "title": "Liberté d’expression : « On ne peut plus rien dire » ?",
+      "date": "2025-01-23",
+      "guestsIds": [
+        "arnaud-esquerre",
+        "raphael-doan",
+        "nathan-devers",
+        "anne-de-guigne",
+        "marie-peltier",
+        "anne-sophie-moreau"
+      ]
+    },
+    {
+      "id": "04-11",
+      "title": "Narcotrafic “Une menace existentielle” ?",
+      "date": "2025-01-29",
+      "guestsIds": [
+        "vincent-gautronneau",
+        "bertrand-monnet",
+        "laure-beccuau",
+        "amandine-demore",
+        "clarisse-serre"
+      ]
+    },
+    {
+      "id": "04-12",
+      "title": "Bernard Arnault : Le patron qui défie l’État ?",
+      "date": "2025-01-30",
+      "guestsIds": [
+        "thomas-porcher",
+        "jean-francois-rial",
+        "francois-cusset",
+        "remi-godeau",
+        "apolline-guillot",
+        "lucile-schmid"
+      ]
+    },
+    {
+      "id": "04-13",
+      "title": "Trump-Gaza Le risque d’un nettoyage ethnique ?",
+      "date": "2025-02-05",
+      "guestsIds": [
+        "kethevane-gorjestani",
+        "dominique-moisi",
+        "hala-abou-assira",
+        "georges-malbrunot",
+        "christian-salmon"
+      ]
+    },
+    {
+      "id": "04-14",
+      "title": "Intelligence artificielle : le défi du siècle ?",
+      "date": "2025-02-06",
+      "guestsIds": [
+        "gilles-babinet",
+        "raphael-grably",
+        "anne-bouverot",
+        "diana-filippova",
+        "apolline-guillot",
+        "juliette-duquesne"
+      ]
+    },
+    {
+      "id": "04-15",
+      "title": "Référendum : Remède miracle ou démagogique ?",
+      "date": "2025-02-12",
+      "guestsIds": [
+        "bastien-francois",
+        "isabelle-saporta",
+        "anne-charlene-bezzina",
+        "gilles-mentre",
+        "priscillia-ludosky",
+        "charles-alloncle"
+      ]
+    },
+    {
+      "id": "04-16",
+      "title": "Syrie : Le pari risqué de la France ?",
+      "date": "2025-02-13",
+      "guestsIds": [
+        "michel-duclos",
+        "joseph-confavreux",
+        "leila-vignal",
+        "hala-kodmani",
+        "nathalie-loiseau",
+        "gilles-paris"
+      ]
+    },
+    {
+      "id": "04-17",
+      "title": "Droite-extrême droite : la fusion des idées ?",
+      "date": "2025-02-18",
+      "guestsIds": [
+        "laetitia-strauch-bonart",
+        "sylvain-bourmeau",
+        "franck-louvrier",
+        "alexandre-devecchio",
+        "astrid-de-villaines"
+      ]
+    },
+    {
+      "id": "04-18",
+      "title": "Trump-Poutine : la grande bascule du monde ?",
+      "date": "2025-02-20",
+      "guestsIds": []
+    },
+    {
+      "id": "04-19",
+      "title": "Macron-Ukraine : Le temps des sacrifices ?",
+      "date": "2025-02-25",
+      "guestsIds": [
+        "benedicte-cheron",
+        "anne-sophie-alsif",
+        "remi-lefebvre",
+        "andrea-kotarac",
+        "jean-louis-bourlanges",
+        "dominique-seux"
+      ]
+    },
+    {
+      "id": "04-20",
+      "title": "Terres rares : le racket de l'Ukraine ?",
+      "date": "2025-02-27",
+      "guestsIds": [
+        "nicolas-tenzer",
+        "guillaume-pitron",
+        "dominique-bourg",
+        "tatiana-kastoueva-jean",
+        "antoine-armand",
+        "isabelle-lasserre"
+      ]
+    },
+    {
+      "id": "04-21",
+      "title": "Guerre : la fin du déni ?",
+      "date": "2025-03-05",
+      "guestsIds": [
+        "olivier-wieviorka",
+        "sylvie-chokron",
+        "valerie-hayer",
+        "thomas-wieder",
+        "stephane-audouin-rouzeau",
+        "gilles-mentre"
+      ]
+    },
+    {
+      "id": "04-22",
+      "title": "Europe-Ukraine : L’heure du réveil ?",
+      "date": "2025-03-06",
+      "guestsIds": [
+        "inna-shevchenko",
+        "bernard-guetta",
+        "jean-louis-thieriot",
+        "natacha-polony",
+        "francois-ruffin",
+        "nicolas-baverez"
+      ]
+    },
+    {
+      "id": "04-23",
+      "title": "Trump : Un mauvais business plan ?",
+      "date": "2025-03-11",
+      "guestsIds": [
+        "lucile-schmid",
+        "philippe-maniere",
+        "gerald-olivier",
+        "anne-sophie-alsif",
+        "arnaud-orain",
+        "thomas-snegaroff"
+      ]
+    },
+    {
+      "id": "04-24",
+      "title": "Trump : L’Amérique contre la science ?",
+      "date": "2025-03-13",
+      "guestsIds": [
+        "alexandre-devecchio",
+        "gloria-origgi",
+        "benoit-thieulin",
+        "apolline-guillot",
+        "francois-gemenne",
+        "agnes-buzyn"
+      ]
+    },
+    {
+      "id": "04-25",
+      "title": "Israël-Gaza : La guerre permanente ?",
+      "date": "2025-03-19",
+      "guestsIds": [
+        "vincent-lemire",
+        "valerie-zenatti",
+        "david-khalfa",
+        "marc-lefevre",
+        "joann-sfar",
+        "ilana-ferhadian"
+      ]
+    },
+    {
+      "id": "04-26",
+      "title": "Retraites : le dialogue impossible ?",
+      "date": "2025-03-20",
+      "guestsIds": [
+        "mathieu-souquiere",
+        "alexandra-roulet",
+        "jean-garrigues",
+        "dominique-seux",
+        "astrid-de-villaines",
+        "denis-gravouil"
+      ]
+    },
+    {
+      "id": "04-27",
+      "title": "ZFE : La nouvelle bombe sociale ?",
+      "date": "2025-03-26",
+      "guestsIds": [
+        "jean-philippe-tanguy",
+        "dominique-bourg",
+        "marine-braud",
+        "alexandre-jardin",
+        "camille-etienne"
+      ]
+    },
+    {
+      "id": "04-28",
+      "title": "Trump-Vance : La croisade contre l'Europe ?",
+      "date": "2025-03-27",
+      "guestsIds": [
+        "muriel-domenach",
+        "gallagher-fenwick",
+        "kethevane-gorjestani",
+        "tore-keller",
+        "bertille-bayart",
+        "valerie-hayer"
+      ]
+    },
+    {
+      "id": "04-29",
+      "title": "Marine Le Pen : Revers judiciaire, victoire politique ?",
+      "date": "2025-04-02",
+      "guestsIds": [
+        "erwan-lecoeur",
+        "herve-lehman",
+        "charles-sapin",
+        "anne-charlene-bezzina",
+        "pauline-de-saint-remy"
+      ]
+    },
+    {
+      "id": "04-30",
+      "title": "Trump : la fin de la mondialisation ?",
+      "date": "2025-04-03",
+      "guestsIds": [
+        "dominique-seux",
+        "chloe-ridel",
+        "isabelle-this-saint-jean",
+        "shahin-vallee",
+        "jeremie-gallon"
+      ]
+    },
+    {
+      "id": "04-31",
+      "title": "ZFE : le grand fiasco ?",
+      "date": "2025-04-09",
+      "guestsIds": [
+        "agnes-pannier-runacher",
+        "frederic-denhez",
+        "karima-delli",
+        "leo-cohen",
+        "theodore-tallent"
+      ]
+    },
+    {
+      "id": "04-32",
+      "title": "Protection de l’enfance : un scandale d'État ?",
+      "date": "2025-04-10",
+      "guestsIds": [
+        "mael-de-calan",
+        "isabelle-santiago",
+        "claude-ardid",
+        "celine-greco",
+        "lyes-louffok",
+        "eve-simonet"
+      ]
+    },
+    {
+      "id": "04-33",
+      "title": "Loi sur la fin de vie : progrès ou dérive ?",
+      "date": "2025-04-16",
+      "guestsIds": [
+        "antoine-mesnier",
+        "eugenie-bastie",
+        "jean-francois-colosimo",
+        "claire-fourcade",
+        "veronique-fournier",
+        "cedric-enjalbert"
+      ]
+    },
+    {
+      "id": "04-34",
+      "title": "État palestinien : Quel avenir possible ?",
+      "date": "2025-04-17",
+      "guestsIds": [
+        "alexandra-schwartzbrod",
+        "georges-malbrunot",
+        "ofer-bronchtein",
+        "alain-dieckhoff",
+        "frederique-schillo"
+      ]
+    },
+    {
+      "id": "04-35",
+      "title": "Trump : le cauchemar ukrainien ?",
+      "date": "2025-04-24",
+      "guestsIds": [
+        "anne-lorraine-bujon",
+        "pascal-boniface",
+        "gallagher-fenwick",
+        "isabelle-lasserre",
+        "marianna-perebenesiuk",
+        "jean-maurice-ripert"
+      ]
+    },
+    {
+      "id": "04-36",
+      "title": "Mosquée du Gard : “Deux poids, deux mesures” ?",
+      "date": "2025-04-28",
+      "guestsIds": [
+        "hakim-el-karoui",
+        "najat-vallaud-belkacem",
+        "samir-yahiaoui",
+        "vincent-geisser",
+        "fatma-bouvet-de-la-maisonneuve",
+        "juliette-meadel"
+      ]
+    },
+    {
+      "id": "04-37",
+      "title": "Panne électrique géante : Tous dépendants, tous vulnérables ?",
+      "date": "2025-04-30",
+      "guestsIds": [
+        "isabelle-saporta",
+        "nabil-wakim",
+        "olga-givernet",
+        "laure-noualhat",
+        "sebastien-bohler"
+      ]
+    },
+    {
+      "id": "04-38",
+      "title": "Macron : La France, un refuge au trumpisme ?",
+      "date": "2025-05-05",
+      "guestsIds": [
+        "clementine-goldszal",
+        "etienne-klein",
+        "shahin-vallee",
+        "david-djaiz",
+        "julie-martinez"
+      ]
+    },
+    {
+      "id": "04-39",
+      "title": "Gaza : L’indifférence collective ?",
+      "date": "2025-05-06",
+      "guestsIds": [
+        "clothilde-mraffko",
+        "selim-nassib",
+        "denis-charbit",
+        "raphael-pitti",
+        "jadd-hilal",
+        "rina-bassist"
+      ]
+    },
+    {
+      "id": "04-40",
+      "title": "Mélenchon Le dilemme de la gauche ?",
+      "date": "2025-05-07",
+      "guestsIds": [
+        "julia-cage",
+        "astrid-de-villaines",
+        "eve-szeftel",
+        "thomas-legrand",
+        "usul",
+        "jean-pierre-mignard"
+      ]
+    },
+    {
+      "id": "04-41",
+      "title": "Macron - al Charaa : une poignée de main indispensable ?",
+      "date": "2025-05-08",
+      "guestsIds": [
+        "georges-malbrunot",
+        "amelie-chelly",
+        "nathalie-loiseau",
+        "mohamed-nour-ayed",
+        "rachida-el-azzouzi",
+        "pascal-brice"
+      ]
+    },
+    {
+      "id": "04-42",
+      "title": "Ukraine : Une semaine décisive pour la paix ?",
+      "date": "2025-05-12",
+      "guestsIds": [
+        "isabelle-lasserre",
+        "elena-volochine",
+        "diana-filippova",
+        "regis-gente",
+        "cyrille-amoursky",
+        "florian-louis"
+      ]
+    },
+    {
+      "id": "04-43",
+      "title": "Alcool et les femmes : la fin d’un tabou ?",
+      "date": "2025-05-13",
+      "guestsIds": [
+        "laurence-rossignol",
+        "muriel-robin",
+        "marina-carrere-dencausse",
+        "claire-touzard",
+        "amine-benyamina"
+      ]
+    },
+    {
+      "id": "04-44",
+      "title": "Gaza : la “honte” et l’impuissance",
+      "date": "2025-05-14",
+      "guestsIds": [
+        "frederique-schillo",
+        "ofer-bronstein",
+        "jadd-hilal",
+        "yasmina-asrarguis",
+        "gallagher-fenwick",
+        "celine-bardet"
+      ]
+    },
+    {
+      "id": "04-45",
+      "title": "Santé mentale : tous vulnérables ?",
+      "date": "2025-05-15",
+      "guestsIds": [
+        "guirchaume-abitbol",
+        "faroudja-hocini",
+        "lauren-bastide",
+        "serge-hefez",
+        "martin-legros",
+        "aude-caria"
+      ]
+    },
+    {
+      "id": "04-46",
+      "title": "Santé mentale : tous vulnérables ?",
+      "date": "2025-05-15",
+      "guestsIds": [
+        "guirchaume-abitbol",
+        "faroudja-hocini",
+        "lauren-bastide",
+        "serge-hefez",
+        "martin-legros",
+        "aude-caria"
+      ]
+    },
+    {
+      "id": "04-47",
+      "title": "Spéciale Cannes 2025 : un festival très politique",
+      "date": "2025-05-16",
+      "guestsIds": [
+        "costa-gavras",
+        "hafsia-herzi",
+        "nadia-melliti",
+        "dominik-moll",
+        "robin-campillo",
+        "sepideh-farsi"
+      ]
+    },
+    {
+      "id": "04-48",
+      "title": "Gaza : Sommes-nous condamnés à l’impuissance ?",
+      "date": "2025-05-19",
+      "guestsIds": [
+        "mathilde-philip-gay",
+        "rony-brauman",
+        "jean-maurice-ripert",
+        "valerie-zenatti",
+        "alain-dieckhoff",
+        "lea-balage-el-mariky"
+      ]
+    },
+    {
+      "id": "04-49",
+      "title": "Trump : une diplomatie en échec ?",
+      "date": "2025-05-20",
+      "guestsIds": [
+        "florian-louis",
+        "renaud-girard",
+        "christine-ockrent",
+        "dominique-moisi",
+        "gerald-olivier",
+        "kethevane-gorjestani"
+      ]
+    },
+    {
+      "id": "04-50",
+      "title": "Retailleau : le retour de la droite conservatrice ?",
+      "date": "2025-05-21",
+      "guestsIds": [
+        "sylvain-bourmeau",
+        "nelly-garnier",
+        "baptiste-roger-lacan",
+        "jean-lebrun",
+        "pauline-de-saint-remy",
+        "lou-fritel"
+      ]
+    },
+    {
+      "id": "04-51",
+      "title": "Frères musulmans : menace sous-estimée ou surestimée ?",
+      "date": "2025-05-22",
+      "guestsIds": [
+        "vincent-geisser",
+        "hakim-el-karoui",
+        "mathieu-lefevre",
+        "rachel-binhas",
+        "kahina-bahloul",
+        "nesrine-slaoui"
+      ]
+    },
+    {
+      "id": "04-52",
+      "title": "Israël : vers un isolement inédit ?",
+      "date": "2025-05-26",
+      "guestsIds": [
+        "elie-barnavi",
+        "jean-paul-chagnollaud",
+        "gerard-bensussan",
+        "anne-sophie-sebban-becache",
+        "alexandra-schwartzbrod",
+        "rina-bassist"
+      ]
+    },
+    {
+      "id": "04-53",
+      "title": "Pesticides : coup de force contre l’écologie ?",
+      "date": "2025-05-27",
+      "guestsIds": [
+        "dominique-bourg",
+        "gaspard-koenig",
+        "veronique-le-floch",
+        "isabelle-saporta",
+        "vincent-louault"
+      ]
+    },
+    {
+      "id": "04-54",
+      "title": "Poutine : la logique du “fou” ?",
+      "date": "2025-05-28",
+      "guestsIds": [
+        "veronika-dorman",
+        "pierre-levy",
+        "dimitri-minic",
+        "josephine-staron",
+        "gallagher-fenwick"
+      ]
+    },
+    {
+      "id": "04-55",
+      "title": "Procès Le Scouarnec  : un rendez-vous manqué ?",
+      "date": "2025-05-29",
+      "guestsIds": [
+        "louise-colcombet",
+        "gabriel",
+        "hugo-lemonier",
+        "denis-salas",
+        "marie-grimaud"
+      ]
+    },
+    {
+      "id": "04-56",
+      "title": "PSG : la victoire du Qatar ?",
+      "date": "2025-06-02",
+      "guestsIds": [
+        "pascal-blanchard",
+        "pierre-louis-basse",
+        "pierre-rondeau",
+        "anne-laure-bonnet",
+        "pia-clemens",
+        "hala-kodmani"
+      ]
+    },
+    {
+      "id": "04-57",
+      "title": "État de droit : Menace sur nos démocraties ?",
+      "date": "2025-06-04",
+      "guestsIds": [
+        "patrice-spinosi",
+        "pierre-henri-tavoillot",
+        "gilles-mentre",
+        "natacha-polony",
+        "eugenie-merieau",
+        "aurelie-filippetti"
+      ]
+    },
+    {
+      "id": "04-58",
+      "title": "Écologie : peut-on contrôler la fast-fashion ?",
+      "date": "2025-06-05",
+      "guestsIds": [
+        "julia-faure",
+        "dominique-seux",
+        "aurore-gorius",
+        "sophie-dubuisson-quellier",
+        "marta-de-cidrac"
+      ]
+    },
+    {
+      "id": "04-59",
+      "title": "Dissolution : Un an après, la démocratie abîmée ?",
+      "date": "2025-06-09",
+      "guestsIds": [
+        "jean-garrigues",
+        "anne-charlene-bezzina",
+        "jerome-sainte-marie",
+        "richard-ramos",
+        "pauline-de-saint-remy",
+        "sylvain-bourmeau"
+      ]
+    },
+    {
+      "id": "04-60",
+      "title": "Trump : La bascule autoritaire ?",
+      "date": "2025-06-10",
+      "guestsIds": [
+        "clementine-goldszal",
+        "claude-guibal",
+        "rym-momtaz",
+        "frederic-martel",
+        "gerald-olivier",
+        "francois-noudelmann"
+      ]
+    },
+    {
+      "id": "04-61",
+      "title": "Attaques au couteau  : Une “culture” de la violence ?",
+      "date": "2025-06-11",
+      "guestsIds": [
+        "jean-david-zeitoun",
+        "agnes-evren",
+        "serge-hefez",
+        "negar-haeri",
+        "sophie-venetitay",
+        "laure-beccuau"
+      ]
+    },
+    {
+      "id": "04-62",
+      "title": "Palestine : l’heure de la reconnaissance ?",
+      "date": "2025-06-12",
+      "guestsIds": [
+        "shaddad-attili",
+        "eleonore-caroit",
+        "jean-fabien-spitz",
+        "yasmina-asrarguis",
+        "david-khalfa",
+        "ofer-bronchtein"
+      ]
+    },
+    {
+      "id": "04-63",
+      "title": "Israël-Iran : Une guerre illégitime ?",
+      "date": "2025-06-16",
+      "guestsIds": [
+        "chirinne-ardakani",
+        "anthony-samrani",
+        "bernard-hourcade",
+        "nicolas-tenzer",
+        "tamar-sebok",
+        "florian-louis"
+      ]
+    },
+    {
+      "id": "04-64",
+      "title": "Netanyahou-Trump : La fin des mollahs ?",
+      "date": "2025-06-17",
+      "guestsIds": [
+        "sepideh-farsi",
+        "nitzan-horowitz",
+        "dominique-moisi",
+        "agnes-levallois",
+        "josephine-staron"
+      ]
+    },
+    {
+      "id": "04-65",
+      "title": "Israël-Iran : le cas de conscience français ?",
+      "date": "2025-06-18",
+      "guestsIds": [
+        "yasmina-asrarguis",
+        "nathalie-loiseau",
+        "georges-malbrunot",
+        "joseph-confavreux",
+        "romain-goupil"
+      ]
+    },
+    {
+      "id": "04-66",
+      "title": "Netanyahou-Khamenei : les iraniens pris en étau ?",
+      "date": "2025-06-19",
+      "guestsIds": [
+        "chowra-makaremi",
+        "armin-arefi",
+        "mina-kavani",
+        "francois-henri-deserable",
+        "pouria-amirshahi",
+        "hamdam-mostafavi"
+      ]
+    },
+    {
+      "id": "04-67",
+      "title": "Iran : la guerre totale ?",
+      "date": "2025-06-23",
+      "guestsIds": [
+        "florian-louis",
+        "noam-ohana",
+        "delphine-minoui",
+        "bertrand-badie",
+        "hamdam-mostafavi"
+      ]
+    },
+    {
+      "id": "04-68",
+      "title": "Israël : Nouveau gendarme du Moyen-Orient ?",
+      "date": "2025-06-24",
+      "guestsIds": [
+        "joshua-zarka",
+        "jacques-audibert",
+        "gilles-paris",
+        "aida-tavakoli",
+        "gallagher-fenwick",
+        "tamar-sebok"
+      ]
+    },
+    {
+      "id": "04-69",
+      "title": "Climat : L’impossible transition écologique ?",
+      "date": "2025-06-25",
+      "guestsIds": [
+        "marine-braud",
+        "lucile-schmid",
+        "jean-philippe-tanguy",
+        "nabil-wakim",
+        "jean-baptiste-fressoz",
+        "eve-szeftel"
+      ]
+    },
+    {
+      "id": "04-70",
+      "title": "Trump : “Une soumission collective” ?",
+      "date": "2025-06-26",
+      "guestsIds": [
+        "jean-noel-barrot",
+        "sepideh-farsi",
+        "yasmina-asrarguis",
+        "stephane-audoin-rouzeau",
+        "philippe-gelie",
+        "pierre-haski"
+      ]
+    },
+    {
+      "id": "04-71",
+      "title": "Procès Le Scouarnec  : un rendez-vous manqué ? (rediffusion)",
+      "date": "2025-08-10",
+      "guestsIds": [
+        "louise-colcombet",
+        "gabriel",
+        "hugo-lemonier",
+        "denis-salas",
+        "marie-grimaud"
+      ]
+    },
+    {
+      "id": "04-72",
+      "title": "État de droit : Menace sur nos démocraties ? (rediffusion)",
+      "date": "2025-08-13",
+      "guestsIds": [
+        "patrice-spinosi",
+        "pierre-henri-tavoillot",
+        "gilles-mentre",
+        "natacha-polony",
+        "eugenie-merieau",
+        "aurelie-filippetti"
+      ]
+    },
+    {
+      "id": "04-73",
+      "title": "Retailleau : le retour de la droite conservatrice ? (rediffusion)",
+      "date": "2025-08-20",
+      "guestsIds": [
+        "sylvain-bourmeau",
+        "nelly-garnier",
+        "baptiste-roger-lacan",
+        "jean-lebrun",
+        "pauline-de-saint-remy",
+        "lou-fritel"
+      ]
+    },
+    {
+      "id": "04-74",
+      "title": "Mélenchon : Le dilemme de la gauche ? (rediffusion)",
+      "date": "2025-08-24",
+      "guestsIds": [
+        "julia-cage",
+        "astrid-de-villaines",
+        "eve-szeftel",
+        "thomas-legrand",
+        "usul",
+        "jean-pierre-mignard"
+      ]
+    },
+    {
+      "id": "04-75",
+      "title": "Chute de Bayrou : La France bloquée ?",
+      "date": "2025-09-08",
+      "guestsIds": [
+        "remi-lefebvre",
+        "virginie-calmels",
+        "pierre-henri-tavoillot",
+        "julie-souman",
+        "maud-vergnol",
+        "jean-marc-dumontet"
+      ]
+    },
+    {
+      "id": "04-76",
+      "title": "“Bloquons tout” Le pays à l’arrêt ?",
+      "date": "2025-09-09",
+      "guestsIds": [
+        "nicolas-framont",
+        "bastien-francois",
+        "emmanuelle-anizon",
+        "perrine-simon-nahum",
+        "mathieu-lefevre"
+      ]
+    },
+    {
+      "id": "04-77",
+      "title": "10 Septembre : Le double blocage ?",
+      "date": "2025-09-10",
+      "guestsIds": [
+        "michael-fœssel",
+        "julien-jeanneney",
+        "blanche-leridon",
+        "jean-garrigues",
+        "eleonore-caroit"
+      ]
+    },
+    {
+      "id": "04-78",
+      "title": "Charlie Kirk  : le “martyr” du trumpisme ?",
+      "date": "2025-09-11",
+      "guestsIds": [
+        "ivanne-trippenbach",
+        "thomas-snegaroff",
+        "pierre-valentin",
+        "lumir-lapray",
+        "laure-mandeville",
+        "cole-stangler"
+      ]
+    },
+    {
+      "id": "04-79",
+      "title": "Impôts : Faut-il plus taxer les riches ?",
+      "date": "2025-09-15",
+      "guestsIds": [
+        "francois-ruffin",
+        "paola-fabiani",
+        "alice-de-rochechouart",
+        "vincent-beaufils",
+        "jerome-fourquet"
+      ]
+    },
+    {
+      "id": "04-80",
+      "title": "Israël : Le grand isolement ?",
+      "date": "2025-09-16",
+      "guestsIds": [
+        "nadav-lapid",
+        "alexandra-schwartzbrod",
+        "marc-knobel",
+        "judith-cohen-solal",
+        "samuel-blumenfeld"
+      ]
+    },
+    {
+      "id": "04-81",
+      "title": "État Palestinien : Symbole ou chemin vers la paix ?",
+      "date": "2025-09-17",
+      "guestsIds": [
+        "yasmina-asrarguis",
+        "thomas-maineult",
+        "ahmad-dari",
+        "veronique-nahoum-grappe",
+        "eric-danon"
+      ]
+    },
+    {
+      "id": "04-82",
+      "title": "18 Septembre : La rue peut-elle inverser le rapport de force ?",
+      "date": "2025-09-18",
+      "guestsIds": [
+        "marylise-leon",
+        "david-amiel",
+        "samuel-hayat",
+        "stephanie-villers",
+        "antoine-foucher",
+        "mathieu-souquiere"
+      ]
+    },
+    {
+      "id": "04-83",
+      "title": "Palestine: Un discours pour l’Histoire ?",
+      "date": "2025-09-22",
+      "guestsIds": [
+        "dominique-edde",
+        "anwar-abu-eisheh",
+        "yasmina-asrarguis",
+        "bernard-guetta"
+      ]
+    },
+    {
+      "id": "04-84",
+      "title": "Trump : La nouvelle chasse aux sorcières ?",
+      "date": "2025-09-23",
+      "guestsIds": [
+        "marie-gayte-lebrun",
+        "jean-francois-colosimo",
+        "romuald-sciora",
+        "asma-mhalla",
+        "marc-weitzmann"
+      ]
+    },
+    {
+      "id": "04-85",
+      "title": "Trump-Poutine : L’Europe prise en étau ?",
+      "date": "2025-09-24",
+      "guestsIds": [
+        "chloe-ridel",
+        "nicolas-tenzer",
+        "florian-louis",
+        "veronika-dorman",
+        "frederic-charillon"
+      ]
+    },
+    {
+      "id": "04-86",
+      "title": "Sarkozy en prison : Justice ou acharnement ?",
+      "date": "2025-09-25",
+      "guestsIds": [
+        "aurore-gorius",
+        "vincent-brengarth",
+        "magali-lafourcade",
+        "jonas-haddad",
+        "charles-consigny",
+        "benjamin-morel"
+      ]
+    },
+    {
+      "id": "04-87",
+      "title": "Sarkozy contre les juges : l’état de droit menacé ?",
+      "date": "2025-09-29",
+      "guestsIds": [
+        "aurelien-martini",
+        "astrid-de-villaines",
+        "henri-guaino",
+        "laurent-jacobelli",
+        "catherine-tricot",
+        "marie-anne-cohendet"
+      ]
+    },
+    {
+      "id": "04-88",
+      "title": "Israël-Palestine : Un plan Trump réaliste ?",
+      "date": "2025-09-30",
+      "guestsIds": [
+        "ofer-bronchtein",
+        "jean-paul-chagnollaud",
+        "anne-sophie-sebban-becache",
+        "tamar-sebok",
+        "jadd-hilal"
+      ]
+    },
+    {
+      "id": "04-89",
+      "title": "Crise sociale : L’offensive politique des patrons ?",
+      "date": "2025-10-02",
+      "guestsIds": []
+    },
+    {
+      "id": "04-90",
+      "title": "Démission de Lecornu : La crise de trop ?",
+      "date": "2025-10-06",
+      "guestsIds": [
+        "vincent-martigny",
+        "richard-ramos",
+        "alexandre-devecchio",
+        "marine-tondelier",
+        "pauline-de-saint-remy"
+      ]
+    },
+    {
+      "id": "04-91",
+      "title": "7 Octobre : Le traumatisme et l’espoir",
+      "date": "2025-10-07",
+      "guestsIds": [
+        "yara-el-ghadban",
+        "valerie-zenatti",
+        "hanna-assouline",
+        "selim-nassib",
+        "alain-dieckhoff"
+      ]
+    },
+    {
+      "id": "04-92",
+      "title": "Crise politique : Macron se laisse encore 48h",
+      "date": "2025-10-08",
+      "guestsIds": [
+        "thierry-pech",
+        "anne-charlene-bezzina",
+        "natacha-polony",
+        "jad-zahab",
+        "sylvain-bourmeau",
+        "baptiste-roger-lacan"
+      ]
+    },
+    {
+      "id": "04-93",
+      "title": "Israël-Gaza : Trump, le faiseur de paix ?",
+      "date": "2025-10-09",
+      "guestsIds": [
+        "dominique-moisi",
+        "florian-louis",
+        "david-khalfa",
+        "josephine-staron",
+        "aysegul-sert",
+        "veronique-nahoum-grappe"
+      ]
+    },
+    {
+      "id": "04-94",
+      "title": "Crise politique : Qui est responsable du chaos ?",
+      "date": "2025-10-13",
+      "guestsIds": [
+        "samuel-hayat",
+        "perrine-simon-nahum",
+        "thierry-beaudet",
+        "etienne-campion",
+        "agnes-pannier-runacher"
+      ]
+    },
+    {
+      "id": "04-95",
+      "title": "Suspension des retraites : Compromis ou compromission ?",
+      "date": "2025-10-14",
+      "guestsIds": [
+        "hadrien-mathoux",
+        "lucile-schmid",
+        "blanche-leridon",
+        "remi-lefebvre",
+        "andrea-kotarac"
+      ]
+    },
+    {
+      "id": "04-96",
+      "title": "Retraites : Victoire sociale ou trahison politique ?",
+      "date": "2025-10-15",
+      "guestsIds": [
+        "gerard-noiriel",
+        "yvan-ricordeau",
+        "aurelien-rousseau",
+        "corinne-lhaik",
+        "catherine-tricot"
+      ]
+    },
+    {
+      "id": "04-97",
+      "title": "Trump : Vraie ou fausse paix ?",
+      "date": "2025-10-16",
+      "guestsIds": [
+        "myriam-benraad",
+        "renaud-girard",
+        "robert-malley",
+        "hadjar-aouardji",
+        "ofer-bronchtein"
+      ]
+    },
+    {
+      "id": "04-98",
+      "title": "Casse du Louvre : La faillite de l’État ?",
+      "date": "2025-10-20",
+      "guestsIds": [
+        "eric-anceau",
+        "natacha-polony",
+        "aurelie-filippetti",
+        "jeremie-patrier-leitus",
+        "stephane-correard"
+      ]
+    },
+    {
+      "id": "04-99",
+      "title": "Sarkozy en prison : Honneur ou déshonneur français ?",
+      "date": "2025-10-21",
+      "guestsIds": [
+        "fabrice-arfi",
+        "alexandre-devecchio",
+        "brice-soccol",
+        "beatrice-brugere",
+        "alexandra-schwartzbrod"
+      ]
+    },
+    {
+      "id": "04-100",
+      "title": "Inégalités : Faut-il taxer l’héritage ?",
+      "date": "2025-10-22",
+      "guestsIds": [
+        "melanie-plouviez",
+        "nicolas-bouzou",
+        "nicolas-duvoux",
+        "stephanie-villers",
+        "remy-goubert"
+      ]
+    },
+    {
+      "id": "04-101",
+      "title": "Trump : le réveil de l’autre Amérique ?",
+      "date": "2025-10-23",
+      "guestsIds": [
+        "gilles-paris",
+        "lumir-lapray",
+        "patrick-chappatte",
+        "marc-weitzmann",
+        "ellen-kountz"
+      ]
+    },
+    {
+      "id": "04-102",
+      "title": "Zyed et Bouna : 20 ans après, la banlieue a-t-elle changé ?",
+      "date": "2025-10-27",
+      "guestsIds": [
+        "youssef-badr",
+        "nadir-dendoune",
+        "nora-hamadi",
+        "jean-marie-vilain",
+        "gwenael-bourdon"
+      ]
+    },
+    {
+      "id": "04-103",
+      "title": "Homos en politique : un combat pour toutes et tous ?",
+      "date": "2025-10-28",
+      "guestsIds": [
+        "jean-baptiste-marteau",
+        "ouissem-belgacem",
+        "melanie-vogel",
+        "franck-riester",
+        "marie-kirschen"
+      ]
+    },
+    {
+      "id": "04-104",
+      "title": "Taxe Zucman : Nécessaire ou dangereuse ?",
+      "date": "2025-10-29",
+      "guestsIds": [
+        "bruno-grandjean",
+        "gabriel-zucman",
+        "remi-godeau",
+        "alice-de-rochechouart"
+      ]
+    },
+    {
+      "id": "04-105",
+      "title": "Réseaux sociaux : Une menace pour la démocratie ?",
+      "date": "2025-10-30",
+      "guestsIds": [
+        "asma-mhalla",
+        "clara-chappaz",
+        "david-colon",
+        "mathieu-slama",
+        "imane-bounouh"
+      ]
+    },
+    {
+      "id": "04-106",
+      "title": "Shein : la France doit-elle  boycotter ?",
+      "date": "2025-11-03",
+      "guestsIds": [
+        "magali-berdah",
+        "feris-barkat",
+        "jean-laurent-cassely",
+        "agnes-pannier-runacher",
+        "frederic-denhez"
+      ]
+    },
+    {
+      "id": "04-107",
+      "title": "Trump-Mamdani : La bataille de New York",
+      "date": "2025-11-04",
+      "guestsIds": [
+        "cole-stangler",
+        "elisa-chelle",
+        "lumir-lapray",
+        "philippe-gelie",
+        "gallagher-fenwick"
+      ]
+    },
+    {
+      "id": "04-108",
+      "title": "Soudan : La guerre oubliée ?",
+      "date": "2025-11-05",
+      "guestsIds": [
+        "vincent-hugeux",
+        "hind-meddeb",
+        "meriem-amellal",
+        "jerome-tubiana",
+        "maaz-tageldin"
+      ]
+    },
+    {
+      "id": "04-109",
+      "title": "Shein : L’heure de la riposte ?",
+      "date": "2025-11-06",
+      "guestsIds": [
+        "lucile-schmid",
+        "dominique-seux",
+        "benjamin-burbaumer",
+        "pierre-francois-le-louet",
+        "clara-chappaz"
+      ]
+    },
+    {
+      "id": "04-110",
+      "title": "13 Novembre : 10 ans après, comment nos vies ont changé ?",
+      "date": "2025-11-10",
+      "guestsIds": [
+        "gaelle",
+        "aurelie-silvestre",
+        "denis-peschanski",
+        "jean-xavier-de-lestrade",
+        "francois-hollande"
+      ]
+    },
+    {
+      "id": "04-111",
+      "title": "Climat : La COP de la dernière chance ?",
+      "date": "2025-11-11",
+      "guestsIds": [
+        "paloma-moritz",
+        "eric-aeschimann",
+        "lucie-pinson",
+        "antoine-bueno",
+        "brune-poirson",
+        "florian-louis"
+      ]
+    },
+    {
+      "id": "04-112",
+      "title": "Inceste : Le grand déni ?",
+      "date": "2025-11-12",
+      "guestsIds": [
+        "camille-kouchner",
+        "edouard-durand",
+        "charlotte-devillers",
+        "romane-brisard",
+        "violette-spillebout",
+        "rebecca-royer"
+      ]
+    },
+    {
+      "id": "04-113",
+      "title": "13 Novembre : Dix ans après, quelle menace ?",
+      "date": "2025-11-13",
+      "guestsIds": [
+        "elyamine-settoul",
+        "jean-francois-ricard",
+        "jean-francois-colosimo",
+        "anne-clementine-larroque",
+        "soren-seelow",
+        "negar-haeri"
+      ]
+    },
+    {
+      "id": "04-114",
+      "title": "Narcotrafic : La France a-t-elle perdu la guerre ?",
+      "date": "2025-11-17",
+      "guestsIds": [
+        "anouck-fourmigue",
+        "eric-dupond-moretti",
+        "frederic-ploquin",
+        "fabrice-rizzoli",
+        "clarisse-serre"
+      ]
+    },
+    {
+      "id": "04-115",
+      "title": "Guerre commerciale : Le virage protectionniste ?",
+      "date": "2025-11-18",
+      "guestsIds": [
+        "bruno-bonnell",
+        "bruno-grandjean",
+        "natacha-polony",
+        "alma-dufour",
+        "anais-voy-gillis"
+      ]
+    },
+    {
+      "id": "04-116",
+      "title": "Narcotrafic : l’appel d’Amine Kessaci",
+      "date": "2025-11-19",
+      "guestsIds": [
+        "amine-kessaci",
+        "mathieu-verboud",
+        "beatrice-guillemont",
+        "philippe-rio",
+        "violette-lazard"
+      ]
+    },
+    {
+      "id": "04-117",
+      "title": "Menace russe : La France doit-elle se préparer au pire ?",
+      "date": "2025-11-20",
+      "guestsIds": [
+        "catherine-tricot",
+        "andrea-kotarac",
+        "diana-filippova",
+        "romain-mielcarek",
+        "stephane-audoin-rouzeau"
+      ]
+    },
+    {
+      "id": "04-118",
+      "title": "Plan Trump : Zelensky, dos au mur ?",
+      "date": "2025-11-24",
+      "guestsIds": [
+        "anna-colin-lebedev",
+        "ariane-chemin",
+        "regis-gente",
+        "claude-blanchemaison",
+        "gerald-olivier"
+      ]
+    },
+    {
+      "id": "04-119",
+      "title": "Féminicides : L’état d’urgence",
+      "date": "2025-11-25",
+      "guestsIds": [
+        "karine-dusfour",
+        "christelle-taraud",
+        "aurore-berge",
+        "david-pelicot",
+        "anne-bouillon"
+      ]
+    },
+    {
+      "id": "04-120",
+      "title": "Défense nationale : L’affaire de tous ?",
+      "date": "2025-11-26",
+      "guestsIds": [
+        "benedicte-cheron",
+        "romain-huet",
+        "jean-marie-bockel",
+        "marc-pere",
+        "michel-goya"
+      ]
+    },
+    {
+      "id": "04-121",
+      "title": "Russie : La menace intérieure ?",
+      "date": "2025-11-27",
+      "guestsIds": [
+        "andrei-kozovoi",
+        "nicolas-quenel",
+        "kevin-limonier",
+        "pascal-confavreux",
+        "elena-volochine",
+        "sabine-dullin"
+      ]
+    },
+    {
+      "id": "04-122",
+      "title": "Budget : Le retour du 49-3 ?",
+      "date": "2025-12-01",
+      "guestsIds": [
+        "blanche-leridon",
+        "mathieu-souquiere",
+        "fabien-verdier",
+        "jean-philippe-derosier",
+        "sylvain-bourmeau",
+        "rachel-garrat-valcarcel"
+      ]
+    },
+    {
+      "id": "04-123",
+      "title": "Macron : La guerre de l’information est déclarée ?",
+      "date": "2025-12-02",
+      "guestsIds": [
+        "eugenie-bastie",
+        "alexis-levrier",
+        "pierre-haski",
+        "pierre-henri-tavoillot",
+        "laurent-jacobelli",
+        "chloe-morin"
+      ]
+    },
+    {
+      "id": "04-124",
+      "title": "Macron en Chine : Partenaire ou rival ?",
+      "date": "2025-12-03",
+      "guestsIds": [
+        "nicolas-dufourcq",
+        "elvire-fabry",
+        "francois-chimits",
+        "alain-de-chalvron",
+        "frederic-martel",
+        "alice-ekman"
+      ]
+    },
+    {
+      "id": "04-125",
+      "title": "Intelligence artificielle  : Une révolution hors de contrôle ?",
+      "date": "2025-12-04",
+      "guestsIds": [
+        "raphael-grably",
+        "marion-carre",
+        "pascal-picq",
+        "eric-sadin",
+        "apolline-guillot",
+        "anne-alombert"
+      ]
+    },
+    {
+      "id": "04-126",
+      "title": "Laïcité : C’est quoi le problème ?",
+      "date": "2025-12-08",
+      "guestsIds": [
+        "heloise-de-neuville",
+        "hicham-benaissa",
+        "emilie-freche",
+        "delphine-girard",
+        "eric-fottorino",
+        "alain-policar"
+      ]
+    },
+    {
+      "id": "04-127",
+      "title": "Sarkozy - Le Pen : le grand rapprochement ?",
+      "date": "2025-12-09",
+      "guestsIds": [
+        "astrid-de-villaines",
+        "henri-guaino",
+        "jerome-sainte-marie",
+        "julia-cage",
+        "laurent-joly"
+      ]
+    },
+    {
+      "id": "04-128",
+      "title": "Trump contre l’Europe : Faut-il acter le divorce ?",
+      "date": "2025-12-10",
+      "guestsIds": [
+        "gallagher-fenwick",
+        "alexandre-devecchio",
+        "richard-werly",
+        "nathalie-loiseau",
+        "catherine-tricot",
+        "max-erwann-gastineau"
+      ]
+    },
+    {
+      "id": "04-129",
+      "title": "Budget : La victoire de l’intérêt général  ?",
+      "date": "2025-12-11",
+      "guestsIds": [
+        "benjamin-morel",
+        "claire-lejeune",
+        "rachel-garrat-valcarcel",
+        "mathieu-souquiere"
+      ]
+    },
+    {
+      "id": "04-130",
+      "title": "Colère agricole : La crise de trop ?",
+      "date": "2025-12-15",
+      "guestsIds": [
+        "vincent-louault",
+        "isabelle-saporta",
+        "marine-colli",
+        "yohann-barbe",
+        "amelie-rebiere"
+      ]
+    },
+    {
+      "id": "04-131",
+      "title": "Narcotrafic : Comment gagner la guerre ?",
+      "date": "2025-12-16",
+      "guestsIds": [
+        "etienne-blanc",
+        "amandine-demore",
+        "damien-delseny",
+        "clotilde-champeyrache",
+        "beatrice-brugere",
+        "christophe-bouquet"
+      ]
+    },
+    {
+      "id": "04-132",
+      "title": "Mercosur : La France piégée ?",
+      "date": "2025-12-17",
+      "guestsIds": [
+        "anne-sophie-alsif",
+        "anne-cecile-suzanne",
+        "francois-purseigle",
+        "thomas-menage",
+        "jean-luc-demarty",
+        "stephane-galais"
+      ]
+    },
+    {
+      "id": "04-133",
+      "title": "Colère agricole : La crise des crises ?",
+      "date": "2025-12-18",
+      "guestsIds": [
+        "camille-diao",
+        "nathan-devers",
+        "lumir-lapray",
+        "guilhem-carayon",
+        "astrid-de-villaines",
+        "raphael-llorca",
+        "natacha-polony"
+      ]
+    },
+    {
+      "id": "05-01",
+      "title": "Trump : Le nouveau colonialisme ?",
+      "date": "2026-01-05",
+      "guestsIds": [
+        "yoletty-bracho",
+        "vicente-ulive-schnell",
+        "alexandra-schwartzbrod",
+        "max-erwann-gastineau",
+        "gerald-olivier",
+        "florian-louis"
+      ]
+    },
+    {
+      "id": "05-02",
+      "title": "Groenland : Trump contre l’Europe ?",
+      "date": "2026-01-06",
+      "guestsIds": [
+        "laure-adler",
+        "arthur-chevallier",
+        "tore-keller",
+        "gallagher-fenwick",
+        "cecile-ondoa-abeng",
+        "catherine-tricot",
+        "richard-werly",
+        "frederic-encel"
+      ]
+    },
+    {
+      "id": "05-03",
+      "title": "Venezuela : Maduro en prison et après ?",
+      "date": "2026-01-07",
+      "guestsIds": [
+        "carlos-castillo",
+        "christophe-ventura",
+        "matthieu-auzanneau",
+        "yoletty-bracho",
+        "anne-lorraine-bujon"
+      ]
+    },
+    {
+      "id": "05-04",
+      "title": "Mercosur : Un naufrage français ?",
+      "date": "2026-01-08",
+      "guestsIds": [
+        "frederic-denhez",
+        "eric-fottorino",
+        "isabelle-saporta",
+        "marine-colli",
+        "jerome-bayle",
+        "theo-verdier"
+      ]
+    },
+    {
+      "id": "05-05",
+      "title": "Iran : Jusqu’à la révolution ?",
+      "date": "2026-01-12",
+      "guestsIds": [
+        "farid-vahid",
+        "mariam-pirzadeh",
+        "chirinne-ardakani",
+        "sepideh-farsi",
+        "romuald-sciora"
+      ]
+    },
+    {
+      "id": "05-06",
+      "title": "Iran : Un massacre à huis clos",
+      "date": "2026-01-13",
+      "guestsIds": [
+        "jean-francois-colosimo",
+        "george-malbrunot",
+        "yasmina-asrarguis",
+        "armin-arefi",
+        "hamdam-mostafavi",
+        "selim-nassib"
+      ]
+    },
+    {
+      "id": "05-07",
+      "title": "Natalité : La grande bascule ?",
+      "date": "2026-01-14",
+      "guestsIds": [
+        "maxime-sbaihi",
+        "corinne-maier",
+        "jean-birnbaum",
+        "armelle-andro",
+        "renee-greusard",
+        "nathan-devers"
+      ]
+    },
+    {
+      "id": "05-08",
+      "title": "Iran-Groenland : À quoi joue Trump ?",
+      "date": "2026-01-15",
+      "guestsIds": [
+        "david-thomson",
+        "josephine-staron",
+        "philippe-corbe",
+        "gerald-olivier",
+        "isabelle-lasserre",
+        "florian-louis"
+      ]
+    },
+    {
+      "id": "05-09",
+      "title": "Groenland : L’Europe peut-elle faire plier Trump ?",
+      "date": "2026-01-19",
+      "guestsIds": [
+        "gilles-gressani",
+        "tara-varma",
+        "gerard-araud",
+        "francois-chimits"
+      ]
+    },
+    {
+      "id": "05-10",
+      "title": "Macron-Trump : La guerre qui vient ?",
+      "date": "2026-01-20",
+      "guestsIds": ["laure-adler", "arthur-chevallier"]
+    },
+    {
+      "id": "05-11",
+      "title": "Trump à Davos : La menace et la rupture ?",
+      "date": "2026-01-21",
+      "guestsIds": [
+        "frederic-charillon",
+        "gallagher-fenwick",
+        "dr-ulrike-franke",
+        "amelie-ferey",
+        "christian-salmon"
+      ]
+    },
+    {
+      "id": "05-12",
+      "title": "Trump-Groenland : La victoire de l’Europe ?",
+      "date": "2026-01-22",
+      "guestsIds": [
+        "isabelle-lasserre",
+        "diana-filippova",
+        "jacques-rupnik",
+        "josephine-staron",
+        "mikaa-blugeon-mered"
+      ]
+    },
+    {
+      "id": "05-13",
+      "title": "Minneapolis : La fin de la démocratie en Amérique ?",
+      "date": "2026-01-26",
+      "guestsIds": [
+        "patrick-chappatte",
+        "marc-weitzmann",
+        "charlotte-recoquillon",
+        "patrice-spinosi"
+      ]
+    },
+    {
+      "id": "05-14",
+      "title": "Silicon Valley : Les milliardaires contre la démocratie ?",
+      "date": "2026-01-27",
+      "guestsIds": [
+        "arnaud-miranda",
+        "eugenie-bastie",
+        "anne-sophie-moreau",
+        "olivier-babeau",
+        "nastasia-hadjadji",
+        "olivier-tesquet"
+      ]
+    },
+    {
+      "id": "05-15",
+      "title": "Iran : Le massacre et l’abandon ?",
+      "date": "2026-01-28",
+      "guestsIds": [
+        "delphine-minoui",
+        "jean-pierre-perrin",
+        "david-khalfa",
+        "aida-tavakoli",
+        "louis-arnaud"
+      ]
+    },
+    {
+      "id": "05-16",
+      "title": "Immigration : Le grand défi ?",
+      "date": "2026-01-29",
+      "guestsIds": [
+        "rachel-binhas",
+        "mahir-guven",
+        "nicolas-pouvreau-monti",
+        "hakim-el-karoui",
+        "e-m-mouhoud"
+      ]
+    },
+    {
+      "id": "05-17",
+      "title": "Iran : Faut-il négocier ou intervenir militairement ?",
+      "date": "2026-02-02",
+      "guestsIds": [
+        "arthur-chevallier",
+        "pierre-haski",
+        "frederic-encel",
+        "hamdam-mostafavi",
+        "farid-vahid",
+        "kethevane-gorjestani"
+      ]
+    },
+    {
+      "id": "05-18",
+      "title": "Vieillir et jouir sans entraves ?",
+      "date": "2026-02-03",
+      "guestsIds": [
+        "antoine-de-caunes",
+        "celine-candillier",
+        "francis-carrier",
+        "laure-adler",
+        "cedric-enjalbert"
+      ]
+    },
+    {
+      "id": "05-19",
+      "title": "Marine Le Pen : La candidature impossible ?",
+      "date": "2026-02-04",
+      "guestsIds": [
+        "blanche-leridon",
+        "alexandre-devecchio",
+        "clement-guillou",
+        "astrid-de-villaines",
+        "jean-garrigues",
+        "camille-girerd"
+      ]
+    },
+    {
+      "id": "05-20",
+      "title": "Epstein : La victoire du complotisme ?",
+      "date": "2026-02-05",
+      "guestsIds": [
+        "gloria-origgi",
+        "tristan-mendes-france",
+        "marie-peltier",
+        "catherine-tricot",
+        "virginie-vilar"
+      ]
+    },
+    {
+      "id": "05-21",
+      "title": "Affaire Epstein : La vérité à l’épreuve ?",
+      "date": "2026-02-09",
+      "guestsIds": [
+        "arthur-chevallier",
+        "gerald-bronner",
+        "fabrice-arfi",
+        "jacques-de-saint-victor",
+        "ivanne-trippenbach",
+        "alice-de-rochechouart"
+      ]
+    },
+    {
+      "id": "05-22",
+      "title": "LFI d’“extrême gauche” : Confusion ou clarification ?",
+      "date": "2026-02-10",
+      "guestsIds": [
+        "pascal-perrineau",
+        "sylvain-bourmeau",
+        "thomas-legrand",
+        "nicolas-roussellier",
+        "perrine-simon-nahum"
+      ]
+    },
+    {
+      "id": "05-23",
+      "title": "Jeffrey Epstein : Une affaire française ?",
+      "date": "2026-02-11",
+      "guestsIds": [
+        "pauline-delassus",
+        "titiou-lecocq",
+        "anne-claire-le-jeune",
+        "francois-bougon",
+        "helene-devynck",
+        "nathalie-bucquet"
+      ]
+    },
+    {
+      "id": "05-24",
+      "title": "Climat : Le coup de grâce de Trump ?",
+      "date": "2026-02-12",
+      "guestsIds": [
+        "francois-chimits",
+        "matthieu-auzanneau",
+        "isabelle-lasserre",
+        "marine-braud",
+        "nabil-wakim"
+      ]
+    },
+    {
+      "id": "05-25",
+      "title": "Mort de Quentin : Quelle responsabilité politique ?",
+      "date": "2026-02-16",
+      "guestsIds": [
+        "jean-francois-colosimo",
+        "eugenie-bastie",
+        "pablo-pillaud-vivien",
+        "abel-mestre",
+        "christophe-bourseiller"
+      ]
+    },
+    {
+      "id": "05-26",
+      "title": "Ukraine : 4 ans après, l’épreuve du temps ?",
+      "date": "2026-02-17",
+      "guestsIds": [
+        "isabelle-lasserre",
+        "florian-louis",
+        "masha-kondakova",
+        "antoine-arjakovsky",
+        "cyrille-amoursky"
+      ]
+    },
+    {
+      "id": "05-27",
+      "title": "Mort de Quentin Deranque : La spirale de la violence ?",
+      "date": "2026-02-18",
+      "guestsIds": [
+        "natacha-polony",
+        "alexandre-devecchio",
+        "catherine-tricot",
+        "marc-crepon",
+        "remi-lefebvre"
+      ]
+    },
+    {
+      "id": "05-28",
+      "title": "IA : Avons-nous perdu le contrôle ?",
+      "date": "2026-02-19",
+      "guestsIds": [
+        "guillaume-grallet",
+        "anne-alombert",
+        "alain-damasio",
+        "ophelie-coelho",
+        "gilles-babinet"
+      ]
+    },
+    {
+      "id": "05-29",
+      "title": "Mort de Quentin : un tournant politique ?",
+      "date": "2026-02-23",
+      "guestsIds": [
+        "ugo-palheta",
+        "isabelle-sommier",
+        "paul-sugy",
+        "rafael-amselem"
+      ]
+    },
+    {
+      "id": "05-30",
+      "title": "Agriculture : le spleen des paysans",
+      "date": "2026-02-24",
+      "guestsIds": [
+        "laure-adler",
+        "arthur-chevallier",
+        "amelie-jolivel",
+        "isabelle-saporta"
+      ]
+    },
+    {
+      "id": "05-31",
+      "title": "Trump : après la fascination, le doute ?",
+      "date": "2026-02-25",
+      "guestsIds": ["agnes-delahaye", "romuald-sciora", "clementine-goldszal"]
+    },
+    {
+      "id": "05-32",
+      "title": "Masculinisme : la nouvelle menace ?",
+      "date": "2026-02-26",
+      "guestsIds": [
+        "nathan-devers",
+        "pierre-gault",
+        "chloe-thibaud",
+        "basile-roze",
+        "vincent-cocquebert"
+      ]
+    },
+    {
+      "id": "05-33",
+      "title": "Guerre en Iran : L’embrasement jusqu’où ?",
+      "date": "2026-03-02",
+      "guestsIds": [
+        "arthur-chevallier",
+        "dominique-moisi",
+        "farid-vahid",
+        "sepideh-farsi",
+        "tamar-sebok",
+        "yasmina-asrarguis"
+      ]
+    },
+    {
+      "id": "05-34",
+      "title": "Être parent : un enjeu intime et politique ?",
+      "date": "2026-03-03",
+      "guestsIds": [
+        "enora-malagre",
+        "laure-adler",
+        "bettina-zourli",
+        "marie-gaille",
+        "salome-berlioux"
+      ]
+    },
+    {
+      "id": "05-35",
+      "title": "Iran : L’espoir ou le chaos ?",
+      "date": "2026-03-04",
+      "guestsIds": ["nathan-devers", "aida-tavakoli", "jean-pierre-perrin"]
+    },
+    {
+      "id": "05-36",
+      "title": "Trump : Le piège de la guerre ?",
+      "date": "2026-03-05",
+      "guestsIds": [
+        "cole-stangler",
+        "gerald-olivier",
+        "tara-varma",
+        "florian-louis",
+        "myriam-benraad",
+        "gilles-paris"
+      ]
+    },
+    {
+      "id": "05-37",
+      "title": "Guerre au Moyen-Orient : La France à la hauteur du moment ?",
+      "date": "2026-03-09",
+      "guestsIds": [
+        "alice-rufo",
+        "farid-vahid",
+        "beligh-nabli",
+        "karim-amellal"
+      ]
+    },
+    {
+      "id": "05-38",
+      "title": "Samuel Paty : un procès pour l’avenir ?",
+      "date": "2026-03-10",
+      "guestsIds": [
+        "mathieu-delahousse",
+        "valerie-igounet",
+        "denis-salas",
+        "negar-haeri",
+        "laure-adler"
+      ]
+    },
+    {
+      "id": "05-39",
+      "title": "Municipales : La grande répétition avant 2027 ?",
+      "date": "2026-03-11",
+      "guestsIds": [
+        "vincent-martigny",
+        "thierry-pech",
+        "astrid-de-villaines",
+        "rachel-garrat-valcarcel"
+      ]
+    },
+    {
+      "id": "05-40",
+      "title": "Moyen-Orient : La guerre du pétrole ?",
+      "date": "2026-03-12",
+      "guestsIds": [
+        "agnes-levallois",
+        "matthieu-auzanneau",
+        "nabil-wakim",
+        "julia-tasse",
+        "patrice-geoffron"
+      ]
+    },
+    {
+      "id": "05-41",
+      "title": "Municipales : LFI et RN grands vainqueurs ?",
+      "date": "2026-03-16",
+      "guestsIds": [
+        "blanche-leridon",
+        "benjamin-morel",
+        "mathieu-souquiere",
+        "maud-vergnol",
+        "hadrien-mathoux"
+      ]
+    },
+    {
+      "id": "05-42",
+      "title": "Guerre au Moyen Orient : Le bourbier de Trump ?",
+      "date": "2026-03-17",
+      "guestsIds": ["robert-malley", "isabelle-lasserre", "bruno-tertrais"]
+    },
+    {
+      "id": "05-43",
+      "title": "« Les Rayons et les Ombres » : La fin du tabou de la collaboration ?",
+      "date": "2026-03-18",
+      "guestsIds": [
+        "xavier-giannoli",
+        "laurent-joly",
+        "pascal-ory",
+        "jerome-garcin",
+        "yael-hirsch"
+      ]
+    },
+    {
+      "id": "05-44",
+      "title": "Municipales : Légitime défiance ?",
+      "date": "2026-03-19",
+      "guestsIds": [
+        "alexis-spire",
+        "anne-muxel",
+        "feris-barkat",
+        "natacha-polony",
+        "camille-bordenet",
+        "pierre-louis-basse"
+      ]
+    },
+    {
+      "id": "05-45",
+      "title": "PS - LFI : Le divorce des municipales ?",
+      "date": "2026-03-23",
+      "guestsIds": [
+        "remi-lefebvre",
+        "gilles-finchelstein",
+        "antoine-oberdorff",
+        "perrine-simon-nahum",
+        "samuel-hayat",
+        "lumir-lapray"
+      ]
+    },
+    {
+      "id": "05-46",
+      "title": "Union des droites : La fin du tabou ?",
+      "date": "2026-03-24",
+      "guestsIds": [
+        "thomas-legrand",
+        "lou-fritel",
+        "pauline-de-saint-remy",
+        "jacques-de-saint-victor",
+        "pierre-henri-tavoillot",
+        "eric-fottorino"
+      ]
+    },
+    {
+      "id": "05-47",
+      "title": "Guerre au Moyen-Orient : Trump mis en échec ?",
+      "date": "2026-03-25",
+      "guestsIds": [
+        "farid-vahid",
+        "pierre-haski",
+        "camille-lons",
+        "aysegul-sert"
+      ]
+    },
+    {
+      "id": "05-48",
+      "title": "Guerre au Moyen-Orient : La grande malédiction ?",
+      "date": "2026-03-26",
+      "guestsIds": [
+        "ofer-bronchtein",
+        "valerie-zenatti",
+        "ziad-majed",
+        "rima-abdul-malak",
+        "diane-mazloum"
+      ]
+    },
+    {
+      "id": "05-49",
+      "title": "Pesticides : le débat indispensable ?",
+      "date": "2026-03-30",
+      "guestsIds": [
+        "gaspard-koenig",
+        "hugo-clement",
+        "lauriane-mouysset",
+        "claire-madeleine-perdrillat"
+      ]
+    },
+    {
+      "id": "05-50",
+      "title": "Guerre en Iran : L’effet boomerang de Trump ?",
+      "date": "2026-03-31",
+      "guestsIds": [
+        "behrang-pourhosseini",
+        "mariam-pirzadeh",
+        "jean-francois-colosimo",
+        "renaud-girard",
+        "stephanie-roza"
+      ]
+    },
+    {
+      "id": "05-51",
+      "title": "Bally Bagayoko : Pourquoi ce racisme décomplexé ?",
+      "date": "2026-04-01",
+      "guestsIds": [
+        "bally-bagayoko",
+        "pascal-blanchard",
+        "constance-riviere",
+        "rachid-benzine",
+        "astrid-de-villaines"
+      ]
+    },
+    {
+      "id": "05-52",
+      "title": "Israël-Peine de mort : La chute d’une démocratie ?",
+      "date": "2026-04-02",
+      "guestsIds": [
+        "simone-rodan-benzaquen",
+        "nitzan-horowitz",
+        "johann-soufi",
+        "clothilde-mraffko"
+      ]
+    },
+    {
+      "id": "05-53",
+      "title": "La guerre à l'ère de l’intelligence artificielle",
+      "date": "2026-04-07",
+      "guestsIds": [
+        "laure-de-roucy-rochegonde",
+        "marie-des-neiges-ruffo-de-calabre",
+        "bertrand-rondepierre",
+        "guillaume-ancel",
+        "olivier-tesquet"
+      ]
+    },
+    {
+      "id": "05-54",
+      "title": "Guerre au Moyen-Orient : Victoire ou défaite de Trump ?",
+      "date": "2026-04-08",
+      "guestsIds": [
+        "gilles-gressani",
+        "gaidz-minassian",
+        "kethevane-gorjestani",
+        "fariba-hachtroudi",
+        "adel-bakawan"
+      ]
+    },
+    {
+      "id": "05-55",
+      "title": "Israël-Liban : La guerre sans limite ?",
+      "date": "2026-04-09",
+      "guestsIds": [
+        "ziad-majed",
+        "george-malbrunot",
+        "rina-bassist",
+        "manal-salame"
+      ]
+    },
+    {
+      "id": "05-56",
+      "title": "Viktor Orban : La défaite du populisme ?",
+      "date": "2026-04-13",
+      "guestsIds": [
+        "frederic-martel",
+        "max-erwann-gastineau",
+        "chloe-ridel",
+        "eugenie-bastie",
+        "benjamin-couteau"
+      ]
+    },
+    {
+      "id": "05-57",
+      "title": "Rassemblement National : la conquête de l’ouest ?",
+      "date": "2026-04-14",
+      "guestsIds": [
+        "jerome-fourquet",
+        "jerome-sainte-marie",
+        "camille-girerd",
+        "charles-sapin",
+        "usul"
+      ]
+    },
+    {
+      "id": "05-58",
+      "title": "Bolloré-Grasset : La bataille culturelle ?",
+      "date": "2026-04-15",
+      "guestsIds": [
+        "laure-adler",
+        "david-dufresne",
+        "eric-fottorino",
+        "clementine-goldszal"
+      ]
+    },
+    {
+      "id": "05-59",
+      "title": "Antisémitisme : Le débat impossible ?",
+      "date": "2026-04-16",
+      "guestsIds": [
+        "brigitte-stora",
+        "arie-alimi",
+        "magali-lafourcade",
+        "joseph-confavreux"
+      ]
+    },
+    {
+      "id": "05-60",
+      "title": "Bardella au Medef : La normalisation par les patrons ?",
+      "date": "2026-04-20",
+      "guestsIds": [
+        "michel-offerle",
+        "jean-francois-rial",
+        "andrea-kotarac",
+        "lou-fritel",
+        "bernard-cohen-hadad"
+      ]
+    },
+    {
+      "id": "05-61",
+      "title": "Guerre en Iran : Trump et le mirage de la paix ?",
+      "date": "2026-04-21",
+      "guestsIds": [
+        "aysegul-sert",
+        "romuald-sciora",
+        "clement-therme",
+        "isabelle-lasserre",
+        "elie-barnavi"
+      ]
+    },
+    {
+      "id": "05-62",
+      "title": "Prix des carburants : La fin du “quoi qu’il en coûte” ?",
+      "date": "2026-04-22",
+      "guestsIds": [
+        "agnes-pannier-runacher",
+        "olivier-babeau",
+        "stephanie-villers",
+        "catherine-tricot",
+        "jean-baptiste-fressoz"
+      ]
+    },
+    {
+      "id": "05-63",
+      "title": "Palantir : La Silicon Valley contre la démocratie ?",
+      "date": "2026-04-23",
+      "guestsIds": [
+        "david-djaiz",
+        "arnaud-miranda",
+        "hugo-micheron",
+        "anne-sophie-moreau"
+      ]
+    }
+  ]
+}

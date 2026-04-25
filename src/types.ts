@@ -6,10 +6,11 @@ export type ShowType = {
   end: string;
   diffusions: {
     id: string;
+    title?: string;
     date: string;
     guestsIds: string[];
-    viewers: number;
-    viewersPercentage: number;
+    viewers?: number;
+    viewersPercentage?: number;
   }[];
 };
 

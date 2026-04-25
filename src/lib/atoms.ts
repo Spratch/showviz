@@ -1,10 +1,17 @@
+import cCeSoir from "@/data/c-ce-soir.json";
+import yeuxdAgathe from "@/data/dans-les-yeux-dagathe.json";
 import levenement from "@/data/l-evenement.json";
 import quelleEpoque from "@/data/quelle-epoque.json";
 import type { ShowType, TooltipContentType } from "@/types";
 import { atom } from "jotai";
 import { getDateFromOrigin, monthIndex, startOfMonth } from "./utils";
 
-export const shows: ShowType[] = [quelleEpoque, levenement];
+export const shows: ShowType[] = [
+  quelleEpoque,
+  levenement,
+  yeuxdAgathe,
+  cCeSoir,
+];
 export const selectedShowAtom = atom(shows[0]);
 
 export const hideNeutralEpisodesAtom = atom(false);
