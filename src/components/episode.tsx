@@ -1,8 +1,6 @@
 import { useTooltip } from "@/hooks/useTooltip";
-import { hideNeutralEpisodesAtom } from "@/lib/atoms";
 import { getPersonInfos } from "@/lib/utils";
 import type { PersonType, ShowType } from "@/types";
-import { useAtomValue } from "jotai";
 import PersonCircle from "./personCircle";
 
 export default function Episode({
@@ -12,7 +10,7 @@ export default function Episode({
   episode: ShowType["diffusions"][number];
   politicalGuests: PersonType[];
 }) {
-  const hideNeutralEpisodes = useAtomValue(hideNeutralEpisodesAtom);
+  // const hideNeutralEpisodes = useAtomValue(hideNeutralEpisodesAtom);
   const guests = episode.guestsIds.map((id) =>
     getPersonInfos(id, episode.date),
   );
@@ -26,7 +24,7 @@ export default function Episode({
     <article
       ref={elementRef}
       {...tooltipHandlers}
-      className={`relative flex flex-row items-start gap-px rounded-[20px] border-olive-400 bg-olive-300 sm:rounded-3xl md:rounded-[28px] ${politicalGuests.length > 0 ? "" : hideNeutralEpisodes ? "hidden" : ""}`}
+      className={`relative flex flex-row items-start gap-px rounded-[20px] border-olive-400 bg-olive-300 sm:rounded-3xl md:rounded-[28px]`}
     >
       <div className="flex aspect-square size-10 shrink-0 flex-wrap content-center items-center justify-center rounded-full border-olive-400 bg-olive-300 p-1.5 sm:size-12 sm:p-2 md:size-14 md:p-2">
         {Array.from({
@@ -57,7 +55,7 @@ export default function Episode({
               <PersonCircle
                 key={episode.id + guest.id}
                 person={guest}
-                viewMode={hideNeutralEpisodes}
+                // viewMode={hideNeutralEpisodes}
               />
             );
           })}

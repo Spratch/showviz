@@ -47,6 +47,11 @@ export type PersonType = PersonDataType & {
   image?: string;
 };
 
+export type PersonWithOccurencesType = PersonType & {
+  occurences: number;
+  index: number;
+};
+
 export type CurrentType = {
   name: string;
   name_en?: string;

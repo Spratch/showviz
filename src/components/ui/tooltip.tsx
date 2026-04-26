@@ -1,9 +1,9 @@
 import { tooltipContentAtom } from "@/lib/atoms";
 import type { TooltipContentType } from "@/types";
 import { useAtomValue, useSetAtom } from "jotai";
-import { useEffect, useRef, type CSSProperties } from "react";
-import UserIcon from "~icons/tabler/user";
+import { useEffect, useRef } from "react";
 import CloseIcon from "~icons/tabler/x";
+import PersonInfos from "../personInfos";
 import { Button } from "./button";
 
 type Props = {
@@ -115,68 +115,7 @@ export function TooltipContent({ screenDimensions, tooltipContent }: Props) {
           </div>
           <div className="flex flex-col items-start gap-x-2 gap-y-2">
             {guests.map((guest) => (
-              <div
-                key={guest.id}
-                style={{ "--party-color": guest.party?.color } as CSSProperties}
-                className="flex w-full max-w-[35ch] items-center gap-2.5 overflow-hidden"
-              >
-                <a
-                  href={`https://fr.wikipedia.org/wiki/${guest.name}`}
-                  target="_blank"
-                  className={
-                    "flex aspect-square size-12 shrink-0 items-center justify-center overflow-hidden rounded-full bg-olive-300" +
-                    (guest.party
-                      ? ` border-2 border-(--party-color)`
-                      : " border-border border")
-                  }
-                >
-                  {guest.image ? (
-                    <img
-                      src={guest.image + "&width=80"}
-                      className="size-full object-cover object-top"
-                      alt=""
-                    />
-                  ) : (
-                    <UserIcon className="size-6 text-olive-400" />
-                  )}
-                </a>
-
-                <div className="font-display flex min-w-0 flex-col overflow-hidden text-sm">
-                  <p className="flex min-w-0 items-center gap-1.5 overflow-hidden">
-                    <a
-                      href={`https://fr.wikipedia.org/wiki/${guest.name}`}
-                      target="_blank"
-                      className="text-primary shrink-0 text-nowrap"
-                    >
-                      {guest.name}
-                    </a>
-
-                    {guest.party && (
-                      <>
-                        <span
-                          className="inline-block size-2 shrink-0 rounded-full"
-                          style={{ backgroundColor: guest.party.color }}
-                        ></span>
-                        <span className="text-muted-foreground -ml-0.5 flex min-w-0 gap-1">
-                          {guest.isGouv && (
-                            <span className="shrink-0 underline underline-offset-2">
-                              Gouvernement
-                            </span>
-                          )}
-                          {guest.party.name !== "Gouvernement" && (
-                            <span className="truncate">{guest.party.name}</span>
-                          )}
-                        </span>
-                      </>
-                    )}
-                  </p>
-                  {guest.categories && guest.categories.length > 0 && (
-                    <span className="text-muted-foreground max-w-[35ch] font-mono text-xs italic first-letter:capitalize">
-                      {guest.categories[0]}
-                    </span>
-                  )}
-                </div>
-              </div>
+              <PersonInfos key={guest.episodeDate + guest.id} guest={guest} />
             ))}
           </div>
         </div>

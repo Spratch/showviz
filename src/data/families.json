@@ -605,9 +605,24 @@
     "color": "#FFBC5D",
     "currents": [
       {
+        "name": "Centre gauche écologiste",
+        "name_en": "Center left environmentalist",
+        "name_de": "Mitte-Links-Umweltschützer",
+        "color": "#9DCF92",
+        "keyword": "Centre gauche",
+        "parties": [
+          {
+            "name": "GE",
+            "full_name": "Génération écologie",
+            "full_name_en": "Génération écologie",
+            "full_name_de": "Génération écologie"
+          }
+        ]
+      },
+      {
         "name": "Centre gauche",
-        "name_en": "Centre gauche",
-        "name_de": "Centre gauche",
+        "name_en": "Center left",
+        "name_de": "Mitte links",
         "color": "#FFF103",
         "keyword": "Centre gauche",
         "parties": [

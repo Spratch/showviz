@@ -24,7 +24,7 @@ export default function PersonCircle({
         } as React.CSSProperties
       }
     >
-      <p className="max-w-full truncate font-mono text-olive-800 max-sm:hidden">
+      <p className="max-w-full truncate font-mono text-olive-800">
         {person?.party?.abbr}
       </p>
     </motion.div>
