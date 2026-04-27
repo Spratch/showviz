@@ -1,7 +1,6 @@
 import Header from "@/components/header";
 import HemicyclePersonCircle from "@/components/hemicyclePersonCircle";
 import PersonCircle from "@/components/personCircle";
-import PersonInfos from "@/components/personInfos";
 import Season from "@/components/season";
 import Tooltip from "@/components/ui/tooltip";
 import useScreenDimensions from "@/hooks/useScreenWidth";
@@ -143,10 +142,10 @@ export default function Show({ params }: { params: { showSlug: string } }) {
 
   function computeHemicycleParams(n: number, screenWidth: number) {
     const isSmall = screenWidth < 640;
-    const isMedium = screenWidth < 768;
+    const isMedium = screenWidth < 832;
 
-    const outerRadius = isSmall ? 220 : isMedium ? 300 : 480;
-    const innerRadius = isSmall ? 30 : isMedium ? 80 : 100;
+    const outerRadius = isSmall ? 180 : isMedium ? 300 : 480;
+    const innerRadius = isSmall ? 20 : isMedium ? 50 : 100;
     const dotPx = (isSmall ? 10 : isMedium ? 12 : 14) * 4;
 
     let rows = 1;
@@ -283,93 +282,140 @@ export default function Show({ params }: { params: { showSlug: string } }) {
   return (
     <>
       <Header displayedSeasons={displayedSeasons} />
-      {mostInvitedGuests.length > 0 && (
-        <section className="flex w-full max-w-5xl flex-col gap-3 px-2 pb-8">
-          <h2 className="font-display text-xl font-medium">
-            Invités les plus fréquents
-          </h2>
-          <div className="relative -mx-8 overflow-x-hidden">
-            <div className="pointer-events-none absolute top-0 left-0 z-30 h-full w-8 -translate-x-1.5 bg-linear-to-r from-olive-200 via-olive-200"></div>
-            <div className="pointer-events-none absolute top-0 right-0 z-30 h-full w-8 translate-x-1.5 bg-linear-to-l from-olive-200 via-olive-200"></div>
-            <div className="no-scrollbar flex w-full gap-4 overflow-x-scroll px-8">
-              {Object.entries(mostInvitedGuests).map(([id, [, guest]]) => (
-                <PersonInfos key={id} guest={guest} />
-              ))}
+      <main className="flex w-full max-w-5xl grow flex-col gap-8 px-2 pb-8 md:gap-16 md:pt-6">
+        {!showParliament ? (
+          <section className="flex flex-col gap-3">
+            <h2 className="font-display text-xl font-medium">
+              Invités par saisons
+            </h2>
+            <div className="flex w-full flex-col gap-8">
+              {displayedSeasons.map((season) => {
+                return <Season key={season.id} season={season} />;
+              })}
             </div>
-          </div>
-        </section>
-      )}
+          </section>
+        ) : (
+          <section className="flex w-full grow flex-col">
+            <h2 className="font-display text-xl font-medium">
+              Répartition des invités politiques
+            </h2>
+            <div className="flex min-h-64 w-full items-center justify-center sm:h-96 md:h-150">
+              <div className="relative mt-auto max-sm:ml-3">
+                {fakeParliamentMembers.length > 0 &&
+                  fakeParliamentMembers.map((guest, index) => {
+                    return (
+                      <HemicyclePersonCircle
+                        key={guest.episodeDate + guest.id}
+                        person={guest}
+                        position={hemicycleLayout[index]}
+                      />
+                    );
+                  })}
+                <span className="font-display mx-auto -ml-2 inline-block w-[3ch] text-center text-xl font-medium oldstyle-nums max-sm:pt-4 sm:-ml-1 sm:text-2xl md:text-3xl">
+                  {fakeParliamentMembers.length}
+                </span>
+              </div>
+            </div>
+          </section>
+        )}
 
-      {mostInvitedParties.length > 0 && (
-        <section className="flex w-full max-w-5xl flex-col gap-3 px-2 pb-8">
-          <h2 className="font-display text-xl font-medium">
-            Partis les plus fréquents
-          </h2>
-          <div className="relative -mx-8 overflow-x-hidden">
-            <div className="pointer-events-none absolute top-0 left-0 z-30 h-full w-8 -translate-x-1.5 bg-linear-to-r from-olive-200 via-olive-200"></div>
-            <div className="pointer-events-none absolute top-0 right-0 z-30 h-full w-8 translate-x-1.5 bg-linear-to-l from-olive-200 via-olive-200"></div>
-            <div className="no-scrollbar group/parties flex w-full gap-0 overflow-x-scroll pr-8 pb-1 pl-12 transition-[padding] hover:pl-9">
-              {Object.entries(mostInvitedParties).map(([id, [, party]]) => (
-                <div
-                  key={id}
-                  className="bg-background relative -ml-4 rounded-full p-0.5 transition-[margin] group-hover/parties:-ml-1"
-                >
-                  <PersonCircle
-                    person={{
-                      id: party.name,
-                      name: party.name,
-                      parties: [party],
-                      party,
-                    }}
-                    viewMode={true}
-                  />
-                  <div className="absolute inset-x-0 -bottom-1 flex items-center justify-center">
-                    <div className="bg-background border-foreground text-2xs rounded-sm border px-1 font-mono text-nowrap">
-                      {party.occurences}
+        <div className="flex w-full flex-col gap-4 md:gap-8">
+          {mostInvitedParties.length > 0 && (
+            <section className="flex w-full flex-col gap-1.5 md:gap-3">
+              <h2 className="font-display text-xl font-medium">
+                Partis les plus fréquents
+              </h2>
+              <div className="relative -ml-8 overflow-x-hidden">
+                <div className="pointer-events-none absolute top-0 left-0 z-30 h-full w-8 -translate-x-1.5 bg-linear-to-r from-olive-200 via-olive-200"></div>
+                <div className="pointer-events-none absolute top-0 right-0 z-30 h-full w-8 translate-x-1.5 bg-linear-to-l from-olive-200 via-olive-200"></div>
+                <div className="no-scrollbar group/parties flex w-full gap-0 overflow-x-scroll pr-8 pb-1 pl-12 transition-[padding] hover:pl-9">
+                  {Object.entries(mostInvitedParties).map(([id, [, party]]) => (
+                    <div
+                      key={id}
+                      className={
+                        "bg-background relative -ml-4 rounded-full transition-[margin] group-hover/parties:-ml-1" +
+                        (party.name === "Gouvernement"
+                          ? " border-primary border-2 border-dashed p-0"
+                          : " p-0.5")
+                      }
+                    >
+                      <PersonCircle
+                        person={{
+                          id: party.name,
+                          name: party.name,
+                          parties: [party],
+                          party,
+                        }}
+                        viewMode={true}
+                      />
+                      <div className="absolute inset-x-0 -bottom-1 flex items-center justify-center">
+                        <div className="bg-background border-foreground text-2xs rounded-sm border px-1 font-mono text-nowrap">
+                          {party.occurences}
+                        </div>
+                      </div>
                     </div>
-                  </div>
+                  ))}
                 </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+              </div>
+            </section>
+          )}
 
-      {!showParliament ? (
-        <section className="flex w-full max-w-5xl flex-col gap-3 px-2">
-          <h2 className="font-display text-xl font-medium">
-            Invités par saisons
-          </h2>
-          <div className="flex w-full flex-col gap-8">
-            {displayedSeasons.map((season) => {
-              return <Season key={season.id} season={season} />;
-            })}
-          </div>
-        </section>
-      ) : (
-        <section className="flex w-full max-w-5xl grow flex-col px-2">
-          <h2 className="font-display text-xl font-medium">
-            Répartition des invités politiques
-          </h2>
-          <div className="flex h-full w-full grow items-center justify-center">
-            <div className="relative mt-72 -ml-10 sm:-ml-12 md:-ml-16">
-              {fakeParliamentMembers.length > 0 &&
-                fakeParliamentMembers.map((guest, index) => {
-                  return (
-                    <HemicyclePersonCircle
-                      key={guest.episodeDate + guest.id}
-                      person={guest}
-                      position={hemicycleLayout[index]}
-                    />
-                  );
-                })}
-              <span className="font-display mx-auto text-center text-xl font-medium oldstyle-nums sm:text-2xl md:text-3xl">
-                {fakeParliamentMembers.length}
-              </span>
-            </div>
-          </div>
-        </section>
-      )}
+          {mostInvitedGuests.length > 0 && (
+            <section className="flex w-full flex-col gap-1.5 md:gap-3">
+              <h2 className="font-display text-xl font-medium">
+                Invités les plus fréquents
+              </h2>
+              <div className="relative -ml-8 overflow-x-hidden">
+                <div className="pointer-events-none absolute top-0 left-0 z-30 h-full w-8 -translate-x-1.5 bg-linear-to-r from-olive-200 via-olive-200"></div>
+                <div className="pointer-events-none absolute top-0 right-0 z-30 h-full w-8 translate-x-1.5 bg-linear-to-l from-olive-200 via-olive-200"></div>
+                <div className="no-scrollbar group/parties flex w-full gap-0 overflow-x-scroll pr-8 pb-1 pl-10 transition-[padding] hover:pl-9">
+                  {Object.entries(mostInvitedGuests).map(([id, [, guest]]) => (
+                    <div
+                      key={id}
+                      style={
+                        {
+                          "--party-color": guest.party?.color,
+                        } as React.CSSProperties
+                      }
+                      className="bg-background relative -ml-2 rounded-full p-0.5 transition-[margin] group-hover/parties:-ml-1"
+                    >
+                      <a
+                        href={`https://fr.wikipedia.org/wiki/${guest.name}`}
+                        target="_blank"
+                        className={
+                          "flex aspect-square size-14 shrink-0 items-center justify-center overflow-hidden rounded-full bg-olive-300" +
+                          (guest.party
+                            ? ` border-2 border-(--party-color)`
+                            : " border-border border")
+                        }
+                      >
+                        {guest.image ? (
+                          <img
+                            src={`https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/${guest.image}&width=80`}
+                            className="size-full object-cover object-top"
+                            alt=""
+                          />
+                        ) : (
+                          // <UserIcon className="size-6 text-olive-400" />
+                          <p className="text-2xs/tight font-display max-w-full p-1 text-center text-balance">
+                            {guest.name.split(" ")[0].charAt(0)}.{" "}
+                            {guest.name.split(" ").slice(1).join(" ")}
+                          </p>
+                        )}
+                      </a>
+                      <div className="absolute inset-x-0 -bottom-1 flex items-center justify-center">
+                        <div className="bg-background border-foreground text-2xs rounded-sm border px-1 font-mono text-nowrap">
+                          {guest.occurences}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+          )}
+        </div>
+      </main>
       <Tooltip screenDimensions={screenDimensions} />
     </>
   );

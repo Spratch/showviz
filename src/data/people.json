@@ -395,10 +395,10 @@
     "birthDate": "1954-08-12",
     "gender": "masculin",
     "categories": [
+      "homme ou femme d'État",
       "anciens cadres",
       "magistrat ou magistrate",
       "haut fonctionnaire ou haute fonctionnaire",
-      "homme ou femme d'État",
       "personnalité politique",
       "avocat ou avocate"
     ],
@@ -1026,13 +1026,8 @@
     ],
     "parties": [
       {
-        "name": "Picardie Debout !",
-        "start": "2017-01-01",
-        "end": "2025-06-28"
-      },
-      {
         "name": "Debout !",
-        "start": "2025-06-28"
+        "start": "2017-02-17"
       }
     ],
     "wikidataId": "Q3085763",
@@ -7537,8 +7532,8 @@
     "birthDate": "1965-03-21",
     "gender": "masculin",
     "categories": [
-      "agent général ou agente générale d'assurance",
-      "personnalité politique"
+      "personnalité politique",
+      "agent général ou agente générale d'assurance"
     ],
     "parties": [
       {
@@ -8720,10 +8715,10 @@
     "birthDate": "1977-12-21",
     "gender": "masculin",
     "categories": [
+      "homme ou femme d'État",
       "banquier d'affaires",
       "banquier",
       "haut fonctionnaire ou haute fonctionnaire",
-      "homme ou femme d'État",
       "personnalité politique"
     ],
     "parties": [
@@ -8843,8 +8838,8 @@
     "birthDate": "1969-02-16",
     "gender": "féminin",
     "categories": [
-      "employés civils et agents de service de la fonction publique",
-      "syndicaliste"
+      "syndicaliste",
+      "employés civils et agents de service de la fonction publique"
     ],
     "parties": [
       {
@@ -8930,7 +8925,7 @@
       {
         "name": "Divers droite",
         "start": "2008-01-01",
-        "end": ""
+        "end": "2017-02-09"
       },
       {
         "name": "Les Républicains",
@@ -11707,7 +11702,11 @@
     "name": "Jean-Pierre Perrin",
     "birthDate": "1951-04-04",
     "gender": "masculin",
-    "categories": ["auteur de roman policier", "journaliste"],
+    "categories": [
+      "journaliste grand reporter",
+      "auteur de roman policier",
+      "journaliste"
+    ],
     "parties": [],
     "wikidataId": "Q19958485"
   },
@@ -13120,12 +13119,11 @@
   {
     "id": "tore-keller",
     "name": "Tore Keller",
-    "birthDate": "1905-01-04",
+    "birthDate": "",
     "gender": "masculin",
-    "categories": ["footballeur ou footballeuse"],
+    "categories": ["journaliste"],
     "parties": [],
-    "wikidataId": "Q704424",
-    "image": "Tore_Keller_2.jpg"
+    "wikidataId": ""
   },
   {
     "id": "bertille-bayart",
@@ -13267,7 +13265,6 @@
     "birthDate": "1994-11-03",
     "gender": "masculin",
     "categories": [
-      "élèves, étudiants",
       "militant ou militante",
       "essayiste",
       "éducateur spécialisé",
@@ -14385,10 +14382,16 @@
     "name": "Pouria Amirshahi",
     "birthDate": "1972-03-27",
     "gender": "masculin",
-    "categories": ["cadres de la fonction publique", "personnalité politique"],
+    "categories": ["personnalité politique", "cadres de la fonction publique"],
     "parties": [
       {
-        "name": "Parti socialiste"
+        "name": "Parti socialiste",
+        "start": "1987-01-01",
+        "end": "2016-03-04"
+      },
+      {
+        "name": "Les Écologistes",
+        "start": "2024-07-01"
       }
     ],
     "wikidataId": "Q3400568",
@@ -14835,6 +14838,7 @@
   {
     "id": "catherine-tricot",
     "name": "Catherine Tricot",
+    "birthDate": "1962-04-01",
     "gender": "féminin",
     "categories": ["journaliste", "auteur"],
     "parties": [],
@@ -15537,8 +15541,13 @@
     "name": "Amine Kessaci",
     "birthDate": "2003-10-10",
     "gender": "masculin",
-    "categories": ["élèves, étudiants"],
-    "parties": [],
+    "categories": ["militant ou militante", "étudiant ou étudiante"],
+    "parties": [
+      {
+        "name": "Les Écologistes",
+        "start": "2024-01-01"
+      }
+    ],
     "wikidataId": "Q111367946",
     "image": "Amine_Kessaci_2024-rev1.jpg"
   },
@@ -15655,7 +15664,28 @@
     "categories": ["personnalité politique", "avocat ou avocate"],
     "parties": [
       {
-        "name": "Parti socialiste"
+        "name": "Parti socialiste",
+        "start": "1973-01-01",
+        "end": "2007-06-19"
+      },
+      {
+        "name": "La gauche moderne",
+        "start": "2007-09-26",
+        "end": "2017-09-01"
+      },
+      {
+        "name": "Union des démocrates et indépendants",
+        "start": "2012-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "1984-07-23",
+        "end": "1986-03-20"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2007-06-18",
+        "end": "2010-11-13"
       }
     ],
     "wikidataId": "Q981661",
@@ -16066,13 +16096,16 @@
     "name": "Guilhem Carayon",
     "birthDate": "1999-05-26",
     "gender": "masculin",
-    "categories": ["élèves, étudiants", "personnalité politique"],
+    "categories": ["personnalité politique", "étudiant ou étudiante"],
     "parties": [
       {
-        "name": "Les Républicains"
+        "name": "Les Républicains",
+        "start": "2018-01-01",
+        "end": "2024-09-23"
       },
       {
-        "name": "Union des droites pour la République"
+        "name": "Union des droites pour la République",
+        "start": "2024-09-23"
       }
     ],
     "wikidataId": "Q106480808"
@@ -16163,7 +16196,7 @@
     "name": "Jérôme Bayle",
     "birthDate": "1981-01-01",
     "gender": "masculin",
-    "categories": ["militant ou militante", "agriculteur ou agricultrice"],
+    "categories": ["agriculteur ou agricultrice", "militant ou militante"],
     "parties": [],
     "wikidataId": "Q126182589",
     "image": "Jir%C3%B2ni_Baile_02.jpg"
@@ -17066,6 +17099,301 @@
     "birthDate": "",
     "gender": "féminin",
     "categories": ["chercheur ou chercheuse"],
+    "parties": []
+  },
+  {
+    "id": "chloe-maurel",
+    "name": "Chloé Maurel",
+    "birthDate": "1977-01-01",
+    "gender": "féminin",
+    "categories": [
+      "historien ou historienne",
+      "professeur d'histoire-géographie"
+    ],
+    "parties": [],
+    "wikidataId": "Q2964190",
+    "image": "MAUREL_Chloé.jpg"
+  },
+  {
+    "id": "michel-picon",
+    "name": "Michel Picon",
+    "birthDate": "1955-11-09",
+    "gender": "masculin",
+    "categories": ["agent général ou agente générale d'assurance", "lobbyiste"],
+    "parties": [],
+    "wikidataId": "Q63249183"
+  },
+  {
+    "id": "denis-payre",
+    "name": "Denis Payre",
+    "birthDate": "1963-01-17",
+    "gender": "masculin",
+    "categories": ["entrepreneur ou entrepreneuse"],
+    "parties": [],
+    "wikidataId": "Q3022861",
+    "image": "Denis_Payre.JPG"
+  },
+  {
+    "id": "denis-lafay",
+    "name": "Denis Lafay",
+    "birthDate": "1967-08-14",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q50378485"
+  },
+  {
+    "id": "david-duhamel",
+    "name": "David Duhamel",
+    "birthDate": "1970-01-01",
+    "gender": "masculin",
+    "categories": ["professeur d'université", "enseignant ou enseignante"],
+    "parties": []
+  },
+  {
+    "id": "stephane-viville",
+    "name": "Stéphane Viville",
+    "birthDate": "",
+    "gender": "masculin",
+    "categories": [
+      "généticien ou généticienne",
+      "professeur d'université",
+      "chercheur ou chercheuse",
+      "médecin"
+    ],
+    "parties": [],
+    "wikidataId": "Q91795367"
+  },
+  {
+    "id": "aida-tavakoli",
+    "name": "Aïda Tavakoli",
+    "birthDate": "1993-01-01",
+    "gender": "féminin",
+    "categories": [
+      "militant ou militante politique",
+      "étudiant ou étudiante",
+      "architecte"
+    ]
+  },
+  {
+    "id": "sahand-saber",
+    "name": "Sahand Saber",
+    "birthDate": "1983-07-01",
+    "gender": "masculin",
+    "categories": ["avocat ou avocate"],
+    "parties": []
+  },
+  {
+    "id": "hugo-toudic",
+    "name": "Hugo Toudic",
+    "birthDate": "",
+    "gender": "masculin",
+    "categories": ["philosophe politique", "professeur d'université"],
+    "parties": [],
+    "wikidataId": "Q118765960"
+  },
+  {
+    "id": "olivier-fournout",
+    "name": "Olivier Fournout",
+    "birthDate": "1961-01-01",
+    "gender": "masculin",
+    "categories": ["sociologue"],
+    "parties": [],
+    "wikidataId": "Q111210862"
+  },
+  {
+    "id": "muriel-reus",
+    "name": "Muriel Réus",
+    "birthDate": "1968-09-11",
+    "gender": "féminin",
+    "categories": [
+      "personnalité du monde des affaires",
+      "officier de gendarmerie",
+      "militant ou militante"
+    ],
+    "parties": [],
+    "wikidataId": "Q33197977"
+  },
+  {
+    "id": "basile-roze",
+    "name": "Basile Roze",
+    "birthDate": "1992-05-01",
+    "gender": "masculin",
+    "categories": ["podcasteur ou podcasteuse"],
+    "parties": []
+  },
+  {
+    "id": "christine-tournadre",
+    "name": "Christine Tournadre",
+    "birthDate": "",
+    "gender": "féminin",
+    "categories": [
+      "réalisateur ou réalisatrice de documentaire",
+      "documentariste",
+      "sociologue"
+    ],
+    "parties": [],
+    "wikidataId": "Q27056979"
+  },
+  {
+    "id": "sophie-des-deserts",
+    "name": "Sophie des Déserts",
+    "birthDate": "1971-12-27",
+    "gender": "féminin",
+    "categories": [
+      "journaliste grand reporter",
+      "journaliste",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q56084779"
+  },
+  {
+    "id": "aude-lamorelle",
+    "name": "Aude Lamorelle",
+    "birthDate": "1975-01-01",
+    "gender": "féminin",
+    "categories": ["historien ou historienne d'art", "galeriste"],
+    "parties": []
+  },
+  {
+    "id": "julien-denormandie",
+    "name": "Julien Denormandie",
+    "birthDate": "1980-08-14",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "ingénieur"],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2016-03-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-06-21",
+        "end": "2022-05-20"
+      }
+    ],
+    "wikidataId": "Q30459912",
+    "image": "Julien_Denormandie_2018_(cropped).jpg"
+  },
+  {
+    "id": "margot-megis",
+    "name": "Margot Mégis",
+    "birthDate": "1995-09-01",
+    "gender": "féminin",
+    "categories": ["agriculteur ou agricultrice"],
+    "parties": []
+  },
+  {
+    "id": "amelie-jolivel",
+    "name": "Amélie Jolivel",
+    "birthDate": "1982-01-01",
+    "gender": "féminin",
+    "categories": ["vétérinaire"],
+    "parties": []
+  },
+  {
+    "id": "hamdam-mostafavi",
+    "name": "Hamdam Mostafavi",
+    "birthDate": "",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": []
+  },
+  {
+    "id": "david-khalfa",
+    "name": "David Khalfa",
+    "birthDate": "",
+    "gender": "masculin",
+    "categories": ["géopolitologue"],
+    "parties": []
+  },
+  {
+    "id": "aysegul-sert",
+    "name": "Ayşegül Sert",
+    "birthDate": "",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": []
+  },
+  {
+    "id": "francois-chimits",
+    "name": "François Chimits",
+    "birthDate": "",
+    "gender": "masculin",
+    "categories": ["chercheur ou chercheuse"],
+    "parties": []
+  },
+  {
+    "id": "apolline-guillot",
+    "name": "Apolline Guillot",
+    "birthDate": "1994-11-01",
+    "gender": "féminin",
+    "categories": [
+      "professeur d'université",
+      "chercheur ou chercheuse",
+      "philosophe",
+      "rédacteur ou rédactrice en chef"
+    ],
+    "parties": []
+  },
+  {
+    "id": "benjamin-morel",
+    "name": "Benjamin Morel",
+    "birthDate": "1988-03-31",
+    "gender": "masculin",
+    "categories": ["maître ou maîtresse de conférences", "universitaire"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "2008-03-31",
+        "end": "2010-03-31"
+      }
+    ],
+    "wikidataId": "Q111010076"
+  },
+  {
+    "id": "rina-bassist",
+    "name": "Rina Bassist",
+    "birthDate": "",
+    "gender": "féminin",
+    "categories": ["journaliste de radio"],
+    "parties": []
+  },
+  {
+    "id": "yoletty-bracho",
+    "name": "Yoletty Bracho",
+    "birthDate": "1988-11-01",
+    "gender": "féminin",
+    "categories": [
+      "maître ou maîtresse de conférences",
+      "enseignant-chercheur ou enseignante-chercheuse",
+      "politologue"
+    ],
+    "parties": []
+  },
+  {
+    "id": "marine-colli",
+    "name": "Marine Colli",
+    "birthDate": "1987-05-01",
+    "gender": "féminin",
+    "categories": ["ingénieur", "consultant ou consultante"],
+    "parties": []
+  },
+  {
+    "id": "tara-varma",
+    "name": "Tara Varma",
+    "birthDate": "",
+    "gender": "féminin",
+    "categories": ["chercheur ou chercheuse", "politologue"],
+    "parties": []
+  },
+  {
+    "id": "arnaud-miranda",
+    "name": "Arnaud Miranda",
+    "birthDate": "1997-01-01",
+    "gender": "masculin",
+    "categories": ["chercheur ou chercheuse", "politologue"],
     "parties": []
   },
   {

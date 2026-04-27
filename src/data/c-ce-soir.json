@@ -277,7 +277,14 @@
       "id": "04-18",
       "title": "Trump-Poutine : la grande bascule du monde ?",
       "date": "2025-02-20",
-      "guestsIds": []
+      "guestsIds": [
+        "anne-lorraine-bujon",
+        "michel-goya",
+        "laure-mandeville",
+        "jean-francois-colosimo",
+        "veronika-dorman",
+        "claude-guibal"
+      ]
     },
     {
       "id": "04-19",
@@ -1167,7 +1174,13 @@
       "id": "04-89",
       "title": "Crise sociale : L’offensive politique des patrons ?",
       "date": "2025-10-02",
-      "guestsIds": []
+      "guestsIds": [
+        "anne-sophie-alsif",
+        "clementine-autain",
+        "michel-picon",
+        "denis-payre",
+        "denis-lafay"
+      ]
     },
     {
       "id": "04-90",
@@ -1702,8 +1715,6 @@
       "title": "Colère agricole : La crise des crises ?",
       "date": "2025-12-18",
       "guestsIds": [
-        "camille-diao",
-        "nathan-devers",
         "lumir-lapray",
         "guilhem-carayon",
         "astrid-de-villaines",
@@ -1729,8 +1740,6 @@
       "title": "Groenland : Trump contre l’Europe ?",
       "date": "2026-01-06",
       "guestsIds": [
-        "laure-adler",
-        "arthur-chevallier",
         "tore-keller",
         "gallagher-fenwick",
         "cecile-ondoa-abeng",
@@ -1782,7 +1791,7 @@
       "date": "2026-01-13",
       "guestsIds": [
         "jean-francois-colosimo",
-        "george-malbrunot",
+        "georges-malbrunot",
         "yasmina-asrarguis",
         "armin-arefi",
         "hamdam-mostafavi",
@@ -1798,8 +1807,7 @@
         "corinne-maier",
         "jean-birnbaum",
         "armelle-andro",
-        "renee-greusard",
-        "nathan-devers"
+        "renee-greusard"
       ]
     },
     {
@@ -1830,7 +1838,13 @@
       "id": "05-10",
       "title": "Macron-Trump : La guerre qui vient ?",
       "date": "2026-01-20",
-      "guestsIds": ["laure-adler", "arthur-chevallier"]
+      "guestsIds": [
+        "max-erwann-gastineau",
+        "romuald-sciora",
+        "veronique-nahoum-grappe",
+        "jean-maurice-ripert",
+        "chloe-maurel"
+      ]
     },
     {
       "id": "05-11",
@@ -1909,11 +1923,10 @@
       "title": "Iran : Faut-il négocier ou intervenir militairement ?",
       "date": "2026-02-02",
       "guestsIds": [
-        "arthur-chevallier",
-        "pierre-haski",
-        "frederic-encel",
         "hamdam-mostafavi",
+        "frederic-encel",
         "farid-vahid",
+        "pierre-haski",
         "kethevane-gorjestani"
       ]
     },
@@ -1926,7 +1939,8 @@
         "celine-candillier",
         "francis-carrier",
         "laure-adler",
-        "cedric-enjalbert"
+        "cedric-enjalbert",
+        "aude-lamorelle"
       ]
     },
     {
@@ -1959,7 +1973,6 @@
       "title": "Affaire Epstein : La vérité à l’épreuve ?",
       "date": "2026-02-09",
       "guestsIds": [
-        "arthur-chevallier",
         "gerald-bronner",
         "fabrice-arfi",
         "jacques-de-saint-victor",
@@ -2068,28 +2081,37 @@
       "title": "Agriculture : le spleen des paysans",
       "date": "2026-02-24",
       "guestsIds": [
-        "laure-adler",
-        "arthur-chevallier",
-        "amelie-jolivel",
-        "isabelle-saporta"
+        "jerome-bayle",
+        "julien-denormandie",
+        "isabelle-saporta",
+        "margot-megis",
+        "francois-purseigle",
+        "amelie-jolivel"
       ]
     },
     {
       "id": "05-31",
       "title": "Trump : après la fascination, le doute ?",
       "date": "2026-02-25",
-      "guestsIds": ["agnes-delahaye", "romuald-sciora", "clementine-goldszal"]
+      "guestsIds": [
+        "agnes-delahaye",
+        "hugo-toudic",
+        "gerald-olivier",
+        "olivier-fournout",
+        "romuald-sciora",
+        "clementine-goldszal"
+      ]
     },
     {
       "id": "05-32",
       "title": "Masculinisme : la nouvelle menace ?",
       "date": "2026-02-26",
       "guestsIds": [
-        "nathan-devers",
-        "pierre-gault",
         "chloe-thibaud",
-        "basile-roze",
-        "vincent-cocquebert"
+        "pierre-gault",
+        "vincent-cocquebert",
+        "muriel-reus",
+        "basile-roze"
       ]
     },
     {
@@ -2097,11 +2119,10 @@
       "title": "Guerre en Iran : L’embrasement jusqu’où ?",
       "date": "2026-03-02",
       "guestsIds": [
-        "arthur-chevallier",
-        "dominique-moisi",
         "farid-vahid",
         "sepideh-farsi",
         "tamar-sebok",
+        "dominique-moisi",
         "yasmina-asrarguis"
       ]
     },
@@ -2110,18 +2131,25 @@
       "title": "Être parent : un enjeu intime et politique ?",
       "date": "2026-03-03",
       "guestsIds": [
+        "david-duhamel",
         "enora-malagre",
-        "laure-adler",
-        "bettina-zourli",
         "marie-gaille",
-        "salome-berlioux"
+        "salome-berlioux",
+        "bettina-zourli",
+        "stephane-viville"
       ]
     },
     {
       "id": "05-35",
       "title": "Iran : L’espoir ou le chaos ?",
       "date": "2026-03-04",
-      "guestsIds": ["nathan-devers", "aida-tavakoli", "jean-pierre-perrin"]
+      "guestsIds": [
+        "solene-chalvon-fioriti",
+        "aida-tavakoli",
+        "behrang-pourhosseini",
+        "sahand-saber",
+        "jean-pierre-perrin"
+      ]
     },
     {
       "id": "05-36",
@@ -2153,10 +2181,10 @@
       "date": "2026-03-10",
       "guestsIds": [
         "mathieu-delahousse",
+        "christine-tournadre",
         "valerie-igounet",
         "denis-salas",
-        "negar-haeri",
-        "laure-adler"
+        "negar-haeri"
       ]
     },
     {
@@ -2350,7 +2378,7 @@
       "date": "2026-04-09",
       "guestsIds": [
         "ziad-majed",
-        "george-malbrunot",
+        "georges-malbrunot",
         "rina-bassist",
         "manal-salame"
       ]
@@ -2386,8 +2414,10 @@
       "guestsIds": [
         "laure-adler",
         "david-dufresne",
+        "alexis-levrier",
         "eric-fottorino",
-        "clementine-goldszal"
+        "clementine-goldszal",
+        "sophie-des-deserts"
       ]
     },
     {
@@ -2433,6 +2463,7 @@
         "agnes-pannier-runacher",
         "olivier-babeau",
         "stephanie-villers",
+        "eric-berr",
         "catherine-tricot",
         "jean-baptiste-fressoz"
       ]
@@ -2442,6 +2473,7 @@
       "title": "Palantir : La Silicon Valley contre la démocratie ?",
       "date": "2026-04-23",
       "guestsIds": [
+        "clara-chappaz",
         "david-djaiz",
         "arnaud-miranda",
         "hugo-micheron",

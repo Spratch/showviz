@@ -25,18 +25,18 @@ export function SwitchChoiceCard({
   >;
 }) {
   return (
-    <FieldLabel htmlFor={id} className="max-sm:max-w-[40ch]">
-      <Field orientation="horizontal">
+    <FieldLabel htmlFor={id}>
+      <Field orientation="responsive">
         <FieldContent>
           <FieldTitle className="font-display text-sm">
             {Icon && <Icon className="-mt-0.5" />}
             {title}
           </FieldTitle>
-          <FieldDescription className="max-w-[30ch] text-xs text-pretty">
+          <FieldDescription className="text-xs text-pretty sm:max-w-[30ch]">
             {description}
           </FieldDescription>
         </FieldContent>
-        <Switch id={id} {...props} />
+        <Switch id={id} {...props} className={"ml-auto"} />
       </Field>
     </FieldLabel>
   );

@@ -1,38 +1,12 @@
-import type { PersonType, PersonWithOccurencesType } from "@/types";
-import Laurel1Icon from "~icons/tabler/laurel-wreath-1";
-import Laurel2Icon from "~icons/tabler/laurel-wreath-2";
-import Laurel3Icon from "~icons/tabler/laurel-wreath-3";
+import type { PersonType } from "@/types";
 import UserIcon from "~icons/tabler/user";
 
-export default function PersonInfos({
-  guest,
-}: {
-  guest: PersonWithOccurencesType | PersonType;
-}) {
-  const hasIndex = "index" in guest;
-
-  const laurels = [
-    { Icon: Laurel1Icon, className: "text-amber-500" },
-    { Icon: Laurel2Icon, className: "text-zinc-400" },
-    { Icon: Laurel3Icon, className: "text-yellow-600/70" },
-  ];
-
-  const laurel = laurels[hasIndex ? guest.index - 1 : 0];
-
+export default function PersonInfos({ guest }: { guest: PersonType }) {
   return (
     <div
       style={{ "--party-color": guest.party?.color } as React.CSSProperties}
       className="z-0 flex max-w-[35ch] shrink-0 items-center gap-2.5 overflow-hidden"
     >
-      {hasIndex && (
-        <p className="shrink-0 font-mono text-sm text-olive-500">
-          {laurel ? (
-            <laurel.Icon className={`no-scaling size-6 ${laurel.className}`} />
-          ) : (
-            guest.index
-          )}
-        </p>
-      )}
       <a
         href={`https://fr.wikipedia.org/wiki/${guest.name}`}
         target="_blank"
@@ -83,11 +57,6 @@ export default function PersonInfos({
             </>
           )}
         </p>
-        {hasIndex && (
-          <span className="text-foreground font-mono text-xs">
-            {guest.occurences}&thinsp;interventions
-          </span>
-        )}
         {guest.categories && guest.categories.length > 0 && (
           <span className="text-muted-foreground max-w-[30ch] truncate font-mono text-xs italic first-letter:capitalize">
             {guest.categories[0]}

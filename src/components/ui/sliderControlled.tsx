@@ -1,5 +1,6 @@
 import { Label } from "@/components/ui/label";
 import { Slider } from "@/components/ui/slider";
+import { cn } from "@/lib/utils";
 import { Slider as SliderPrimitive } from "@base-ui/react/slider";
 
 export function SliderControlled({
@@ -19,7 +20,12 @@ export function SliderControlled({
   >;
 }) {
   return (
-    <div className="grid w-full gap-3 rounded-lg border p-2.5 text-sm max-sm:max-w-[40ch]">
+    <div
+      className={cn(
+        "grid w-full gap-3 rounded-lg border p-2.5 text-sm",
+        props.className,
+      )}
+    >
       <div className="flex flex-wrap items-center justify-between gap-x-2">
         <Label
           htmlFor="slider-date"

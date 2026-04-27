@@ -62,7 +62,7 @@ export default function Header({
   const dateSliderMax = totalMonths - 1;
 
   return (
-    <header className="flex w-full max-w-5xl flex-col items-start justify-between gap-4 px-2 pb-6 md:pt-8">
+    <header className="bg-background sticky top-0 z-50 flex w-full max-w-5xl flex-col items-start justify-between gap-4 px-2 pt-2 pb-2 md:pt-8">
       <div className="flex w-full flex-col gap-2 md:flex-row md:items-baseline-last md:justify-between">
         <h1 className="font-display max-w-[40ch] text-2xl/tight font-medium text-balance">
           <span className="relative z-10">
@@ -121,34 +121,36 @@ export default function Header({
           ]
         </p>
       </div>
-      <FieldGroup className="flex w-full flex-col gap-2.5 font-mono text-xs/tight sm:flex-row">
-        <SwitchChoiceCard
-          title="Focus politique"
-          description="N'afficher que les épisodes avec des invités politiques"
-          id="hide-neutral-episodes"
-          onCheckedChange={() => {
-            setHideNeutralEpisodes((prev) => !prev);
-            if (showParliament && hideNeutralEpisodes) {
-              setShowParliament(false);
-            }
-          }}
-          checked={hideNeutralEpisodes}
-          Icon={FilterIcon}
-        />
+      <FieldGroup className="grid w-full grid-cols-1 gap-1.5 font-mono text-xs/tight max-sm:gap-x-0 sm:grid-cols-3 sm:gap-2.5">
+        <div className="col-span-2 grid w-full grid-cols-2 gap-1.5 sm:gap-2.5">
+          <SwitchChoiceCard
+            title="Focus politique"
+            description="N'afficher que les épisodes avec des invités politiques"
+            id="hide-neutral-episodes"
+            onCheckedChange={() => {
+              setHideNeutralEpisodes((prev) => !prev);
+              if (showParliament && hideNeutralEpisodes) {
+                setShowParliament(false);
+              }
+            }}
+            checked={hideNeutralEpisodes}
+            Icon={FilterIcon}
+          />
 
-        <SwitchChoiceCard
-          title="Vue parlement"
-          description="Afficher les politiques en parlement"
-          id="show-parliament"
-          onCheckedChange={() => {
-            setShowParliament((prev) => !prev);
-            if (!hideNeutralEpisodes && !showParliament) {
-              setHideNeutralEpisodes(true);
-            }
-          }}
-          checked={showParliament}
-          Icon={HemicycleIcon}
-        />
+          <SwitchChoiceCard
+            title="Vue parlement"
+            description="Afficher les politiques en parlement"
+            id="show-parliament"
+            onCheckedChange={() => {
+              setShowParliament((prev) => !prev);
+              if (!hideNeutralEpisodes && !showParliament) {
+                setHideNeutralEpisodes(true);
+              }
+            }}
+            checked={showParliament}
+            Icon={HemicycleIcon}
+          />
+        </div>
 
         <SliderControlled
           title="Filtrer par date"
