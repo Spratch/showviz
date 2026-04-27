@@ -11541,7 +11541,13 @@
   },
   {
     "id": "cirque-du-soleil",
-    "name": "Cirque du Soleil"
+    "name": "Cirque du Soleil",
+    "birthDate": "",
+    "gender": "mixte",
+    "categories": ["Compagnie de divertissement artistique"],
+    "parties": [],
+    "wikidataId": "Q504715",
+    "image": "Cirque_du_Soleil2.jpg"
   },
   {
     "id": "gaelle-paty",
@@ -13924,7 +13930,16 @@
     "birthDate": "1986-10-27",
     "gender": "masculin",
     "categories": ["cadres de la fonction publique", "personnalité politique"],
-    "parties": [],
+    "parties": [
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-05"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2022-01-01"
+      }
+    ],
     "wikidataId": "Q112654129",
     "image": "Mathieu_Lef%C3%A8vre.jpg"
   },

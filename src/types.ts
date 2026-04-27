@@ -50,6 +50,13 @@ export type PersonType = PersonDataType & {
 export type PersonWithOccurencesType = PersonType & {
   occurences: number;
   index: number;
+  episodes: string[];
+};
+
+export type PartyWithOccurencesType = PartyType & {
+  occurences: number;
+  index: number;
+  episodes: string[];
 };
 
 export type CurrentType = {
@@ -73,6 +80,9 @@ export type FamilyType = {
 export type TooltipContentType = {
   x?: number;
   y?: number;
-  guests: PersonType[];
-  episode: ShowType["diffusions"][number];
+  header: React.ReactNode;
+  content: React.ReactNode;
+  id: string;
 };
+
+export type ListItemType = PersonWithOccurencesType | PartyWithOccurencesType;

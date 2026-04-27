@@ -3,7 +3,6 @@ import type { TooltipContentType } from "@/types";
 import { useAtomValue, useSetAtom } from "jotai";
 import { useEffect, useRef } from "react";
 import CloseIcon from "~icons/tabler/x";
-import PersonInfos from "../personInfos";
 import { Button } from "./button";
 
 type Props = {
@@ -21,7 +20,7 @@ export default function Tooltip(props: Omit<Props, "tooltipContent">) {
 
 export function TooltipContent({ screenDimensions, tooltipContent }: Props) {
   const setTooltipContent = useSetAtom(tooltipContentAtom);
-  const { x = 0, y = 0, guests, episode } = tooltipContent!;
+  const { x = 0, y = 0, header, content } = tooltipContent!;
   const tooltipRef = useRef<HTMLDivElement>(null);
 
   // Calculate the position of the tooltip
@@ -75,35 +74,15 @@ export function TooltipContent({ screenDimensions, tooltipContent }: Props) {
           e.stopPropagation();
           setTooltipContent({
             ...tooltipContent,
-            episode: { ...episode, id: episode.id + "hover" },
+            id: tooltipContent.id + "hover",
           });
         }}
         onMouseLeave={() => setTooltipContent(null)}
       >
         <div className="bg-background border-border z-30 flex max-w-[40ch] flex-col gap-1.5 overflow-hidden overflow-x-hidden overflow-y-scroll rounded-lg border px-2.5 py-2">
-          <div className="font-display flex w-full items-center justify-between gap-2 border-b border-dashed pb-1 text-xs">
-            <div className="flex flex-col">
-              {episode.title && (
-                <p className="max-w-[35ch] font-medium text-balance">
-                  {episode.title}
-                </p>
-              )}
-              <span className="text-balance">
-                Invité
-                {guests.reduce(
-                  (n, g) => n + (g.gender === "masculin" ? 1 : -1),
-                  0,
-                ) > 0
-                  ? ""
-                  : "e"}
-                {guests.length > 1 ? "s" : ""} de l'émission du{" "}
-                {new Date(episode.date).toLocaleDateString("fr", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}
-              </span>
-            </div>
+          <div className="font-display flex w-full items-start justify-between gap-3 border-b border-dashed pb-1 text-xs">
+            {header}
+
             <Button
               size="icon-xs"
               aria-label="Fermer"
@@ -113,11 +92,8 @@ export function TooltipContent({ screenDimensions, tooltipContent }: Props) {
               <CloseIcon />
             </Button>
           </div>
-          <div className="flex flex-col items-start gap-x-2 gap-y-2">
-            {guests.map((guest) => (
-              <PersonInfos key={guest.episodeDate + guest.id} guest={guest} />
-            ))}
-          </div>
+
+          {content}
         </div>
       </div>
     </>

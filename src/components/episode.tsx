@@ -1,6 +1,10 @@
 import { useTooltip } from "@/hooks/useTooltip";
 import { getPersonInfos } from "@/lib/utils";
 import type { PersonType, ShowType } from "@/types";
+import {
+  EpisodeTooltipContent,
+  EpisodeTooltipHeader,
+} from "./episodeTooltipContent";
 import PersonCircle from "./personCircle";
 
 export default function Episode({
@@ -10,14 +14,14 @@ export default function Episode({
   episode: ShowType["diffusions"][number];
   politicalGuests: PersonType[];
 }) {
-  // const hideNeutralEpisodes = useAtomValue(hideNeutralEpisodesAtom);
   const guests = episode.guestsIds.map((id) =>
     getPersonInfos(id, episode.date),
   );
 
   const { elementRef, tooltipHandlers } = useTooltip({
-    guests,
-    episode,
+    header: EpisodeTooltipHeader({ guests, episode }),
+    content: EpisodeTooltipContent({ guests }),
+    id: episode.id,
   });
 
   return (
@@ -51,13 +55,7 @@ export default function Episode({
         <div className="flex flex-wrap">
           {politicalGuests.map((guest) => {
             if (!guest) return null;
-            return (
-              <PersonCircle
-                key={episode.id + guest.id}
-                person={guest}
-                // viewMode={hideNeutralEpisodes}
-              />
-            );
+            return <PersonCircle key={episode.id + guest.id} person={guest} />;
           })}
         </div>
       )}

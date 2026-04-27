@@ -1,21 +1,21 @@
 import { tooltipContentAtom } from "@/lib/atoms";
-import type { PersonType, ShowType } from "@/types";
+import type { TooltipContentType } from "@/types";
 import { useSetAtom } from "jotai";
 import { useRef } from "react";
 
-type TooltipContent = {
-  guests: PersonType[];
-  episode: ShowType["diffusions"][number];
-};
-
-export function useTooltip(tooltipContent: TooltipContent) {
+export function useTooltip(
+  tooltipContent: Omit<TooltipContentType, "x" | "y">,
+) {
   const setTooltipContent = useSetAtom(tooltipContentAtom);
   const elementRef = useRef<HTMLDivElement>(null);
   const tooltipTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const getCoords = () => {
     const rect = elementRef.current?.getBoundingClientRect();
-    return rect ? { y: rect.top, x: rect.left } : null;
+    const xOffset = elementRef.current?.getAttribute("data-offset");
+    return rect
+      ? { y: rect.top, x: rect.left + (xOffset ? parseInt(xOffset) : 0) }
+      : null;
   };
 
   const createTooltip = () => {
@@ -38,7 +38,7 @@ export function useTooltip(tooltipContent: TooltipContent) {
   const handleMouseLeave = () => {
     tooltipTimeout.current = setTimeout(() => {
       setTooltipContent((current) => {
-        if (current?.episode.id === tooltipContent.episode.id) {
+        if (current?.id === tooltipContent.id) {
           return null;
         }
         return current;

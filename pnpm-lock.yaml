@@ -87,6 +87,9 @@ importers:
       prettier-plugin-tailwindcss:
         specifier: ^0.7.2
         version: 0.7.2(prettier@3.8.3)
+      tailwindcss-scroll-mask:
+        specifier: ^0.0.3
+        version: 0.0.3(tailwindcss@4.2.2)
       typescript:
         specifier: ~6.0.2
         version: 6.0.2
@@ -1374,6 +1377,11 @@ packages:
 
   tailwind-merge@3.5.0:
     resolution: {integrity: sha512-I8K9wewnVDkL1NTGoqWmVEIlUcB9gFriAEkXkfCjX5ib8ezGxtR3xD7iZIxrfArjEsH7F1CHD4RFUtxefdqV/A==}
+
+  tailwindcss-scroll-mask@0.0.3:
+    resolution: {integrity: sha512-vPuacFs5yHJRZ8MFP/qqKKRbnWlVDPAJ5VfRzOwrmtEJQ4pHm5K1xw/dXdF4v6Sx1QdbtCWJuGs9ucSTc+YanQ==}
+    peerDependencies:
+      tailwindcss: ^4
 
   tailwindcss@4.2.2:
     resolution: {integrity: sha512-KWBIxs1Xb6NoLdMVqhbhgwZf2PGBpPEiwOqgI4pFIYbNTfBXiKYyWoTsXgBQ9WFg/OlhnvHaY+AEpW7wSmFo2Q==}
@@ -2687,6 +2695,10 @@ snapshots:
   svg-parser@2.0.4: {}
 
   tailwind-merge@3.5.0: {}
+
+  tailwindcss-scroll-mask@0.0.3(tailwindcss@4.2.2):
+    dependencies:
+      tailwindcss: 4.2.2
 
   tailwindcss@4.2.2: {}
 

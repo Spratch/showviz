@@ -2,6 +2,8 @@ import Header from "@/components/header";
 import HemicyclePersonCircle from "@/components/hemicyclePersonCircle";
 import PersonCircle from "@/components/personCircle";
 import Season from "@/components/season";
+import TopList from "@/components/topList";
+import { Separator } from "@/components/ui/separator";
 import Tooltip from "@/components/ui/tooltip";
 import useScreenDimensions from "@/hooks/useScreenWidth";
 import {
@@ -15,7 +17,11 @@ import {
   shows,
 } from "@/lib/atoms";
 import { getPersonInfos, partiesOrder } from "@/lib/utils";
-import type { PartyType, PersonType, PersonWithOccurencesType } from "@/types";
+import type {
+  PartyWithOccurencesType,
+  PersonType,
+  PersonWithOccurencesType,
+} from "@/types";
 import { Hemicycle } from "@hemicycle/core";
 import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { useEffect, useMemo } from "react";
@@ -199,10 +205,15 @@ export default function Show({ params }: { params: { showSlug: string } }) {
           if (acc[item.id]) {
             acc[item.id].occurences += 1;
             acc[item.id].party = item.party;
+            acc[item.id].episodes = [
+              ...acc[item.id].episodes,
+              item.episodeDate || "",
+            ];
           } else {
             acc[item.id] = {
               ...item,
               occurences: 1,
+              episodes: [item.episodeDate || ""],
             };
           }
           return acc;
@@ -229,18 +240,23 @@ export default function Show({ params }: { params: { showSlug: string } }) {
     displayedSeasons
       .flatMap((season) => season.politicalGuests)
       .reduce(
-        (acc: Record<string, PartyType & { occurences: number }>, item) => {
+        (acc: Record<string, Omit<PartyWithOccurencesType, "index">>, item) => {
           const partyName = item.party?.name;
 
           // Parti normal
           if (partyName && partyName !== "Gouvernement") {
             if (acc[partyName]) {
               acc[partyName].occurences += 1;
+              acc[partyName].episodes = [
+                ...acc[partyName].episodes,
+                item.episodeDate || "",
+              ];
             } else {
               acc[partyName] = {
                 ...item.party,
                 name: partyName,
                 occurences: 1,
+                episodes: [item.episodeDate || ""],
               };
             }
           }
@@ -249,12 +265,17 @@ export default function Show({ params }: { params: { showSlug: string } }) {
           if (item.isGouv) {
             if (acc["Gouvernement"]) {
               acc["Gouvernement"].occurences += 1;
+              acc["Gouvernement"].episodes = [
+                ...acc["Gouvernement"].episodes,
+                item.episodeDate || "",
+              ];
             } else {
               acc["Gouvernement"] = {
                 abbr: "Gouv",
                 color: "#FBC408",
                 name: "Gouvernement",
                 occurences: 1,
+                episodes: [item.episodeDate || ""],
               };
             }
           }
@@ -266,7 +287,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
   )
     // .filter(([, party]) => party.occurences > 1)
     .sort(([, a], [, b]) => b.occurences - a.occurences)
-    .reduce<[string, PartyType & { occurences: number; index: number }][]>(
+    .reduce<[string, PartyWithOccurencesType][]>(
       (acc, [name, party], i, arr) => {
         const prevRank = acc[i - 1]?.[1].index ?? 0;
         const index =
@@ -300,7 +321,25 @@ export default function Show({ params }: { params: { showSlug: string } }) {
               Répartition des invités politiques
             </h2>
             <div className="flex min-h-64 w-full items-center justify-center sm:h-96 md:h-150">
-              <div className="relative mt-auto max-sm:ml-3">
+              <style>{`
+                ${[
+                  ...new Set(
+                    fakeParliamentMembers
+                      .map((m) => m.party?.color)
+                      .filter(Boolean),
+                  ),
+                ]
+                  .map(
+                    (color) => `
+                      .group:has([data-color="${color}"]:hover) [data-color]:not([data-color="${color}"]), .group:has([data-color="${color}"]:focus-visible) [data-color]:not([data-color="${color}"]) {
+                        opacity: 0.1!important;
+                        transition-duration: 300ms;
+                      }
+                    `,
+                  )
+                  .join("")}
+                  `}</style>
+              <div className="group relative mt-auto max-sm:ml-3">
                 {fakeParliamentMembers.length > 0 &&
                   fakeParliamentMembers.map((guest, index) => {
                     return (
@@ -319,100 +358,65 @@ export default function Show({ params }: { params: { showSlug: string } }) {
           </section>
         )}
 
+        <Separator
+          orientation="horizontal"
+          className={"bg-border/50 mx-48 h-px"}
+        />
+
         <div className="flex w-full flex-col gap-4 md:gap-8">
           {mostInvitedParties.length > 0 && (
-            <section className="flex w-full flex-col gap-1.5 md:gap-3">
-              <h2 className="font-display text-xl font-medium">
-                Partis les plus fréquents
-              </h2>
-              <div className="relative -ml-8 overflow-x-hidden">
-                <div className="pointer-events-none absolute top-0 left-0 z-30 h-full w-8 -translate-x-1.5 bg-linear-to-r from-olive-200 via-olive-200"></div>
-                <div className="pointer-events-none absolute top-0 right-0 z-30 h-full w-8 translate-x-1.5 bg-linear-to-l from-olive-200 via-olive-200"></div>
-                <div className="no-scrollbar group/parties flex w-full gap-0 overflow-x-scroll pr-8 pb-1 pl-12 transition-[padding] hover:pl-9">
-                  {Object.entries(mostInvitedParties).map(([id, [, party]]) => (
-                    <div
-                      key={id}
-                      className={
-                        "bg-background relative -ml-4 rounded-full transition-[margin] group-hover/parties:-ml-1" +
-                        (party.name === "Gouvernement"
-                          ? " border-primary border-2 border-dashed p-0"
-                          : " p-0.5")
-                      }
-                    >
-                      <PersonCircle
-                        person={{
-                          id: party.name,
-                          name: party.name,
-                          parties: [party],
-                          party,
-                        }}
-                        viewMode={true}
-                      />
-                      <div className="absolute inset-x-0 -bottom-1 flex items-center justify-center">
-                        <div className="bg-background border-foreground text-2xs rounded-sm border px-1 font-mono text-nowrap">
-                          {party.occurences}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </section>
+            <TopList<PartyWithOccurencesType>
+              title="Partis les plus fréquents"
+              list={mostInvitedParties}
+              renderItem={(id, item) => (
+                <PersonCircle
+                  key={id}
+                  person={{
+                    id: item.name + item.index,
+                    name: item.name,
+                    parties: [item],
+                    party: item,
+                  }}
+                  viewMode={false}
+                />
+              )}
+            />
           )}
 
           {mostInvitedGuests.length > 0 && (
-            <section className="flex w-full flex-col gap-1.5 md:gap-3">
-              <h2 className="font-display text-xl font-medium">
-                Invités les plus fréquents
-              </h2>
-              <div className="relative -ml-8 overflow-x-hidden">
-                <div className="pointer-events-none absolute top-0 left-0 z-30 h-full w-8 -translate-x-1.5 bg-linear-to-r from-olive-200 via-olive-200"></div>
-                <div className="pointer-events-none absolute top-0 right-0 z-30 h-full w-8 translate-x-1.5 bg-linear-to-l from-olive-200 via-olive-200"></div>
-                <div className="no-scrollbar group/parties flex w-full gap-0 overflow-x-scroll pr-8 pb-1 pl-10 transition-[padding] hover:pl-9">
-                  {Object.entries(mostInvitedGuests).map(([id, [, guest]]) => (
-                    <div
-                      key={id}
-                      style={
-                        {
-                          "--party-color": guest.party?.color,
-                        } as React.CSSProperties
-                      }
-                      className="bg-background relative -ml-2 rounded-full p-0.5 transition-[margin] group-hover/parties:-ml-1"
-                    >
-                      <a
-                        href={`https://fr.wikipedia.org/wiki/${guest.name}`}
-                        target="_blank"
-                        className={
-                          "flex aspect-square size-14 shrink-0 items-center justify-center overflow-hidden rounded-full bg-olive-300" +
-                          (guest.party
-                            ? ` border-2 border-(--party-color)`
-                            : " border-border border")
-                        }
-                      >
-                        {guest.image ? (
-                          <img
-                            src={`https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/${guest.image}&width=80`}
-                            className="size-full object-cover object-top"
-                            alt=""
-                          />
-                        ) : (
-                          // <UserIcon className="size-6 text-olive-400" />
-                          <p className="text-2xs/tight font-display max-w-full p-1 text-center text-balance">
-                            {guest.name.split(" ")[0].charAt(0)}.{" "}
-                            {guest.name.split(" ").slice(1).join(" ")}
-                          </p>
-                        )}
-                      </a>
-                      <div className="absolute inset-x-0 -bottom-1 flex items-center justify-center">
-                        <div className="bg-background border-foreground text-2xs rounded-sm border px-1 font-mono text-nowrap">
-                          {guest.occurences}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
+            <TopList<PersonWithOccurencesType>
+              title="Invités les plus fréquents"
+              list={mostInvitedGuests}
+              renderItem={(id, guest) => (
+                <div
+                  key={id}
+                  className={
+                    "flex aspect-square size-14 shrink-0 items-center justify-center overflow-hidden rounded-full bg-olive-300" +
+                    (guest.party
+                      ? ` border-2 border-(--party-color)`
+                      : " border-border border")
+                  }
+                  style={
+                    {
+                      "--party-color": guest.party?.color,
+                    } as React.CSSProperties
+                  }
+                >
+                  {guest.image ? (
+                    <img
+                      src={`https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/${guest.image}&width=80`}
+                      className="size-full object-cover object-[center_15%]"
+                      alt=""
+                    />
+                  ) : (
+                    <p className="text-2xs/tight font-display max-w-full p-1 text-center text-balance">
+                      {guest.name.split(" ")[0].charAt(0)}.{" "}
+                      {guest.name.split(" ").slice(1).join(" ")}
+                    </p>
+                  )}
                 </div>
-              </div>
-            </section>
+              )}
+            />
           )}
         </div>
       </main>
