@@ -5,7 +5,7 @@ export function EpisodeTooltipContent({ guests }: { guests: PersonType[] }) {
   return (
     <div className="flex flex-col items-start gap-x-2 gap-y-2">
       {guests.map((guest) => (
-        <PersonInfos key={guest.episodeDate + guest.id} guest={guest} />
+        <PersonInfos key={guest.episode?.date + guest.id} guest={guest} />
       ))}
     </div>
   );
@@ -19,9 +19,16 @@ export function EpisodeTooltipHeader({
   episode: ShowType["diffusions"][number];
 }) {
   return (
-    <div className="flex flex-col">
-      {episode.title && (
-        <p className="max-w-[35ch] font-medium text-balance">{episode.title}</p>
+    <div className="flex h-full flex-col justify-center">
+      {(episode.title || episode.showTitle) && (
+        <p className="max-w-[35ch] font-medium text-balance">
+          {episode.showTitle && (
+            <span className="font-normal">
+              {episode.showTitle.split("-").pop()}
+            </span>
+          )}{" "}
+          {episode.title && episode.title.replace(" : ", " : ")}
+        </p>
       )}
       <span className="text-balance">
         Invité

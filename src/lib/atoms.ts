@@ -6,11 +6,37 @@ import type { ShowType, TooltipContentType } from "@/types";
 import { atom } from "jotai";
 import { getDateFromOrigin, monthIndex, startOfMonth } from "./utils";
 
+// const global: ShowType = {
+//   slug: "global",
+//   title: "global",
+//   channel: "france·tv",
+//   start: "",
+//   end: "",
+//   diffusions: [
+//     ...quelleEpoque.diffusions.map((episode) => ({
+//       ...episode,
+//       showTitle: "global-" + quelleEpoque.title,
+//     })),
+//     ...levenement.diffusions.map((episode) => ({
+//       ...episode,
+//       showTitle: "global-" + levenement.title,
+//     })),
+//     ...yeuxdAgathe.diffusions.map((episode) => ({
+//       ...episode,
+//       showTitle: "global-" + yeuxdAgathe.title,
+//     })),
+//     ...cCeSoir.diffusions.map((episode) => ({
+//       ...episode,
+//       showTitle: "global-" + cCeSoir.title,
+//     })),
+//   ],
+// };
 export const shows: ShowType[] = [
   quelleEpoque,
   levenement,
   yeuxdAgathe,
   cCeSoir,
+  // global,
 ];
 export const selectedShowAtom = atom(shows[0]);
 

@@ -43,11 +43,11 @@ export default function Season({ season }: { season: SeasonType }) {
               (g) =>
                 g &&
                 episode.guestsIds.includes(g.id) &&
-                g.episodeDate === episode.date,
+                g.episode?.date === episode.date,
             );
             return (
               <Episode
-                key={episode.id}
+                key={episode.id + episode.date}
                 politicalGuests={politicalGuests}
                 episode={episode}
               />

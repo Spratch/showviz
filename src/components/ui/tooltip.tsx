@@ -79,8 +79,8 @@ export function TooltipContent({ screenDimensions, tooltipContent }: Props) {
         }}
         onMouseLeave={() => setTooltipContent(null)}
       >
-        <div className="bg-background border-border z-30 flex max-w-[40ch] flex-col gap-1.5 overflow-hidden overflow-x-hidden overflow-y-scroll rounded-lg border px-2.5 py-2">
-          <div className="font-display flex w-full items-start justify-between gap-3 border-b border-dashed pb-1 text-xs">
+        <div className="bg-background border-border relative z-30 flex max-w-[40ch] flex-col gap-1.5 rounded-lg border px-2.5 py-2">
+          <div className="font-display bg-background sticky top-0 z-40 flex w-full items-start justify-between gap-3 border-b border-dashed pb-1 text-xs">
             {header}
 
             <Button
@@ -93,7 +93,7 @@ export function TooltipContent({ screenDimensions, tooltipContent }: Props) {
             </Button>
           </div>
 
-          {content}
+          <div className="scroll-mask-y overflow-y-scroll">{content}</div>
         </div>
       </div>
     </>

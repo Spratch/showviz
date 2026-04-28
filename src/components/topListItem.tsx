@@ -1,5 +1,5 @@
 import { useTooltip } from "@/hooks/useTooltip";
-import type { ListItemType, PersonType } from "@/types";
+import type { EpisodeWithPersonType, ListItemType, PersonType } from "@/types";
 import PersonInfos from "./personInfos";
 
 export default function TopListItem<T extends ListItemType>({
@@ -29,16 +29,39 @@ export default function TopListItem<T extends ListItemType>({
         </p>
       ),
     content: (
-      <div className="flex flex-col gap-1 font-mono text-xs">
-        {item.episodes.map((episode) => (
-          <span>
-            {new Date(episode).toLocaleDateString("fr", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
-          </span>
-        ))}
+      <div className="flex flex-col gap-1.5 font-mono text-xs">
+        {item.episodes
+          .sort((a, b) => b.date.localeCompare(a.date))
+          .map((episode: EpisodeWithPersonType, i) => (
+            <div
+              key={i + episode.date + episode.person?.id}
+              className="flex flex-col"
+            >
+              {episode.person && (
+                <p className="font-display text-primary font-medium">
+                  {episode.person.name}
+                </p>
+              )}
+
+              {(episode.title || episode.showTitle) && (
+                <p className="font-display max-w-[30ch] text-xs/tight text-balance italic">
+                  {episode.showTitle && (
+                    <span className="font-display text-primary text-xs not-italic">
+                      {episode.showTitle.split("-").pop()}
+                    </span>
+                  )}{" "}
+                  {episode.title && episode.title.replace(" : ", " : ")}
+                </p>
+              )}
+              <p className="text-2xs">
+                {new Date(episode.date).toLocaleDateString("fr", {
+                  year: "numeric",
+                  month: "numeric",
+                  day: "numeric",
+                })}
+              </p>
+            </div>
+          ))}
       </div>
     ),
     id: id + item.name,

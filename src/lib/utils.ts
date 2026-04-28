@@ -43,31 +43,32 @@ export const getPartyInfos = (party: PartyType) => {
 
 export const getPersonInfos = (
   personId: string,
-  episodeDate: string,
+  episode: NonNullable<PersonType["episode"]>,
 ): PersonType => {
-  const person: PersonType | undefined = (people as PersonType[]).find(
-    (p) => p.id === personId,
-  );
+  const person: Omit<PersonType, "episode"> | undefined = (
+    people as Omit<PersonType, "episode">[]
+  ).find((p) => p.id === personId);
   if (!person)
     return {
       id: personId,
       name: personId,
       parties: [],
+      episode: episode,
     };
   const foundParty =
     (person.parties &&
       person.parties.find(
         (party) =>
-          (party.start ? party.start <= episodeDate : true) &&
-          (party.end ? party.end >= episodeDate : true),
+          (party.start ? party.start <= episode.date : true) &&
+          (party.end ? party.end >= episode.date : true),
       )) ||
     null;
   const isGouv =
     person.parties &&
     person.parties.some(
       (party) =>
-        (party.start ? party.start <= episodeDate : true) &&
-        (party.end ? party.end >= episodeDate : true) &&
+        (party.start ? party.start <= episode.date : true) &&
+        (party.end ? party.end >= episode.date : true) &&
         party.name === "Gouvernement",
     );
   const { abbr, color, partyCurrent } = foundParty
@@ -82,5 +83,5 @@ export const getPersonInfos = (
       }
     : undefined;
 
-  return { ...person, party, isGouv, episodeDate };
+  return { ...person, party, isGouv, episode };
 };

@@ -610,8 +610,8 @@
     ],
     "parties": [
       {
-        "name": "L'Après",
-        "start": "2024-01-01"
+        "name": "Parti communiste français",
+        "end": "2008-01-01"
       },
       {
         "name": "Ensemble !",
@@ -619,13 +619,13 @@
         "end": "2023-01-01"
       },
       {
-        "name": "Parti communiste français",
-        "end": "2008-01-01"
-      },
-      {
         "name": "La France insoumise",
         "start": "2016-01-01",
         "end": "2024-06-30"
+      },
+      {
+        "name": "L'Après",
+        "start": "2024-01-01"
       }
     ],
     "wikidataId": "Q2980738",
@@ -13701,8 +13701,7 @@
     "gender": "féminin",
     "categories": ["géopolitologue", "essayiste"],
     "parties": [],
-    "wikidataId": "Q138822092",
-    "image": "Yasmina_Asrarguis.jpg"
+    "wikidataId": "Q138822092"
   },
   {
     "id": "celine-bardet",

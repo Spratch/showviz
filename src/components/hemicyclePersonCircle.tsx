@@ -21,21 +21,22 @@ export default function HemicyclePersonCircle({
     header: EpisodeTooltipHeader({
       guests: [person],
       episode: {
-        id: person.episodeDate + person.id,
-        date: person.episodeDate!,
+        id: person.episode!.date + person.id,
+        date: person.episode!.date,
         guestsIds: [person.id],
+        title: person.episode!.title,
       },
     }),
     content: EpisodeTooltipContent({ guests: [person] }),
-    id: person.episodeDate + person.id,
+    id: person.episode!.date + person.id,
   });
   return (
     <motion.div
       ref={elementRef}
       {...tooltipHandlers}
-      layoutId={person.episodeDate + person.id}
+      layoutId={person.episode!.date + person.id}
       layoutDependency={position?.x || viewMode}
-      id={person.episodeDate + person.id}
+      id={person.episode!.date + person.id}
       data-color={person.party?.color}
       tabIndex={0}
       className={`ring-ring text-2xs flex aspect-square flex-col items-center justify-center overflow-hidden rounded-full bg-(--current-color)/75 p-1.5 transition-opacity ${person?.isGouv ? "border-2 border-olive-600" : ""} absolute size-4 sm:size-8 md:size-12 md:text-xs`}

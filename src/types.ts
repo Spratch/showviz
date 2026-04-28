@@ -11,6 +11,7 @@ export type ShowType = {
     guestsIds: string[];
     viewers?: number;
     viewersPercentage?: number;
+    showTitle?: string;
   }[];
 };
 
@@ -43,20 +44,28 @@ export type PersonType = PersonDataType & {
   categories?: string[];
   isGouv?: boolean;
   party?: PartyType;
-  episodeDate?: string;
   image?: string;
+  episode: {
+    showTitle?: string;
+    date: string;
+    title?: string;
+  };
 };
 
 export type PersonWithOccurencesType = PersonType & {
   occurences: number;
   index: number;
-  episodes: string[];
+  episodes: NonNullable<PersonType["episode"]>[];
+};
+
+export type EpisodeWithPersonType = NonNullable<PersonType["episode"]> & {
+  person?: PersonType;
 };
 
 export type PartyWithOccurencesType = PartyType & {
   occurences: number;
   index: number;
-  episodes: string[];
+  episodes: EpisodeWithPersonType[];
 };
 
 export type CurrentType = {

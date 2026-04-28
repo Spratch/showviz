@@ -51,7 +51,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
         }
 
         const episodeGuests = episode.guestsIds.map((guestId) =>
-          getPersonInfos(guestId, episode.date),
+          getPersonInfos(guestId, episode),
         );
 
         const episodePoliticalGuests = episodeGuests.filter(
@@ -205,15 +205,12 @@ export default function Show({ params }: { params: { showSlug: string } }) {
           if (acc[item.id]) {
             acc[item.id].occurences += 1;
             acc[item.id].party = item.party;
-            acc[item.id].episodes = [
-              ...acc[item.id].episodes,
-              item.episodeDate || "",
-            ];
+            acc[item.id].episodes = [...acc[item.id].episodes, item.episode!];
           } else {
             acc[item.id] = {
               ...item,
               occurences: 1,
-              episodes: [item.episodeDate || ""],
+              episodes: [item.episode!],
             };
           }
           return acc;
@@ -249,14 +246,22 @@ export default function Show({ params }: { params: { showSlug: string } }) {
               acc[partyName].occurences += 1;
               acc[partyName].episodes = [
                 ...acc[partyName].episodes,
-                item.episodeDate || "",
+                {
+                  ...item.episode!,
+                  person: item,
+                },
               ];
             } else {
               acc[partyName] = {
                 ...item.party,
                 name: partyName,
                 occurences: 1,
-                episodes: [item.episodeDate || ""],
+                episodes: [
+                  {
+                    ...item.episode!,
+                    person: item,
+                  },
+                ],
               };
             }
           }
@@ -267,7 +272,10 @@ export default function Show({ params }: { params: { showSlug: string } }) {
               acc["Gouvernement"].occurences += 1;
               acc["Gouvernement"].episodes = [
                 ...acc["Gouvernement"].episodes,
-                item.episodeDate || "",
+                {
+                  ...item.episode!,
+                  person: item,
+                },
               ];
             } else {
               acc["Gouvernement"] = {
@@ -275,7 +283,12 @@ export default function Show({ params }: { params: { showSlug: string } }) {
                 color: "#FBC408",
                 name: "Gouvernement",
                 occurences: 1,
-                episodes: [item.episodeDate || ""],
+                episodes: [
+                  {
+                    ...item.episode!,
+                    person: item,
+                  },
+                ],
               };
             }
           }
@@ -285,7 +298,6 @@ export default function Show({ params }: { params: { showSlug: string } }) {
         {},
       ),
   )
-    // .filter(([, party]) => party.occurences > 1)
     .sort(([, a], [, b]) => b.occurences - a.occurences)
     .reduce<[string, PartyWithOccurencesType][]>(
       (acc, [name, party], i, arr) => {
@@ -344,7 +356,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
                   fakeParliamentMembers.map((guest, index) => {
                     return (
                       <HemicyclePersonCircle
-                        key={guest.episodeDate + guest.id}
+                        key={guest.episode?.date + guest.id}
                         person={guest}
                         position={hemicycleLayout[index]}
                       />
@@ -376,6 +388,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
                     name: item.name,
                     parties: [item],
                     party: item,
+                    episode: item.episodes[0],
                   }}
                   viewMode={false}
                 />

@@ -15,7 +15,11 @@ export default function Episode({
   politicalGuests: PersonType[];
 }) {
   const guests = episode.guestsIds.map((id) =>
-    getPersonInfos(id, episode.date),
+    getPersonInfos(id, {
+      date: episode.date,
+      title: episode.title,
+      showTitle: episode.showTitle!,
+    }),
   );
 
   const { elementRef, tooltipHandlers } = useTooltip({
