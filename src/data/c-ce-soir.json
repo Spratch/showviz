@@ -4,6 +4,7 @@
   "channel": "France 5",
   "start": "2021-01-25",
   "end": "",
+  "seasonsNumber": 6,
   "diffusions": [
     {
       "id": "03-01",
@@ -2478,6 +2479,18 @@
         "arnaud-miranda",
         "hugo-micheron",
         "anne-sophie-moreau"
+      ]
+    },
+    {
+      "id": "05-64",
+      "title": "Trump - Attentat avorté : Une histoire américaine de la violence ?",
+      "date": "2026-04-27",
+      "guestsIds": [
+        "romuald-sciora",
+        "richard-werly",
+        "elisa-chelle",
+        "philippe-gelie",
+        "ludivine-gilli"
       ]
     }
   ]

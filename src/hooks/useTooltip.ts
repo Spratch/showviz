@@ -30,7 +30,7 @@ export function useTooltip(
     createTooltip();
   };
 
-  const handleTouchEnd = (e: React.TouchEvent) => {
+  const handleTouchEnd = (e: React.TouchEvent | React.FocusEvent) => {
     e.preventDefault();
     createTooltip();
   };
@@ -51,6 +51,8 @@ export function useTooltip(
     tooltipHandlers: {
       onMouseEnter: handleMouseEnter,
       onTouchEnd: handleTouchEnd,
+      onFocus: handleTouchEnd,
+      onBlur: handleMouseLeave,
       onMouseLeave: handleMouseLeave,
     },
   };

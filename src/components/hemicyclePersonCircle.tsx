@@ -39,7 +39,7 @@ export default function HemicyclePersonCircle({
       id={person.episode!.date + person.id}
       data-color={person.party?.color}
       tabIndex={0}
-      className={`ring-ring text-2xs flex aspect-square flex-col items-center justify-center overflow-hidden rounded-full bg-(--current-color)/75 p-1.5 transition-opacity ${person?.isGouv ? "border-2 border-olive-600" : ""} absolute size-4 sm:size-8 md:size-12 md:text-xs`}
+      className={`ring-ring outline-ring text-2xs flex aspect-square flex-col items-center justify-center overflow-hidden rounded-full bg-(--current-color)/75 p-1.5 outline-offset-2 transition-opacity ${person?.isGouv ? "border-2 border-olive-600" : ""} absolute size-4 sm:size-8 md:size-12 md:text-xs`}
       style={
         {
           "--current-color": person?.party?.color,

@@ -4,6 +4,7 @@ export type ShowType = {
   channel: string;
   start: string;
   end: string;
+  seasonsNumber?: number;
   diffusions: {
     id: string;
     title?: string;

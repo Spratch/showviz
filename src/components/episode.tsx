@@ -32,7 +32,8 @@ export default function Episode({
     <article
       ref={elementRef}
       {...tooltipHandlers}
-      className={`relative flex flex-row items-start gap-px rounded-[20px] border-olive-400 bg-olive-300 sm:rounded-3xl md:rounded-[28px]`}
+      tabIndex={0}
+      className={`outline-ring relative flex flex-row items-start gap-px rounded-[20px] border-olive-400 bg-olive-300 outline-offset-2 sm:rounded-3xl md:rounded-[28px]`}
     >
       <div className="flex aspect-square size-10 shrink-0 flex-wrap content-center items-center justify-center rounded-full border-olive-400 bg-olive-300 p-1.5 sm:size-12 sm:p-2 md:size-14 md:p-2">
         {Array.from({

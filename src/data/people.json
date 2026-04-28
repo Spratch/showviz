@@ -989,7 +989,10 @@
     "name": "Jordan Bardella",
     "birthDate": "1995-09-13",
     "gender": "masculin",
-    "categories": ["personnalité politique", "étudiant ou étudiante"],
+    "categories": [
+      "personnes diverses sans activité professionnelle de moins de 60 ans sauf retraités",
+      "personnalité politique"
+    ],
     "parties": [
       {
         "name": "Rassemblement national",
@@ -8941,11 +8944,11 @@
     "birthDate": "1979-10-15",
     "gender": "masculin",
     "categories": [
+      "personnalité politique",
       "auteur ou autrice de non-fiction",
       "journaliste",
       "politologue",
-      "documentaliste",
-      "personnalité politique"
+      "documentaliste"
     ],
     "parties": [
       {
@@ -9539,10 +9542,10 @@
     "birthDate": "1968-08-05",
     "gender": "féminin",
     "categories": [
+      "personnalité politique",
       "cadres de la fonction publique",
       "professions libérales et assimilés",
       "juriste",
-      "personnalité politique",
       "avocat ou avocate"
     ],
     "parties": [
@@ -12149,10 +12152,9 @@
     "birthDate": "1990-05-06",
     "gender": "féminin",
     "categories": [
+      "personnalité politique",
       "personnes diverses sans activité professionnelle de moins de 60 ans sauf retraités",
-      "professions intermédiaires administratives et commerciales des entreprises",
-      "propagandiste",
-      "personnalité politique"
+      "professions intermédiaires administratives et commerciales des entreprises"
     ],
     "parties": [
       {
@@ -14457,9 +14459,9 @@
   },
   {
     "id": "philippe-gelie",
-    "name": "Philippe Gelie",
+    "name": "Philippe Gélie",
     "gender": "masculin",
-    "categories": [],
+    "categories": ["journaliste"],
     "parties": [],
     "wikidataId": "Q115485975"
   },
@@ -17428,5 +17430,14 @@
     ],
     "wikidataId": "Q22249416",
     "image": "Usul1.jpg"
+  },
+  {
+    "id": "ludivine-gilli",
+    "name": "Ludivine Gilli",
+    "birthDate": "1980-01-01",
+    "gender": "féminin",
+    "categories": ["historien ou historienne"],
+    "parties": [],
+    "wikidataId": "Q130597656"
   }
 ]

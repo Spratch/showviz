@@ -68,7 +68,7 @@ export default function PersonInfos({
           )}
         </p>
         {guest.categories && guest.categories.length > 0 && (
-          <span className="text-muted-foreground max-w-[30ch] truncate font-mono text-xs italic first-letter:capitalize">
+          <span className="text-muted-foreground max-w-[35ch] truncate font-mono text-xs italic first-letter:capitalize">
             {guest.categories[0]}
           </span>
         )}

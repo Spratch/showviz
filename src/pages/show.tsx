@@ -36,10 +36,21 @@ export default function Show({ params }: { params: { showSlug: string } }) {
     }
   }, [showSlug, setSelectedShow]);
 
+  const toSeasonYear = (d: string): number => {
+    const year = +d.slice(0, 4);
+    return d.slice(5, 7) >= "09" ? year : year - 1;
+  };
   const seasonMap = useMemo(() => {
+    const years = [
+      ...new Set(selectedShow.diffusions.map((ep) => toSeasonYear(ep.date))),
+    ].sort();
+    const lastNumber = selectedShow.seasonsNumber ?? years.length;
+    const firstNumber = lastNumber - years.length + 1;
     return selectedShow.diffusions.reduce(
       (acc, episode) => {
-        const season = episode.id.split("-")[0];
+        const season = String(
+          firstNumber + years.indexOf(toSeasonYear(episode.date)),
+        ).padStart(2, "0");
 
         if (!acc[season]) {
           acc[season] = {

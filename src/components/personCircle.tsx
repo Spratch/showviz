@@ -15,7 +15,7 @@ export default function PersonCircle({
       layoutId={person.episode.date + person.id}
       layoutDependency={position?.x || viewMode}
       id={person.episode.date + person.id}
-      className={`ring-ring text-2xs flex aspect-square flex-col items-center justify-center overflow-hidden rounded-full bg-(--current-color)/75 p-1.5 ${person?.isGouv ? "border-2 border-olive-600" : ""} ${position ? "absolute size-6 sm:size-8 md:size-12 md:text-xs" : "relative size-10 text-xs sm:size-12 sm:text-sm md:size-14"}`}
+      className={`ring-ring text-2xs outline-foreground flex aspect-square flex-col items-center justify-center overflow-hidden rounded-full bg-(--current-color)/75 p-1.5 ${person?.isGouv ? "border-2 border-olive-600" : ""} ${position ? "absolute size-6 sm:size-8 md:size-12 md:text-xs" : "relative size-10 text-xs sm:size-12 sm:text-sm md:size-14"}`}
       style={
         {
           "--current-color": person?.party?.color,
