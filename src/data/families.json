@@ -20,6 +20,22 @@
             "keyword": "Lutte ouvrière"
           }
         ]
+      },
+      {
+        "name": "Anarchiste",
+        "name_en": "Anarchist",
+        "name_de": "Anarchist",
+        "keyword": "Anarchisme",
+        "color": "#6F6F6D",
+        "parties": [
+          {
+            "name": "FA",
+            "full_name": "Fédération anarchiste",
+            "full_name_en": "Anarchist federation",
+            "full_name_de": "Anarchistische Föderation",
+            "keyword": "Fédération anarchiste (francophone)"
+          }
+        ]
       }
     ]
   },
@@ -48,6 +64,20 @@
             "full_name": "Parti communiste français",
             "full_name_en": "French Communist Party",
             "full_name_de": "Französische Kommunistische Partei"
+          },
+          {
+            "name": "PTB",
+            "full_name": "Parti du travail de Belgique",
+            "full_name_en": "Workers' Party of Belgium",
+            "full_name_de": "Partei der Arbeit Belgiens",
+            "keyword": "Parti du travail de Belgique"
+          },
+          {
+            "name": "PCC",
+            "full_name": "Parti communiste chinois",
+            "full_name_en": "Communist Party of China",
+            "full_name_de": "Kommunistische Partei Chinas",
+            "keyword": "Parti communiste chinois"
           }
         ]
       },
@@ -183,6 +213,13 @@
             "full_name": "La France insoumise",
             "full_name_en": "Rebellious France",
             "full_name_de": "Das rebellische Frankreich"
+          },
+          {
+            "name": "MeRA25",
+            "full_name": "Front de désobéissance réaliste européen",
+            "full_name_en": "European Realistic Disobedience Front",
+            "full_name_de": "Bündnis für realistischen europäischen Ungehorsam",
+            "keyword": "Front de désobéissance réaliste européen"
           }
         ]
       },
@@ -344,6 +381,13 @@
             "full_name_en": "Fatah",
             "full_name_de": "Fatah",
             "keyword": "Fatah"
+          },
+          {
+            "name": "PSS",
+            "full_name": "Parti socialiste suisse",
+            "full_name_en": "Social Democratic Party of Switzerland",
+            "full_name_de": "Sozialdemokratische Partei der Schweiz",
+            "keyword": "Parti socialiste suisse"
           }
         ]
       },
@@ -1037,6 +1081,7 @@
         "name_en": "Animalist",
         "name_de": "Animalist",
         "color": "#AF6FAD",
+        "keyword": "Animalisme",
         "parties": [
           {
             "name": "PA",
@@ -1044,6 +1089,38 @@
             "full_name_en": "Animalist Party",
             "full_name_de": "Animalistische Partei",
             "keyword": "Parti animaliste"
+          }
+        ]
+      },
+      {
+        "name": "Populiste souverainiste",
+        "name_en": "Sovereignist populist",
+        "name_de": "Souveränistischer Populist",
+        "color": "#D5CDA8",
+        "keyword": "Juan Branco",
+        "parties": [
+          {
+            "name": "Ru",
+            "full_name": "Les Ruches",
+            "full_name_en": "The Hives",
+            "full_name_de": "Die Bienenstöcke",
+            "keyword": "Juan Branco"
+          }
+        ]
+      },
+      {
+        "name": "Pirate",
+        "name_en": "Pirate",
+        "name_de": "Pirat",
+        "color": "#8A4AA1",
+        "keyword": "Parti pirate international",
+        "parties": [
+          {
+            "name": "PPS",
+            "full_name": "Parti Pirate Suisse",
+            "full_name_en": "Pirate Party Switzerland",
+            "full_name_de": "Piratenpartei Schweiz",
+            "keyword": "Parti Pirate Suisse"
           }
         ]
       }

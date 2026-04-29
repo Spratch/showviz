@@ -2,6 +2,7 @@ import cCeSoir from "@/data/c-ce-soir.json";
 import yeuxdAgathe from "@/data/dans-les-yeux-dagathe.json";
 import levenement from "@/data/l-evenement.json";
 import quelleEpoque from "@/data/quelle-epoque.json";
+import thinkerview from "@/data/thinkerview.json";
 import type { ShowType, TooltipContentType } from "@/types";
 import { atom } from "jotai";
 import { getDateFromOrigin, monthIndex, startOfMonth } from "./utils";
@@ -36,6 +37,7 @@ export const shows: ShowType[] = [
   levenement,
   yeuxdAgathe,
   cCeSoir,
+  thinkerview,
   // global,
 ];
 export const selectedShowAtom = atom(shows[0]);
