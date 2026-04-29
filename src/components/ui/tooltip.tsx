@@ -60,16 +60,17 @@ export function TooltipContent({ screenDimensions, tooltipContent }: Props) {
   return (
     <>
       <div
-        className="fixed inset-0 z-40 pointer-fine:hidden"
-        onTouchStart={(e) => {
+        className="bg-primary/10 fixed inset-0 z-40 pointer-fine:hidden"
+        onClick={(e) => {
           if (window.matchMedia("(pointer: fine)").matches) return;
+          e.stopPropagation();
           e.preventDefault();
           setTooltipContent(null);
         }}
       />
       <div
         ref={tooltipRef}
-        className="fixed z-50 flex max-h-[80vh] max-w-[95vw] justify-start py-1 transition-all duration-500 select-none"
+        className="fixed z-50 flex max-h-[70vh] max-w-[calc(100vw---spacing(2)*2)] justify-start py-1 transition-all duration-500 select-none"
         onMouseEnter={(e) => {
           e.stopPropagation();
           setTooltipContent({
@@ -79,8 +80,8 @@ export function TooltipContent({ screenDimensions, tooltipContent }: Props) {
         }}
         onMouseLeave={() => setTooltipContent(null)}
       >
-        <div className="bg-background border-border relative z-30 flex max-w-[40ch] flex-col gap-1.5 rounded-lg border px-2.5 py-2">
-          <div className="font-display bg-background sticky top-0 z-40 flex w-full items-start justify-between gap-3 border-b border-dashed pb-1 text-xs">
+        <div className="bg-background border-border relative z-60 flex max-w-full flex-col gap-1.5 rounded-lg border px-2.5 py-2 sm:max-w-[40ch]">
+          <div className="font-display bg-background sticky top-0 z-70 flex w-full items-start justify-between gap-3 border-b border-dashed pb-1 text-xs">
             {header}
 
             <Button
@@ -93,7 +94,9 @@ export function TooltipContent({ screenDimensions, tooltipContent }: Props) {
             </Button>
           </div>
 
-          <div className="scroll-mask-y overflow-y-scroll">{content}</div>
+          <div className="scroll-mask-y overflow-x-hidden overflow-y-scroll">
+            {content}
+          </div>
         </div>
       </div>
     </>

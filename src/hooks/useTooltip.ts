@@ -24,13 +24,15 @@ export function useTooltip(
     setTooltipContent({ ...tooltipContent, ...coords });
   };
 
-  const handleMouseEnter = (e: React.MouseEvent) => {
+  const handleMouseEnter = (e: React.MouseEvent | React.FocusEvent) => {
     if (window.matchMedia("(pointer: coarse)").matches) return;
     e.stopPropagation();
     createTooltip();
   };
 
-  const handleTouchEnd = (e: React.TouchEvent | React.FocusEvent) => {
+  const handleClick = (e: React.MouseEvent) => {
+    if (window.matchMedia("(pointer: fine)").matches) return;
+    e.stopPropagation();
     e.preventDefault();
     createTooltip();
   };
@@ -50,8 +52,8 @@ export function useTooltip(
     elementRef,
     tooltipHandlers: {
       onMouseEnter: handleMouseEnter,
-      onTouchEnd: handleTouchEnd,
-      onFocus: handleTouchEnd,
+      onClick: handleClick,
+      onFocus: handleMouseEnter,
       onBlur: handleMouseLeave,
       onMouseLeave: handleMouseLeave,
     },

@@ -215,7 +215,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
         ) => {
           if (acc[item.id]) {
             acc[item.id].occurences += 1;
-            acc[item.id].party = item.party;
+            acc[item.id].party = acc[item.id].party ?? item.party;
             acc[item.id].episodes = [...acc[item.id].episodes, item.episode!];
           } else {
             acc[item.id] = {
@@ -339,7 +339,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
             </div>
           </section>
         ) : (
-          <section className="flex w-full grow flex-col">
+          <section className="flex w-full flex-col">
             <h2 className="font-display text-xl font-medium">
               Répartition des invités politiques
             </h2>

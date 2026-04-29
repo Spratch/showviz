@@ -22,19 +22,19 @@ export function SliderControlled({
   return (
     <div
       className={cn(
-        "grid w-full gap-3 rounded-lg border p-2.5 text-sm",
+        "grid w-full gap-1.5 rounded-lg border p-2.5 text-sm sm:gap-3",
         props.className,
       )}
     >
       <div className="flex flex-wrap items-center justify-between gap-x-2">
         <Label
           htmlFor="slider-date"
-          className="font-display text-sm text-nowrap"
+          className="font-display text-xs text-nowrap sm:text-sm"
         >
-          {Icon && <Icon className="mt-0.5" />}
+          {Icon && <Icon className="mt-0.5 max-sm:hidden" />}
           {title}
         </Label>
-        <span className="text-muted-foreground text-xs text-nowrap md:text-sm">
+        <span className="text-muted-foreground text-2xs text-nowrap sm:text-xs">
           {labels.join(" - ")}
         </span>
       </div>

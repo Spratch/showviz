@@ -26,13 +26,13 @@ export function SwitchChoiceCard({
 }) {
   return (
     <FieldLabel htmlFor={id}>
-      <Field orientation="responsive">
+      <Field orientation="horizontal">
         <FieldContent>
-          <FieldTitle className="font-display text-sm">
-            {Icon && <Icon className="-mt-0.5" />}
+          <FieldTitle className="font-display text-xs sm:text-sm">
+            {Icon && <Icon className="-mt-0.5 max-sm:hidden" />}
             {title}
           </FieldTitle>
-          <FieldDescription className="text-xs text-pretty sm:max-w-[30ch]">
+          <FieldDescription className="text-2xs/tight max-w-[30ch] text-pretty sm:text-xs">
             {description}
           </FieldDescription>
         </FieldContent>

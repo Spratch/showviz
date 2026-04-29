@@ -2,6 +2,12 @@ import type { SeasonType } from "@/types";
 import Episode from "./episode";
 
 export default function Season({ season }: { season: SeasonType }) {
+  const lastYear = season.episodes[0].date.split("-")[0];
+  const firstYear =
+    season.episodes[season.episodes.length - 1].date.split("-")[0];
+  const yearRange =
+    firstYear === lastYear ? firstYear : `${firstYear}-${lastYear}`;
+
   return (
     <section className="flex flex-col gap-2">
       <div className="flex flex-wrap items-baseline justify-between gap-x-2 font-mono text-olive-700">
@@ -9,8 +15,7 @@ export default function Season({ season }: { season: SeasonType }) {
           <h2>
             S{season.id}
             <span className="ml-1.5 text-xs text-olive-600 sm:ml-2 sm:text-sm">
-              {season.episodes[season.episodes.length - 1].date.split("-")[0]}-
-              {season.episodes[0].date.split("-")[0]}
+              {yearRange}
             </span>
           </h2>
           <p className="text-xs text-olive-500 sm:text-sm">
@@ -35,7 +40,7 @@ export default function Season({ season }: { season: SeasonType }) {
         </p>
       </div>
 
-      <div className="flex flex-wrap items-center gap-2">
+      <div className="flex flex-wrap items-center gap-1 sm:gap-2">
         {season.episodes
           .sort((a, b) => b.date.localeCompare(a.date))
           .map((episode) => {

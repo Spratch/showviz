@@ -44,9 +44,9 @@ export default function TopListItem<T extends ListItemType>({
               )}
 
               {(episode.title || episode.showTitle) && (
-                <p className="font-display max-w-[30ch] text-xs/tight text-balance italic">
+                <p className="font-display max-w-[30ch] text-xs/tight text-balance">
                   {episode.showTitle && (
-                    <span className="font-display text-primary text-xs not-italic">
+                    <span className="font-display text-primary text-xs italic">
                       {episode.showTitle.split("-").pop()}
                     </span>
                   )}{" "}
