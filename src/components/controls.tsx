@@ -9,9 +9,9 @@ import { useAtom, useAtomValue } from "jotai";
 import CalendarIcon from "~icons/tabler/calendar-event";
 import FilterIcon from "~icons/tabler/filter";
 import HemicycleIcon from "~icons/tabler/wifi";
+import { Button } from "./ui/button";
 import { FieldGroup } from "./ui/field";
 import { SliderControlled } from "./ui/sliderControlled";
-import { SwitchChoiceCard } from "./ui/switchChoiceCard";
 
 export default function Controls() {
   const [hideNeutralEpisodes, setHideNeutralEpisodes] = useAtom(
@@ -31,9 +31,22 @@ export default function Controls() {
   const dateSliderMax = totalMonths - 1;
 
   return (
-    <FieldGroup className="grid w-full grid-cols-1 gap-1.5 font-mono text-xs/tight max-sm:gap-x-0 sm:grid-cols-3 sm:gap-2.5">
-      <div className="col-span-2 grid w-full grid-cols-2 gap-1.5 sm:gap-2.5">
-        <SwitchChoiceCard
+    <FieldGroup className="flex w-full flex-row gap-1.5 font-mono text-xs/tight max-sm:gap-x-0 sm:gap-2.5">
+      <div className="flex flex-col justify-between gap-1.5 sm:gap-2.5">
+        <Button
+          variant={hideNeutralEpisodes ? "default" : "outline"}
+          size="icon-sm"
+          onClick={() => {
+            setHideNeutralEpisodes((prev) => !prev);
+            if (showParliament && hideNeutralEpisodes) {
+              setShowParliament(false);
+            }
+          }}
+          title="N'afficher que les épisodes avec des invités politiques"
+        >
+          <FilterIcon />
+        </Button>
+        {/*<SwitchChoiceCard
           title="Focus politique"
           description="N'afficher que les épisodes avec des invités politiques"
           id="hide-neutral-episodes"
@@ -45,9 +58,22 @@ export default function Controls() {
           }}
           checked={hideNeutralEpisodes}
           Icon={FilterIcon}
-        />
+        />*/}
 
-        <SwitchChoiceCard
+        <Button
+          variant={showParliament ? "default" : "outline"}
+          size="icon-sm"
+          onClick={() => {
+            setShowParliament((prev) => !prev);
+            if (!hideNeutralEpisodes && !showParliament) {
+              setHideNeutralEpisodes(true);
+            }
+          }}
+          title="Afficher les politiques en parlement"
+        >
+          <HemicycleIcon />
+        </Button>
+        {/*<SwitchChoiceCard
           title="Vue parlement"
           description="Afficher les politiques en parlement"
           id="show-parliament"
@@ -59,7 +85,7 @@ export default function Controls() {
           }}
           checked={showParliament}
           Icon={HemicycleIcon}
-        />
+        />*/}
       </div>
 
       <SliderControlled

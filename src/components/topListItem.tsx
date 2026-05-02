@@ -73,6 +73,7 @@ export default function TopListItem<T extends ListItemType>({
       {...tooltipHandlers}
       data-offset={60}
       tabIndex={0}
+      data-color={item.name}
       className={
         "bg-background relative -ml-3 rounded-full p-0.5 transition-[padding] ease-[cubic-bezier(0.34,1.56,0.64,1)] hover:pb-8 focus-visible:pb-8 focus-visible:outline-0 sm:-ml-3.5 md:-ml-4 " +
         (item.name === "Gouvernement" ? " opacity-60" : "")

@@ -344,17 +344,25 @@ export default function Show({ params }: { params: { showSlug: string } }) {
               Répartition des invités politiques
             </h2>
             <div className="flex min-h-64 w-full items-center justify-center sm:h-96 md:h-150">
-              <style>{`
+              <div className="group relative mt-auto max-sm:ml-3">
+                <style>{`
                 ${[
                   ...new Set(
                     fakeParliamentMembers
-                      .map((m) => m.party?.color)
+                      .map((m) => m.party?.name)
                       .filter(Boolean),
                   ),
                 ]
-                  .map(
-                    (color) => `
-                      .group:has([data-color="${color}"]:hover) [data-color]:not([data-color="${color}"]), .group:has([data-color="${color}"]:focus-visible) [data-color]:not([data-color="${color}"]) {
+                  .map((name) =>
+                    name === "Gouvernement"
+                      ? `
+                      main:has([data-color="${name}"]:hover) [data-dot-size]:not(.border-2), main:has([data-color="${name}"]:focus-visible) [data-dot-size]:not(.border-2) {
+                        opacity: 0.1!important;
+                        transition-duration: 300ms;
+                      }
+                    `
+                      : `
+                      main:has([data-color="${name}"]:hover) [data-dot-size]:not([data-color="${name}"]), main:has([data-color="${name}"]:focus-visible) [data-dot-size]:not([data-color="${name}"]) {
                         opacity: 0.1!important;
                         transition-duration: 300ms;
                       }
@@ -362,7 +370,6 @@ export default function Show({ params }: { params: { showSlug: string } }) {
                   )
                   .join("")}
                   `}</style>
-              <div className="group relative mt-auto max-sm:ml-3">
                 {fakeParliamentMembers.length > 0 &&
                   fakeParliamentMembers.map((guest, index) => {
                     return (
@@ -370,6 +377,15 @@ export default function Show({ params }: { params: { showSlug: string } }) {
                         key={guest.episode?.date + guest.id}
                         person={guest}
                         position={hemicycleLayout[index]}
+                        size={
+                          fakeParliamentMembers.length < 30
+                            ? "bigger"
+                            : fakeParliamentMembers.length > 230
+                              ? "extra-small"
+                              : fakeParliamentMembers.length > 150
+                                ? "smaller"
+                                : "normal"
+                        }
                       />
                     );
                   })}
@@ -429,8 +445,9 @@ export default function Show({ params }: { params: { showSlug: string } }) {
                   {guest.image ? (
                     <img
                       src={`https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/${guest.image}&width=80`}
-                      className="size-full object-cover object-[center_15%]"
-                      alt=""
+                      className="text-2xs/tight font-display size-full object-cover object-[center_15%] text-center text-balance"
+                      alt={`${guest.name.split(" ")[0].charAt(0)}.
+                      ${guest.name.split(" ").slice(1).join(" ")}`}
                     />
                   ) : (
                     <p className="text-2xs/tight font-display max-w-full p-1 text-center text-balance">

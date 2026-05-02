@@ -31,7 +31,7 @@ export function SliderControlled({
           htmlFor="slider-date"
           className="font-display text-xs text-nowrap sm:text-sm"
         >
-          {Icon && <Icon className="mt-0.5 max-sm:hidden" />}
+          {Icon && <Icon className="mt-0.5" />}
           {title}
         </Label>
         <span className="text-muted-foreground text-2xs text-nowrap sm:text-xs">

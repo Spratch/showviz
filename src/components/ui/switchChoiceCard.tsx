@@ -29,10 +29,10 @@ export function SwitchChoiceCard({
       <Field orientation="horizontal">
         <FieldContent>
           <FieldTitle className="font-display text-xs sm:text-sm">
-            {Icon && <Icon className="-mt-0.5 max-sm:hidden" />}
+            {Icon && <Icon className="-mt-0.5" />}
             {title}
           </FieldTitle>
-          <FieldDescription className="text-2xs/tight max-w-[30ch] text-pretty sm:text-xs">
+          <FieldDescription className="text-2xs/tight max-w-[30ch] text-pretty max-sm:hidden sm:text-xs">
             {description}
           </FieldDescription>
         </FieldContent>

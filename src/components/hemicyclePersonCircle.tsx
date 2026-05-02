@@ -10,12 +10,14 @@ type PersonCircleProps = {
   person: PersonType;
   position?: { x: number; y: number };
   viewMode?: boolean;
+  size?: "bigger" | "normal" | "smaller" | "extra-small";
 };
 
 export default function HemicyclePersonCircle({
   person,
   position = undefined,
   viewMode = undefined,
+  size = "normal",
 }: PersonCircleProps) {
   const { elementRef, tooltipHandlers } = useTooltip({
     header: EpisodeTooltipHeader({
@@ -34,12 +36,15 @@ export default function HemicyclePersonCircle({
     <motion.div
       ref={elementRef}
       {...tooltipHandlers}
-      layoutId={person.episode!.date + person.id}
+      layoutId={
+        size !== "extra-small" ? person.episode!.date + person.id : undefined
+      }
       layoutDependency={position?.x || viewMode}
       id={person.episode!.date + person.id}
-      data-color={person.party?.color}
+      data-color={person.party?.name}
+      data-dot-size={size}
       tabIndex={0}
-      className={`ring-ring outline-ring text-2xs flex aspect-square flex-col items-center justify-center overflow-hidden rounded-full bg-(--current-color)/75 p-1.5 outline-offset-2 transition-opacity ${person?.isGouv ? "border-2 border-olive-600" : ""} absolute size-4 sm:size-8 md:size-12 md:text-xs`}
+      className={`ring-ring outline-ring text-2xs absolute flex aspect-square size-4 flex-col items-center justify-center overflow-hidden rounded-full bg-(--current-color)/75 p-1.5 outline-offset-2 transition-opacity data-[dot-size=bigger]:scale-125 data-[dot-size=extra-small]:scale-50 data-[dot-size=normal]:scale-100 data-[dot-size=smaller]:scale-75 sm:size-8 md:size-12 md:text-xs ${person?.isGouv ? "border-2 border-olive-600" : ""}`}
       style={
         {
           "--current-color": person?.party?.color,
