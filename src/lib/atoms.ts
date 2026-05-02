@@ -1,5 +1,6 @@
 import cCeSoir from "@/data/c-ce-soir.json";
 import yeuxdAgathe from "@/data/dans-les-yeux-dagathe.json";
+import dimancheEnPolitique from "@/data/dimanche-en-politique.json";
 import levenement from "@/data/l-evenement.json";
 import quelleEpoque from "@/data/quelle-epoque.json";
 import thinkerview from "@/data/thinkerview.json";
@@ -30,6 +31,14 @@ import { getDateFromOrigin, monthIndex, startOfMonth } from "./utils";
 //       ...episode,
 //       showTitle: "global-" + cCeSoir.title,
 //     })),
+//     ...thinkerview.diffusions.map((episode) => ({
+//       ...episode,
+//       showTitle: "global-" + thinkerview.title,
+//     })),
+//     ...dimancheEnPolitique.diffusions.map((episode) => ({
+//       ...episode,
+//       showTitle: "global-" + dimancheEnPolitique.title,
+//     })),
 //   ],
 // };
 export const shows: ShowType[] = [
@@ -38,6 +47,7 @@ export const shows: ShowType[] = [
   yeuxdAgathe,
   cCeSoir,
   thinkerview,
+  dimancheEnPolitique,
   // global,
 ];
 export const selectedShowAtom = atom(shows[0]);

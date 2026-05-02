@@ -209,6 +209,13 @@
             "keyword": "Fédération pour une alternative sociale et écologique"
           },
           {
+            "name": "PG",
+            "full_name": "Parti de gauche",
+            "full_name_en": "Left party",
+            "full_name_de": "Linkspartei",
+            "keyword": "Parti de gauche (France)"
+          },
+          {
             "name": "LFI",
             "full_name": "La France insoumise",
             "full_name_en": "Rebellious France",
@@ -282,6 +289,22 @@
             "full_name_en": "Stand up!",
             "full_name_de": "",
             "keyword": "Debout (parti politique)"
+          }
+        ]
+      },
+      {
+        "name": "Écosocialiste",
+        "name_en": "Ecosocialist",
+        "name_de": "Ökosozialist",
+        "color": "#2C93A4",
+        "keyword": "Écosocialisme",
+        "parties": [
+          {
+            "name": "G·s",
+            "full_name": "Génération.s",
+            "full_name_en": "Generation.s",
+            "full_name_de": "Generation.s",
+            "keyword": "Génération.s"
           }
         ]
       },
@@ -655,6 +678,13 @@
         "color": "#9DCF92",
         "keyword": "Centre gauche",
         "parties": [
+          {
+            "name": "PE",
+            "full_name": "Parti écologiste",
+            "full_name_en": "Ecologist Party",
+            "full_name_de": "",
+            "keyword": "Parti écologiste"
+          },
           {
             "name": "GE",
             "full_name": "Génération écologie",
@@ -1370,6 +1400,13 @@
             "full_name": "Les Républicains",
             "full_name_en": "The Republicans",
             "full_name_de": "Die Republikaner"
+          },
+          {
+            "name": "L!",
+            "full_name": "Libres",
+            "full_name_en": "Free!",
+            "full_name_de": "",
+            "keyword": "Soyons libres"
           }
         ]
       }

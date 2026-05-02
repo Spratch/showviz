@@ -406,6 +406,11 @@
       {
         "name": "Parti socialiste",
         "start": "1979-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-15",
+        "end": "2017-05-14"
       }
     ],
     "wikidataId": "Q157",
@@ -517,18 +522,12 @@
     "categories": ["personnalité politique"],
     "parties": [
       {
-        "name": "Les Républicains",
-        "start": "2015-01-01"
+        "name": "Les Républicains"
       },
       {
-        "name": "Rassemblement pour la République",
-        "start": "1981-01-01",
-        "end": "2002-01-01"
-      },
-      {
-        "name": "Union pour un mouvement populaire",
-        "start": "2002-01-01",
-        "end": "2015-01-01"
+        "name": "Gouvernement",
+        "start": "2008-03-18",
+        "end": "2012-05-10"
       }
     ],
     "wikidataId": "Q3334944",
@@ -2411,6 +2410,11 @@
         "name": "Les Écologistes",
         "start": "2001-01-01",
         "end": "2024-06-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-16",
+        "end": "2014-03-31"
       }
     ],
     "wikidataId": "Q268634",
@@ -3471,6 +3475,11 @@
         "name": "Parti socialiste",
         "start": "1990-01-01",
         "end": "1992-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-05-15",
+        "end": "2020-07-03"
       }
     ],
     "wikidataId": "Q3579995",
@@ -5927,12 +5936,12 @@
     ],
     "parties": [
       {
-        "name": "Territoires de progrès",
-        "end": "2020-01-01"
-      },
-      {
         "name": "Renaissance",
         "start": "2017-01-01"
+      },
+      {
+        "name": "Territoires de progrès",
+        "end": "2020-01-01"
       },
       {
         "name": "Gouvernement",
@@ -7563,8 +7572,23 @@
         "end": "2017-12-11"
       },
       {
+        "name": "Divers droite",
+        "start": "2017-12-11",
+        "end": "2021-01-01"
+      },
+      {
         "name": "Les Républicains",
         "start": "2021-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2004-03-31",
+        "end": "2007-03-26"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2007-05-18",
+        "end": "2009-01-15"
       },
       {
         "name": "Gouvernement",
@@ -8499,6 +8523,11 @@
       {
         "name": "l'Engagement",
         "start": "2021-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-16",
+        "end": "2014-08-25"
       }
     ],
     "wikidataId": "Q737311",
@@ -8736,7 +8765,7 @@
     "parties": [
       {
         "name": "Renaissance",
-        "start": "2016-04-01"
+        "start": "2016-04-06"
       },
       {
         "name": "Parti socialiste",
@@ -8747,6 +8776,16 @@
         "name": "indépendant",
         "start": "2009-01-01",
         "end": "2016-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-15",
+        "end": "2014-07-15"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2014-08-26",
+        "end": "2016-08-30"
       },
       {
         "name": "Gouvernement",
@@ -9022,11 +9061,11 @@
     "parties": [
       {
         "name": "Renaissance",
-        "start": "2017-01-01"
+        "start": "2017-03-28"
       },
       {
         "name": "Union des démocrates et indépendants",
-        "end": "2017-01-01"
+        "end": "2017-03-28"
       }
     ],
     "wikidataId": "Q63764512",
@@ -9110,7 +9149,7 @@
       }
     ],
     "wikidataId": "Q3351018",
-    "image": "Portrait d'Olivier Faure.jpg"
+    "image": "Portrait_d'Olivier_Faure.jpg"
   },
   {
     "id": "sabrina-agresti-roubache",
@@ -9967,7 +10006,7 @@
       },
       {
         "name": "Les Patriotes",
-        "start": "2017-01-01"
+        "start": "2017-09-21"
       }
     ],
     "wikidataId": "Q3074223",
@@ -10722,6 +10761,11 @@
       {
         "name": "Parti socialiste",
         "start": "2024-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "1992-04-02",
+        "end": "1993-03-29"
       },
       {
         "name": "Gouvernement",
@@ -12030,7 +12074,7 @@
       },
       {
         "name": "Gouvernement",
-        "start": "2016-10-16",
+        "start": "2018-10-16",
         "end": "2024-01-11"
       },
       {
@@ -12132,6 +12176,15 @@
     "parties": [
       {
         "name": "Renaissance"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2022-07-04",
+        "end": "2024-09-21"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-05"
       }
     ],
     "wikidataId": "Q30130489",
@@ -12855,7 +12908,16 @@
     "birthDate": "1991-09-10",
     "gender": "masculin",
     "categories": ["cadres de la fonction publique", "personnalité politique"],
-    "parties": [],
+    "parties": [
+      {
+        "name": "Renaissance"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-09-21",
+        "end": "2024-12-23"
+      }
+    ],
     "wikidataId": "Q63436533",
     "image": "Antoine_Armand.jpg"
   },
@@ -13423,6 +13485,11 @@
       {
         "name": "Parti socialiste",
         "start": "2002-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-16",
+        "end": "2017-05-17"
       }
     ],
     "wikidataId": "Q268529",
@@ -14851,10 +14918,13 @@
     ],
     "parties": [
       {
-        "name": "Rassemblement national"
+        "name": "Rassemblement national",
+        "start": "2017-05-19"
       },
       {
-        "name": "Debout la France"
+        "name": "Debout la France",
+        "start": "2014-01-01",
+        "end": "2017-05-19"
       }
     ],
     "wikidataId": "Q17632457",
@@ -14979,11 +15049,16 @@
     "birthDate": "1976-06-25",
     "gender": "masculin",
     "categories": [
-      "cadres de la fonction publique",
       "haut fonctionnaire ou haute fonctionnaire",
+      "cadres de la fonction publique",
       "personnalité politique"
     ],
     "parties": [
+      {
+        "name": "Gouvernement",
+        "start": "2022-05-17",
+        "end": "2023-12-20"
+      },
       {
         "name": "Place publique",
         "start": "2024-06-01"
@@ -15424,6 +15499,11 @@
     "parties": [
       {
         "name": "Renaissance"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-06-21",
+        "end": "2020-07-03"
       }
     ],
     "wikidataId": "Q30333326",
@@ -15899,7 +15979,7 @@
   },
   {
     "id": "eric-sadin",
-    "name": "Eric Sadin",
+    "name": "Éric Sadin",
     "birthDate": "1967-09-03",
     "gender": "masculin",
     "categories": ["philosophe", "écrivain ou écrivaine"],
@@ -16090,7 +16170,22 @@
       "cadres administratifs et commerciaux d'entreprise",
       "personnalité politique"
     ],
-    "parties": [],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2007-01-01",
+        "end": "2014-01-01"
+      },
+      {
+        "name": "Debout la France",
+        "start": "2014-01-01",
+        "end": "2019-01-01"
+      },
+      {
+        "name": "Rassemblement national",
+        "start": "2021-01-01"
+      }
+    ],
     "wikidataId": "Q112650795",
     "image": "Thomas.M%C3%A9nag%C3%A9.jpg"
   },
@@ -16650,7 +16745,12 @@
     "birthDate": "1980-04-09",
     "gender": "féminin",
     "categories": ["haut fonctionnaire ou haute fonctionnaire", "diplomate"],
-    "parties": [],
+    "parties": [
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-12"
+      }
+    ],
     "wikidataId": "Q47312015",
     "image": "Alice_Rufo_%28cropped%29.jpg"
   },
@@ -17526,7 +17626,13 @@
       "blogueur ou blogueuse",
       "actuaire"
     ],
-    "parties": [],
+    "parties": [
+      {
+        "name": "Nouvelle Donne",
+        "start": "2013-11-28",
+        "end": "2014-01-01"
+      }
+    ],
     "wikidataId": "Q17485852",
     "image": "Olivier_Berruyer.jpg"
   },
@@ -17714,6 +17820,11 @@
     "parties": [
       {
         "name": "Parti socialiste"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2014-04-09",
+        "end": "2017-02-27"
       }
     ],
     "wikidataId": "Q18553",
@@ -17781,7 +17892,18 @@
       "économiste",
       "entrepreneur ou entrepreneuse"
     ],
-    "parties": [],
+    "parties": [
+      {
+        "name": "Debout la France",
+        "start": "2008-11-23",
+        "end": "2019-02-11"
+      },
+      {
+        "name": "Reconquête",
+        "start": "2021-08-05",
+        "end": "2021-11-24"
+      }
+    ],
     "wikidataId": "Q2959181",
     "image": "Charles_Gave_Thinkerview.png"
   },
@@ -18075,6 +18197,11 @@
       {
         "name": "Renaissance",
         "start": "2017-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-05-17",
+        "end": "2019-03-27"
       }
     ],
     "wikidataId": "Q28105164",
@@ -18508,7 +18635,7 @@
         "end": "2010-01-01"
       },
       {
-        "name": "Les Écologistes – Europe Écologie Les Verts",
+        "name": "Les Écologistes",
         "start": "2010-01-01",
         "end": "2013-01-01"
       }
@@ -19218,7 +19345,7 @@
         "end": "1994-01-01"
       },
       {
-        "name": "Les Écologistes – Europe Écologie Les Verts",
+        "name": "Les Écologistes",
         "start": "2010-01-01",
         "end": "2013-01-01"
       },
@@ -19436,7 +19563,18 @@
     "categories": ["diplomate", "personnalité politique"],
     "parties": [
       {
-        "name": "Parti socialiste"
+        "name": "Parti socialiste",
+        "end": "2002-05-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "1988-05-24",
+        "end": "1995-05-17"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "1997-06-04",
+        "end": "2002-05-06"
       }
     ],
     "wikidataId": "Q560682",
@@ -20091,10 +20229,12 @@
     "name": "Alain Gresh",
     "birthDate": "1948-01-01",
     "gender": "masculin",
-    "categories": ["auteur ou autrice de non-fiction", "journaliste"],
+    "categories": ["journaliste", "auteur ou autrice de non-fiction"],
     "parties": [
       {
-        "name": "Parti communiste français"
+        "name": "Parti communiste français",
+        "start": "1975-01-01",
+        "end": "1985-01-01"
       }
     ],
     "wikidataId": "Q2829882",
@@ -20734,7 +20874,15 @@
   },
   {
     "id": "marc-endelweld",
-    "name": "Marc Endelweld"
+    "name": "Marc Endelweld",
+    "birthDate": "1981-06-11",
+    "gender": "masculin",
+    "categories": [
+      "journaliste d'investigation",
+      "écrivain ou écrivaine",
+      "journaliste"
+    ],
+    "parties": []
   },
   {
     "id": "pr-renaud-piarroux",
@@ -20807,5 +20955,2602 @@
   {
     "id": "anthony-dechaux",
     "name": "Anthony Déchaux"
+  },
+  {
+    "id": "david-guiraud",
+    "name": "David Guiraud",
+    "birthDate": "1992-11-18",
+    "gender": "masculin",
+    "categories": [
+      "personnalité politique",
+      "cadres administratifs et commerciaux d'entreprise"
+    ],
+    "parties": [
+      {
+        "name": "La France insoumise"
+      }
+    ],
+    "wikidataId": "Q112651457",
+    "image": "20240708-P1020353_David_Guiraud_Wikipedia.jpg"
+  },
+  {
+    "id": "pierre-moscovici",
+    "name": "Pierre Moscovici",
+    "birthDate": "1957-09-16",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "économiste"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "1984-01-01",
+        "end": "2020-01-01"
+      },
+      {
+        "name": "Ligue communiste révolutionnaire",
+        "end": "1984-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "1997-06-04",
+        "end": "2002-05-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-16",
+        "end": "2014-03-31"
+      }
+    ],
+    "wikidataId": "Q356919",
+    "image": "Moscovici_EC_Portrait_2014.jpg"
+  },
+  {
+    "id": "francois-bayrou",
+    "name": "François Bayrou",
+    "birthDate": "1951-05-25",
+    "gender": "masculin",
+    "categories": ["professeur", "personnalité politique", "pensionné"],
+    "parties": [
+      {
+        "name": "Mouvement démocrate",
+        "start": "2007-01-01"
+      },
+      {
+        "name": "Union pour la démocratie française",
+        "end": "2007-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "1993-03-30",
+        "end": "1997-06-02"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-05-17",
+        "end": "2017-06-21"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-12-13",
+        "end": "2025-09-09"
+      }
+    ],
+    "wikidataId": "Q12963",
+    "image": "Bayrou_Matignon_%28cropped%29.jpg"
+  },
+  {
+    "id": "marisol-touraine",
+    "name": "Marisol Touraine",
+    "birthDate": "1959-03-07",
+    "gender": "féminin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-16",
+        "end": "2017-05-17"
+      }
+    ],
+    "wikidataId": "Q270094",
+    "image": "Marisol_Touraine_2015.jpg"
+  },
+  {
+    "id": "francois-fillon",
+    "name": "François Fillon",
+    "birthDate": "1954-03-04",
+    "gender": "masculin",
+    "categories": [
+      "collaborateur parlementaire",
+      "personnalité politique",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement pour la République",
+        "start": "1977-01-01",
+        "end": "2002-01-01"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2002-11-17",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30"
+      }
+    ],
+    "wikidataId": "Q101410",
+    "image": "Fran%C3%A7ois_Fillon_2010.jpg"
+  },
+  {
+    "id": "stephane-le-foll",
+    "name": "Stéphane Le Foll",
+    "birthDate": "1960-02-03",
+    "gender": "masculin",
+    "categories": [
+      "professeurs, professions scientifiques",
+      "enseignant ou enseignante du secondaire",
+      "ministre",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-16",
+        "end": "2017-05-17"
+      }
+    ],
+    "wikidataId": "Q960150",
+    "image": "Le_Foll_Toulouse_2012.JPG"
+  },
+  {
+    "id": "nicolas-sarkozy",
+    "name": "Nicolas Sarkozy",
+    "birthDate": "1955-01-28",
+    "gender": "masculin",
+    "categories": [
+      "homme ou femme d'État",
+      "juriste",
+      "personnalité politique",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement pour la République",
+        "start": "1976-01-01",
+        "end": "2002-01-01"
+      },
+      {
+        "name": "Union des démocrates pour la République",
+        "start": "1974-01-01",
+        "end": "1976-01-01"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-01-01"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2002-01-01",
+        "end": "2015-01-01"
+      }
+    ],
+    "wikidataId": "Q329",
+    "image": "Nicolas_Sarkozy_in_2010.jpg"
+  },
+  {
+    "id": "emmanuelle-cosse",
+    "name": "Emmanuelle Cosse",
+    "birthDate": "1974-11-15",
+    "gender": "féminin",
+    "categories": ["journaliste", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Les Écologistes",
+        "end": "2016-07-10"
+      },
+      {
+        "name": "Parti écologiste",
+        "start": "2016-07-10"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2016-02-11",
+        "end": "2017-05-17"
+      }
+    ],
+    "wikidataId": "Q3052948",
+    "image": "Europe_Ecologie_closing_rally_regional_elections_2010-03-10_n13.jpg"
+  },
+  {
+    "id": "benoit-hamon",
+    "name": "Benoît Hamon",
+    "birthDate": "1967-06-26",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Génération.s",
+        "start": "2017-07-01"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "1986-01-01",
+        "end": "2017-07-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-16",
+        "end": "2014-08-26"
+      }
+    ],
+    "wikidataId": "Q818118",
+    "image": "Benoit_Hamon_280816.jpg"
+  },
+  {
+    "id": "jean-marc-ayrault",
+    "name": "Jean-Marc Ayrault",
+    "birthDate": "1950-01-25",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-15",
+        "end": "2014-03-31"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2016-02-11",
+        "end": "2017-05-17"
+      }
+    ],
+    "wikidataId": "Q7711",
+    "image": "Jean-Marc_Ayrault_et_Alain_Kouck_%2813293393834%29_%28cropped%29.jpg"
+  },
+  {
+    "id": "david-rachline",
+    "name": "David Rachline",
+    "birthDate": "1987-12-02",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement national",
+        "start": "2002-01-01"
+      }
+    ],
+    "wikidataId": "Q5238859",
+    "image": "David_Rachline.jpg"
+  },
+  {
+    "id": "jean-pierre-raffarin",
+    "name": "Jean-Pierre Raffarin",
+    "birthDate": "1948-08-03",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "avocat ou avocate"],
+    "parties": [
+      {
+        "name": "Union pour la démocratie française",
+        "start": "1977-01-01",
+        "end": "1998-01-01"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2002-04-23",
+        "end": "2019-10-13"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2019-10-13",
+        "end": "2022-03-02"
+      },
+      {
+        "name": "Horizons",
+        "start": "2022-03-02"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "1995-05-18",
+        "end": "1997-06-02"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2002-05-06",
+        "end": "2005-05-31"
+      }
+    ],
+    "wikidataId": "Q63263",
+    "image": "Jean-Pierre_Raffarin_par_Claude_Truong-Ngoc_2013_%28cropped%29.jpg"
+  },
+  {
+    "id": "jean-christophe-cambadelis",
+    "name": "Jean-Christophe Cambadélis",
+    "birthDate": "1951-08-14",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ],
+    "wikidataId": "Q1684726",
+    "image": "Jean-Christophe_Cambad%C3%A9lis%2C_Socialist_rally%2C_Z%C3%A9nith%2C_2007_05_29_n1.jpg"
+  },
+  {
+    "id": "gerard-collomb",
+    "name": "Gérard Collomb",
+    "birthDate": "1947-06-20",
+    "gender": "masculin",
+    "categories": [
+      "enseignant ou enseignante du secondaire",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2016-07-01"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "1969-01-01",
+        "end": "2017-05-17"
+      },
+
+      {
+        "name": "Gouvernement",
+        "start": "2017-05-17",
+        "end": "2018-10-03"
+      }
+    ],
+    "wikidataId": "Q12956",
+    "image": "G%C3%A9rard_Collomb_%C3%A0_La_Confluence_%28Lyon%29_%28cropped%29.jpg"
+  },
+  {
+    "id": "alexis-corbiere",
+    "name": "Alexis Corbière",
+    "birthDate": "1968-08-17",
+    "gender": "masculin",
+    "categories": [
+      "professeurs, professions scientifiques",
+      "personnalité politique",
+      "enseignant ou enseignante"
+    ],
+    "parties": [
+      {
+        "name": "L'Après",
+        "start": "2024-07-12"
+      },
+      {
+        "name": "La France insoumise",
+        "start": "2016-01-01",
+        "end": "2024-06-15"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "1998-01-01",
+        "end": "2008-01-01"
+      },
+      {
+        "name": "Parti de gauche",
+        "start": "2008-01-01",
+        "end": "2015-01-01"
+      },
+      {
+        "name": "Ligue communiste révolutionnaire",
+        "start": "1993-01-01",
+        "end": "1997-01-01"
+      }
+    ],
+    "wikidataId": "Q2834481",
+    "image": "Alexis_Corbi%C3%A8re_Jardin_4colonnes_%28cropped%29.jpg"
+  },
+  {
+    "id": "thierry-mandon",
+    "name": "Thierry Mandon",
+    "birthDate": "1957-12-30",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2014-06-03",
+        "end": "2017-05-17"
+      }
+    ],
+    "wikidataId": "Q3524408",
+    "image": "Thierry_Mandon%2C_2015_%28cropped%29.jpg"
+  },
+  {
+    "id": "cecile-cornudet",
+    "name": "Cécile Cornudet",
+    "birthDate": "1965-01-01",
+    "gender": "féminin",
+    "categories": ["commentateur politique", "journaliste"],
+    "parties": [],
+    "wikidataId": "Q105671995"
+  },
+  {
+    "id": "david-revault-d-allonnes",
+    "name": "David Revault d'Allonnes",
+    "gender": "masculin",
+    "categories": ["auteur ou autrice de non-fiction", "journaliste"],
+    "parties": [],
+    "wikidataId": "Q134738292"
+  },
+  {
+    "id": "richard-ferrand",
+    "name": "Richard Ferrand",
+    "birthDate": "1962-07-01",
+    "gender": "masculin",
+    "categories": [
+      "anciens cadres",
+      "cadre supérieur",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2016-04-06"
+      },
+      {
+        "name": "Parti socialiste",
+        "end": "2017-05-08"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-05-17",
+        "end": "2017-06-21"
+      }
+    ],
+    "wikidataId": "Q3430759",
+    "image": "%C3%89changes_avec_Richard_Ferrand%2C_Pr%C3%A9sident_de_l%27Assembl%C3%A9e_nationale%2C_%C3%A0_la_Facult%C3%A9_de_droit_Paris-Est_01_%28cropped_2%29.jpg"
+  },
+  {
+    "id": "jack-lang",
+    "name": "Jack Lang",
+    "birthDate": "1939-09-02",
+    "gender": "masculin",
+    "categories": [
+      "juriste",
+      "ministre",
+      "personnalité politique",
+      "enseignant ou enseignante"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      },
+      {
+        "name": "Parti socialiste unifié"
+      }
+    ],
+    "wikidataId": "Q379229",
+    "image": "Jack_Lang_2005_Belem_cropped.jpg"
+  },
+  {
+    "id": "hugues-renson",
+    "name": "Hugues Renson",
+    "birthDate": "1978-02-11",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Renaissance"
+      }
+    ],
+    "wikidataId": "Q30386813",
+    "image": "Hugues_Renson.jpg"
+  },
+  {
+    "id": "benjamin-griveaux",
+    "name": "Benjamin Griveaux",
+    "birthDate": "1977-12-29",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "2003-01-01",
+        "end": "2016-04-06"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2016-04-06",
+        "end": "2021-05-12"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-06-21",
+        "end": "2019-03-27"
+      }
+    ],
+    "wikidataId": "Q29210910",
+    "image": "Benjamin_Griveaux_%2840581872673%29.jpg"
+  },
+  {
+    "id": "barbara-pompili",
+    "name": "Barbara Pompili",
+    "birthDate": "1975-06-13",
+    "gender": "féminin",
+    "categories": [
+      "employés civils et agents de service de la fonction publique",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Écologistes",
+        "start": "2000-01-01",
+        "end": "2015-09-30"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2017-03-21"
+      },
+      {
+        "name": "Parti écologiste",
+        "start": "2016-09-02",
+        "end": "2020-10-14"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2016-02-11",
+        "end": "2017-05-10"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2020-07-06",
+        "end": "2022-05-20"
+      }
+    ],
+    "wikidataId": "Q117402",
+    "image": "Barbara_pompili.jpg"
+  },
+  {
+    "id": "philippe-martinez",
+    "name": "Philippe Martinez",
+    "birthDate": "1961-04-01",
+    "gender": "masculin",
+    "categories": ["syndicaliste"],
+    "parties": [
+      {
+        "name": "Parti communiste français",
+        "end": "2002-01-01"
+      }
+    ],
+    "wikidataId": "Q18944450",
+    "image": "PhilippeMartinez.jpg"
+  },
+  {
+    "id": "jean-claude-mailly",
+    "name": "Jean-Claude Mailly",
+    "birthDate": "1953-03-12",
+    "gender": "masculin",
+    "categories": ["syndicaliste"],
+    "parties": [],
+    "wikidataId": "Q3165092",
+    "image": "Mailly_Wiki.jpg"
+  },
+  {
+    "id": "valerie-pecresse",
+    "name": "Valérie Pécresse",
+    "birthDate": "1967-07-14",
+    "gender": "féminin",
+    "categories": [
+      "magistrat ou magistrate",
+      "ministre",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement pour la République",
+        "end": "2002-04-23"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2002-04-23",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2021-10-01"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30",
+        "end": "2019-06-05"
+      },
+      {
+        "name": "Libres",
+        "start": "2017-07-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2007-05-18",
+        "end": "2012-05-10"
+      }
+    ],
+    "wikidataId": "Q455023",
+    "image": "Val%C3%A9rie_P%C3%A9cresse_at_a_2024_Paralympic_Games_media_conference_in_2024_3_%28cropped%29.jpg"
+  },
+  {
+    "id": "francois-de-rugy",
+    "name": "François de Rugy",
+    "birthDate": "1973-12-06",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Génération écologie",
+        "start": "1991-01-01",
+        "end": "1994-01-01"
+      },
+      {
+        "name": "Les Écologistes",
+        "start": "1997-01-01",
+        "end": "2015-09-02"
+      },
+      {
+        "name": "Parti écologiste",
+        "start": "2015-09-02"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2017-02-17"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2018-09-04",
+        "end": "2019-07-16"
+      }
+    ],
+    "wikidataId": "Q117340",
+    "image": "Fran%C3%A7ois_de_Rugy.jpg"
+  },
+  {
+    "id": "stephane-travert",
+    "name": "Stéphane Travert",
+    "birthDate": "1969-10-12",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "1988-01-01",
+        "end": "2016-04-06"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2016-04-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-06-21",
+        "end": "2018-10-16"
+      }
+    ],
+    "wikidataId": "Q3502105",
+    "image": "St%C3%A9phane_Travert_19059_salle_4_colonnes.jpg"
+  },
+  {
+    "id": "jean-michel-blanquer",
+    "name": "Jean-Michel Blanquer",
+    "birthDate": "1964-12-04",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "professeur d'université",
+      "fonctionnaire",
+      "juriste",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2017-10-31"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-05-17",
+        "end": "2022-05-20"
+      }
+    ],
+    "wikidataId": "Q3167954",
+    "image": "Blanquer_2022_%28cropped%29.jpg"
+  },
+  {
+    "id": "christophe-castaner",
+    "name": "Christophe Castaner",
+    "birthDate": "1966-01-03",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "chefs d'entreprise de 10 salariés ou plus",
+      "juriste",
+      "personnalité politique",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "1986-01-01",
+        "end": "2016-04-06"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2016-04-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-05-17",
+        "end": "2020-07-06"
+      }
+    ],
+    "wikidataId": "Q1726930",
+    "image": "Christophe_Castaner_en_2019_%28cropped_2%29.jpg"
+  },
+  {
+    "id": "frederique-vidal",
+    "name": "Frédérique Vidal",
+    "birthDate": "1964-05-09",
+    "gender": "féminin",
+    "categories": [
+      "professeur des universités",
+      "virologue",
+      "biochimiste",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-05-17",
+        "end": "2022-05-20"
+      }
+    ],
+    "wikidataId": "Q28950190",
+    "image": "Fr%C3%A9d%C3%A9rique_Vidal_INRIA.jpg"
+  },
+  {
+    "id": "christian-jacob",
+    "name": "Christian Jacob",
+    "birthDate": "1959-12-04",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2002-01-01",
+        "end": "2015-01-01"
+      },
+      {
+        "name": "Rassemblement pour la République",
+        "end": "2002-01-01"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2002-06-17",
+        "end": "2007-05-15"
+      }
+    ],
+    "wikidataId": "Q707984",
+    "image": "Christian_Jacob_-_29-08-11.jpg"
+  },
+  {
+    "id": "florence-parly",
+    "name": "Florence Parly",
+    "birthDate": "1963-05-08",
+    "gender": "féminin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "1995-01-01",
+        "end": "2006-06-01"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2022-05-20"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2000-01-03",
+        "end": "2002-06-16"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-06-21",
+        "end": "2022-05-20"
+      }
+    ],
+    "wikidataId": "Q3074013",
+    "image": "Florence_Parly_190907-D-BN624-0170_%2848694393657%29_%28cropped%29.jpg"
+  },
+  {
+    "id": "eric-woerth",
+    "name": "Eric Woerth",
+    "birthDate": "1956-01-29",
+    "gender": "masculin",
+    "categories": [
+      "personnalité politique",
+      "personnes diverses sans activité professionnelle de 60 ans et plus sauf retraités"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "start": "1981-01-01",
+        "end": "2022-02-09"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2022-02-09"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2004-03-31",
+        "end": "2005-05-31"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2007-05-18",
+        "end": "2010-11-13"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-05",
+        "end": "2025-10-12"
+      }
+    ],
+    "wikidataId": "Q288486",
+    "image": "%C3%89ric_Woerth_2.jpg"
+  },
+  {
+    "id": "jacqueline-gourault",
+    "name": "Jacqueline Gourault",
+    "birthDate": "1950-11-20",
+    "gender": "féminin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Mouvement démocrate",
+        "start": "2007-05-10"
+      },
+      {
+        "name": "Union pour la démocratie française",
+        "end": "2007-05-10"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-06-21",
+        "end": "2022-03-05"
+      }
+    ],
+    "wikidataId": "Q3157735",
+    "image": "Informal_meeting_of_justice_and_home_affairs_ministers.Arrivals_%28Home_Affairs%29_Jacqueline_Gourault_%2834910260564%29_%28cropped%29.jpg"
+  },
+  {
+    "id": "muriel-penicaud",
+    "name": "Muriel Pénicaud",
+    "birthDate": "1955-03-31",
+    "gender": "féminin",
+    "categories": [
+      "chef ou cheffe d'entreprise",
+      "personnalité politique",
+      "personnalité du monde des affaires"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-05-17",
+        "end": "2020-07-06"
+      }
+    ],
+    "wikidataId": "Q3328127",
+    "image": "Muriel_P%C3%A9nicaud_2019_%28cropped%29.jpg"
+  },
+  {
+    "id": "stephane-gatignon",
+    "name": "Stéphane Gatignon",
+    "birthDate": "1969-08-25",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti écologiste",
+        "start": "2015-01-01"
+      },
+      {
+        "name": "Les Écologistes",
+        "start": "2009-01-01",
+        "end": "2015-01-01"
+      },
+      {
+        "name": "Parti communiste français",
+        "start": "1986-01-01",
+        "end": "2009-01-01"
+      }
+    ],
+    "wikidataId": "Q3501771",
+    "image": "St%C3%A9phane_Gatignon_par_Claude_Truong-Ngoc_avril_2013.jpg"
+  },
+  {
+    "id": "adrien-quatennens",
+    "name": "Adrien Quatennens",
+    "birthDate": "1990-05-23",
+    "gender": "masculin",
+    "categories": [
+      "employés administratifs d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "La France insoumise",
+        "start": "2016-01-01"
+      },
+      {
+        "name": "Parti de gauche",
+        "start": "2008-01-01",
+        "end": "2023-01-01"
+      }
+    ],
+    "wikidataId": "Q30385935",
+    "image": "Adrien_Quatennens.jpg"
+  },
+  {
+    "id": "gilbert-collard",
+    "name": "Gilbert Collard",
+    "birthDate": "1948-02-03",
+    "gender": "masculin",
+    "categories": [
+      "personnalité politique",
+      "avocat ou avocate",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [
+      {
+        "name": "Section française de l'Internationale ouvrière",
+        "start": "1964-01-01",
+        "end": "1969-01-01"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "1969-01-01",
+        "end": "1992-01-01"
+      },
+      {
+        "name": "Les Centristes",
+        "start": "2008-01-01",
+        "end": "2011-01-01"
+      },
+      {
+        "name": "Rassemblement national",
+        "start": "2011-01-01",
+        "end": "2022-01-22"
+      },
+      {
+        "name": "Reconquête",
+        "start": "2022-01-22",
+        "end": "2023-01-01"
+      },
+      {
+        "name": "Centre national des indépendants et paysans",
+        "start": "2024-01-01"
+      }
+    ],
+    "wikidataId": "Q1922673",
+    "image": "Gilbert_Collard_-_salon_du_livre_de_Paris_2010.JPG"
+  },
+  {
+    "id": "valerie-rabault",
+    "name": "Valérie Rabault",
+    "birthDate": "1973-04-25",
+    "gender": "féminin",
+    "categories": [
+      "ingénieurs et cadres techniques d'entreprise",
+      "économiste",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ],
+    "wikidataId": "Q3554304",
+    "image": "Val%C3%A9rie_Rabault.jpg"
+  },
+  {
+    "id": "stanislas-guerini",
+    "name": "Stanislas Guérini",
+    "birthDate": "1982-05-14",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "chefs d'entreprise de 10 salariés ou plus",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "end": "2016-04-0§"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2016-04-0§"
+      },
+      {
+        "name": "Gouvernement",
+        "end": "2024-09-21",
+        "start": "2022-05-20"
+      }
+    ],
+    "wikidataId": "Q30343112",
+    "image": "Stanislas_guerini_AN_16475.JPG"
+  },
+  {
+    "id": "nicole-belloubet",
+    "name": "Nicole Belloubet",
+    "birthDate": "1955-06-15",
+    "gender": "féminin",
+    "categories": [
+      "recteur d'académie",
+      "professeur d'université",
+      "juriste",
+      "personnalité politique",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2024-02-08"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "1983-01-01",
+        "end": "2013-02-13"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-06-21",
+        "end": "2020-07-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-02-08",
+        "end": "2024-09-21"
+      }
+    ],
+    "wikidataId": "Q11984595",
+    "image": "Nicole_Belloubet.jpg"
+  },
+  {
+    "id": "gilles-le-gendre",
+    "name": "Gilles Le Gendre",
+    "birthDate": "1958-05-13",
+    "gender": "masculin",
+    "categories": ["anciens cadres", "journaliste", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Renaissance"
+      }
+    ],
+    "wikidataId": "Q30528115",
+    "image": "Gilles-Le-Gendre.jpg"
+  },
+  {
+    "id": "renaud-muselier",
+    "name": "Renaud Muselier",
+    "birthDate": "1959-05-06",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "médecin"],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "start": "1986-01-01",
+        "end": "2021-11-24"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2022-02-26"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2002-06-17",
+        "end": "2005-05-31"
+      }
+    ],
+    "wikidataId": "Q3424934",
+    "image": "Visit_of_Renaud_Muselier%2C_President_of_the_Regional_Council_of_Provence-Alpes-C%C3%B4te_d%27Azur%2C_to_the_EC_-_2025_%28cropped%29.jpg"
+  },
+  {
+    "id": "stephane-ravier",
+    "name": "Stéphane Ravier",
+    "birthDate": "1969-08-04",
+    "gender": "masculin",
+    "categories": ["commercial", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Rassemblement national",
+        "start": "2018-01-01",
+        "end": "2022-02-01"
+      },
+      {
+        "name": "Front national",
+        "start": "1991-01-01",
+        "end": "2018-01-01"
+      },
+      {
+        "name": "Reconquête",
+        "start": "2022-02-01",
+        "end": "2024-07-01"
+      }
+    ],
+    "wikidataId": "Q15989111",
+    "image": "St%C3%A9phane_Ravier%2C_mars_2022_%2852104088648%29.jpg"
+  },
+  {
+    "id": "jean-baptiste-djebbari",
+    "name": "Jean-Baptiste Djebbari",
+    "birthDate": "1982-02-26",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2016-04-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2019-09-03",
+        "end": "2022-05-20"
+      }
+    ],
+    "wikidataId": "Q30343005",
+    "image": "Djebbari_2021_%28cropped%29.jpg"
+  },
+  {
+    "id": "sibeth-ndiaye",
+    "name": "Sibeth Ndiaye",
+    "birthDate": "1979-12-13",
+    "gender": "féminin",
+    "categories": [
+      "conseiller ou conseillère en communication",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "2002-01-01",
+        "end": "2013-01-01"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2016-04-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2019-03-31",
+        "end": "2020-07-06"
+      }
+    ],
+    "wikidataId": "Q29867485",
+    "image": "MH-Sibeth_%28cropped%29.jpg"
+  },
+  {
+    "id": "guillaume-peltier",
+    "name": "Guillaume Peltier",
+    "birthDate": "1976-08-27",
+    "gender": "masculin",
+    "categories": [
+      "cadre d'entreprise",
+      "personnalité politique",
+      "personnes diverses sans activité professionnelle de moins de 60 ans sauf retraités"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement national de la jeunesse",
+        "start": "1996-01-01",
+        "end": "1998-01-01"
+      },
+      {
+        "name": "Mouvement national républicain",
+        "start": "1999-01-01",
+        "end": "2000-01-01"
+      },
+      {
+        "name": "Mouvement pour la France",
+        "start": "2000-01-01",
+        "end": "2008-01-01"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2009-06-01",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "La Droite forte",
+        "start": "2012-07-01",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30",
+        "end": "2022-01-01"
+      },
+      {
+        "name": "Reconquête",
+        "start": "2022-01-01",
+        "end": "2024-01-01"
+      },
+      {
+        "name": "Identité-Libertés",
+        "start": "2024-01-01"
+      }
+    ],
+    "wikidataId": "Q3120121",
+    "image": "Portrait_de_Guillaume_Peltier%2C_avril_2022.jpg"
+  },
+  {
+    "id": "patrick-kanner",
+    "name": "Patrick Kanner",
+    "birthDate": "1957-04-29",
+    "gender": "masculin",
+    "categories": [
+      "fonctionnaire de catégorie A",
+      "personnalité politique",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "1975-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2014-08-26",
+        "end": "2017-05-17"
+      }
+    ],
+    "wikidataId": "Q3369559",
+    "image": "Patrick_Kanner_par_Claude_Truong-Ngoc_septembre_2014.jpg"
+  },
+  {
+    "id": "patrick-mignola",
+    "name": "Patrick Mignola",
+    "birthDate": "1971-08-08",
+    "gender": "masculin",
+    "categories": [
+      "chefs d'entreprise de 10 salariés ou plus",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union pour la démocratie française",
+        "end": "2007-11-30"
+      },
+      {
+        "name": "Mouvement démocrate",
+        "start": "2007-11-30"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-12-23",
+        "end": "2025-09-09"
+      }
+    ],
+    "wikidataId": "Q30378878",
+    "image": "Patrick_Mignola%2C_en_2022_%28cropped%29.jpg"
+  },
+  {
+    "id": "jean-christophe-lagarde",
+    "name": "Jean-Christophe Lagarde",
+    "birthDate": "1967-10-24",
+    "gender": "masculin",
+    "categories": ["cadres de la fonction publique", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Union pour la démocratie française",
+        "end": "2007-11-30"
+      },
+      {
+        "name": "Les Centristes",
+        "start": "2007-11-30",
+        "end": "2012-06-19"
+      },
+      {
+        "name": "Union des démocrates et indépendants",
+        "start": "2012-06-19"
+      }
+    ],
+    "wikidataId": "Q3164758",
+    "image": "Jean-Christophe_Lagarde_2015_%28cropped%29.jpg"
+  },
+  {
+    "id": "jean-lin-lacapelle",
+    "name": "Jean-Lin Lacapelle",
+    "birthDate": "1967-04-17",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "cadre supérieur",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement national"
+      }
+    ],
+    "wikidataId": "Q42099949",
+    "image": "Lille_-_R%C3%A9union_du_Front_national_le_15_f%C3%A9vrier_2017_%2806%29.JPG"
+  },
+  {
+    "id": "yves-veyrier",
+    "name": "Yves Veyrier",
+    "birthDate": "1958-05-13",
+    "gender": "masculin",
+    "categories": ["syndicaliste", "ingénieur"],
+    "parties": [],
+    "wikidataId": "Q59090543",
+    "image": "Yves_Veyrier_secr%C3%A9taire_g%C3%A9n%C3%A9ral_FO.jpg"
+  },
+  {
+    "id": "didier-guillaume",
+    "name": "Didier Guillaume",
+    "birthDate": "1959-05-11",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "end": "2018-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2018-10-16",
+        "end": "2020-07-06"
+      },
+      {
+        "name": "Autres",
+        "start": "2018-01-01",
+        "end": "2025-01-01"
+      }
+    ],
+    "wikidataId": "Q3027038",
+    "image": "Didier_Guillaume_during_the_Paris_Agricultural_Show_-_2019_%28cropped%29.jpg"
+  },
+  {
+    "id": "dominique-bussereau",
+    "name": "Dominique Bussereau",
+    "birthDate": "1952-07-13",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti républicain",
+        "end": "1997-01-01"
+      },
+      {
+        "name": "Union pour la démocratie française",
+        "end": "1998-01-01"
+      },
+      {
+        "name": "Démocratie libérale",
+        "start": "1998-01-01",
+        "end": "2002-04-23"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2002-04-23",
+        "end": "2018-02-20"
+      },
+      {
+        "name": "Libres",
+        "start": "2018-02-17"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2002-05-07",
+        "end": "2010-11-13"
+      }
+    ],
+    "wikidataId": "Q63628",
+    "image": "Dominique_BUSSEREAU1.jpg"
+  },
+  {
+    "id": "sophie-de-ravinel",
+    "name": "Sophie de Ravinel",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q29841553"
+  },
+  {
+    "id": "andre-chassaigne",
+    "name": "André Chassaigne",
+    "birthDate": "1950-07-02",
+    "gender": "masculin",
+    "categories": [
+      "anciens cadres",
+      "professeurs, professions scientifiques",
+      "personnalité politique",
+      "enseignant ou enseignante"
+    ],
+    "parties": [
+      {
+        "name": "Parti communiste français"
+      }
+    ],
+    "wikidataId": "Q517765",
+    "image": "Andr%C3%A9_Chassaigne_%C3%A0_la_foire_du_livre_2010_de_Brive_la_Gaillarde.JPG"
+  },
+  {
+    "id": "sebastien-chenu",
+    "name": "Sébastien Chenu",
+    "birthDate": "1973-04-13",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "permanent politique",
+      "consultant en communication politique",
+      "militant ou militante pour les droits LGBT+",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement Bleu Marine",
+        "start": "2014-12-01",
+        "end": "2016-01-18"
+      },
+      {
+        "name": "Rassemblement national",
+        "start": "2016-01-18"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "end": "2014-05-01"
+      }
+    ],
+    "wikidataId": "Q21294609",
+    "image": "Denain_-_S%C3%A9bastien_Chenu_lors_du_conseil_municipal_du_27_juin_2016_%28cropped%29.JPG"
+  },
+  {
+    "id": "julien-bayou",
+    "name": "Julien Bayou",
+    "birthDate": "1980-06-11",
+    "gender": "masculin",
+    "categories": [
+      "professions libérales et assimilés",
+      "cadre supérieur",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Écologistes"
+      }
+    ],
+    "wikidataId": "Q3189355",
+    "image": "20210819_Julien_Bayou.jpg"
+  },
+  {
+    "id": "annie-genevard",
+    "name": "Annie Genevard",
+    "birthDate": "1956-09-07",
+    "gender": "féminin",
+    "categories": [
+      "professeurs, professions scientifiques",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-09-21"
+      }
+    ],
+    "wikidataId": "Q2414678",
+    "image": "Annie_Genevard_16665.jpg"
+  },
+  {
+    "id": "jerome-riviere",
+    "name": "Jérôme Rivière",
+    "birthDate": "1964-07-08",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "avocat ou avocate"],
+    "parties": [
+      {
+        "name": "Reconquête",
+        "start": "2022-01-01"
+      },
+      {
+        "name": "Rassemblement national",
+        "start": "2015-01-01",
+        "end": "2022-01-01"
+      },
+      {
+        "name": "Union pour la démocratie française"
+      },
+      {
+        "name": "Mouvement pour la France"
+      },
+      {
+        "name": "Démocratie libérale"
+      },
+      {
+        "name": "Parti républicain"
+      },
+      {
+        "name": "Libertas.eu"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "end": "2007-01-01"
+      }
+    ],
+    "wikidataId": "Q3191042",
+    "image": "J%C3%A9r%C3%B4me_Rivi%C3%A8re%2C_mars_2022_%2852104565505%29.jpg"
+  },
+  {
+    "id": "anne-hidalgo",
+    "name": "Anne Hidalgo",
+    "birthDate": "1959-06-19",
+    "gender": "féminin",
+    "categories": [
+      "personnels des services directs aux particuliers",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ],
+    "wikidataId": "Q2851133",
+    "image": "%28Anne_Hidalgo%29_2020._Jacques_Paquier._P%C3%A9cresse_-_Ollier_-_Hidalgo_%28cropped%29.jpg"
+  },
+  {
+    "id": "jean-yves-camus",
+    "name": "Jean-Yves Camus",
+    "birthDate": "1958-01-01",
+    "gender": "masculin",
+    "categories": ["journaliste", "politologue"],
+    "parties": [
+      {
+        "name": "Union des démocrates pour la République",
+        "start": "1974-01-01",
+        "end": "1976-01-01"
+      }
+    ],
+    "wikidataId": "Q3170105"
+  },
+  {
+    "id": "olivier-dussopt",
+    "name": "Olivier Dussopt",
+    "birthDate": "1978-08-16",
+    "gender": "masculin",
+    "categories": ["cadres de la fonction publique", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2022-01-01"
+      },
+      {
+        "name": "Territoires de progrès",
+        "start": "2020-01-01"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "2000-01-01",
+        "end": "2017-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-11-24",
+        "end": "2024-01-11"
+      }
+    ],
+    "wikidataId": "Q2020823",
+    "image": "Olivier_Dussopt_%28cropped%29.jpg"
+  },
+  {
+    "id": "stephane-sejourne",
+    "name": "Stéphane Séjourné",
+    "birthDate": "1985-03-26",
+    "gender": "masculin",
+    "categories": ["cadres de la fonction publique", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "end": "2016-01-01"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2016-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-01-11",
+        "end": "2024-09-21"
+      }
+    ],
+    "wikidataId": "Q48321355",
+    "image": "S%C3%A9journ%C3%A9_EC_Portrait_2024_%28cropped%29.jpg"
+  },
+  {
+    "id": "olivia-gregoire",
+    "name": "Olivia Grégoire",
+    "birthDate": "1978-09-30",
+    "gender": "féminin",
+    "categories": ["cadres de la fonction publique", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2017-01-01"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2002-01-01",
+        "end": "2017-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2020-07-26",
+        "end": "2024-09-21"
+      }
+    ],
+    "wikidataId": "Q30349408",
+    "image": "Olivia_Gr%C3%A9goire_4.jpg"
+  },
+  {
+    "id": "prisca-thevenot",
+    "name": "Prisca Thévenot",
+    "birthDate": "1985-03-01",
+    "gender": "féminin",
+    "categories": [
+      "professions intermédiaires administratives de la fonction publique",
+      "cadres administratifs et commerciaux d'entreprise",
+      "consultant ou consultante",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2023-07-20",
+        "end": "2024-09-23"
+      }
+    ],
+    "wikidataId": "Q106020252",
+    "image": "Prisca_Thevenot_2023_%28cropped%29.jpg"
+  },
+  {
+    "id": "pap-ndiaye",
+    "name": "Pap Ndiaye",
+    "birthDate": "1965-10-25",
+    "gender": "masculin",
+    "categories": ["historien ou historienne", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Gouvernement",
+        "start": "2022-05-20",
+        "end": "2023-07-20"
+      }
+    ],
+    "wikidataId": "Q3362697",
+    "image": "Pap_Ndiaye.jpg"
+  },
+  {
+    "id": "laurent-marcangeli",
+    "name": "Laurent Marcangeli",
+    "birthDate": "1980-12-10",
+    "gender": "masculin",
+    "categories": [
+      "personnalité politique",
+      "personnes diverses sans activité professionnelle de moins de 60 ans sauf retraités",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "start": "1997-01-01",
+        "end": "2018-02-12"
+      },
+      {
+        "name": "Horizons",
+        "start": "2021-10-09"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-12-23",
+        "end": "2025-10-05"
+      },
+      {
+        "name": "Comité central bonapartiste",
+        "start": "2013-08-15"
+      }
+    ],
+    "wikidataId": "Q2514772",
+    "image": "Visit_of_Laurent_Marcangeli%2C_French_Minister_for_Public_Action%2C_the_Civil_Service%2C_and_Simplification%2C_to_the_EC_-_2025.jpg"
+  },
+  {
+    "id": "francois-patriat",
+    "name": "François Patriat",
+    "birthDate": "1943-03-21",
+    "gender": "masculin",
+    "categories": [
+      "auteur ou autrice de non-fiction",
+      "vétérinaire",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste unifié",
+        "start": "1960-01-01",
+        "end": "1974-01-01"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2016-04-06"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "1974-01-01",
+        "end": "2017-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2000-10-18",
+        "end": "2002-05-06"
+      }
+    ],
+    "wikidataId": "Q3085525",
+    "image": "Fran%C3%A7ois_Patriat.jpg"
+  },
+  {
+    "id": "amelie-oudea-castera",
+    "name": "Amélie Oudéa-Castéra",
+    "birthDate": "1978-04-09",
+    "gender": "féminin",
+    "categories": [
+      "haut fonctionnaire ou haute fonctionnaire",
+      "joueur ou joueuse de tennis"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2016-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2022-05-20",
+        "end": "2024-09-21"
+      }
+    ],
+    "wikidataId": "Q33104697",
+    "image": "Am%C3%A9lie_Oud%C3%A9a-Cast%C3%A9ra_at_a_2024_Paralympic_Games_media_conference_in_2024_3.jpg"
+  },
+  {
+    "id": "sylvain-maillard",
+    "name": "Sylvain Maillard",
+    "birthDate": "1974-04-28",
+    "gender": "masculin",
+    "categories": [
+      "chefs d'entreprise de 10 salariés ou plus",
+      "chef ou cheffe d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union des démocrates et indépendants",
+        "start": "2012-01-01",
+        "end": "2016-01-01"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2016-01-01"
+      },
+      {
+        "name": "Union pour la démocratie française",
+        "start": "1999-01-01",
+        "end": "2007-01-01"
+      },
+      {
+        "name": "Les Centristes",
+        "start": "2007-01-01",
+        "end": "2012-01-01"
+      }
+    ],
+    "wikidataId": "Q30239185",
+    "image": "Sylvain-Maillard_%28cropped%29.jpg"
+  },
+  {
+    "id": "christian-estrosi",
+    "name": "Christian Estrosi",
+    "birthDate": "1955-07-01",
+    "gender": "masculin",
+    "categories": [
+      "personnalité politique",
+      "pilote de course motocycliste",
+      "personnes diverses sans activité professionnelle de 60 ans et plus sauf retraités",
+      "ministre"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement pour la République",
+        "end": "2002-04-23"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2002-04-23",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30",
+        "end": "2021-05-06"
+      },
+      {
+        "name": "Horizons",
+        "start": "2021-12-01"
+      },
+      {
+        "name": "La France audacieuse",
+        "start": "2020-10-14"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2005-06-02",
+        "end": "2007-05-15"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2007-06-19",
+        "end": "2008-03-17"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2009-06-23",
+        "end": "2010-11-13"
+      }
+    ],
+    "wikidataId": "Q749029",
+    "image": "Christian_Estrosi.jpg"
+  },
+  {
+    "id": "marie-lebec",
+    "name": "Marie Lebec",
+    "birthDate": "1990-12-17",
+    "gender": "féminin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "cadres de la fonction publique",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-01-11",
+        "end": "2024-09-21"
+      }
+    ],
+    "wikidataId": "Q30336075",
+    "image": "Marie_Lebec.jpg"
+  },
+  {
+    "id": "frederic-valletoux",
+    "name": "Frédéric Valletoux",
+    "birthDate": "1966-08-23",
+    "gender": "masculin",
+    "categories": [
+      "anciens cadres",
+      "professions de l'information, des arts et des spectacles",
+      "journaliste",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Horizons",
+        "start": "2021-10-09"
+      },
+      {
+        "name": "Agir",
+        "start": "2019-07-05",
+        "end": "2021-10-09"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2005-01-01",
+        "end": "2016-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-02-08",
+        "end": "2024-09-21"
+      }
+    ],
+    "wikidataId": "Q33112205",
+    "image": "2022-10-22_17-50-50_-_Fontainebleau_-_Inauguration_de_la_place_de_l%27%C3%89tape.jpg"
+  },
+  {
+    "id": "michele-tabarot",
+    "name": "Michèle Tabarot",
+    "birthDate": "1962-10-13",
+    "gender": "féminin",
+    "categories": [
+      "chefs d'entreprise de 10 salariés ou plus",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      }
+    ],
+    "wikidataId": "Q2254052",
+    "image": "Mich%C3%A8le_Tabarot_-_2018_%28cropped%29.jpg"
+  },
+  {
+    "id": "emmanuel-gregoire",
+    "name": "Emmanuel Grégoire",
+    "birthDate": "1977-12-24",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ],
+    "wikidataId": "Q64281962",
+    "image": "Emmanuel_Gr%C3%A9goire_%2846632368425%29.jpg"
+  },
+  {
+    "id": "marc-ferracci",
+    "name": "Marc Ferracci",
+    "birthDate": "1977-12-19",
+    "gender": "masculin",
+    "categories": [
+      "professeurs, professions scientifiques",
+      "économiste",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-09-21",
+        "end": "2025-10-05"
+      }
+    ],
+    "wikidataId": "Q29634279",
+    "image": "Visit_of_Marc_Ferracci%2C_French_Minister_for_Industry_and_Energy%2C_to_the_EC_-_2025_%28cropped%29.jpg"
+  },
+  {
+    "id": "vincent-jeanbrun",
+    "name": "Vincent Jeanbrun",
+    "birthDate": "1984-05-05",
+    "gender": "masculin",
+    "categories": [
+      "personnalité politique",
+      "personnes diverses sans activité professionnelle de moins de 60 ans sauf retraités",
+      "cadres de la fonction publique",
+      "permanent politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "start": "2015-01-01",
+        "end": "2019-01-01"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2021-01-01"
+      },
+      {
+        "name": "Libres",
+        "start": "2017-09-10"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-12"
+      }
+    ],
+    "wikidataId": "Q62078135",
+    "image": "20241008-P1120704_Jeanbrun_Vincent_Wikipedia.jpg"
+  },
+  {
+    "id": "laurent-saint-martin",
+    "name": "Laurent Saint-Martin",
+    "birthDate": "1985-06-22",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "anciens cadres"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "2009-01-01",
+        "end": "2012-01-01"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2016-04-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-09-21",
+        "end": "2025-10-05"
+      }
+    ],
+    "wikidataId": "Q30512608",
+    "image": "Laurent-Saint-Martin.jpg"
+  },
+  {
+    "id": "herve-marseille",
+    "name": "Hervé Marseille",
+    "birthDate": "1954-08-20",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "parti social-démocrate",
+        "end": "1995-11-1995"
+      },
+      {
+        "name": "Union pour la démocratie française",
+        "end": "2007-11-30"
+      },
+      { "name": "Les Centristes", "start": "2007-11-30", "end": "2012-01-01" },
+      {
+        "name": "Union des démocrates et indépendants",
+        "start": "2012-01-01"
+      }
+    ],
+    "wikidataId": "Q3134586",
+    "image": "Herve_Marseille-IMG_4096.jpg"
+  },
+  {
+    "id": "manuel-valls",
+    "name": "Manuel Valls",
+    "birthDate": "1962-08-13",
+    "gender": "masculin",
+    "categories": [
+      "professions libérales et assimilés",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "1980-01-01",
+        "end": "2017-01-01"
+      },
+      {
+        "name": "Valents",
+        "start": "2019-01-01",
+        "end": "2021-08-31"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2021-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-16",
+        "end": "2016-12-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-12-23",
+        "end": "2025-10-12"
+      }
+    ],
+    "wikidataId": "Q10287",
+    "image": "Valls_Schaefer_Munich_Economic_Summit_2015_%28cropped%29.JPG"
+  },
+  {
+    "id": "edwige-diaz",
+    "name": "Edwige Diaz",
+    "birthDate": "1987-10-15",
+    "gender": "féminin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "chef ou cheffe d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement national"
+      }
+    ],
+    "wikidataId": "Q63349008",
+    "image": "Edwige_Diaz_au_camp_du_Courneau_%28cropped_3%29.jpg"
+  },
+  {
+    "id": "sophie-primas",
+    "name": "Sophie Primas",
+    "birthDate": "1962-06-07",
+    "gender": "féminin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "end": "2024-06-11"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2024-09-21"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-09-21",
+        "end": "2025-09-09"
+      }
+    ],
+    "wikidataId": "Q3491023",
+    "image": "Sophie_Primas_2024.jpg"
+  },
+  {
+    "id": "othman-nasrou",
+    "name": "Othman Nasrou",
+    "birthDate": "1987-07-13",
+    "gender": "masculin",
+    "categories": [
+      "chefs d'entreprise de 10 salariés ou plus",
+      "chef ou cheffe d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "start": "2014-01-01"
+      },
+      {
+        "name": "Libres",
+        "start": "2017-09-10"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-09-21",
+        "end": "2024-12-23"
+      }
+    ],
+    "wikidataId": "Q56318183",
+    "image": "Othman_Nasrou_devant_le_conseil_r%C3%A9gional_Ile_de_France.jpg"
+  },
+  {
+    "id": "philippe-tabarot",
+    "name": "Philippe Tabarot",
+    "birthDate": "1970-11-25",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-12-23"
+      }
+    ],
+    "wikidataId": "Q63371158",
+    "image": "Philippe_Tabarot_-_2025_%28cropped%29.jpg"
+  },
+  {
+    "id": "yannick-neuder",
+    "name": "Yannick Neuder",
+    "birthDate": "1969-03-15",
+    "gender": "masculin",
+    "categories": [
+      "cardiologue",
+      "professeurs, professions scientifiques",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-12-23",
+        "end": "2025-10-05"
+      }
+    ],
+    "wikidataId": "Q62887718",
+    "image": "Yannick_Neuder_2021_%28crop%29.jpg"
+  },
+  {
+    "id": "julien-odoul",
+    "name": "Julien Odoul",
+    "birthDate": "1985-05-08",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "cadres de la fonction publique",
+      "permanent politique",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement national"
+      }
+    ],
+    "wikidataId": "Q41102798",
+    "image": "Julien_Odoul_-_Besan%C3%A7on_25-04-2019_-_Toufik-de-Planoise.jpg"
+  },
+  {
+    "id": "philippe-ballard",
+    "name": "Philippe Ballard",
+    "birthDate": "1960-11-24",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "anciens cadres", "journaliste"],
+    "parties": [
+      {
+        "name": "Rassemblement national",
+        "start": "2020-09-01"
+      }
+    ],
+    "wikidataId": "Q106635078",
+    "image": "Philippe_Ballard.jpg"
+  },
+  {
+    "id": "naima-moutchou",
+    "name": "Naïma Moutchou",
+    "birthDate": "1980-11-04",
+    "gender": "féminin",
+    "categories": [
+      "professions libérales et assimilés",
+      "juriste d'entreprise",
+      "juriste",
+      "personnalité politique",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2016-01-01",
+        "end": "2021-10-09"
+      },
+      {
+        "name": "Horizons",
+        "start": "2021-10-09"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-05"
+      }
+    ],
+    "wikidataId": "Q30379800",
+    "image": "Minist%C3%A8re_des_Outre-mer_-_DICOM_%28cropped%29.jpg"
+  },
+  {
+    "id": "eric-piolle",
+    "name": "Eric Piolle",
+    "birthDate": "1973-01-06",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "ingénieur"],
+    "parties": [
+      {
+        "name": "Les Écologistes"
+      }
+    ],
+    "wikidataId": "Q16007948",
+    "image": "Eric_Piolle.jpg"
+  },
+  {
+    "id": "maud-bregeon",
+    "name": "Maud Bregeon",
+    "birthDate": "1991-02-11",
+    "gender": "féminin",
+    "categories": [
+      "ingénieurs et cadres techniques d'entreprise",
+      "personnalité politique",
+      "ingénieur"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-09-21",
+        "end": "2024-12-13"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-12"
+      }
+    ],
+    "wikidataId": "Q104032664",
+    "image": "Maud_Bregeon_%282023%29.jpg"
+  },
+  {
+    "id": "sebastien-martin",
+    "name": "Sébastien Martin",
+    "birthDate": "1977-11-24",
+    "gender": "masculin",
+    "categories": ["cadre supérieur", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-12"
+      }
+    ],
+    "wikidataId": "Q63766436",
+    "image": "Visit_of_S%C3%A9bastien_Martin%2C_French_Minister_Delegate_for_Industry%2C_to_the_European_Commission_-_2025_%28cropped%29.jpg"
+  },
+  {
+    "id": "sarah-el-hairy",
+    "name": "Sarah El Haïry",
+    "birthDate": "1989-03-16",
+    "gender": "féminin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "cadres de la fonction publique",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire",
+        "end": "2010-01-01"
+      },
+      {
+        "name": "Mouvement démocrate",
+        "start": "2010-01-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2020-07-26",
+        "end": "2022-05-20"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2022-07-04",
+        "end": "2024-01-11"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-02-08",
+        "end": "2024-09-21"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2025-03-05"
+      }
+    ],
+    "wikidataId": "Q30343245",
+    "image": "Sarah-El-Ha%C3%AFry.jpg"
+  },
+  {
+    "id": "jean-pierre-farandou",
+    "name": "Jean-Pierre Farandou",
+    "birthDate": "1957-07-04",
+    "gender": "masculin",
+    "categories": ["ingénieur", "personnalité du monde des affaires"],
+    "parties": [
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-12"
+      }
+    ],
+    "wikidataId": "Q33106208",
+    "image": "SNCF_Jean-Pierre_Farandou_%28cropped%29.jpg"
+  },
+  {
+    "id": "philippe-juvin",
+    "name": "Philippe Juvin",
+    "birthDate": "1964-02-01",
+    "gender": "masculin",
+    "categories": [
+      "professeurs, professions scientifiques",
+      "cadres de la fonction publique",
+      "médecin urgentiste",
+      "personnalité politique",
+      "médecin",
+      "médecin anesthésiste-réanimateur"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      }
+    ],
+    "wikidataId": "Q445705",
+    "image": "Philippe_Juvin_02.JPG"
+  },
+  {
+    "id": "pierre-laurent",
+    "name": "Pierre Laurent",
+    "birthDate": "1957-07-01",
+    "gender": "masculin",
+    "categories": [
+      "personnalité politique",
+      "journaliste",
+      "producteur ou productrice artistique"
+    ],
+    "parties": [
+      {
+        "name": "Parti communiste français"
+      }
+    ],
+    "wikidataId": "Q2093665",
+    "image": "Pierre_Laurent_-_Fête_de_l'Humanité_2013_-_001.jpg"
+  },
+  {
+    "id": "jean-francois-julliard",
+    "name": "Jean-François Julliard",
+    "birthDate": "1973-05-07",
+    "gender": "masculin",
+    "categories": ["militant ou militante", "journaliste"],
+    "parties": [],
+    "wikidataId": "Q1684835",
+    "image": "1657700932843_17-12-08_Frasoni_Cohn_Bendit_7_MOBILE.jpg"
+  },
+  {
+    "id": "annick-girardin",
+    "name": "Annick Girardin",
+    "birthDate": "1964-08-03",
+    "gender": "féminin",
+    "categories": [
+      "personnalité politique",
+      "haut fonctionnaire ou haute fonctionnaire"
+    ],
+    "parties": [
+      {
+        "name": "Parti radical de gauche"
+      }
+    ],
+    "wikidataId": "Q2851582",
+    "image": "Portrait_d'Annick_Girardin_(cropped).jpg"
+  },
+  {
+    "id": "damien-abad",
+    "name": "Damien Abad",
+    "birthDate": "1980-04-05",
+    "gender": "masculin",
+    "categories": [
+      "personnalité politique",
+      "anciens cadres",
+      "personnes diverses sans activité professionnelle de moins de 60 ans sauf retraités"
+    ],
+    "parties": [
+      {
+        "name": "Union pour la démocratie française",
+        "end": "2007-11-30"
+      },
+      {
+        "name": "Les Centristes",
+        "start": "2007-11-30",
+        "end": "2012-05-01"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2012-05-01",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30",
+        "end": "2022-05-19"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2022-05-19",
+        "end": "2023-05-24"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2022-05-20",
+        "end": "2022-07-04"
+      }
+    ],
+    "wikidataId": "Q966529",
+    "image": "Portrait_Damien_Abad.jpg"
+  },
+  {
+    "id": "jean-baptiste-lemoyne",
+    "name": "Jean-Baptiste Lemoyne",
+    "birthDate": "1977-09-15",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "cadre supérieur"],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2002-04-23",
+        "end": "2015-05-30"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-05-30",
+        "end": "2017-03-15"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2017-03-15"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2017-06-21",
+        "end": "2020-07-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2020-07-26",
+        "end": "2022-05-20"
+      }
+    ],
+    "wikidataId": "Q18202528",
+    "image": "Jean-Baptiste_Lemoyne_(cropped).jpg"
+  },
+  {
+    "id": "jeremie-peltier",
+    "name": "Jérémie Peltier",
+    "birthDate": "1987-01-01",
+    "gender": "masculin",
+    "categories": [
+      "directeur d'études",
+      "directeur ou directrice de collection"
+    ],
+    "parties": []
+  },
+  {
+    "id": "pierre-sabatier",
+    "name": "Pierre Sabatier",
+    "birthDate": "1981-12-01",
+    "gender": "masculin",
+    "categories": [
+      "économiste",
+      "entrepreneur ou entrepreneuse",
+      "enseignant-chercheur ou enseignante-chercheuse",
+      "auteur"
+    ],
+    "parties": [{ "name": "Autres", "start": "2026-01-01" }]
+  },
+  {
+    "id": "francis-perrin",
+    "name": "Francis Perrin",
+    "gender": "masculin",
+    "categories": [
+      "directeur ou directrice de recherche",
+      "chercheur ou chercheuse",
+      "consultant ou consultante",
+      "journaliste"
+    ],
+    "parties": [],
+    "birthDate": "1957-01-01",
+    "wikidataId": "Q103012680"
   }
 ]
