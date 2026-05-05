@@ -22,7 +22,7 @@ export function SliderControlled({
   return (
     <div
       className={cn(
-        "grid w-full gap-1.5 rounded-lg border p-2.5 text-sm sm:gap-3",
+        "bg-background grid w-full gap-1.5 rounded-lg border p-2.5 text-sm sm:gap-3",
         props.className,
       )}
     >

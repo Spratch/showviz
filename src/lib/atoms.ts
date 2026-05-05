@@ -1,35 +1,12 @@
-import backseat from "@/data/backseat.json";
-import bonjour from "@/data/bonjour.json";
-import cCeSoir from "@/data/c-ce-soir.json";
-import yeuxdAgathe from "@/data/dans-les-yeux-dagathe.json";
-import dimancheEnPolitique from "@/data/dimanche-en-politique.json";
-import elysee2022 from "@/data/elysee-2022.json";
-import enSociete from "@/data/en-societe.json";
-import levenement from "@/data/l-evenement.json";
-import gdeItw from "@/data/la-grande-interview.json";
-import quelleEpoque from "@/data/quelle-epoque.json";
-import thinkerview from "@/data/thinkerview.json";
-import type { ShowType, TooltipContentType } from "@/types";
+import { shows } from "@/data/shows";
+import type { TooltipContentType } from "@/types";
 import { atom } from "jotai";
 import { getDateFromOrigin, monthIndex, startOfMonth } from "./utils";
 
-export const shows: ShowType[] = [
-  quelleEpoque,
-  levenement,
-  yeuxdAgathe,
-  cCeSoir,
-  thinkerview,
-  dimancheEnPolitique,
-  enSociete,
-  bonjour,
-  elysee2022,
-  backseat,
-  gdeItw,
-];
 export const selectedShowAtom = atom(shows[0]);
 
 export const hideNeutralEpisodesAtom = atom(false);
-export const showParliamentAtom = atom(false);
+export const showParliamentAtom = atom(true);
 
 export const showDateRangeAtom = atom({ min: 0, max: 10000 });
 export const originTotalAtom = atom((get) => {

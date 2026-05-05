@@ -1,6 +1,6 @@
 import HemicyclePersonCircle from "@/components/hemicyclePersonCircle";
+import { shows } from "@/data/shows";
 import useScreenDimensions from "@/hooks/useScreenWidth";
-import { shows } from "@/lib/atoms";
 import {
   computeHemicycleParams,
   getPersonInfos,
@@ -18,6 +18,10 @@ const channelOwners = {
   Bouygues: {
     color: "#F66719",
     channels: ["TF1"],
+  },
+  Bolloré: {
+    color: "#3875C6",
+    channels: ["CNews"],
   },
   Indépendant: {
     color: "#CDCCCD",
@@ -46,11 +50,11 @@ export default function Index() {
   const { screenWidth } = screenDimensions;
 
   return (
-    <main className="flex w-full grow scale-90 flex-wrap items-center justify-center gap-8 overflow-x-hidden px-2 pb-8 md:gap-16 md:pt-6">
+    <main className="flex w-full min-w-0 grow scale-90 flex-wrap items-center justify-center gap-8 overflow-x-hidden px-2 pb-8 md:gap-0 md:pt-6">
       {Object.entries(showsByChannelOwner).map(([owner, showList]) => (
         <div
           key={owner}
-          className="border-border flex aspect-square w-160 flex-col items-center justify-center gap-4 rounded-full border bg-(--owner-color)/55 p-4"
+          className="border-primary flex aspect-square max-w-4xl flex-col items-center justify-center gap-4 rounded-full border bg-(--owner-color)/60 p-4"
           style={
             {
               "--owner-color":
@@ -58,8 +62,10 @@ export default function Index() {
             } as React.CSSProperties
           }
         >
-          <h2 className="font-display font-medium">{owner}</h2>
-          <div className="flex flex-wrap content-center items-center justify-center">
+          <h2 className="font-display bg-background rounded-xs px-1 pt-[1.5px] pb-0.5 leading-tight font-medium">
+            {owner}
+          </h2>
+          <div className="flex flex-wrap content-center items-center justify-center pt-4">
             {showList
               .sort((a, b) => a.start.localeCompare(b.start))
               .map((show) => {
@@ -93,17 +99,31 @@ export default function Index() {
                   .getSeatsLayout()
                   .sort((a, b) => a.radialIdx - b.radialIdx);
 
+                const startYear = new Date(show.start).getFullYear();
+                const endYear = show.end
+                  ? new Date(show.end).getFullYear()
+                  : undefined;
+                const showYears =
+                  endYear && endYear !== startYear
+                    ? `${startYear}-${endYear}`
+                    : !endYear
+                      ? `${startYear}-`
+                      : undefined;
+
                 return (
                   <Link
                     key={show.slug}
                     href={`/${show.slug}`}
-                    className="border-border bg-background relative flex aspect-square w-48 items-center justify-center rounded-full border p-3 pt-24 text-center"
+                    className="border-primary bg-background relative -mt-6 flex aspect-square w-48 items-center justify-center rounded-full border p-3 pt-24 text-center"
                   >
                     <div className="flex flex-col">
                       <h3 className="font-display text-sm/tight font-medium text-balance">
                         {show.title}
                       </h3>
                       <span className="font-mono text-xs">{show.channel}</span>
+                      <span className="text-muted-foreground font-mono text-xs">
+                        {showYears}
+                      </span>
                     </div>
                     {showGuests.length > 0 && (
                       <div className="absolute inset-0 flex items-center justify-center">

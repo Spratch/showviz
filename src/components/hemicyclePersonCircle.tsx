@@ -44,7 +44,7 @@ export default function HemicyclePersonCircle({
       data-color={person.party?.name}
       data-dot-size={size}
       tabIndex={0}
-      className={`ring-ring outline-ring text-2xs absolute flex aspect-square size-4 flex-col items-center justify-center overflow-hidden rounded-full bg-(--current-color)/75 p-1.5 outline-offset-2 transition-opacity data-[dot-size=bigger]:scale-125 data-[dot-size=extra-small]:scale-50 data-[dot-size=mini]:size-4! data-[dot-size=mini]:scale-50 data-[dot-size=mini]:*:hidden data-[dot-size=normal]:scale-100 data-[dot-size=smaller]:scale-75 sm:size-8 md:size-12 md:text-xs ${person?.isGouv ? "border-2 border-olive-600" : ""}`}
+      className={`ring-ring outline-ring text-2xs bg-current-blended absolute flex aspect-square size-4 flex-col items-center justify-center overflow-hidden rounded-full p-1.5 outline-offset-2 transition-opacity data-[dot-size=bigger]:scale-125 data-[dot-size=extra-small]:scale-50 data-[dot-size=mini]:size-4! data-[dot-size=mini]:scale-50 data-[dot-size=mini]:*:hidden data-[dot-size=normal]:scale-100 data-[dot-size=smaller]:scale-75 sm:size-8 md:size-12 md:text-xs ${person?.isGouv ? "border-2 border-olive-600 data-[dot-size=mini]:border" : ""}`}
       style={
         {
           "--current-color": person?.party?.color,

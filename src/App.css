@@ -109,3 +109,13 @@
     stroke-width: 1.25;
   }
 }
+
+@layer utilities {
+  .bg-current-blended {
+    background-color: color-mix(
+      in srgb,
+      var(--current-color) 75%,
+      var(--color-background)
+    );
+  }
+}

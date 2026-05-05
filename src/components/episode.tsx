@@ -45,7 +45,7 @@ export default function Episode({
           return (
             <span
               key={i}
-              className={`aspect-square size-1.75 rounded-full bg-(--current-color)/75 sm:size-2 md:size-2.25 ${guest?.isGouv ? "border border-olive-600" : ""}`}
+              className={`bg-current-blended aspect-square size-1.75 rounded-full sm:size-2 md:size-2.25 ${guest?.isGouv ? "border border-olive-600" : ""}`}
               style={
                 {
                   "--current-color":

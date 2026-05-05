@@ -5,6 +5,7 @@ import Season from "@/components/season";
 import TopList from "@/components/topList";
 import { Separator } from "@/components/ui/separator";
 import Tooltip from "@/components/ui/tooltip";
+import { shows } from "@/data/shows";
 import useScreenDimensions from "@/hooks/useScreenWidth";
 import {
   convertedDateRangeAtom,
@@ -14,7 +15,6 @@ import {
   selectedShowAtom,
   showDateRangeAtom,
   showParliamentAtom,
-  shows,
 } from "@/lib/atoms";
 import {
   computeHemicycleParams,

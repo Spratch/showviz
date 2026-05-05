@@ -1,11 +1,16 @@
-import { selectedShowAtom, shows } from "@/lib/atoms";
+import { shows } from "@/data/shows";
+import {
+  hideNeutralEpisodesAtom,
+  selectedShowAtom,
+  showParliamentAtom,
+} from "@/lib/atoms";
 import type { SeasonType } from "@/types";
-import { useAtomValue } from "jotai";
-import { useState } from "react";
+import ListIcon from "~icons/tabler/list-details";
+import HemicycleIcon from "~icons/tabler/wifi";
+import { Tabs, TabsList, TabsTrigger } from "./ui/tabs";
+
+import { useAtomValue, useSetAtom } from "jotai";
 import { useLocation } from "wouter";
-import SettingsIcon from "~icons/tabler/adjustments";
-import Controls from "./controls";
-import { Button } from "./ui/button";
 import {
   Select,
   SelectContent,
@@ -20,26 +25,19 @@ export default function Header({
 }: {
   displayedSeasons: SeasonType[];
 }) {
-  const [showControls, setShowControls] = useState(true);
+  const setShowParliament = useSetAtom(showParliamentAtom);
+  const setHideNeutralEpisodes = useSetAtom(hideNeutralEpisodesAtom);
   const selectedShow = useAtomValue(selectedShowAtom);
   const [, navigate] = useLocation();
-  const titles = shows
-    // .sort((a, b) =>
-    //   a.title === selectedShow.title
-    //     ? -1
-    //     : b.title === selectedShow.title
-    //       ? 1
-    //       : 0,
-    // )
-    .map((show) => ({
-      value: show.slug,
-      label: show.title,
-      channel: show.channel,
-    }));
+  const titles = shows.map((show) => ({
+    value: show.slug,
+    label: show.title,
+    channel: show.channel,
+  }));
 
   return (
     <header className="bg-background sticky top-0 z-50 flex w-full max-w-5xl flex-col items-start justify-between gap-4 px-2 pt-2 pb-2 md:pt-8">
-      <div className="flex w-full flex-col gap-2 max-md:justify-end md:flex-row md:items-end md:justify-between">
+      <div className="flex w-full flex-col gap-2 max-md:justify-end md:flex-row md:justify-between">
         <h1 className="font-display max-w-[40ch] text-xl/tight font-medium text-balance sm:text-2xl/tight">
           <span className="relative z-10">
             Appartenances politiques des&nbsp;invités&nbsp;de&nbsp;
@@ -78,39 +76,55 @@ export default function Header({
           </Select>
         </h1>
 
-        <p className="font-mono text-xs text-nowrap text-olive-500 sm:text-sm">
-          [
-          <span className="text-olive-700">
-            {displayedSeasons.flatMap((s) => s.politicalGuests).length}{" "}
-            politiques
-          </span>
-          &thinsp;/&thinsp;
-          {displayedSeasons.flatMap((s) => s.seasonGuests).length} invités{" "}
-          <span className="text-olive-700">
-            (
-            {(
-              (displayedSeasons.flatMap((s) => s.politicalGuests).length /
-                displayedSeasons.flatMap((s) => s.seasonGuests).length) *
-              100
-            ).toFixed(1)}
-            %)
-          </span>
-          ]
-        </p>
-        <Button
-          size="icon-sm"
-          aria-label="Paramètres"
-          variant="outline"
-          className={
-            "absolute top-2 right-2 mt-1 md:top-8" +
-            (showControls ? " bg-primary/5" : "")
-          }
-          onClick={() => setShowControls(!showControls)}
-        >
-          <SettingsIcon />
-        </Button>
+        <div className="flex flex-col items-end justify-between">
+          <Tabs defaultValue="hemicycle">
+            <TabsList>
+              <TabsTrigger
+                value="hemicycle"
+                onClick={() => {
+                  setShowParliament(true);
+                  setHideNeutralEpisodes(true);
+                }}
+              >
+                <HemicycleIcon />
+                Invités politiques
+              </TabsTrigger>
+              <TabsTrigger
+                value="list"
+                onClick={() => {
+                  setShowParliament(false);
+                  setHideNeutralEpisodes(false);
+                }}
+              >
+                <ListIcon />
+                Épisodes
+              </TabsTrigger>
+            </TabsList>
+          </Tabs>
+
+          <p className="font-mono text-xs text-nowrap text-olive-500 sm:text-sm">
+            [
+            <span className="text-olive-700">
+              {displayedSeasons.flatMap((s) => s.politicalGuests).length}{" "}
+              politiques
+            </span>
+            &thinsp;/&thinsp;
+            {
+              displayedSeasons.flatMap((s) => s.seasonGuests).length
+            } invités{" "}
+            <span className="text-olive-700">
+              (
+              {(
+                (displayedSeasons.flatMap((s) => s.politicalGuests).length /
+                  displayedSeasons.flatMap((s) => s.seasonGuests).length) *
+                100
+              ).toFixed(1)}
+              %)
+            </span>
+            ]
+          </p>
+        </div>
       </div>
-      {showControls && <Controls />}
     </header>
   );
 }
