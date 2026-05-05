@@ -6,6 +6,7 @@ import dimancheEnPolitique from "@/data/dimanche-en-politique.json";
 import elysee2022 from "@/data/elysee-2022.json";
 import enSociete from "@/data/en-societe.json";
 import levenement from "@/data/l-evenement.json";
+import gdeItw from "@/data/la-grande-interview.json";
 import quelleEpoque from "@/data/quelle-epoque.json";
 import thinkerview from "@/data/thinkerview.json";
 import type { ShowType, TooltipContentType } from "@/types";
@@ -23,6 +24,7 @@ export const shows: ShowType[] = [
   bonjour,
   elysee2022,
   backseat,
+  gdeItw,
 ];
 export const selectedShowAtom = atom(shows[0]);
 

@@ -10462,7 +10462,7 @@
       },
       {
         "name": "Union des droites pour la République",
-        "start": "2024-08-31"
+        "start": "2024-06-14"
       }
     ],
     "wikidataId": "Q1844180",
@@ -17129,7 +17129,11 @@
     "name": "Bernard Cohen-Hadad",
     "birthDate": "1960-08-19",
     "gender": "masculin",
-    "categories": [],
+    "categories": [
+      "lobbyiste",
+      "entrepreneur ou entrepreneuse",
+      "écrivain ou écrivaine"
+    ],
     "parties": [],
     "wikidataId": "Q33105635"
   },
@@ -18716,7 +18720,11 @@
       "parachutiste militaire",
       "avocat ou avocate"
     ],
-    "parties": [],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      }
+    ],
     "wikidataId": "Q3524053",
     "image": "Thibault_de_Montbrial_CRSI_%28cropped%29.jpg"
   },
@@ -20059,7 +20067,12 @@
       "journaliste",
       "personnalité politique"
     ],
-    "parties": [],
+    "parties": [
+      {
+        "name": "Union des démocrates et indépendants",
+        "start": "2022-01-01"
+      }
+    ],
     "wikidataId": "Q107449933",
     "image": "Estelle_Youssouffa_%28cropped%29.png"
   },
@@ -28152,5 +28165,616 @@
       "conférencier ou conférencière"
     ],
     "parties": []
+  },
+  {
+    "id": "didier-leschi",
+    "name": "Didier Leschi",
+    "birthDate": "1959-04-05",
+    "gender": "masculin",
+    "categories": ["préfet", "haut fonctionnaire ou haute fonctionnaire"],
+    "parties": [],
+    "wikidataId": "Q33103050"
+  },
+  {
+    "id": "raphael-morav",
+    "name": "Raphaël Morav",
+    "birthDate": "1958-01-01",
+    "gender": "masculin",
+    "categories": ["diplomate"],
+    "parties": [
+      {
+        "name": "Likoud"
+      }
+    ],
+    "wikidataId": "Q96575951",
+    "image": "Raphael_Morav%2C_May_2018_%288045%29_%28cropped%29.jpg"
+  },
+  {
+    "id": "frederic-pechenard",
+    "name": "Fréderic Péchenard",
+    "birthDate": "1957-03-12",
+    "gender": "masculin",
+    "categories": [
+      "cadre supérieur",
+      "policier ou policière",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      }
+    ],
+    "wikidataId": "Q3090149",
+    "image": "Fr%C3%A9d%C3%A9ric_P%C3%A9chenard_2011.jpg"
+  },
+  {
+    "id": "dominique-reynie",
+    "name": "Dominique Reynié",
+    "birthDate": "1960-06-17",
+    "gender": "masculin",
+    "categories": [
+      "professeur d'université",
+      "politologue",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      }
+    ],
+    "wikidataId": "Q3035438",
+    "image": "Dominique_Reyni%C3%A9.jpg"
+  },
+  {
+    "id": "linda-kebbab",
+    "name": "Linda Kebbab",
+    "birthDate": "1981-01-01",
+    "gender": "féminin",
+    "categories": ["policier ou policière", "syndicaliste"],
+    "parties": [],
+    "wikidataId": "Q100154995",
+    "image": "Linda_Kebbab.jpg"
+  },
+  {
+    "id": "luc-ferry",
+    "name": "Luc Ferry",
+    "birthDate": "1951-01-03",
+    "gender": "masculin",
+    "categories": [
+      "philosophe",
+      "professeur d'université",
+      "politologue",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire"
+      }
+    ],
+    "wikidataId": "Q740110",
+    "image": "Paris_-_Salon_du_livre_de_Paris_2017_-_Luc_Ferry_-_005.jpg"
+  },
+  {
+    "id": "christophe-guilluy",
+    "name": "Christophe Guilluy",
+    "birthDate": "1964-10-14",
+    "gender": "masculin",
+    "categories": ["géographe"],
+    "parties": [],
+    "wikidataId": "Q2966275"
+  },
+  {
+    "id": "guillaume-kasbarian",
+    "name": "Guillaume Kasbarian",
+    "birthDate": "1987-02-28",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "consultant ou consultante",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance"
+      }
+    ],
+    "wikidataId": "Q30497082",
+    "image": "Guillaume_Kasbarian_May_2025.jpg"
+  },
+  {
+    "id": "malika-sorel",
+    "name": "Malika Sorel",
+    "birthDate": "1962-08-07",
+    "gender": "féminin",
+    "categories": [
+      "essayiste",
+      "personnalité politique",
+      "ingénieur",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement national",
+        "start": "2024-01-01"
+      }
+    ],
+    "wikidataId": "Q3282095",
+    "image": "Malika_Sorel_%C3%A0_Saint-Avold_le_2024-05-07.jpg"
+  },
+  {
+    "id": "jean-pierre-obin",
+    "name": "Jean-Pierre Obin",
+    "birthDate": "1942-12-05",
+    "gender": "masculin",
+    "categories": ["enseignant ou enseignante"],
+    "parties": [],
+    "wikidataId": "Q21094209",
+    "image": "Jean-Pierre_Obin.jpg"
+  },
+  {
+    "id": "matthieu-valet",
+    "name": "Matthieu Valet",
+    "birthDate": "1986-01-04",
+    "gender": "masculin",
+    "categories": [
+      "syndicaliste",
+      "commissaire de police",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement national",
+        "start": "2024-01-01"
+      }
+    ],
+    "wikidataId": "Q125398344",
+    "image": "1718798707847_20240618_VALET_Matthieu_FR_004.jpg"
+  },
+  {
+    "id": "celine-imart",
+    "name": "Céline Imart",
+    "birthDate": "1982-08-24",
+    "gender": "féminin",
+    "categories": [
+      "exploitant ou exploitante agricole",
+      "financier",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      }
+    ],
+    "wikidataId": "Q124620577",
+    "image": "1718282582550_20240611_IMART_Celine_FR_003.jpg"
+  },
+  {
+    "id": "eric-trappier",
+    "name": "Éric Trappier",
+    "birthDate": "1960-01-06",
+    "gender": "masculin",
+    "categories": ["personnalité du monde des affaires"],
+    "parties": [],
+    "wikidataId": "Q3591380",
+    "image": "Eric_Trappier.jpg"
+  },
+  {
+    "id": "christophe-gomart",
+    "name": "Christophe Gomart",
+    "birthDate": "1960-06-20",
+    "gender": "masculin",
+    "categories": ["officier", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      }
+    ],
+    "wikidataId": "Q33275664",
+    "image": "1718282730154_20240612_GOMART_Christophe_FR_011.jpg"
+  },
+  {
+    "id": "olivier-falorni",
+    "name": "Olivier Falorni",
+    "birthDate": "1972-03-27",
+    "gender": "masculin",
+    "categories": [
+      "professeurs, professions scientifiques",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ],
+    "wikidataId": "Q3351009",
+    "image": "Olivier_Falorni_%28cropped%29.jpg"
+  },
+  {
+    "id": "arnaud-robinet",
+    "name": "Arnaud Robinet",
+    "birthDate": "1975-04-30",
+    "gender": "masculin",
+    "categories": [
+      "professeurs, professions scientifiques",
+      "permanent politique",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire"
+      }
+    ],
+    "wikidataId": "Q2863211",
+    "image": "Arnaud_Robinet_par_Claude_Truong-Ngoc_avril_2015.jpg"
+  },
+  {
+    "id": "samira-sitail",
+    "name": "Samira Sitaïl",
+    "birthDate": "1964-05-16",
+    "gender": "féminin",
+    "categories": [
+      "journaliste",
+      "animateur ou animatrice de télévision",
+      "présentateur ou présentatrice de journal",
+      "diplomate"
+    ],
+    "parties": [],
+    "wikidataId": "Q12216919"
+  },
+  {
+    "id": "hadrien-clouet",
+    "name": "Hadrien Clouet",
+    "birthDate": "1991-07-13",
+    "gender": "masculin",
+    "categories": [
+      "professeurs, professions scientifiques",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "La France insoumise"
+      }
+    ],
+    "wikidataId": "Q112649548",
+    "image": "Hadrien_Clouet_1507939.jpg"
+  },
+  {
+    "id": "frederic-salat-baroux",
+    "name": "Frédéric Salat-Baroux",
+    "birthDate": "1963-07-12",
+    "gender": "masculin",
+    "categories": [
+      "haut fonctionnaire ou haute fonctionnaire",
+      "avocat ou avocate"
+    ],
+    "parties": [],
+    "wikidataId": "Q3090184"
+  },
+  {
+    "id": "menna-rawlings",
+    "name": "Menna Rawlings",
+    "birthDate": "1967-09-16",
+    "gender": "féminin",
+    "categories": ["diplomate"],
+    "parties": [],
+    "wikidataId": "Q19875603",
+    "image": "FIL_2023_-_%27Old_Ireland_in_Colour%27_exhibition_inauguration_-_Menna_Rawlings.jpg"
+  },
+  {
+    "id": "herve-morin",
+    "name": "Hervé Morin",
+    "birthDate": "1961-08-17",
+    "gender": "masculin",
+    "categories": [
+      "permanent politique",
+      "administrateur des services de l'Assemblée nationale",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union pour la démocratie française"
+      },
+      {
+        "name": "Parti républicain"
+      }
+    ],
+    "wikidataId": "Q521021",
+    "image": "Hervemorin2008_recadre.PNG"
+  },
+  {
+    "id": "benjamin-netanyahou",
+    "name": "Benjamin Netanyahou",
+    "birthDate": "1949-10-21",
+    "gender": "masculin",
+    "categories": [
+      "écrivain ou écrivaine politique",
+      "politologue",
+      "homme ou femme d'État",
+      "diplomate",
+      "personnalité politique",
+      "militaire"
+    ],
+    "parties": [
+      {
+        "name": "Likoud",
+        "start": "1980-01-01"
+      }
+    ],
+    "wikidataId": "Q43723",
+    "image": "Benjamin_Netanyahu%2C_February_2023.jpg"
+  },
+  {
+    "id": "alexandre-portier",
+    "name": "Alexandre Portier",
+    "birthDate": "1990-04-21",
+    "gender": "masculin",
+    "categories": [
+      "professeurs, professions scientifiques",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-09-21",
+        "end": "2024-12-23"
+      }
+    ],
+    "wikidataId": "Q112635139",
+    "image": "Alexandre_Portier_%28cropped%29.jpg"
+  },
+  {
+    "id": "gerard-carreyrou",
+    "name": "Gérard Carreyrou",
+    "birthDate": "1942-02-20",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q3123815"
+  },
+  {
+    "id": "gil-averous",
+    "name": "Gil Avérous",
+    "birthDate": "1973-07-12",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "fonctionnaire de catégorie A",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2002-01-01",
+        "end": "2015-01-01"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-01-01"
+      },
+      {
+        "name": "Rassemblement pour la République",
+        "start": "1991-01-01",
+        "end": "2002-01-01"
+      }
+    ],
+    "wikidataId": "Q21761190",
+    "image": "Gil_Averous.jpg"
+  },
+  {
+    "id": "charles-rodwell",
+    "name": "Charles Rodwell",
+    "birthDate": "1996-07-26",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "collaborateur parlementaire",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance"
+      }
+    ],
+    "wikidataId": "Q112518535",
+    "image": "20260217-P1380221_Rodwell_Charles_Wikipedia.jpg"
+  },
+  {
+    "id": "xavier-driencourt",
+    "name": "Xavier Driencourt",
+    "birthDate": "1954-01-01",
+    "gender": "masculin",
+    "categories": ["diplomate"],
+    "parties": [
+      {
+        "name": "Rassemblement national"
+      }
+    ],
+    "wikidataId": "Q29624215",
+    "image": "Xavier_Driencourt.jpg"
+  },
+  {
+    "id": "charles-millon",
+    "name": "Charles Millon",
+    "birthDate": "1945-11-12",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Union pour la démocratie française"
+      },
+      {
+        "name": "Parti républicain"
+      }
+    ],
+    "wikidataId": "Q2368327",
+    "image": "Charles_Millon.jpg"
+  },
+  {
+    "id": "hugues-moutouh",
+    "name": "Hugues Moutouh",
+    "birthDate": "1967-12-22",
+    "gender": "masculin",
+    "categories": [
+      "haut fonctionnaire ou haute fonctionnaire",
+      "professeur des universités",
+      "juriste"
+    ],
+    "parties": [],
+    "wikidataId": "Q33192675"
+  },
+  {
+    "id": "francois-noel-buffet",
+    "name": "François-Noël Buffet",
+    "birthDate": "1963-08-28",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "avocat ou avocate"],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire"
+      }
+    ],
+    "wikidataId": "Q12944",
+    "image": "Fran%C3%A7ois-No%C3%ABl_Buffet_Etats_g%C3%A9n%C3%A9raux_de_la_d%C3%A9mocratie_territoriale_2012.jpg"
+  },
+  {
+    "id": "louis-laugier",
+    "name": "Louis Laugier",
+    "birthDate": "1965-09-02",
+    "gender": "masculin",
+    "categories": ["haut fonctionnaire ou haute fonctionnaire"],
+    "parties": [],
+    "wikidataId": "Q54889655",
+    "image": "Pr%C3%A9fet_Louis_Laugier_%28Colmar%29.jpg"
+  },
+  {
+    "id": "christophe-ingrain",
+    "name": "Christophe Ingrain",
+    "birthDate": "1969-10-01",
+    "gender": "masculin",
+    "categories": ["avocat ou avocate"],
+    "parties": [],
+    "wikidataId": "Q132745949"
+  },
+  {
+    "id": "jean-paul-garraud",
+    "name": "Jean-Paul Garraud",
+    "birthDate": "1956-02-27",
+    "gender": "masculin",
+    "categories": [
+      "magistrat ou magistrate",
+      "personnalité politique",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Rassemblement national",
+        "start": "2021-07-01"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "end": "2015-01-01"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-01-01",
+        "end": "2019-01-01"
+      },
+      {
+        "name": "La Droite populaire",
+        "start": "2010-01-01"
+      }
+    ],
+    "wikidataId": "Q954006",
+    "image": "Jean-Paul_Garraud_PAR_SsDs_07-2022_%28cropped%29.jpg"
+  },
+  {
+    "id": "roger-karoutchi",
+    "name": "Roger Karoutchi",
+    "birthDate": "1951-08-26",
+    "gender": "masculin",
+    "categories": ["diplomate", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Libres"
+      },
+      {
+        "name": "Rassemblement pour la République"
+      },
+      {
+        "name": "Union pour un mouvement populaire"
+      }
+    ],
+    "wikidataId": "Q1059511",
+    "image": "UMP_regional_elections_IlM_2010-02-18_n10.jpg"
+  },
+  {
+    "id": "francois-villeroy-de-galhau",
+    "name": "François Villeroy de Galhau",
+    "birthDate": "1959-02-24",
+    "gender": "masculin",
+    "categories": [
+      "haut fonctionnaire ou haute fonctionnaire",
+      "économiste",
+      "personnalité du monde des affaires"
+    ],
+    "parties": [],
+    "wikidataId": "Q3086015",
+    "image": "Fran%C3%A7ois_Villeroy_de_Galhau.jpg"
+  },
+  {
+    "id": "thierry-mariani",
+    "name": "Thierry Mariani",
+    "birthDate": "1958-08-08",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2002-01-01",
+        "end": "2015-01-01"
+      },
+      {
+        "name": "Rassemblement pour la République",
+        "end": "2002-01-01"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2015-01-01",
+        "end": "2019-01-07"
+      },
+      {
+        "name": "Rassemblement national",
+        "start": "2019-01-07"
+      },
+      {
+        "name": "La Droite populaire",
+        "start": "2010-01-01"
+      }
+    ],
+    "wikidataId": "Q63655",
+    "image": "Thierry.Mariani.jpg"
+  },
+  {
+    "id": "georges-bensoussan",
+    "name": "Georges Bensoussan",
+    "birthDate": "1952-02-17",
+    "gender": "masculin",
+    "categories": ["historien ou historienne", "chercheur ou chercheuse"],
+    "parties": [],
+    "wikidataId": "Q1508801",
+    "image": "Georges_Bensoussan_par_Claude_Truong-Ngoc_2012.JPG"
+  },
+  {
+    "id": "pierre-de-villiers",
+    "name": "Pierre de Villiers",
+    "birthDate": "1956-07-26",
+    "gender": "masculin",
+    "categories": ["officier", "écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q3387740",
+    "image": "Pierre_de_Villiers_par_Claude_Truong-Ngoc_septembre_2015.jpg"
   }
 ]
