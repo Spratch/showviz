@@ -16,7 +16,11 @@ import {
   showParliamentAtom,
   shows,
 } from "@/lib/atoms";
-import { getPersonInfos, partiesOrder } from "@/lib/utils";
+import {
+  computeHemicycleParams,
+  getPersonInfos,
+  partiesOrder,
+} from "@/lib/utils";
 import type {
   PartyWithOccurencesType,
   PersonType,
@@ -36,16 +40,19 @@ export default function Show({ params }: { params: { showSlug: string } }) {
     }
   }, [showSlug, setSelectedShow]);
 
-  const toSeasonYear = (d: string): number => {
-    const year = +d.slice(0, 4);
-    return d.slice(5, 7) >= "09" ? year : year - 1;
+  const toSeasonYear = (date: string): number => {
+    const year = +date.slice(0, 4);
+    return date.slice(5, 7) >= "09" ? year : year - 1;
   };
   const seasonMap = useMemo(() => {
     const years = [
       ...new Set(selectedShow.diffusions.map((ep) => toSeasonYear(ep.date))),
     ].sort();
     const lastNumber = selectedShow.seasonsNumber ?? years.length;
-    const firstNumber = lastNumber - years.length + 1;
+    const firstNumber =
+      selectedShow.firstSeason !== undefined
+        ? selectedShow.firstSeason
+        : lastNumber - years.length + 1;
     return selectedShow.diffusions.reduce(
       (acc, episode) => {
         const season = String(
@@ -156,32 +163,6 @@ export default function Show({ params }: { params: { showSlug: string } }) {
 
   const screenDimensions = useScreenDimensions();
   const { screenWidth } = screenDimensions;
-
-  function computeHemicycleParams(n: number, screenWidth: number) {
-    const isSmall = screenWidth < 640;
-    const isMedium = screenWidth < 832;
-
-    const outerRadius = isSmall ? 180 : isMedium ? 300 : 480;
-    const innerRadius = isSmall ? 20 : isMedium ? 50 : 100;
-    const dotPx = (isSmall ? 10 : isMedium ? 12 : 14) * 4;
-
-    let rows = 1;
-    for (let r = 1; r <= 30; r++) {
-      const rowSpacing = (outerRadius - innerRadius) / r;
-      const minSpacing = Math.min(rowSpacing, dotPx * 1.1);
-      let capacity = 0;
-      for (let i = 0; i < r; i++) {
-        const radius = innerRadius + rowSpacing * (i + 0.5);
-        capacity += Math.floor((Math.PI * radius) / minSpacing);
-      }
-      if (capacity >= n) {
-        rows = r;
-        break;
-      }
-    }
-
-    return { rows, outerRadius, innerRadius };
-  }
 
   const n = fakeParliamentMembers.length || 1;
   const { rows, outerRadius, innerRadius } = computeHemicycleParams(
@@ -326,7 +307,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
   return (
     <>
       <Header displayedSeasons={displayedSeasons} />
-      <main className="flex w-full max-w-5xl grow flex-col gap-8 px-2 pb-8 md:gap-16 md:pt-6">
+      <main className="flex w-full max-w-5xl grow flex-col gap-8 overflow-x-hidden px-2 pb-8 md:gap-16 md:pt-6">
         {!showParliament ? (
           <section className="flex flex-col gap-3">
             <h2 className="font-display text-xl font-medium">

@@ -5,6 +5,7 @@ export type ShowType = {
   start: string;
   end: string;
   seasonsNumber?: number;
+  firstSeason?: number;
   diffusions: {
     id: string;
     title?: string;

@@ -85,3 +85,29 @@ export const getPersonInfos = (
 
   return { ...person, party, isGouv, episode };
 };
+
+export function computeHemicycleParams(n: number, screenWidth: number) {
+  const isSmall = screenWidth < 640;
+  const isMedium = screenWidth < 832;
+
+  const outerRadius = isSmall ? 180 : isMedium ? 300 : 480;
+  const innerRadius = isSmall ? 20 : isMedium ? 50 : 100;
+  const dotPx = (isSmall ? 10 : isMedium ? 12 : 14) * 4;
+
+  let rows = 1;
+  for (let r = 1; r <= 30; r++) {
+    const rowSpacing = (outerRadius - innerRadius) / r;
+    const minSpacing = Math.min(rowSpacing, dotPx * 1.1);
+    let capacity = 0;
+    for (let i = 0; i < r; i++) {
+      const radius = innerRadius + rowSpacing * (i + 0.5);
+      capacity += Math.floor((Math.PI * radius) / minSpacing);
+    }
+    if (capacity >= n) {
+      rows = r;
+      break;
+    }
+  }
+
+  return { rows, outerRadius, innerRadius };
+}

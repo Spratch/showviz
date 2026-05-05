@@ -24,13 +24,13 @@ export default function Header({
   const selectedShow = useAtomValue(selectedShowAtom);
   const [, navigate] = useLocation();
   const titles = shows
-    .sort((a, b) =>
-      a.title === selectedShow.title
-        ? -1
-        : b.title === selectedShow.title
-          ? 1
-          : 0,
-    )
+    // .sort((a, b) =>
+    //   a.title === selectedShow.title
+    //     ? -1
+    //     : b.title === selectedShow.title
+    //       ? 1
+    //       : 0,
+    // )
     .map((show) => ({
       value: show.slug,
       label: show.title,
