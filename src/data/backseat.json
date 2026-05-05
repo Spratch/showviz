@@ -1,0 +1,769 @@
+{
+  "slug": "backseat",
+  "title": "Backseat",
+  "channel": "Indépendant",
+  "start": "2021-06-28",
+  "end": "",
+  "firstSeason": 0,
+  "diffusions": [
+    {
+      "id": "01",
+      "date": "2021-06-28",
+      "guestsIds": ["clementine-autain", "rivenzi"]
+    },
+    {
+      "id": "02",
+      "date": "2021-07-05",
+      "guestsIds": ["malek-delegue", "barbara-pompili"]
+    },
+    {
+      "id": "03",
+      "date": "2021-07-12",
+      "guestsIds": ["yael-braun-pivet", "gaspard-g"]
+    },
+    {
+      "id": "04",
+      "date": "2021-07-19",
+      "guestsIds": ["mathilde-imer", "pierre-lapin"]
+    },
+    {
+      "id": "05",
+      "date": "2021-07-26",
+      "guestsIds": ["hardisk", "sandrine-rousseau"]
+    },
+    {
+      "id": "06",
+      "date": "2021-08-02",
+      "guestsIds": ["fibretigre", "florie-marie"]
+    },
+    {
+      "id": "07",
+      "date": "2021-09-17",
+      "guestsIds": ["julien-bayou", "julien-menielle"]
+    },
+    {
+      "id": "08",
+      "date": "2021-09-24",
+      "guestsIds": ["nox", "elie-revah"]
+    },
+    {
+      "id": "09",
+      "date": "2021-10-01",
+      "guestsIds": ["daz", "philippe-juvin"]
+    },
+    {
+      "id": "10",
+      "date": "2021-10-08",
+      "guestsIds": ["daniel-andreyev", "daniele-obono"]
+    },
+    {
+      "id": "11",
+      "date": "2021-10-15",
+      "guestsIds": ["kronomuzik", "fabien-roussel"]
+    },
+    {
+      "id": "12",
+      "date": "2021-10-22",
+      "guestsIds": ["nota-bene", "najat-vallaud-belkacem"]
+    },
+    {
+      "id": "13",
+      "date": "2021-11-07",
+      "guestsIds": ["ponce", "cedric-villani"]
+    },
+    {
+      "id": "14",
+      "date": "2021-11-21",
+      "guestsIds": ["christophe-castaner", "ultia"]
+    },
+    {
+      "id": "15",
+      "date": "2021-11-28",
+      "guestsIds": ["deujna", "laurent-saint-martin"]
+    },
+    {
+      "id": "16",
+      "date": "2021-12-05",
+      "guestsIds": ["pierre-larrouturou", "guillaume-meurice"]
+    },
+    {
+      "id": "17",
+      "date": "2021-12-12",
+      "guestsIds": ["sebastien-carassou", "julien-denormandie"]
+    },
+    {
+      "id": "18",
+      "date": "2022-01-02",
+      "guestsIds": ["olivier-faure", "simon-puech"]
+    },
+    {
+      "id": "19",
+      "date": "2022-01-09",
+      "guestsIds": ["cecile-duflot", "clement-dumais"]
+    },
+    {
+      "id": "20",
+      "date": "2022-01-23",
+      "guestsIds": ["anne-hidalgo", "ken-bogard"]
+    },
+    {
+      "id": "21",
+      "date": "2022-01-30",
+      "guestsIds": ["livio-bernardo", "helene-thouy"]
+    },
+    {
+      "id": "22",
+      "date": "2022-02-13",
+      "guestsIds": ["jussetain", "philippe-poutou"]
+    },
+    {
+      "id": "23",
+      "date": "2022-02-20",
+      "guestsIds": ["maxime-biaggi", "christiane-taubira"]
+    },
+    {
+      "id": "24",
+      "date": "2022-02-27",
+      "guestsIds": ["nelly-garnier", "zerator"]
+    },
+    {
+      "id": "25",
+      "date": "2022-03-10",
+      "guestsIds": ["clararunaway", "yannick-jadot"]
+    },
+    {
+      "id": "26",
+      "date": "2022-03-17",
+      "guestsIds": ["lam-hua", "mathilde-panot"]
+    },
+    {
+      "id": "27",
+      "date": "2022-03-26",
+      "guestsIds": ["exserv"]
+    },
+    {
+      "id": "28",
+      "date": "2022-04-03",
+      "guestsIds": ["frederique-dumas", "dev-du-dimanche"]
+    },
+    {
+      "id": "29",
+      "date": "2022-04-11",
+      "guestsIds": ["sebastien-abdelhamid", "samuel-grzybowski"]
+    },
+    {
+      "id": "30",
+      "date": "2022-04-17",
+      "guestsIds": ["alexclick", "sandrine-rousseau"]
+    },
+    {
+      "id": "31",
+      "date": "2022-04-25",
+      "guestsIds": ["misterfox", "adrien-quatennens"]
+    },
+    {
+      "id": "32",
+      "date": "2022-05-01",
+      "guestsIds": ["julien-bayou", "damdamlive"]
+    },
+    {
+      "id": "33",
+      "date": "2022-05-15",
+      "guestsIds": ["sylvain-maillard", "pepipin"]
+    },
+    {
+      "id": "34",
+      "date": "2022-05-22",
+      "guestsIds": ["humility", "aurelien-tache"]
+    },
+    {
+      "id": "35",
+      "date": "2022-05-29",
+      "guestsIds": ["clement-beaune", "zack-nani"]
+    },
+    {
+      "id": "02-01",
+      "date": "2023-01-15",
+      "guestsIds": ["the-toxic-avenger"],
+      "title": "Saison 2: toutes les nouveautés!"
+    },
+    {
+      "id": "02-02",
+      "date": "2023-01-22",
+      "guestsIds": ["joanie-lemercier", "philippe-martinez"]
+    },
+    {
+      "id": "02-03",
+      "date": "2023-01-29",
+      "guestsIds": ["nicolas-mayer-rossignol", "laurence-rossignol"]
+    },
+    {
+      "id": "02-04",
+      "date": "2023-02-05",
+      "guestsIds": ["manes-nadel", "astrid-panosyan-bouvet"]
+    },
+    {
+      "id": "02-05",
+      "date": "2023-02-12",
+      "guestsIds": ["olivier-blazy", "emilie-delaunay", "francois-ruffin"]
+    },
+    {
+      "id": "02-06",
+      "date": "2023-02-19",
+      "guestsIds": ["jean-laurent-cassely", "aurelien-pradie"]
+    },
+    {
+      "id": "02-07",
+      "date": "2023-02-26",
+      "guestsIds": ["manon-aubry", "jerome-guedj", "hugo-decrypte"]
+    },
+    {
+      "id": "02-08",
+      "date": "2023-03-05",
+      "guestsIds": ["elsa-mari", "naima-moutchou", "ariane-riou", "luna-skye"]
+    },
+    {
+      "id": "02-09",
+      "date": "2023-03-12",
+      "guestsIds": ["louis-boyard", "vincent-manileve"]
+    },
+    {
+      "id": "02-10",
+      "date": "2023-03-19",
+      "guestsIds": [
+        "olivier-faure",
+        "antoine-leaument",
+        "thibaud-mulier",
+        "manes-nadel",
+        "chloe-ridel"
+      ]
+    },
+    {
+      "id": "02-11",
+      "date": "2023-03-26",
+      "guestsIds": ["laurent-berger", "arthur-delaporte", "stephane-vojetta"]
+    },
+    {
+      "id": "02-12",
+      "date": "2023-04-09",
+      "guestsIds": ["roland-lescure"]
+    },
+    {
+      "id": "02-13",
+      "date": "2023-04-16",
+      "guestsIds": ["clemence-guette", "david-perrotin"]
+    },
+    {
+      "id": "02-14",
+      "date": "2023-04-23",
+      "guestsIds": [
+        "epsylonetattoo",
+        "genevieve-darrieussecq",
+        "barbara-pompili",
+        "sandozprod"
+      ]
+    },
+    {
+      "id": "02-15",
+      "date": "2023-04-30",
+      "guestsIds": ["olivia-gregoire"]
+    },
+    {
+      "id": "02-16",
+      "date": "2023-05-14",
+      "guestsIds": ["yann-castanier", "marine-tondelier"]
+    },
+    {
+      "id": "02-17",
+      "date": "2023-05-28",
+      "guestsIds": ["philippe-collin", "charles-de-courson", "olivier-serva"]
+    },
+    {
+      "id": "02-18",
+      "date": "2023-06-02",
+      "guestsIds": ["bilal-hassani", "francois-hollande", "salome-saque"],
+      "title": "BACKSEAT x Libération"
+    },
+    {
+      "id": "02-19",
+      "date": "2023-06-11",
+      "guestsIds": ["sophie-binet"]
+    },
+    {
+      "id": "02-20",
+      "date": "2023-07-02",
+      "guestsIds": [],
+      "title": "Season Finale!"
+    },
+    {
+      "id": "03-01",
+      "date": "2023-09-17",
+      "guestsIds": ["jean-luc-melenchon", "bolchegeek"],
+      "title": "BACKSEAT X La Fête de l'Humanité"
+    },
+    {
+      "id": "03-02",
+      "date": "2023-09-24",
+      "guestsIds": ["remi-cardon", "philippe-dominati", "christine-lavarde"],
+      "title": "Spécial Sénatoriales"
+    },
+    {
+      "id": "03-03",
+      "date": "2023-10-01",
+      "guestsIds": ["sylvie-retailleau"]
+    },
+    {
+      "id": "03-04",
+      "date": "2023-10-08",
+      "guestsIds": ["sciencedecomptoir", "scarabete", "boris-vallaud"]
+    },
+    {
+      "id": "03-05",
+      "date": "2023-10-15",
+      "guestsIds": ["alexandre-delattre", "hanna-assouline", "rafael-amselem"],
+      "title": "Spéciale guerre Hamas - Israël"
+    },
+    {
+      "id": "03-06",
+      "date": "2023-10-29",
+      "guestsIds": ["ava-mind", "sandrine-rousseau"]
+    },
+    {
+      "id": "03-07",
+      "date": "2023-11-12",
+      "guestsIds": ["raquel-garrido", "marylise-leon", "jeremie-perin"]
+    },
+    {
+      "id": "03-08",
+      "date": "2023-11-19",
+      "guestsIds": ["le-vortex", "jonas-cardoso", "olivier-marleix"]
+    },
+    {
+      "id": "03-09",
+      "date": "2023-11-26",
+      "guestsIds": ["roland-lescure"],
+      "title": "à la Belleviloise!"
+    },
+    {
+      "id": "03-10",
+      "date": "2023-12-03",
+      "guestsIds": ["benoit-hamon", "ici-japon"]
+    },
+    {
+      "id": "03-11",
+      "date": "2023-12-10",
+      "guestsIds": ["clement-beaune", "aymeric-lompret"]
+    },
+    {
+      "id": "03-12",
+      "date": "2023-12-17",
+      "guestsIds": ["alma-dufour", "ponce"]
+    },
+    {
+      "id": "03-13",
+      "date": "2024-02-04",
+      "guestsIds": [],
+      "title": "La Rentrée"
+    },
+    {
+      "id": "03-14",
+      "date": "2024-02-11",
+      "guestsIds": ["maxime-combes", "nicolas-lellouche", "monsieur-poulpe"]
+    },
+    {
+      "id": "03-15",
+      "date": "2024-02-25",
+      "guestsIds": [
+        "philippe-brun",
+        "lea-chamboncel",
+        "hardisk",
+        "emilio-meslet"
+      ]
+    },
+    {
+      "id": "03-16",
+      "date": "2024-03-10",
+      "guestsIds": ["mistermv", "edwy-plenel"]
+    },
+    {
+      "id": "03-17",
+      "date": "2024-03-17",
+      "guestsIds": ["elsa-faucillon", "charles-villa"],
+      "title": "Avec Charles Villa & Elsa Faucillon"
+    },
+    {
+      "id": "03-18",
+      "date": "2024-03-24",
+      "guestsIds": ["aurore-lalucq", "mounir-satouri"],
+      "title": "Avec Aurore Lalucq & Mounir Satouri"
+    },
+    {
+      "id": "03-19",
+      "date": "2024-03-31",
+      "guestsIds": [
+        "saphia-ait-ouarabi",
+        "sacha-houlie",
+        "sophie-taille-polian"
+      ],
+      "title": "Avec Sophie Taillé-Polian & Sacha Houlié"
+    },
+    {
+      "id": "03-20",
+      "date": "2024-04-07",
+      "guestsIds": ["manon-aubry", "marie-pierre-vedrenne"],
+      "title": "Avec Manon Aubry & Marie-Pierre Vedrenne"
+    },
+    {
+      "id": "03-21",
+      "date": "2024-04-16",
+      "guestsIds": ["artillerie", "climarx"],
+      "title": "Au Frames Festival! Avec Artillerie et Climarx"
+    },
+    {
+      "id": "03-22",
+      "date": "2024-04-28",
+      "guestsIds": [
+        "bella",
+        "karima-delli",
+        "quentin-deschandelliers",
+        "fabienne-keller"
+      ],
+      "title": "Au Parlement européen!"
+    },
+    {
+      "id": "03-23",
+      "date": "2024-05-19",
+      "guestsIds": ["olivier-besancenot"],
+      "title": "Avec Olivier Besancenot"
+    },
+    {
+      "id": "03-24",
+      "date": "2024-05-26",
+      "guestsIds": ["mathilde-ollivier", "constance-vilanova"],
+      "title": "Avec Constance Vilanova & Mathilde Ollivier"
+    },
+    {
+      "id": "03-25",
+      "date": "2024-06-09",
+      "guestsIds": ["louise-bichet", "richard-ramos"],
+      "title": "Avec Louise Bichet & Richard Ramos"
+    },
+    {
+      "id": "03-26",
+      "date": "2024-06-14",
+      "guestsIds": ["clement-viktorovitch"],
+      "title": "Avec Clemovitch"
+    },
+    {
+      "id": "03-27",
+      "date": "2024-06-28",
+      "guestsIds": [
+        "raphael-arnault",
+        "mamapaprika",
+        "cassim-montilla",
+        "aurelien-rousseau"
+      ],
+      "title": "Spéciale Législatives, premier tour! avec Cassim Montilla, Mamapaprika, et plus"
+    },
+    {
+      "id": "03-28",
+      "date": "2024-07-05",
+      "guestsIds": ["manuel-bompard"],
+      "title": "Spéciale Législatives, Entre-deux-tours! avec Manuel Bompard"
+    },
+    {
+      "id": "03-29",
+      "date": "2024-07-12",
+      "guestsIds": ["claire-lejeune", "chloe-ridel"],
+      "title": "Dernière de la saison! avec Claire Lejeune et Chloé Ridel"
+    },
+    {
+      "id": "04-01",
+      "date": "2024-09-16",
+      "guestsIds": [
+        "sophie-binet",
+        "fabien-gay",
+        "rosa-moussaoui",
+        "naim-sakhi"
+      ],
+      "title": "Spéciale Fête de l'Humanité! - C'est la rentrée politique: avec Sophie Binet"
+    },
+    {
+      "id": "04-02",
+      "date": "2024-10-06",
+      "guestsIds": ["lucie-castets"],
+      "title": "Première séance à l'assemblée pour le gouvernement Barnier, avec Lucie Castets"
+    },
+    {
+      "id": "04-03",
+      "date": "2024-10-13",
+      "guestsIds": ["arthur-sarradin"],
+      "title": "Motion de censure rejetée et guerre au Liban, avec Arthur Sarradin"
+    },
+    {
+      "id": "04-04",
+      "date": "2024-11-03",
+      "guestsIds": ["charles-de-courson"],
+      "title": "Répression militante, procès du RN et point budget, avec Charles de Courson"
+    },
+    {
+      "id": "04-05",
+      "date": "2024-11-06",
+      "guestsIds": [
+        "iman-ahmed",
+        "julien-bisson",
+        "antoine-bristielle",
+        "philippe-collin",
+        "david-colon",
+        "asmr-politics",
+        "emma-flacard",
+        "ludivine-gilli",
+        "sebastian-marx",
+        "julien-vaulpre",
+        "elsa-vidal",
+        "antoine-vitkine"
+      ],
+      "title": "La Nuit Américaine"
+    },
+    {
+      "id": "04-06",
+      "date": "2024-11-17",
+      "guestsIds": ["bernard-guetta"],
+      "title": "Trump, une MENACE pour l'Europe? avec Bernard Guetta"
+    },
+    {
+      "id": "04-07",
+      "date": "2024-12-01",
+      "guestsIds": ["elsa-faucillon", "fanny-lacroix", "stephane-troussel"],
+      "title": "Le gouvernement Barnier va-t-il tomber? avec Elsa Faucillon"
+    },
+    {
+      "id": "04-08",
+      "date": "2024-12-08",
+      "guestsIds": ["ugo-bernalicis"],
+      "title": "Gouvernement Barnier Finito? Spécial motion de censure avec Ugo Bernalicis"
+    },
+    {
+      "id": "04-09",
+      "date": "2024-12-15",
+      "guestsIds": ["marine-tondelier"],
+      "title": "On attend le premier ministre, avec Marine Tondelier"
+    },
+    {
+      "id": "04-10",
+      "date": "2024-12-22",
+      "guestsIds": ["erwan-balanant"],
+      "title": "Qu'attendre du nouveau gouvernement, avec Erwan Balanant"
+    },
+    {
+      "id": "04-11",
+      "date": "2025-01-26",
+      "guestsIds": ["yannick-kergoat", "emma-taillefer"],
+      "title": "PS fracturé, Procès Sarkozy, Trump réélu: bienvenue en 2015!"
+    },
+    {
+      "id": "04-12",
+      "date": "2025-02-03",
+      "guestsIds": ["sandrine-rousseau"],
+      "title": "Avec Sandrine Rousseau"
+    },
+    {
+      "id": "04-13",
+      "date": "2025-02-09",
+      "guestsIds": ["pascal-canfin"],
+      "title": "Trump, Macron, Bayrou, trois hommes et un Canfin"
+    },
+    {
+      "id": "04-14",
+      "date": "2025-02-16",
+      "guestsIds": ["jerome-guedj"],
+      "title": "PS, LR: quel horizon pour les partis historiques?"
+    },
+    {
+      "id": "04-15",
+      "date": "2025-03-09",
+      "guestsIds": ["manuel-bompard"],
+      "title": "Une troisième guerre mondiale?"
+    },
+    {
+      "id": "04-16",
+      "date": "2025-03-23",
+      "guestsIds": ["sophie-primas"],
+      "title": "Bayrou, Macron, Retailleau: Qui dirige la France?"
+    },
+    {
+      "id": "04-17",
+      "date": "2025-04-06",
+      "guestsIds": ["fabrice-arfi"],
+      "title": "Spéciale procès Le Pen"
+    },
+    {
+      "id": "04-18",
+      "date": "2025-04-20",
+      "guestsIds": ["roland-lescure"],
+      "title": "Avec Roland Lescure"
+    },
+    {
+      "id": "04-19",
+      "date": "2025-04-28",
+      "guestsIds": ["antoine-fabry"],
+      "title": "BACKSEAT À AVIGNON! - Édition Spéciale"
+    },
+    {
+      "id": "04-20",
+      "date": "2025-05-18",
+      "guestsIds": ["amelie-de-montchalin"],
+      "title": "La fin d'un modèle social? avec Amélie de Montchalin"
+    },
+    {
+      "id": "04-21",
+      "date": "2025-05-25",
+      "guestsIds": ["francois-ruffin"],
+      "title": "Début des hostilités pour 2027, avec François Ruffin"
+    },
+    {
+      "id": "04-22",
+      "date": "2025-06-01",
+      "guestsIds": ["chloe-ridel"],
+      "title": "Avec Chloé Ridel"
+    },
+    {
+      "id": "04-23",
+      "date": "2025-06-08",
+      "guestsIds": ["antoine-leaument"],
+      "title": "Avec Antoine Léaument"
+    },
+    {
+      "id": "04-24",
+      "date": "2025-06-16",
+      "guestsIds": [
+        "sophie-binet",
+        "maryse-dumas",
+        "myriam-lebkiri",
+        "aymeric-mougeot",
+        "thomas-vacheron"
+      ],
+      "title": "Spéciale CGT avec Sophie Binet!"
+    },
+    {
+      "id": "04-25",
+      "date": "2025-07-10",
+      "guestsIds": ["pauline-ferrari", "julie-morvan", "waked-xy"],
+      "title": "La dernière! Spéciale Cybersécurité"
+    },
+    {
+      "id": "05-01",
+      "date": "2025-09-15",
+      "guestsIds": ["alexis-corbiere"],
+      "title": "Backseat x ça ira - Lecornu, taxe Zucman et extrême droite, avec Alexis Corbière"
+    },
+    {
+      "id": "05-02",
+      "date": "2025-09-21",
+      "guestsIds": ["clemence-guette"],
+      "title": "Avec Clémence Guetté"
+    },
+    {
+      "id": "05-03",
+      "date": "2025-09-26",
+      "guestsIds": ["hugo-biolley", "michel-fournier"],
+      "title": "SPECIALE au congrès des maires ruraux de France"
+    },
+    {
+      "id": "05-04",
+      "date": "2025-10-12",
+      "guestsIds": ["arthur-delaporte"],
+      "title": "Avec Arthur Delaporte"
+    },
+    {
+      "id": "05-05",
+      "date": "2025-10-19",
+      "guestsIds": ["ian-brossat"],
+      "title": "Avec Ian Brossat"
+    },
+    {
+      "id": "05-06",
+      "date": "2025-10-25",
+      "guestsIds": ["olivier-serva"],
+      "title": "Avec Olivier Serva"
+    },
+    {
+      "id": "05-07",
+      "date": "2025-11-09",
+      "guestsIds": ["xavier-bertrand", "gabriel-zucman"],
+      "title": "Avec Gabriel Zucman et Xavier Bertrand"
+    },
+    {
+      "id": "05-08",
+      "date": "2025-11-16",
+      "guestsIds": ["cecile-duflot"],
+      "title": "Avec Cécile Duflot"
+    },
+    {
+      "id": "05-09",
+      "date": "2025-11-30",
+      "guestsIds": ["manon-aubry"],
+      "title": "Avec Manon Aubry"
+    },
+    {
+      "id": "05-10",
+      "date": "2025-12-14",
+      "guestsIds": ["cyrielle-chatelain"],
+      "title": "Avec Cyrielle Chatelain"
+    },
+    {
+      "id": "05-11",
+      "date": "2026-02-01",
+      "guestsIds": ["amelie-de-montchalin", "edwy-plenel"],
+      "title": "Avec Amélie de Montchalin"
+    },
+    {
+      "id": "05-12",
+      "date": "2026-02-08",
+      "guestsIds": ["clementine-autain"],
+      "title": "Avec Clémentine Autain"
+    },
+    {
+      "id": "05-13",
+      "date": "2026-03-01",
+      "guestsIds": ["pascal-brun", "sophie-catala", "alexandre-peron"],
+      "title": "Backseat x Libé - émission spéciale municipales"
+    },
+    {
+      "id": "05-14",
+      "date": "2026-03-08",
+      "guestsIds": ["pierre-hurmic", "philippe-poutou"],
+      "title": "Emission spéciale à Bordeaux avec Philippe Poutou"
+    },
+    {
+      "id": "05-15",
+      "date": "2026-03-13",
+      "guestsIds": ["sophie-binet", "marylise-leon", "kevin-vacher"],
+      "title": "Avec Sophie Binet et Marylise Léon"
+    },
+    {
+      "id": "05-16",
+      "date": "2026-03-20",
+      "guestsIds": ["claire-lejeune", "chloe-ridel"],
+      "title": "Avec Chloé Ridel et Claire Lejeune"
+    },
+    {
+      "id": "05-17",
+      "date": "2026-04-05",
+      "guestsIds": ["bally-bagayoko"],
+      "title": "Avec Bally Bagayoko"
+    },
+    {
+      "id": "05-18",
+      "date": "2026-04-09",
+      "title": "Backseat à Avignon",
+      "guestsIds": ["arthur-sarradin"]
+    },
+    {
+      "id": "05-19",
+      "date": "2026-04-23",
+      "title": "Avec Erwan Balanant",
+      "guestsIds": ["erwan-balanant"]
+    }
+  ]
+}

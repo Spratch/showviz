@@ -1,6 +1,10 @@
+import backseat from "@/data/backseat.json";
+import bonjour from "@/data/bonjour.json";
 import cCeSoir from "@/data/c-ce-soir.json";
 import yeuxdAgathe from "@/data/dans-les-yeux-dagathe.json";
 import dimancheEnPolitique from "@/data/dimanche-en-politique.json";
+import elysee2022 from "@/data/elysee-2022.json";
+import enSociete from "@/data/en-societe.json";
 import levenement from "@/data/l-evenement.json";
 import quelleEpoque from "@/data/quelle-epoque.json";
 import thinkerview from "@/data/thinkerview.json";
@@ -8,39 +12,6 @@ import type { ShowType, TooltipContentType } from "@/types";
 import { atom } from "jotai";
 import { getDateFromOrigin, monthIndex, startOfMonth } from "./utils";
 
-// const global: ShowType = {
-//   slug: "global",
-//   title: "global",
-//   channel: "france·tv",
-//   start: "",
-//   end: "",
-//   diffusions: [
-//     ...quelleEpoque.diffusions.map((episode) => ({
-//       ...episode,
-//       showTitle: "global-" + quelleEpoque.title,
-//     })),
-//     ...levenement.diffusions.map((episode) => ({
-//       ...episode,
-//       showTitle: "global-" + levenement.title,
-//     })),
-//     ...yeuxdAgathe.diffusions.map((episode) => ({
-//       ...episode,
-//       showTitle: "global-" + yeuxdAgathe.title,
-//     })),
-//     ...cCeSoir.diffusions.map((episode) => ({
-//       ...episode,
-//       showTitle: "global-" + cCeSoir.title,
-//     })),
-//     ...thinkerview.diffusions.map((episode) => ({
-//       ...episode,
-//       showTitle: "global-" + thinkerview.title,
-//     })),
-//     ...dimancheEnPolitique.diffusions.map((episode) => ({
-//       ...episode,
-//       showTitle: "global-" + dimancheEnPolitique.title,
-//     })),
-//   ],
-// };
 export const shows: ShowType[] = [
   quelleEpoque,
   levenement,
@@ -48,7 +19,10 @@ export const shows: ShowType[] = [
   cCeSoir,
   thinkerview,
   dimancheEnPolitique,
-  // global,
+  enSociete,
+  bonjour,
+  elysee2022,
+  backseat,
 ];
 export const selectedShowAtom = atom(shows[0]);
 

@@ -18,6 +18,12 @@
             "full_name_en": "Workers' Struggle",
             "full_name_de": "Arbeiterkampf",
             "keyword": "Lutte ouvrière"
+          },
+          {
+            "name": "NPA",
+            "full_name": "Nouveau Parti anticapitaliste",
+            "full_name_en": "New Anticapitalist Party",
+            "full_name_de": "Neue Antikapitalistische Partei"
           }
         ]
       },
@@ -631,6 +637,12 @@
             "full_name_en": "Walwari",
             "full_name_de": "Walwari",
             "keyword": "Walwari"
+          },
+          {
+            "name": "LC ",
+            "full_name": "La Convention",
+            "full_name_en": "The Agreement",
+            "full_name_de": "Die Vereinbarung"
           }
         ]
       },
@@ -690,6 +702,12 @@
             "full_name": "Génération écologie",
             "full_name_en": "Génération écologie",
             "full_name_de": "Génération écologie"
+          },
+          {
+            "name": "LND",
+            "full_name": "Les Nouveaux Démocrates",
+            "full_name_en": "The New Democrats",
+            "full_name_de": "Die neuen Demokraten"
           }
         ]
       },
@@ -1070,6 +1088,12 @@
             "full_name_en": "Others",
             "full_name_de": "Andere",
             "keyword": "Non-inscrit à l'Assemblée nationale"
+          },
+          {
+            "name": "Utiles",
+            "full_name": "Ultra-marins, Territoires, Indépendants, Liberté, Écologie et Solidarité",
+            "full_name_en": "Ultramarines, Territories, Independents, Freedom, Ecology and Solidarity",
+            "full_name_de": "Ultramarines, Territorien, Unabhängige, Freiheit, Ökologie und Solidarität"
           }
         ]
       },
@@ -1145,6 +1169,13 @@
         "color": "#8A4AA1",
         "keyword": "Parti pirate international",
         "parties": [
+          {
+            "name": "PP",
+            "full_name": "Parti pirate",
+            "full_name_en": "Pirate Party",
+            "full_name_de": "Piratenpartei",
+            "keyword": "Parti pirate (France)"
+          },
           {
             "name": "PPS",
             "full_name": "Parti Pirate Suisse",
@@ -1409,6 +1440,22 @@
             "keyword": "Soyons libres"
           }
         ]
+      },
+      {
+        "name": "Libertarien",
+        "name_en": "Libertarian",
+        "name_de": "Libertär",
+        "color": "#415B83",
+        "keyword": "Libertarianisme",
+        "parties": [
+          {
+            "name": "NE",
+            "full_name": "Nouvelle Énergie",
+            "full_name_en": "New Energy",
+            "full_name_de": "Neue Energie",
+            "keyword": "Nouvelle Énergie"
+          }
+        ]
       }
     ]
   },
@@ -1604,6 +1651,12 @@
         "color": "#91735C",
         "keyword": "Suprémacisme",
         "parties": [
+          {
+            "name": "IL",
+            "full_name": "Identité-Libertés",
+            "full_name_en": "Identity-Freedoms",
+            "full_name_de": "Identität-Freiheiten"
+          },
           {
             "name": "LIK",
             "full_name": "Likoud",

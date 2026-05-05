@@ -2463,7 +2463,7 @@
     "birthDate": "1988-10-01",
     "gender": "masculin",
     "categories": [
-      "streamer",
+      "streameur ou streameuse",
       "chroniqueur de télévision",
       "podcasteur ou podcasteuse",
       "collaborateur parlementaire",
@@ -3314,13 +3314,13 @@
     "birthDate": "1965-01-08",
     "gender": "masculin",
     "categories": [
+      "chanteur ou chanteuse",
       "acteur ou actrice de cinéma",
       "acteur ou actrice de télévision",
       "librettiste",
       "artiste peintre",
       "parolier ou parolière",
       "auteur-compositeur-interprète ou autrice-compositrice-interprète",
-      "chanteur ou chanteuse",
       "compositeur ou compositrice",
       "acteur ou actrice"
     ],
@@ -4643,9 +4643,9 @@
     "birthDate": "1978-08-13",
     "gender": "masculin",
     "categories": [
+      "acteur ou actrice",
       "dialoguiste",
       "réalisateur ou réalisatrice de cinéma",
-      "acteur ou actrice",
       "scénariste"
     ],
     "parties": [],
@@ -6183,10 +6183,9 @@
     "birthDate": "1975-03-11",
     "gender": "masculin",
     "categories": [
-      "streameur sur Twitch",
+      "humoriste",
       "acteur ou actrice de télévision",
       "animateur ou animatrice de radio",
-      "humoriste",
       "acteur ou actrice",
       "scénariste"
     ],
@@ -7574,11 +7573,11 @@
       {
         "name": "Divers droite",
         "start": "2017-12-11",
-        "end": "2021-01-01"
+        "end": "2021-10-15"
       },
       {
         "name": "Les Républicains",
-        "start": "2021-01-01"
+        "start": "2021-10-15"
       },
       {
         "name": "Gouvernement",
@@ -7934,7 +7933,12 @@
       "personnalité politique",
       "personnalité du monde des affaires"
     ],
-    "parties": [],
+    "parties": [
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-12"
+      }
+    ],
     "wikidataId": "Q3479475",
     "image": "Visit_of_Serge_Papin%2C_French_Minister_for_Small_and_Medium-sized_Enterprises%2C_to_the_EC_-_2025_%28cropped%29.jpg"
   },
@@ -12045,7 +12049,7 @@
     "parties": [
       {
         "name": "Parti socialiste",
-        "start": "2023-01-01"
+        "start": "2023-01-29"
       }
     ],
     "wikidataId": "Q42419368",
@@ -12776,11 +12780,11 @@
       {
         "name": "Parti socialiste",
         "start": "1995-01-01",
-        "end": "2018-01-01"
+        "end": "2018-10-19"
       },
       {
         "name": "Gauche républicaine et socialiste",
-        "start": "2018-01-01"
+        "start": "2018-10-19"
       }
     ],
     "wikidataId": "Q50347250"
@@ -14743,11 +14747,24 @@
     "birthDate": "1992-11-28",
     "gender": "masculin",
     "categories": [
+      "personnalité politique",
       "cadres administratifs et commerciaux d'entreprise",
-      "haut fonctionnaire ou haute fonctionnaire",
-      "personnalité politique"
+      "haut fonctionnaire ou haute fonctionnaire"
     ],
-    "parties": [],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "end": "2016-04-06"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2016-04-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-12"
+      }
+    ],
     "wikidataId": "Q47502155",
     "image": "David-amiel.jpg"
   },
@@ -15170,7 +15187,7 @@
     "name": "Nicolas Bouzou",
     "birthDate": "1976-08-26",
     "gender": "masculin",
-    "categories": ["consultant ou consultante", "essayiste"],
+    "categories": ["lobbyiste", "consultant ou consultante", "essayiste"],
     "parties": [],
     "wikidataId": "Q3340136",
     "image": "R%C3%A9volutions_Fran%C3%A7aises_-_Nicolas_Bouzou_%2822688987641%29.jpg"
@@ -16087,13 +16104,26 @@
   },
   {
     "id": "claire-lejeune",
-    "name": "Claire LEJEUNE",
-    "birthDate": "1926-10-05",
+    "name": "Claire Lejeune",
+    "birthDate": "1994-09-07",
     "gender": "féminin",
-    "categories": ["poète ou poétesse", "écrivain ou écrivaine"],
-    "parties": [],
-    "wikidataId": "Q21192312",
-    "image": "Claire_Lejeune_en_1962_par_Marcel_Lefrancq.jpg"
+    "categories": [
+      "professeurs, professions scientifiques",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Écologistes",
+        "start": "2017-01-01",
+        "end": "2022-01-25"
+      },
+      {
+        "name": "La France insoumise",
+        "start": "2022-01-25"
+      }
+    ],
+    "wikidataId": "Q124439687",
+    "image": "Image-Claire-Lejeune.jpg"
   },
   {
     "id": "amelie-rebiere",
@@ -19698,8 +19728,8 @@
     "birthDate": "1984-05-29",
     "gender": "masculin",
     "categories": [
+      "streameur ou streameuse",
       "collaborateur ou collaboratrice parlementaire",
-      "streameur sur Twitch",
       "acteur ou actrice de théâtre",
       "politologue"
     ],
@@ -21308,7 +21338,6 @@
         "start": "1969-01-01",
         "end": "2017-05-17"
       },
-
       {
         "name": "Gouvernement",
         "start": "2017-05-17",
@@ -21568,7 +21597,7 @@
       },
       {
         "name": "Les Républicains",
-        "start": "2021-10-01"
+        "start": "2021-10-14"
       },
       {
         "name": "Les Républicains",
@@ -22415,11 +22444,11 @@
     "birthDate": "1973-04-13",
     "gender": "masculin",
     "categories": [
+      "personnalité politique",
       "cadres de la fonction publique",
       "permanent politique",
       "consultant en communication politique",
-      "militant ou militante pour les droits LGBT+",
-      "personnalité politique"
+      "militant ou militante pour les droits LGBT+"
     ],
     "parties": [
       {
@@ -23032,7 +23061,11 @@
         "name": "Union pour la démocratie française",
         "end": "2007-11-30"
       },
-      { "name": "Les Centristes", "start": "2007-11-30", "end": "2012-01-01" },
+      {
+        "name": "Les Centristes",
+        "start": "2007-11-30",
+        "end": "2012-01-01"
+      },
       {
         "name": "Union des démocrates et indépendants",
         "start": "2012-01-01"
@@ -23537,7 +23570,12 @@
       "enseignant-chercheur ou enseignante-chercheuse",
       "auteur"
     ],
-    "parties": [{ "name": "Autres", "start": "2026-01-01" }]
+    "parties": [
+      {
+        "name": "Autres",
+        "start": "2026-01-01"
+      }
+    ]
   },
   {
     "id": "francis-perrin",
@@ -23552,5 +23590,4567 @@
     "parties": [],
     "birthDate": "1957-01-01",
     "wikidataId": "Q103012680"
+  },
+  {
+    "id": "aida-asgharzadeh",
+    "name": "Aïda Asgharzadeh",
+    "birthDate": "1986-10-28",
+    "gender": "féminin",
+    "categories": ["écrivain ou écrivaine", "acteur ou actrice"],
+    "parties": [],
+    "wikidataId": "Q56045005"
+  },
+  {
+    "id": "delphine-horvilleur",
+    "name": "Delphine Horvilleur",
+    "birthDate": "1974-11-08",
+    "gender": "féminin",
+    "categories": [
+      "philosophe",
+      "journaliste",
+      "rabbin",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q3021833",
+    "image": "Delphine_Horvilleur_par_Claude_Truong-Ngoc_mars_2019_%28cropped%29.jpg"
+  },
+  {
+    "id": "camille-schmoll",
+    "name": "Camille Schmoll",
+    "birthDate": "1977-10-19",
+    "gender": "féminin",
+    "categories": ["géographe"],
+    "parties": [],
+    "wikidataId": "Q3651431",
+    "image": "Camille_Schmoll-FIG_2022_%281%29.jpg"
+  },
+  {
+    "id": "angelique-cauchy",
+    "name": "Angélique Cauchy",
+    "gender": "féminin",
+    "categories": ["joueur ou joueuse de tennis", "sportif ou sportive"],
+    "parties": [],
+    "wikidataId": "Q130541711"
+  },
+  {
+    "id": "alain-frachon",
+    "name": "Alain Frachon",
+    "birthDate": "1950-01-31",
+    "gender": "masculin",
+    "categories": ["journaliste", "dirigeant de presse"],
+    "parties": [],
+    "wikidataId": "Q2829816",
+    "image": "Alain_Frachon.jpg"
+  },
+  {
+    "id": "catherine-moyon-de-baecque",
+    "name": "Catherine Moyon de Baecque",
+    "birthDate": "1964-11-25",
+    "gender": "féminin",
+    "categories": ["lanceur de marteau"],
+    "parties": [],
+    "wikidataId": "Q85174454"
+  },
+  {
+    "id": "anne-deysine",
+    "name": "Anne Deysine",
+    "birthDate": "1948-01-01",
+    "gender": "féminin",
+    "categories": ["américaniste", "juriste", "professeur d'université"],
+    "parties": [],
+    "wikidataId": "Q115783070"
+  },
+  {
+    "id": "benjamin-barthe",
+    "name": "Benjamin Barthe",
+    "birthDate": "1972-01-01",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q2895995"
+  },
+  {
+    "id": "aicha-bechir",
+    "name": "Aïcha Béchir",
+    "gender": "féminin",
+    "categories": ["professeur de philosophie", "écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q124437471",
+    "image": "Faraway_1513346_rachid_bouali_%28aicha%29.jpg"
+  },
+  {
+    "id": "elias-sanbar",
+    "name": "Elias Sanbar",
+    "birthDate": "1947-02-16",
+    "gender": "masculin",
+    "categories": [
+      "militant pour la paix",
+      "journaliste",
+      "traducteur ou traductrice",
+      "historien ou historienne",
+      "diplomate",
+      "personnalité politique",
+      "poète ou poétesse",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q1329154",
+    "image": "Elias_Sanbar.jpg"
+  },
+  {
+    "id": "fabien-truong",
+    "name": "Fabien Truong",
+    "gender": "masculin",
+    "categories": ["sociologue", "professeur d'université"],
+    "parties": [],
+    "wikidataId": "Q113808588",
+    "image": "Fabien_Truong-FIG_2022_%281%29.jpg"
+  },
+  {
+    "id": "evelyn-askolovitch",
+    "name": "Evelyn Askolovitch",
+    "birthDate": "1938-07-15",
+    "gender": "féminin",
+    "categories": ["conférencier ou conférencière", "écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q131984725"
+  },
+  {
+    "id": "patrick-chauvel",
+    "name": "Patrick Chauvel",
+    "birthDate": "1949-04-07",
+    "gender": "masculin",
+    "categories": [
+      "réalisateur ou réalisatrice de cinéma",
+      "journaliste",
+      "photojournaliste",
+      "correspondant ou correspondante de guerre",
+      "acteur ou actrice",
+      "photographe"
+    ],
+    "parties": [],
+    "wikidataId": "Q1400992",
+    "image": "Patrick_Chauvel-Salon_du_livre_en_Bretagne_2012.jpg"
+  },
+  {
+    "id": "olena-zelenska",
+    "name": "Olena Zelenska",
+    "birthDate": "1978-02-06",
+    "gender": "féminin",
+    "categories": ["acteur ou actrice de cinéma", "architecte", "scénariste"],
+    "parties": [],
+    "wikidataId": "Q59321885",
+    "image": "Olena_Zelenska_2025_photo.jpg"
+  },
+  {
+    "id": "sorj-chalandon",
+    "name": "Sorj Chalandon",
+    "birthDate": "1952-05-16",
+    "gender": "masculin",
+    "categories": [
+      "romancier ou romancière",
+      "journaliste",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q383177",
+    "image": "Paris_-_Salon_du_livre_2012_-_Sorj_Chalandon_-_001.jpg"
+  },
+  {
+    "id": "marwan-mohammed",
+    "name": "Marwan Mohammed",
+    "birthDate": "1975-06-13",
+    "gender": "masculin",
+    "categories": ["sociologue"],
+    "parties": [],
+    "wikidataId": "Q16663595",
+    "image": "Marwan_Mohammed_2021.jpg"
+  },
+  {
+    "id": "claude-grange",
+    "name": "Claude Grange",
+    "birthDate": "1883-09-23",
+    "gender": "masculin",
+    "categories": ["sculpteur ou sculptrice"],
+    "parties": [],
+    "wikidataId": "Q2977496"
+  },
+  {
+    "id": "valeria-milewski",
+    "name": "Valeria Milewski",
+    "gender": "féminin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q124032834",
+    "image": "Photos-valeria-milewski-devant-ch.jpg"
+  },
+  {
+    "id": "guy-bernard-cadiere",
+    "name": "Guy-Bernard Cadière",
+    "birthDate": "1956-02-12",
+    "gender": "masculin",
+    "categories": ["professeur d'université", "chirurgien ou chirurgienne"],
+    "parties": [],
+    "wikidataId": "Q124617501"
+  },
+  {
+    "id": "marie-colmant",
+    "name": "Marie Colmant",
+    "birthDate": "1956-05-17",
+    "gender": "féminin",
+    "categories": ["journaliste", "traducteur ou traductrice"],
+    "parties": [],
+    "wikidataId": "Q3292448"
+  },
+  {
+    "id": "michael-foessel",
+    "name": "Michaël Foessel",
+    "birthDate": "1974-10-24",
+    "gender": "masculin",
+    "categories": [
+      "professeur des universités",
+      "philosophe",
+      "directeur ou directrice de collection"
+    ],
+    "parties": [],
+    "wikidataId": "Q16009042",
+    "image": "Micha%C3%ABl_Foessel_mars_2014_%28cropped%29.JPG"
+  },
+  {
+    "id": "christophe-robert",
+    "name": "Christophe Robert",
+    "birthDate": "1964-03-30",
+    "gender": "masculin",
+    "categories": ["footballeur ou footballeuse"],
+    "parties": [],
+    "wikidataId": "Q2966471"
+  },
+  {
+    "id": "pierre-rosanvallon",
+    "name": "Pierre Rosanvallon",
+    "birthDate": "1948-01-01",
+    "gender": "masculin",
+    "categories": [
+      "théoricien ou théoricienne politique",
+      "syndicaliste",
+      "directeur ou directrice de collection",
+      "sociologue",
+      "historien ou historienne",
+      "économiste",
+      "professeur",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "1974-01-01",
+        "end": "1981-01-01"
+      },
+      {
+        "name": "Parti socialiste unifié",
+        "start": "1969-01-01",
+        "end": "1974-01-01"
+      }
+    ],
+    "wikidataId": "Q2093915",
+    "image": "Pierre_Rosanvallon_1.jpg"
+  },
+  {
+    "id": "benoit-biteau",
+    "name": "Benoît Biteau",
+    "birthDate": "1967-04-07",
+    "gender": "masculin",
+    "categories": [
+      "agriculteurs sur moyenne exploitation",
+      "exploitant ou exploitante agricole",
+      "agronome",
+      "agriculteur ou agricultrice",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti radical de gauche",
+        "end": "2019-01-01"
+      }
+    ],
+    "wikidataId": "Q63348995",
+    "image": "Beno%C3%AEt_Biteau_02-2024.jpg"
+  },
+  {
+    "id": "gilles-perret",
+    "name": "Gilles Perret",
+    "birthDate": "1968-06-16",
+    "gender": "masculin",
+    "categories": [
+      "documentariste",
+      "réalisateur ou réalisatrice de cinéma",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q15236254",
+    "image": "Gilles_Perret_par_Laurent_Cousin-Copyright3.jpg"
+  },
+  {
+    "id": "dominique-schnapper",
+    "name": "Dominique Schnapper",
+    "birthDate": "1934-11-09",
+    "gender": "féminin",
+    "categories": ["sociologue", "professeur d'université", "politologue"],
+    "parties": [],
+    "wikidataId": "Q445984",
+    "image": "Portrait_de_Dominique_Schnapper_netoy%C3%A9.png"
+  },
+  {
+    "id": "lena-lazare",
+    "name": "Léna Lazare",
+    "birthDate": "1998-04-20",
+    "gender": "féminin",
+    "categories": ["militant ou militante"],
+    "parties": [],
+    "wikidataId": "Q115627216",
+    "image": "L%C3%A9na_Lazare.jpg"
+  },
+  {
+    "id": "michael-mos",
+    "name": "Michael Mos",
+    "birthDate": "1978-09-16",
+    "gender": "masculin",
+    "categories": [
+      "acteur ou actrice de cinéma",
+      "acteur ou actrice de télévision",
+      "mannequin",
+      "acteur ou actrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q1928662",
+    "image": "Cast_of_USA%27s_%22Sirens%22_at_2015_TCA_-_Michael_Mosley.jpg"
+  },
+  {
+    "id": "florence-aubenas",
+    "name": "Florence Aubenas",
+    "birthDate": "1961-02-06",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q446723",
+    "image": "FIG_2015_-_Florence_Aubenas_03.jpg"
+  },
+  {
+    "id": "constantin-sigov",
+    "name": "Constantin Sigov",
+    "birthDate": "1962-05-31",
+    "gender": "masculin",
+    "categories": [
+      "philosophe",
+      "éditeur ou éditrice",
+      "professeur d'université",
+      "scientifique"
+    ],
+    "parties": [],
+    "wikidataId": "Q12159270",
+    "image": "Kostyantyn_Sigov.jpg"
+  },
+  {
+    "id": "magyd-cherfi",
+    "name": "Magyd Cherfi",
+    "birthDate": "1962-11-04",
+    "gender": "masculin",
+    "categories": [
+      "acteur ou actrice de cinéma",
+      "chanteur ou chanteuse",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q3277452",
+    "image": "Zebda_Laon_05675.JPG"
+  },
+  {
+    "id": "noemie-calais",
+    "name": "Noémie Calais",
+    "gender": "féminin",
+    "categories": ["agriculteur ou agricultrice", "écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q131543061"
+  },
+  {
+    "id": "veronique-le-floc-h",
+    "name": "Véronique Le Floc'h",
+    "birthDate": "1973-02-01",
+    "gender": "féminin",
+    "categories": ["syndicaliste", "cycliste", "agriculteur ou agricultrice"],
+    "parties": [],
+    "wikidataId": "Q117835180"
+  },
+  {
+    "id": "erik-orsenna",
+    "name": "Érik Orsenna",
+    "birthDate": "1947-03-22",
+    "gender": "masculin",
+    "categories": [
+      "universitaire",
+      "économiste",
+      "personnalité politique",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q288562",
+    "image": "Cohen-Solal_Mutualite_2008_03_03_n4.jpg"
+  },
+  {
+    "id": "karim-kattan",
+    "name": "Karim Kattan",
+    "birthDate": "1989-01-01",
+    "gender": "masculin",
+    "categories": ["écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q124375419",
+    "image": "LslaP_Karim_Kattan_1589344.jpg"
+  },
+  {
+    "id": "justin-vaisse",
+    "name": "Justin Vaïsse",
+    "birthDate": "1973-06-26",
+    "gender": "masculin",
+    "categories": [
+      "conseiller ou conseillère politique",
+      "professeur d'université",
+      "historien ou historienne"
+    ],
+    "parties": [],
+    "wikidataId": "Q3190508",
+    "image": "20190320_-_photo_officielle_JV_-_cr%C3%A9dits_Paris_Peace_Forum_Marion_Dubier_Clark.jpg"
+  },
+  {
+    "id": "regine-komokoli",
+    "name": "Régine Komokoli",
+    "birthDate": "1981-01-01",
+    "gender": "féminin",
+    "categories": ["personnalité politique locale"],
+    "parties": [
+      {
+        "name": "Les Écologistes",
+        "end": "2022-01-01"
+      }
+    ],
+    "wikidataId": "Q131756552"
+  },
+  {
+    "id": "alexis-prokopiev",
+    "name": "Alexis Prokopiev",
+    "gender": "masculin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q138848350"
+  },
+  {
+    "id": "hamida-aman",
+    "name": "Hamida Aman",
+    "birthDate": "1973-01-01",
+    "gender": "féminin",
+    "categories": ["journaliste", "entrepreneur ou entrepreneuse"],
+    "parties": [],
+    "wikidataId": "Q111947530",
+    "image": "Hamida_Aman.png"
+  },
+  {
+    "id": "gilles-vernet",
+    "name": "Gilles Vernet",
+    "birthDate": "1968-05-25",
+    "gender": "masculin",
+    "categories": ["réalisateur ou réalisatrice de cinéma", "scénariste"],
+    "parties": [],
+    "wikidataId": "Q27042009",
+    "image": "Gilles_Vernet_Photo.jpg"
+  },
+  {
+    "id": "helene-l-heuillet",
+    "name": "Hélène L'Heuillet",
+    "birthDate": "1959-01-01",
+    "gender": "féminin",
+    "categories": [
+      "philosophe",
+      "psychanalyste",
+      "enseignant-chercheur ou enseignante-chercheuse"
+    ],
+    "parties": [],
+    "wikidataId": "Q3144791",
+    "image": "H%C3%A9l%C3%A8ne_L%27Heuillet.jpg"
+  },
+  {
+    "id": "ghassan-salame",
+    "name": "Ghassan Salamé",
+    "birthDate": "1951-09-01",
+    "gender": "masculin",
+    "categories": [
+      "professeur d'université",
+      "politologue",
+      "personnalité politique"
+    ],
+    "parties": [],
+    "wikidataId": "Q330587",
+    "image": "Ghassan_salam%C3%A9.jpg"
+  },
+  {
+    "id": "guillaume-gendron",
+    "name": "Guillaume Gendron",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q51581132"
+  },
+  {
+    "id": "taylor-lapilus",
+    "name": "Taylor Lapilus",
+    "birthDate": "1992-04-08",
+    "gender": "masculin",
+    "categories": ["pratiquant ou pratiquante d'arts martiaux mixtes"],
+    "parties": [],
+    "wikidataId": "Q20241019"
+  },
+  {
+    "id": "madeleine-malonga",
+    "name": "Madeleine Malonga",
+    "birthDate": "1993-12-25",
+    "gender": "féminin",
+    "categories": ["judoka"],
+    "parties": [],
+    "wikidataId": "Q22917839",
+    "image": "Madeleine_Malonga_Grand_Slam_Paris_2018.jpg"
+  },
+  {
+    "id": "laurence-de-nervaux",
+    "name": "Laurence de Nervaux",
+    "birthDate": "1984-07-04",
+    "gender": "féminin",
+    "categories": ["militant social", "sociologue"],
+    "parties": [],
+    "wikidataId": "Q113956780"
+  },
+  {
+    "id": "felicien-faury",
+    "name": "Félicien Faury",
+    "gender": "masculin",
+    "categories": ["sociologue", "politologue"],
+    "parties": [],
+    "wikidataId": "Q125941030"
+  },
+  {
+    "id": "julien-talpin",
+    "name": "Julien Talpin",
+    "birthDate": "1980-01-01",
+    "gender": "masculin",
+    "categories": ["sociologue", "politologue"],
+    "parties": [],
+    "wikidataId": "Q75222768"
+  },
+  {
+    "id": "nathalie-schuck",
+    "name": "Nathalie Schuck",
+    "birthDate": "1950-01-01",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q46090384"
+  },
+  {
+    "id": "pierre-singaravelou",
+    "name": "Pierre Singaravélou",
+    "birthDate": "1977-01-18",
+    "gender": "masculin",
+    "categories": [
+      "professeur d'université",
+      "maître ou maîtresse de conférences",
+      "historien ou historienne"
+    ],
+    "parties": [],
+    "wikidataId": "Q15407437",
+    "image": "PierreSingaravelou.jpg"
+  },
+  {
+    "id": "claude-askolovitch",
+    "name": "Claude Askolovitch",
+    "birthDate": "1962-12-18",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q2976907",
+    "image": "Claude_Askolovitch.jpg"
+  },
+  {
+    "id": "beatrice-giblin",
+    "name": "Béatrice Giblin",
+    "birthDate": "1947-03-03",
+    "gender": "féminin",
+    "categories": ["géopolitologue", "professeur d'université", "géographe"],
+    "parties": [],
+    "wikidataId": "Q2929447",
+    "image": "B%C3%A9atrice_Giblin-FIG_2025.jpg"
+  },
+  {
+    "id": "arnaud-teyssier",
+    "name": "Arnaud Teyssier",
+    "birthDate": "1958-12-22",
+    "gender": "masculin",
+    "categories": [
+      "biographe",
+      "haut fonctionnaire ou haute fonctionnaire",
+      "historien ou historienne"
+    ],
+    "parties": [],
+    "wikidataId": "Q2863225",
+    "image": "Photo.jpeg.jpg"
+  },
+  {
+    "id": "clarisse-agbegnenou",
+    "name": "Clarisse Agbégnénou",
+    "birthDate": "1992-10-25",
+    "gender": "féminin",
+    "categories": ["judoka"],
+    "parties": [],
+    "wikidataId": "Q2975621",
+    "image": "Clarisse_Agbegnenou_%28cropped%29.jpeg"
+  },
+  {
+    "id": "manon-apithy-brunet",
+    "name": "Manon Apithy-Brunet",
+    "birthDate": "1996-02-07",
+    "gender": "féminin",
+    "categories": ["escrimeur ou escrimeuse"],
+    "parties": [],
+    "wikidataId": "Q19951921",
+    "image": "Manon_Brunet_2014-15_Orleans_WC_teams_t132519.jpg"
+  },
+  {
+    "id": "stewart-chau",
+    "name": "Stewart Chau",
+    "gender": "masculin",
+    "categories": ["analyste politique", "politologue"],
+    "parties": [],
+    "wikidataId": "Q122819171"
+  },
+  {
+    "id": "arnaud-gallais",
+    "name": "Arnaud Gallais",
+    "birthDate": "1981-06-29",
+    "gender": "masculin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q132859993"
+  },
+  {
+    "id": "elisa-rojas",
+    "name": "Élisa Rojas",
+    "birthDate": "1979-04-30",
+    "gender": "féminin",
+    "categories": ["militant ou militante", "avocat ou avocate"],
+    "parties": [],
+    "wikidataId": "Q104217906"
+  },
+  {
+    "id": "martin-winckler",
+    "name": "Martin Winckler",
+    "birthDate": "1955-02-22",
+    "gender": "masculin",
+    "categories": [
+      "auteur ou autrice de non-fiction",
+      "romancier ou romancière",
+      "médecin écrivain",
+      "traducteur ou traductrice",
+      "médecin"
+    ],
+    "parties": [],
+    "wikidataId": "Q3295674"
+  },
+  {
+    "id": "christophe-ayad",
+    "name": "Christophe Ayad",
+    "birthDate": "1968-08-27",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q2966085"
+  },
+  {
+    "id": "sabyl-ghoussoub",
+    "name": "Sabyl Ghoussoub",
+    "birthDate": "1987-01-01",
+    "gender": "masculin",
+    "categories": [
+      "chroniqueur ou chroniqueuse",
+      "journaliste",
+      "écrivain ou écrivaine",
+      "photographe"
+    ],
+    "parties": [],
+    "wikidataId": "Q84845963",
+    "image": "Sabyl_ghoussoub_cormontreuil_1301582.JPG"
+  },
+  {
+    "id": "tamara-boussac",
+    "name": "Tamara Boussac",
+    "gender": "féminin",
+    "categories": ["historien ou historienne"],
+    "parties": [],
+    "wikidataId": "Q133539216"
+  },
+  {
+    "id": "marc-lazar",
+    "name": "Marc Lazar",
+    "birthDate": "1952-06-19",
+    "gender": "masculin",
+    "categories": [
+      "sociologue",
+      "professeur d'université",
+      "historien ou historienne"
+    ],
+    "parties": [],
+    "wikidataId": "Q3288191",
+    "image": "Marc_Lazar.jpg"
+  },
+  {
+    "id": "rachel-lindon",
+    "name": "Rachel Lindon",
+    "gender": "féminin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q93967131"
+  },
+  {
+    "id": "gilles-martin",
+    "name": "Gilles Martin",
+    "birthDate": "1956-05-01",
+    "gender": "masculin",
+    "categories": ["photographe"],
+    "parties": [],
+    "wikidataId": "Q3106388"
+  },
+  {
+    "id": "amy-greene",
+    "name": "Amy Greene",
+    "birthDate": "1975-10-02",
+    "gender": "féminin",
+    "categories": ["romancier ou romancière"],
+    "parties": [],
+    "wikidataId": "Q17411179"
+  },
+  {
+    "id": "romain-huret",
+    "name": "Romain Huret",
+    "birthDate": "1972-05-16",
+    "gender": "masculin",
+    "categories": [
+      "enseignant-chercheur ou enseignante-chercheuse",
+      "historien ou historienne"
+    ],
+    "parties": [],
+    "wikidataId": "Q3440670",
+    "image": "Romain_Huret.jpg"
+  },
+  {
+    "id": "piotr-smolar",
+    "name": "Piotr Smolar",
+    "birthDate": "1974-01-01",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q60539945"
+  },
+  {
+    "id": "marc-dugain",
+    "name": "Marc Dugain",
+    "birthDate": "1957-05-03",
+    "gender": "masculin",
+    "categories": [
+      "romancier ou romancière",
+      "chef ou cheffe d'entreprise",
+      "réalisateur ou réalisatrice de cinéma",
+      "expert-comptable",
+      "écrivain ou écrivaine",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q3287980",
+    "image": "Marc_dugain_%28cropped%29.jpg"
+  },
+  {
+    "id": "samah-karaki",
+    "name": "Samah Karaki",
+    "birthDate": "1984-01-01",
+    "gender": "féminin",
+    "categories": ["neurobiologiste", "chercheur ou chercheuse"],
+    "parties": [],
+    "wikidataId": "Q116870429",
+    "image": "In_da_library.jpg"
+  },
+  {
+    "id": "sylvie-laurent",
+    "name": "Sylvie Laurent",
+    "birthDate": "1974-08-18",
+    "gender": "féminin",
+    "categories": [
+      "maître ou maîtresse de conférences",
+      "historien ou historienne"
+    ],
+    "parties": [],
+    "wikidataId": "Q55340986"
+  },
+  {
+    "id": "nathalie-bajos",
+    "name": "Nathalie Bajos",
+    "birthDate": "1961-01-01",
+    "gender": "féminin",
+    "categories": ["sociologue", "démographe"],
+    "parties": [],
+    "wikidataId": "Q106614843"
+  },
+  {
+    "id": "francois-hommeril",
+    "name": "François Hommeril",
+    "birthDate": "1961-07-23",
+    "gender": "masculin",
+    "categories": ["syndicaliste", "ingénieur"],
+    "parties": [],
+    "wikidataId": "Q24938103",
+    "image": "Fran%C3%A7ois_Hommeril.jpg"
+  },
+  {
+    "id": "geraldine-mosna-savoye",
+    "name": "Géraldine Mosna-Savoye",
+    "birthDate": "1985-01-01",
+    "gender": "féminin",
+    "categories": [
+      "philosophe",
+      "producteur ou productrice de radio",
+      "journaliste"
+    ],
+    "parties": [],
+    "wikidataId": "Q94734638",
+    "image": "G%C3%A9raldine_Mosna-Savoye_Forum_France_Culture_Philosophie_2016.JPG"
+  },
+  {
+    "id": "hugo-biolley",
+    "name": "Hugo Biolley",
+    "birthDate": "2001-05-24",
+    "gender": "masculin",
+    "categories": ["élèves, étudiants", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Place publique"
+      }
+    ],
+    "wikidataId": "Q98237194"
+  },
+  {
+    "id": "juliette-campion",
+    "name": "Juliette Campion",
+    "gender": "féminin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q138108088"
+  },
+  {
+    "id": "patricia-roches",
+    "name": "Patricia Rochès",
+    "birthDate": "1974-10-28",
+    "gender": "féminin",
+    "categories": [
+      "professions de l'information, des arts et des spectacles",
+      "artiste",
+      "personnalité politique"
+    ],
+    "parties": [],
+    "wikidataId": "Q65600782"
+  },
+  {
+    "id": "bertrand-perier",
+    "name": "Bertrand Périer",
+    "birthDate": "1972-09-10",
+    "gender": "masculin",
+    "categories": ["écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q55691302"
+  },
+  {
+    "id": "jules-sitruk",
+    "name": "Jules Sitruk",
+    "birthDate": "1990-04-16",
+    "gender": "masculin",
+    "categories": ["acteur ou actrice"],
+    "parties": [],
+    "wikidataId": "Q2583177",
+    "image": "Jules_Sitruk_Cabourg_2013.jpg"
+  },
+  {
+    "id": "laureline-dupont",
+    "name": "Laureline Dupont",
+    "birthDate": "1950-01-01",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q46092844"
+  },
+  {
+    "id": "antoine-vitkine",
+    "name": "Antoine Vitkine",
+    "birthDate": "1977-01-01",
+    "gender": "masculin",
+    "categories": [
+      "journaliste",
+      "réalisateur ou réalisatrice de documentaire",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q2856799",
+    "image": "Antoine_Vitkine.jpg"
+  },
+  {
+    "id": "gregoire-kauffmann",
+    "name": "Grégoire Kauffmann",
+    "birthDate": "1973-12-25",
+    "gender": "masculin",
+    "categories": ["historien ou historienne"],
+    "parties": [],
+    "wikidataId": "Q3118467"
+  },
+  {
+    "id": "ismael-saidi",
+    "name": "Ismaël Saidi",
+    "birthDate": "1976-09-20",
+    "gender": "masculin",
+    "categories": [
+      "réalisateur ou réalisatrice",
+      "producteur ou productrice de cinéma",
+      "réalisateur ou réalisatrice de cinéma",
+      "dramaturge",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q16028903",
+    "image": "Isma%C3%ABl_Sa%C3%AFdi_%2822e_Maghreb_des_Livres%2C_Paris%2C_13_et_14_f%C3%A9vrier_2016%29.jpg"
+  },
+  {
+    "id": "irena-karpa",
+    "name": "Irena Karpa",
+    "birthDate": "1980-12-08",
+    "gender": "féminin",
+    "categories": [
+      "animateur ou animatrice",
+      "journaliste",
+      "parolier ou parolière",
+      "chanteur ou chanteuse",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q550858",
+    "image": "%D0%86%D1%80%D0%B5%D0%BD%D0%B0_%D0%9A%D0%B0%D1%80%D0%BF%D0%B0._%D0%9B%D0%B8%D0%BF%D0%B5%D0%BD%D1%8C_2015_10_%28cropped%29.JPG"
+  },
+  {
+    "id": "philomene-remy",
+    "name": "Philomène Remy",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q128210452"
+  },
+  {
+    "id": "vincent-luciani",
+    "name": "Vincent Luciani",
+    "birthDate": "1906-08-31",
+    "gender": "masculin",
+    "categories": ["historien ou historienne de la littérature"],
+    "parties": [],
+    "wikidataId": "Q59525874"
+  },
+  {
+    "id": "astrid-panosyan-bouvet",
+    "name": "Astrid Panosyan-Bouvet",
+    "birthDate": "1971-08-13",
+    "gender": "féminin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "chef ou cheffe d'entreprise",
+      "entrepreneur ou entrepreneuse",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance"
+      },
+      {
+        "name": "Parti socialiste"
+      }
+    ],
+    "wikidataId": "Q33106414",
+    "image": "1102-DSC03661_%28cropped%29.jpg"
+  },
+  {
+    "id": "francois-saltiel",
+    "name": "François Saltiel",
+    "birthDate": "1983-01-01",
+    "gender": "masculin",
+    "categories": [
+      "journaliste de radio",
+      "journaliste de télévision",
+      "auteur ou autrice de non-fiction"
+    ],
+    "parties": [],
+    "wikidataId": "Q73029734"
+  },
+  {
+    "id": "simon-franck",
+    "name": "Simon Franck",
+    "birthDate": "1573-02-11",
+    "gender": "masculin",
+    "categories": [
+      "artiste visuel ou artiste visuelle",
+      "artiste peintre",
+      "dramaturge",
+      "poète ou poétesse",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q976386",
+    "image": "Portrait_of_Sebastian_Vrancx.jpg"
+  },
+  {
+    "id": "gabriele-gien",
+    "name": "Gabrièle Gien",
+    "birthDate": "1962-01-11",
+    "gender": "féminin",
+    "categories": [
+      "germaniste",
+      "professeur d'université",
+      "enseignant ou enseignante"
+    ],
+    "parties": [],
+    "wikidataId": "Q28778497",
+    "image": "Prof._Dr._Gabriele_Gien.jpg"
+  },
+  {
+    "id": "helene-miard-delacroix",
+    "name": "Hélène Miard-Delacroix",
+    "birthDate": "1959-11-05",
+    "gender": "féminin",
+    "categories": [
+      "historien moderniste",
+      "auteur ou autrice de non-fiction",
+      "germaniste",
+      "professeur d'université",
+      "historien ou historienne"
+    ],
+    "parties": [],
+    "wikidataId": "Q3144820",
+    "image": "H%C3%A9l%C3%A8ne_Miard-Delacroix_octobre_2008.jpg"
+  },
+  {
+    "id": "marion-van-renterghem",
+    "name": "Marion Van Renterghem",
+    "birthDate": "1964-10-01",
+    "gender": "féminin",
+    "categories": ["essayiste", "journaliste", "reporter ou reportrice"],
+    "parties": [],
+    "wikidataId": "Q20859183",
+    "image": "Marion_Van_Renterghem.jpg"
+  },
+  {
+    "id": "camille-boutron",
+    "name": "Camille Boutron",
+    "birthDate": "1980-01-01",
+    "gender": "féminin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q139033989"
+  },
+  {
+    "id": "geraldine-schwarz",
+    "name": "Géraldine Schwarz",
+    "birthDate": "1974-10-01",
+    "gender": "féminin",
+    "categories": [
+      "journaliste",
+      "réalisateur ou réalisatrice de documentaire"
+    ],
+    "parties": [],
+    "wikidataId": "Q59392026",
+    "image": "GeraldineSchwarz2.jpg"
+  },
+  {
+    "id": "bernard-lecomte",
+    "name": "Bernard Lecomte",
+    "birthDate": "1949-11-22",
+    "gender": "masculin",
+    "categories": [
+      "journaliste",
+      "éditeur ou éditrice",
+      "éditeur associé",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q2898208",
+    "image": "Bernard_Lecomte_-_Foire_du_Livre_de_Bruxelles_2011_-_cropt.JPG"
+  },
+  {
+    "id": "nicolas-offenstadt",
+    "name": "Nicolas Offenstadt",
+    "birthDate": "1967-10-09",
+    "gender": "masculin",
+    "categories": [
+      "maître ou maîtresse de conférences",
+      "historien ou historienne"
+    ],
+    "parties": [],
+    "wikidataId": "Q3340636",
+    "image": "Nicolas_Offenstadt.jpg"
+  },
+  {
+    "id": "timothee-de-rauglaudre",
+    "name": "Timothée de Rauglaudre",
+    "birthDate": "1996-01-01",
+    "gender": "masculin",
+    "categories": ["journaliste", "écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q75014465"
+  },
+  {
+    "id": "virginie-riva",
+    "name": "Virginie Riva",
+    "birthDate": "1981-01-01",
+    "gender": "féminin",
+    "categories": ["journaliste", "politologue"],
+    "parties": [],
+    "wikidataId": "Q113748941"
+  },
+  {
+    "id": "charles-dreyfus",
+    "name": "Charles Dreyfus",
+    "birthDate": "1947-01-01",
+    "gender": "masculin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q2958937",
+    "image": "Photo_Charles_Dreyfus.jpg"
+  },
+  {
+    "id": "michel-dreyfus",
+    "name": "Michel Dreyfus",
+    "birthDate": "1945-12-12",
+    "gender": "masculin",
+    "categories": ["professeur d'université", "historien ou historienne"],
+    "parties": [],
+    "wikidataId": "Q3309502"
+  },
+  {
+    "id": "lilia-hassaine",
+    "name": "Lilia Hassaine",
+    "birthDate": "1991-01-01",
+    "gender": "féminin",
+    "categories": ["romancier ou romancière", "journaliste"],
+    "parties": [],
+    "wikidataId": "Q99761756",
+    "image": "Lilia_Hassaine_-_Librairie_Mollat.jpg"
+  },
+  {
+    "id": "slimane-zeghidour",
+    "name": "Slimane Zeghidour",
+    "birthDate": "1953-09-20",
+    "gender": "masculin",
+    "categories": [
+      "journaliste",
+      "chercheur ou chercheuse",
+      "illustrateur ou illustratrice",
+      "reporter ou reportrice",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q3486706",
+    "image": "Slimane_Zeghidour.jpg"
+  },
+  {
+    "id": "luc-bronner",
+    "name": "Luc Bronner",
+    "birthDate": "1974-05-14",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q19606874",
+    "image": "Luc_Bronner-FIG_2021_%282%29.jpg"
+  },
+  {
+    "id": "giuliano-da-empoli",
+    "name": "Giuliano Da Empoli",
+    "birthDate": "1973-08-27",
+    "gender": "masculin",
+    "categories": [
+      "auteur ou autrice de non-fiction",
+      "essayiste",
+      "journaliste",
+      "politologue",
+      "personnalité politique",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [
+      {
+        "name": "Parti démocrate"
+      }
+    ],
+    "wikidataId": "Q5565244",
+    "image": "Giuliano_da_Empoli%2C_2023_%28cropped%29.jpg"
+  },
+  {
+    "id": "nathalie-perez",
+    "name": "Nathalie Perez",
+    "birthDate": "1970-04-29",
+    "gender": "féminin",
+    "categories": ["artisans", "artisan ou artisane", "personnalité politique"],
+    "parties": [],
+    "wikidataId": "Q63765835"
+  },
+  {
+    "id": "benjamin-stora",
+    "name": "Benjamin Stora",
+    "birthDate": "1950-12-02",
+    "gender": "masculin",
+    "categories": ["professeur d'université", "historien ou historienne"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "1985-01-01",
+        "end": "1988-01-01"
+      }
+    ],
+    "wikidataId": "Q817699",
+    "image": "Benjamin_Stora_par_Claude_Truong-Ngoc_2012.jpg"
+  },
+  {
+    "id": "guyonne-de-montjou",
+    "name": "Guyonne de Montjou",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q114333719"
+  },
+  {
+    "id": "helene-perlant",
+    "name": "Hélène Perlant",
+    "birthDate": "1972-01-01",
+    "gender": "féminin",
+    "categories": ["professeur de français", "critique littéraire"],
+    "parties": [],
+    "wikidataId": "Q131438279"
+  },
+  {
+    "id": "emmanuelle-piquet",
+    "name": "Emmanuelle Piquet",
+    "birthDate": "1969-01-01",
+    "gender": "féminin",
+    "categories": ["essayiste"],
+    "parties": [],
+    "wikidataId": "Q20240991",
+    "image": "Emmanuelle_Piquet_-_TEDxParis_D%C3%A9plier_le_monde_04.jpg"
+  },
+  {
+    "id": "olivier-roy",
+    "name": "Olivier Roy",
+    "birthDate": "1949-08-30",
+    "gender": "masculin",
+    "categories": ["politologue"],
+    "parties": [],
+    "wikidataId": "Q635747",
+    "image": "Europe%2C_Religion%2C_Integration_A_Lecture_by_Olivier_Roy_%2832541952460%29.jpg"
+  },
+  {
+    "id": "yves-citton",
+    "name": "Yves Citton",
+    "birthDate": "1962-09-30",
+    "gender": "masculin",
+    "categories": [
+      "théoricien ou théoricienne de la littérature",
+      "philosophe",
+      "critique littéraire",
+      "journaliste",
+      "professeur d'université"
+    ],
+    "parties": [],
+    "wikidataId": "Q3573565",
+    "image": "CittonYves.jpg"
+  },
+  {
+    "id": "sandrine-josso",
+    "name": "Sandrine Josso",
+    "birthDate": "1975-09-19",
+    "gender": "féminin",
+    "categories": [
+      "professions libérales et assimilés",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Nouveaux Démocrates",
+        "start": "2020-01-01",
+        "end": "2021-01-01"
+      },
+      {
+        "name": "Alliance centriste",
+        "start": "2015-01-01",
+        "end": "2017-01-01"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2017-01-01",
+        "end": "2019-01-01"
+      },
+      {
+        "name": "Mouvement démocrate",
+        "start": "2020-09-24"
+      }
+    ],
+    "wikidataId": "Q30343090",
+    "image": "20240708-P1010557_Sandrine_Josso_Wikipedia.jpg"
+  },
+  {
+    "id": "anne-nivat",
+    "name": "Anne Nivat",
+    "birthDate": "1969-06-18",
+    "gender": "féminin",
+    "categories": [
+      "journaliste",
+      "politologue",
+      "correspondant ou correspondante de guerre",
+      "reporter ou reportrice",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q959600",
+    "image": "Anne_Nivat_2017-04-14_%28cropped%29.jpg"
+  },
+  {
+    "id": "constance-vilanova",
+    "name": "Constance Vilanova",
+    "birthDate": "1993-01-01",
+    "gender": "féminin",
+    "categories": [
+      "journaliste de presse écrite",
+      "journaliste de radio",
+      "essayiste",
+      "journaliste"
+    ],
+    "parties": [],
+    "wikidataId": "Q111080717"
+  },
+  {
+    "id": "mai-lan-chapiron",
+    "name": "Mai Lan Chapiron",
+    "birthDate": "1982-01-01",
+    "gender": "féminin",
+    "categories": [
+      "modéliste",
+      "musicien ou musicienne",
+      "auteur-compositeur-interprète",
+      "chanteur ou chanteuse"
+    ],
+    "parties": [],
+    "wikidataId": "Q15211605",
+    "image": "Mai_Lan.jpg"
+  },
+  {
+    "id": "emma-becker",
+    "name": "Emma Becker",
+    "birthDate": "1988-12-14",
+    "gender": "féminin",
+    "categories": ["écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q67502392",
+    "image": "Emma_becker_LslaP_1550314.jpg"
+  },
+  {
+    "id": "kattalin-fortune",
+    "name": "Kattalin Fortuné",
+    "gender": "féminin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q138845054"
+  },
+  {
+    "id": "sophie-lamotte",
+    "name": "Sophie Lamotte",
+    "birthDate": "1963-03-21",
+    "gender": "féminin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q75396556"
+  },
+  {
+    "id": "jordan-mintzer",
+    "name": "Jordan Mintzer",
+    "gender": "masculin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q138922951"
+  },
+  {
+    "id": "diana-buitrago",
+    "name": "Diana Buitrago",
+    "categories": ["chercheur ou chercheuse"],
+    "parties": [],
+    "wikidataId": "Q91951413"
+  },
+  {
+    "id": "annie-cohen-solal",
+    "name": "Annie Cohen-Solal",
+    "birthDate": "1948-01-01",
+    "gender": "féminin",
+    "categories": [
+      "professeur d'université",
+      "historien ou historienne",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q2609316",
+    "image": "Annie_Cohen-Solal_%281988%29.jpg"
+  },
+  {
+    "id": "astrid-von-busekist",
+    "name": "Astrid Von Busekist",
+    "birthDate": "1967-01-01",
+    "gender": "féminin",
+    "categories": [
+      "professeur d'université",
+      "politologue",
+      "traducteur ou traductrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q99884676",
+    "image": "Astrid_von_Busekist.jpg"
+  },
+  {
+    "id": "francois-dubet",
+    "name": "François Dubet",
+    "birthDate": "1946-05-23",
+    "gender": "masculin",
+    "categories": ["sociologue", "professeur d'université"],
+    "parties": [],
+    "wikidataId": "Q1451006",
+    "image": "Fran%C3%A7ois_Dubet_-_Janvier_2012.jpg"
+  },
+  {
+    "id": "guillaume-denoix-de-saint-marc",
+    "name": "Guillaume Denoix de Saint-Marc",
+    "birthDate": "1963-05-02",
+    "gender": "masculin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q3119799"
+  },
+  {
+    "id": "laure-heinich",
+    "name": "Laure Heinich",
+    "gender": "féminin",
+    "categories": ["avocat ou avocate", "écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q124499334"
+  },
+  {
+    "id": "arthur-denouveaux",
+    "name": "Arthur Dénouveaux",
+    "birthDate": "1986-01-18",
+    "gender": "masculin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q117838649",
+    "image": "Arthur_D%C3%A9nouveaux.jpg"
+  },
+  {
+    "id": "niagale-bagayoko",
+    "name": "Niagalé Bagayoko",
+    "birthDate": "1974-05-25",
+    "gender": "féminin",
+    "categories": ["chercheur ou chercheuse", "politologue"],
+    "parties": [],
+    "wikidataId": "Q60861380"
+  },
+  {
+    "id": "olivia-ronen",
+    "name": "Olivia Ronen",
+    "birthDate": "1990-01-01",
+    "gender": "féminin",
+    "categories": ["avocat ou avocate"],
+    "parties": [],
+    "wikidataId": "Q108460488"
+  },
+  {
+    "id": "georges-salines",
+    "name": "Georges Salines",
+    "gender": "masculin",
+    "categories": ["médecin", "écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q60609250"
+  },
+  {
+    "id": "jean-loup-adenor",
+    "name": "Jean-Loup Adénor",
+    "gender": "masculin",
+    "categories": ["journaliste", "écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q70147327"
+  },
+  {
+    "id": "el-mouhoub-mouhoud",
+    "name": "El Mouhoub Mouhoud",
+    "birthDate": "1960-06-13",
+    "gender": "masculin",
+    "categories": ["professeur d'université", "économiste"],
+    "parties": [],
+    "wikidataId": "Q16631319",
+    "image": "El-Mouhoub_Mouhoud-FIG_1997.jpg"
+  },
+  {
+    "id": "hugo-travers",
+    "name": "Hugo Travers",
+    "birthDate": "1997-04-06",
+    "gender": "masculin",
+    "categories": [
+      "youtubeur ou youtubeuse",
+      "podcasteur ou podcasteuse",
+      "vlogueur ou vlogueuse",
+      "journaliste",
+      "entrepreneur ou entrepreneuse"
+    ],
+    "parties": [],
+    "wikidataId": "Q65130631",
+    "image": "Hugo_Travers_2022.png"
+  },
+  {
+    "id": "emmanuel-daoud",
+    "name": "Emmanuel Daoud",
+    "birthDate": "1963-01-30",
+    "gender": "masculin",
+    "categories": ["avocat ou avocate"],
+    "parties": [],
+    "wikidataId": "Q33109416"
+  },
+  {
+    "id": "francis-godard",
+    "name": "Francis Godard",
+    "birthDate": "1948-03-10",
+    "gender": "masculin",
+    "categories": ["président d'université", "sociologue"],
+    "parties": [],
+    "wikidataId": "Q3081463"
+  },
+  {
+    "id": "arthur-sarradin",
+    "name": "Arthur Sarradin",
+    "gender": "masculin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q139592055"
+  },
+  {
+    "id": "abel-quentin",
+    "name": "Abel Quentin",
+    "birthDate": "1985-01-01",
+    "gender": "masculin",
+    "categories": [
+      "romancier ou romancière",
+      "juriste",
+      "avocat ou avocate",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q108370145",
+    "image": "Prix_des_libraires_LslaP_1559848_%28abel_quentin%29.jpg"
+  },
+  {
+    "id": "cynthia-fleury",
+    "name": "Cynthia Fleury",
+    "birthDate": "1974-01-01",
+    "gender": "féminin",
+    "categories": ["philosophe", "psychanalyste", "professeur d'université"],
+    "parties": [],
+    "wikidataId": "Q3008802",
+    "image": "Cynthia_Fleury_-_Septembre_2018.jpg"
+  },
+  {
+    "id": "frederic-worms",
+    "name": "Frédéric Worms",
+    "birthDate": "1964-01-30",
+    "gender": "masculin",
+    "categories": ["philosophe", "professeur d'université"],
+    "parties": [],
+    "wikidataId": "Q3090285",
+    "image": "WormsFrederic-066-Modifier-MDweb.jpg"
+  },
+  {
+    "id": "thomas-gomart",
+    "name": "Thomas Gomart",
+    "birthDate": "1973-03-13",
+    "gender": "masculin",
+    "categories": ["historien ou historienne"],
+    "parties": [],
+    "wikidataId": "Q592216",
+    "image": "Thomas_Gomart_3.jpg"
+  },
+  {
+    "id": "gaspard-dhellemmes",
+    "name": "Gaspard Dhellemmes",
+    "birthDate": "1987-05-18",
+    "gender": "masculin",
+    "categories": ["journaliste", "écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q30011695"
+  },
+  {
+    "id": "olivier-faye",
+    "name": "Olivier Faye",
+    "birthDate": "1987-01-01",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q33313133"
+  },
+  {
+    "id": "ghazal-golshiri",
+    "name": "Ghazal Golshiri",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q114861111"
+  },
+  {
+    "id": "fleur-breteau",
+    "name": "Fleur Breteau",
+    "birthDate": "1975-01-01",
+    "gender": "féminin",
+    "categories": [
+      "militant ou militante",
+      "styliste",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q111461865",
+    "image": "Fleur_Breteau_in_the_video_%27Cancer_Col%C3%A8re_-_Douarnenez_2025%27.png"
+  },
+  {
+    "id": "charles-dantzig",
+    "name": "Charles Dantzig",
+    "birthDate": "1961-10-07",
+    "gender": "masculin",
+    "categories": [
+      "essayiste",
+      "romancier ou romancière",
+      "éditeur ou éditrice",
+      "traducteur ou traductrice",
+      "poète ou poétesse",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q1064052",
+    "image": "Charles_Dantzig-Nancy_2011_%282%29.jpg"
+  },
+  {
+    "id": "antoine-compagnon",
+    "name": "Antoine Compagnon",
+    "birthDate": "1950-07-20",
+    "gender": "masculin",
+    "categories": [
+      "critique littéraire",
+      "enseignant ou enseignante",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q860387",
+    "image": "Antoine_Compagnon_par_Claude_Truong-Ngoc_octobre_2015.jpg"
+  },
+  {
+    "id": "juliette-g",
+    "name": "Juliette G",
+    "birthDate": "1927-02-07",
+    "gender": "féminin",
+    "categories": [
+      "chansonnier",
+      "acteur ou actrice de cinéma",
+      "chanteur ou chanteuse",
+      "acteur ou actrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q156485",
+    "image": "Juliette_gr%C3%A9co.jpg"
+  },
+  {
+    "id": "marine-turchi",
+    "name": "Marine Turchi",
+    "birthDate": "1982-01-01",
+    "gender": "féminin",
+    "categories": ["journaliste", "enseignant ou enseignante"],
+    "parties": [],
+    "wikidataId": "Q33313264",
+    "image": "Mturchi.jpg"
+  },
+  {
+    "id": "chloe-bertolus",
+    "name": "Chloé Bertolus",
+    "birthDate": "1971-01-01",
+    "gender": "féminin",
+    "categories": ["médecin"],
+    "parties": [],
+    "wikidataId": "Q80130044"
+  },
+  {
+    "id": "dory-manor",
+    "name": "Dory Manor",
+    "birthDate": "1971-09-11",
+    "gender": "masculin",
+    "categories": [
+      "directeur littéraire",
+      "professeur d'université",
+      "traducteur ou traductrice",
+      "poète ou poétesse"
+    ],
+    "parties": [],
+    "wikidataId": "Q12405776",
+    "image": "Dory_Manor_2019.jpg"
+  },
+  {
+    "id": "benjamin-dierstein",
+    "name": "Benjamin Dierstein",
+    "birthDate": "1983-01-01",
+    "gender": "masculin",
+    "categories": ["écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q133836441"
+  },
+  {
+    "id": "joel-schnapp",
+    "name": "Joël Schnapp",
+    "gender": "masculin",
+    "categories": ["philologue classique", "traducteur ou traductrice"],
+    "parties": [],
+    "wikidataId": "Q113846851"
+  },
+  {
+    "id": "alfred-de-montesquiou",
+    "name": "Alfred de Montesquiou",
+    "birthDate": "1978-01-01",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q15235929",
+    "image": "Alfred_de_Montesquiou_Prix_Albert_Londres_2912.jpg"
+  },
+  {
+    "id": "dorothee-rouzet",
+    "name": "Dorothée Rouzet",
+    "gender": "féminin",
+    "categories": ["économiste"],
+    "parties": [],
+    "wikidataId": "Q102554935"
+  },
+  {
+    "id": "pascal-demurger",
+    "name": "Pascal Demurger",
+    "birthDate": "1964-10-15",
+    "gender": "masculin",
+    "categories": ["chef ou cheffe d'entreprise"],
+    "parties": [],
+    "wikidataId": "Q21294787",
+    "image": "Pascal_Demurger_2019.jpg"
+  },
+  {
+    "id": "matthias-marc",
+    "name": "Matthias Marc",
+    "birthDate": "1550-01-01",
+    "gender": "masculin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q38773141"
+  },
+  {
+    "id": "karim-bennani",
+    "name": "Karim Bennani",
+    "birthDate": "1983-07-17",
+    "gender": "masculin",
+    "categories": ["écrivain sportif", "animateur ou animatrice de radio"],
+    "parties": [],
+    "wikidataId": "Q13480"
+  },
+  {
+    "id": "laetitia-dosch",
+    "name": "Laetitia Dosch",
+    "birthDate": "1980-09-01",
+    "gender": "féminin",
+    "categories": [
+      "acteur ou actrice de cinéma",
+      "réalisateur ou réalisatrice de cinéma",
+      "acteur ou actrice de théâtre"
+    ],
+    "parties": [],
+    "wikidataId": "Q14605170",
+    "image": "Actress_L%C3%A6titia_Dosch_at_the_2024_Cannes_Film_Festival_2_%28cropped%29.jpg"
+  },
+  {
+    "id": "karim-leklou",
+    "name": "Karim Leklou",
+    "birthDate": "1982-06-20",
+    "gender": "masculin",
+    "categories": ["acteur ou actrice"],
+    "parties": [],
+    "wikidataId": "Q3193200",
+    "image": "Karim_Leklou_Cabourg_2018.jpg"
+  },
+  {
+    "id": "laetitia-barlerin",
+    "name": "Laetitia Barlerin",
+    "birthDate": "1974-06-19",
+    "gender": "féminin",
+    "categories": ["journaliste", "vétérinaire"],
+    "parties": [],
+    "wikidataId": "Q3216061"
+  },
+  {
+    "id": "mathilde-guenegan",
+    "name": "Mathilde Guénégan",
+    "gender": "féminin",
+    "categories": ["correspondant politique"],
+    "parties": [],
+    "wikidataId": "Q127513905"
+  },
+  {
+    "id": "melissa-da-costa",
+    "name": "Mélissa Da Costa",
+    "birthDate": "1990-08-07",
+    "gender": "féminin",
+    "categories": [
+      "romancier ou romancière",
+      "chargé de communication",
+      "manager ou manageuse",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q61916302"
+  },
+  {
+    "id": "marie-belot",
+    "name": "Marie Belot",
+    "gender": "féminin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q96288696"
+  },
+  {
+    "id": "marc-brincourt",
+    "name": "Marc Brincourt",
+    "gender": "masculin",
+    "categories": ["photographe"],
+    "parties": [],
+    "wikidataId": "Q137002613"
+  },
+  {
+    "id": "stephane-freiss",
+    "name": "Stéphane Freiss",
+    "birthDate": "1960-11-22",
+    "gender": "masculin",
+    "categories": [
+      "scénariste de télévision",
+      "acteur ou actrice de cinéma",
+      "acteur ou actrice de télévision",
+      "réalisateur ou réalisatrice de cinéma",
+      "acteur ou actrice de théâtre",
+      "acteur ou actrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q1799529",
+    "image": "St%C3%A9phane_Freiss_Cannes_2008.jpg"
+  },
+  {
+    "id": "norbert-saada",
+    "name": "Norbert Saada",
+    "birthDate": "1938-11-09",
+    "gender": "masculin",
+    "categories": [
+      "producteur ou productrice de cinéma",
+      "producteur de musique",
+      "producteur ou productrice de télévision",
+      "producteur ou productrice de disques"
+    ],
+    "parties": [],
+    "wikidataId": "Q3343514"
+  },
+  {
+    "id": "aurelie-trouve",
+    "name": "Aurélie Trouvé",
+    "birthDate": "1979-09-20",
+    "gender": "féminin",
+    "categories": [
+      "professeurs, professions scientifiques",
+      "cadres de la fonction publique",
+      "militant ou militante",
+      "athlète",
+      "ingénieur agronome",
+      "maître ou maîtresse de conférences",
+      "personnalité politique",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [
+      {
+        "name": "La France insoumise"
+      }
+    ],
+    "wikidataId": "Q2872015",
+    "image": "Meeting_d%27Aur%C3%A9lie_Trouv%C3%A9.jpg"
+  },
+  {
+    "id": "alba-ventura",
+    "name": "Alba Ventura",
+    "birthDate": "1970-01-01",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q20723901"
+  },
+  {
+    "id": "jacques-legros",
+    "name": "Jacques Legros",
+    "birthDate": "1951-07-25",
+    "gender": "masculin",
+    "categories": ["journaliste", "présentateur ou présentatrice de journal"],
+    "parties": [],
+    "wikidataId": "Q3159360"
+  },
+  {
+    "id": "tatiana-silva",
+    "name": "Tatiana Silva",
+    "birthDate": "1985-02-05",
+    "gender": "féminin",
+    "categories": ["animateur ou animatrice de télévision"],
+    "parties": [],
+    "wikidataId": "Q2465253",
+    "image": "Tatiana_Silva.jpg"
+  },
+  {
+    "id": "charlotte-de-turckheim",
+    "name": "Charlotte de Turckheim",
+    "birthDate": "1955-04-05",
+    "gender": "féminin",
+    "categories": [
+      "acteur ou actrice de cinéma",
+      "producteur ou productrice de cinéma",
+      "réalisateur ou réalisatrice de cinéma",
+      "acteur ou actrice",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q510042",
+    "image": "Charlotte_de_Turckheim_2011.jpg"
+  },
+  {
+    "id": "lucie-bernardoni",
+    "name": "Lucie Bernardoni",
+    "birthDate": "1987-02-04",
+    "gender": "féminin",
+    "categories": [
+      "personnalité de l'audiovisuel",
+      "auteur-compositeur-interprète"
+    ],
+    "parties": [],
+    "wikidataId": "Q3265246",
+    "image": "Lucie_BERNARDONI_au_Sentier.JPG"
+  },
+  {
+    "id": "sofia-pace",
+    "name": "Sofia Pace",
+    "birthDate": "1994-12-19",
+    "gender": "féminin",
+    "categories": ["athlète paralympique"],
+    "parties": [],
+    "wikidataId": "Q127687776",
+    "image": "Sofia_Pace_%28cropped%29.jpg"
+  },
+  {
+    "id": "yves-camdeborde",
+    "name": "Yves Camdeborde",
+    "birthDate": "1964-12-07",
+    "gender": "masculin",
+    "categories": ["chef cuisinier ou chef cuisinière"],
+    "parties": [],
+    "wikidataId": "Q3573537",
+    "image": "Yves_camdeborde.webp"
+  },
+  {
+    "id": "elizabeth-martichoux",
+    "name": "Élizabeth Martichoux",
+    "birthDate": "1961-01-02",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q14902295"
+  },
+  {
+    "id": "marie-anne-chazel",
+    "name": "Marie-Anne Chazel",
+    "birthDate": "1951-09-19",
+    "gender": "féminin",
+    "categories": [
+      "acteur ou actrice de cinéma",
+      "réalisateur ou réalisatrice de cinéma",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q459676",
+    "image": "Marie-Anne_Chazel_-_Monte-Carlo_Television_Festival.JPG"
+  },
+  {
+    "id": "michel-leeb",
+    "name": "Michel Leeb",
+    "birthDate": "1947-04-23",
+    "gender": "masculin",
+    "categories": ["humoriste", "chanteur ou chanteuse", "acteur ou actrice"],
+    "parties": [],
+    "wikidataId": "Q3310156",
+    "image": "Michel_Leeb_2013.jpg"
+  },
+  {
+    "id": "patrick-hernandez",
+    "name": "Patrick Hernandez",
+    "birthDate": "1949-04-06",
+    "gender": "masculin",
+    "categories": ["auteur-compositeur-interprète", "chanteur ou chanteuse"],
+    "parties": [],
+    "wikidataId": "Q123121"
+  },
+  {
+    "id": "michel-jonasz",
+    "name": "Michel Jonasz",
+    "birthDate": "1947-01-21",
+    "gender": "masculin",
+    "categories": [
+      "artiste d'enregistrement",
+      "auteur-compositeur ou autrice-compositrice",
+      "auteur-compositeur-interprète",
+      "chanteur ou chanteuse",
+      "poète ou poétesse",
+      "compositeur ou compositrice",
+      "acteur ou actrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q1342944",
+    "image": "Michel_Jonasz_.jpg"
+  },
+  {
+    "id": "patrick-sabatier",
+    "name": "Patrick Sabatier",
+    "birthDate": "1951-11-12",
+    "gender": "masculin",
+    "categories": ["animateur ou animatrice de radio"],
+    "parties": [],
+    "wikidataId": "Q3369830",
+    "image": "PatrickSabatier-StudioHarcourt-1980.png"
+  },
+  {
+    "id": "antoine-dulery",
+    "name": "Antoine Duléry",
+    "birthDate": "1959-11-14",
+    "gender": "masculin",
+    "categories": [
+      "scénariste de cinéma",
+      "acteur ou actrice de cinéma",
+      "acteur ou actrice de télévision",
+      "acteur ou actrice de théâtre",
+      "acteur ou actrice",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q586054",
+    "image": "Antoine_Dul%C3%A9ry_2012.jpg"
+  },
+  {
+    "id": "marc-veyrat",
+    "name": "Marc Veyrat",
+    "birthDate": "1950-05-08",
+    "gender": "masculin",
+    "categories": [
+      "chef cuisinier ou chef cuisinière",
+      "personnalité du monde des affaires"
+    ],
+    "parties": [],
+    "wikidataId": "Q1225410",
+    "image": "Marc_Veyrat_Auberge.jpg"
+  },
+  {
+    "id": "anne-genetet",
+    "name": "Anne Genetet",
+    "birthDate": "1963-04-20",
+    "gender": "féminin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2016-01-01"
+      }
+    ],
+    "wikidataId": "Q30339280",
+    "image": "Anne_Genetet.jpg"
+  },
+  {
+    "id": "kylie-minogue",
+    "name": "Kylie Minogue",
+    "birthDate": "1968-05-28",
+    "gender": "féminin",
+    "categories": [
+      "entrepreneur ou entrepreneuse",
+      "compositeur ou compositrice",
+      "acteur ou actrice",
+      "producteur ou productrice de cinéma",
+      "auteur-compositeur-interprète",
+      "chanteur ou chanteuse"
+    ],
+    "parties": [],
+    "wikidataId": "Q11998",
+    "image": "KylieMinogue-byPhilipRomano_%28cropped%29.jpg"
+  },
+  {
+    "id": "tanguy-pastureau",
+    "name": "Tanguy Pastureau",
+    "birthDate": "1974-01-26",
+    "gender": "masculin",
+    "categories": [
+      "auteur comique",
+      "acteur ou actrice de cinéma",
+      "animateur ou animatrice de radio"
+    ],
+    "parties": [],
+    "wikidataId": "Q3515150",
+    "image": "TanguyPastureau2023.jpg"
+  },
+  {
+    "id": "gerard-lanvin",
+    "name": "Gérard Lanvin",
+    "birthDate": "1950-06-21",
+    "gender": "masculin",
+    "categories": [
+      "acteur ou actrice de cinéma",
+      "acteur ou actrice de télévision",
+      "chanteur ou chanteuse",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q1558999",
+    "image": "G%C3%A9rard_Lanvin_Cannes.jpg"
+  },
+  {
+    "id": "fabien-onteniente",
+    "name": "Fabien Onteniente",
+    "birthDate": "1958-04-27",
+    "gender": "masculin",
+    "categories": ["réalisateur ou réalisatrice de cinéma", "scénariste"],
+    "parties": [],
+    "wikidataId": "Q3063643",
+    "image": "Fabien_Onteniente_%28cropped%29.jpg"
+  },
+  {
+    "id": "anne-le-nen",
+    "name": "Anne Le Nen",
+    "birthDate": "1971-09-25",
+    "gender": "féminin",
+    "categories": ["acteur ou actrice de cinéma", "acteur ou actrice"],
+    "parties": [],
+    "wikidataId": "Q18684443",
+    "image": "Anne_Le_Nen_Globes_de_cristal_2018.jpg"
+  },
+  {
+    "id": "francois-durovray",
+    "name": "François Durovray",
+    "birthDate": "1971-03-04",
+    "gender": "masculin",
+    "categories": [
+      "personnes diverses sans activité professionnelle de moins de 60 ans sauf retraités",
+      "profession libérale",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      }
+    ],
+    "wikidataId": "Q18202487",
+    "image": "1Fran%C3%A7ois_Durovray_au_Conseil_d%C3%A9partemental_de_l%27Essonne_-_2015_%28cropped%29.jpg"
+  },
+  {
+    "id": "claude-lelouch",
+    "name": "Claude Lelouch",
+    "birthDate": "1937-10-30",
+    "gender": "masculin",
+    "categories": [
+      "monteur ou monteuse",
+      "réalisateur ou réalisatrice",
+      "producteur ou productrice de cinéma",
+      "réalisateur ou réalisatrice de cinéma",
+      "exploitant",
+      "cadreur",
+      "directeur ou directrice de la photographie",
+      "écrivain ou écrivaine",
+      "acteur ou actrice",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q295093",
+    "image": "Claude_Lelouch_Deauville_2019.jpg"
+  },
+  {
+    "id": "chimene-badi",
+    "name": "Chimène Badi",
+    "birthDate": "1982-10-30",
+    "gender": "féminin",
+    "categories": ["chanteur ou chanteuse"],
+    "parties": [],
+    "wikidataId": "Q469767",
+    "image": "1566595-chimene-badi-a-perdu-du-poids-et-950x0-2.jpg"
+  },
+  {
+    "id": "louis-chedid",
+    "name": "Louis Chedid",
+    "birthDate": "1948-01-01",
+    "gender": "masculin",
+    "categories": [
+      "guitariste",
+      "auteur-compositeur ou autrice-compositrice",
+      "auteur-compositeur-interprète",
+      "chanteur ou chanteuse"
+    ],
+    "parties": [],
+    "wikidataId": "Q3261519",
+    "image": "Louis_Chedid_JBM-7277.jpg"
+  },
+  {
+    "id": "jeremy-frerot",
+    "name": "Jérémy Frérot",
+    "birthDate": "1990-03-17",
+    "gender": "masculin",
+    "categories": ["auteur-compositeur-interprète"],
+    "parties": [],
+    "wikidataId": "Q56259198",
+    "image": "Festival_de_Bugu%C3%A9l%C3%A8s_2016_-_Fr%C3%A9ro_Delavega_07.jpg"
+  },
+  {
+    "id": "benjamin-haddad",
+    "name": "Benjamin Haddad",
+    "birthDate": "1985-10-23",
+    "gender": "masculin",
+    "categories": [
+      "personnalité politique",
+      "professeurs, professions scientifiques"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "start": "2010-01-01",
+        "end": "2016-04-06"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2016-04-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-09-21",
+        "end": "2025-10-05"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-12"
+      }
+    ],
+    "wikidataId": "Q112572505",
+    "image": "20240708-P1020422_Benjamin_Haddad_Wikipedia.jpg"
+  },
+  {
+    "id": "vincent-niclo",
+    "name": "Vincent Niclo",
+    "birthDate": "1975-01-06",
+    "gender": "masculin",
+    "categories": ["acteur ou actrice de cinéma", "artiste lyrique"],
+    "parties": [],
+    "wikidataId": "Q778977",
+    "image": "Vincent_Niclo_2011.jpg"
+  },
+  {
+    "id": "didier-migaud",
+    "name": "Didier Migaud",
+    "birthDate": "1952-06-06",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "end": "2010-01-01"
+      }
+    ],
+    "wikidataId": "Q3027123",
+    "image": "Didier_Migaud_-_2023_%28cropped%29.jpg"
+  },
+  {
+    "id": "francois-regis-gaudry",
+    "name": "François-Régis Gaudry",
+    "birthDate": "1975-08-19",
+    "gender": "masculin",
+    "categories": [
+      "animateur ou animatrice de radio",
+      "journaliste",
+      "critique gastronomique",
+      "animateur ou animatrice de télévision",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q3083646",
+    "image": "OnVaDegusterNantes_2.jpg"
+  },
+  {
+    "id": "natasha-st-pier",
+    "name": "Natasha St-Pier",
+    "birthDate": "1981-02-10",
+    "gender": "féminin",
+    "categories": ["chanteur ou chanteuse"],
+    "parties": [],
+    "wikidataId": "Q235231",
+    "image": "Natasha_St-Pier_-_chanteuse_fran%C3%A7aise_-_Denain_-_France_-_12_mars_2010_-_DSC3256.jpg"
+  },
+  {
+    "id": "pierre-herme",
+    "name": "Pierre Hermé",
+    "birthDate": "1961-11-20",
+    "gender": "masculin",
+    "categories": [
+      "pâtissier ou pâtissière",
+      "chocolatier ou chocolatière",
+      "personnalité du monde des affaires"
+    ],
+    "parties": [],
+    "wikidataId": "Q1388761",
+    "image": "Portrait_Officiel_Pierre_Herm%C3%A9-%C2%A9Patrick_Rougereau.jpg"
+  },
+  {
+    "id": "guy-savoy",
+    "name": "Guy Savoy",
+    "birthDate": "1953-07-24",
+    "gender": "masculin",
+    "categories": ["chef cuisinier ou chef cuisinière"],
+    "parties": [],
+    "wikidataId": "Q2904615",
+    "image": "Guy_Savoy.jpg"
+  },
+  {
+    "id": "tom-villa",
+    "name": "Tom Villa",
+    "birthDate": "1989-06-05",
+    "gender": "masculin",
+    "categories": [
+      "animateur ou animatrice de radio",
+      "humoriste",
+      "acteur ou actrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q15965422",
+    "image": "Tom_Villa.jpg"
+  },
+  {
+    "id": "matthieu-desmoulins",
+    "name": "Matthieu Desmoulins",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q133289022"
+  },
+  {
+    "id": "christophe-michalak",
+    "name": "Christophe Michalak",
+    "birthDate": "1973-07-22",
+    "gender": "masculin",
+    "categories": [
+      "pâtissier ou pâtissière",
+      "animateur ou animatrice de télévision"
+    ],
+    "parties": [],
+    "wikidataId": "Q2966387",
+    "image": "Christophe_Michalak_2015_%28cropped00%29.jpg"
+  },
+  {
+    "id": "bruno-millienne",
+    "name": "Bruno Millienne",
+    "birthDate": "1959-11-28",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "cadre supérieur",
+      "journaliste",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Mouvement démocrate"
+      }
+    ],
+    "wikidataId": "Q30339356"
+  },
+  {
+    "id": "claire-heitzler",
+    "name": "Claire Heitzler",
+    "birthDate": "1978-07-26",
+    "gender": "féminin",
+    "categories": ["pâtissier ou pâtissière"],
+    "parties": [],
+    "wikidataId": "Q16627774"
+  },
+  {
+    "id": "camille-lellouche",
+    "name": "Camille Lellouche",
+    "birthDate": "1986-06-10",
+    "gender": "féminin",
+    "categories": [
+      "youtubeur ou youtubeuse",
+      "producteur ou productrice de télévision",
+      "humoriste",
+      "chanteur ou chanteuse",
+      "acteur ou actrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q42613001",
+    "image": "Camille_LELLOUCHE_%28cropped%29.jpg"
+  },
+  {
+    "id": "maxime-tabart",
+    "name": "Maxime Tabart",
+    "birthDate": "1997-08-16",
+    "gender": "masculin",
+    "categories": ["prestidigitateur ou prestidigitatrice"],
+    "parties": [],
+    "wikidataId": "Q97926263",
+    "image": "Maxime_Tabart.jpg"
+  },
+  {
+    "id": "frederic-plan",
+    "name": "Frédéric Plan",
+    "birthDate": "1972-01-01",
+    "gender": "masculin",
+    "categories": ["chercheur ou chercheuse"],
+    "parties": [],
+    "wikidataId": "Q57910611"
+  },
+  {
+    "id": "pierre-yves-bournazel",
+    "name": "Pierre-Yves Bournazel",
+    "birthDate": "1977-08-31",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire"
+      }
+    ],
+    "wikidataId": "Q16669934",
+    "image": "Pierre-Yves_Bournazel.png"
+  },
+  {
+    "id": "remy-heitz",
+    "name": "Rémy Heitz",
+    "birthDate": "1963-10-26",
+    "gender": "masculin",
+    "categories": ["magistrat ou magistrate"],
+    "parties": [],
+    "wikidataId": "Q33111773"
+  },
+  {
+    "id": "franck-allisio",
+    "name": "Franck Allisio",
+    "birthDate": "1980-08-04",
+    "gender": "masculin",
+    "categories": [
+      "professions libérales et assimilés",
+      "profession libérale",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "end": "2015-01-01"
+      },
+      {
+        "name": "Rassemblement national",
+        "start": "2015-01-01"
+      }
+    ],
+    "wikidataId": "Q47539353",
+    "image": "20240718-P1070730_Franck_Allisio.jpg"
+  },
+  {
+    "id": "laurent-nunez",
+    "name": "Laurent Nuñez",
+    "birthDate": "1964-02-19",
+    "gender": "masculin",
+    "categories": [
+      "haut fonctionnaire ou haute fonctionnaire",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance"
+      }
+    ],
+    "wikidataId": "Q30729111",
+    "image": "Nunez_Beauvau_%28cropped%29.jpg"
+  },
+  {
+    "id": "joshua-laurent-zarka",
+    "name": "Joshua Laurent Zarka",
+    "birthDate": "1964-04-10",
+    "gender": "masculin",
+    "categories": ["diplomate"],
+    "parties": [],
+    "wikidataId": "Q125080317",
+    "image": "Joshua_Laurent_Zarka_par_Claude_Truong-Ngoc_d%C3%A9cembre_2025.jpg"
+  },
+  {
+    "id": "bernard-cazeneuve",
+    "name": "Bernard Cazeneuve",
+    "birthDate": "1963-06-02",
+    "gender": "masculin",
+    "categories": ["personnalité politique", "avocat ou avocate"],
+    "parties": [
+      {
+        "name": "Mouvement des radicaux de gauche",
+        "start": "1983-01-01",
+        "end": "1987-01-01"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "1987-01-01",
+        "end": "2022-05-01"
+      },
+      {
+        "name": "La Convention",
+        "start": "2023-02-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-16",
+        "end": "2017-05-15"
+      }
+    ],
+    "wikidataId": "Q560890",
+    "image": "Ministru_prezidents_Valdis_Dombrovskis_tiekas_ar_Francijas_Eiropas_lietu_ministru_Bern%C4%81ru_Kazen%C4%93vu_%28Bernard_Cazeneuve%29_%287985359635%29_%28cropped%29.jpg"
+  },
+  {
+    "id": "pierre-jouvet",
+    "name": "Pierre Jouvet",
+    "birthDate": "1986-10-06",
+    "gender": "masculin",
+    "categories": [
+      "personnes diverses sans activité professionnelle de moins de 60 ans sauf retraités",
+      "cadres de la fonction publique",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ],
+    "wikidataId": "Q63766630",
+    "image": "Pierre_Jouvet_%C3%A0_Tournon-sur-Rh%C3%B4ne_02.jpg"
+  },
+  {
+    "id": "amir-reza-tofighi",
+    "name": "Amir Reza-Tofighi",
+    "birthDate": "1984-01-01",
+    "gender": "masculin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q130365762"
+  },
+  {
+    "id": "jean-francois-loiseau",
+    "name": "Jean-François Loiseau",
+    "birthDate": "1961-12-19",
+    "gender": "masculin",
+    "categories": [
+      "lobbyiste",
+      "exploitant ou exploitante agricole",
+      "agriculteurs sur petite exploitation",
+      "personnalité politique"
+    ],
+    "parties": [],
+    "wikidataId": "Q65590946"
+  },
+  {
+    "id": "olivier-gantois",
+    "name": "Olivier Gantois",
+    "birthDate": "1962-07-19",
+    "gender": "masculin",
+    "categories": ["directeur ou directrice", "ingénieur"],
+    "parties": [],
+    "wikidataId": "Q33110156"
+  },
+  {
+    "id": "catherine-vautrin",
+    "name": "Catherine Vautrin",
+    "birthDate": "1960-07-26",
+    "gender": "féminin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "start": "2015-01-01",
+        "end": "2019-01-01"
+      },
+      {
+        "name": "Rassemblement pour la République",
+        "start": "1980-01-01",
+        "end": "2002-01-01"
+      },
+      {
+        "name": "Horizons",
+        "start": "2023-01-01"
+      },
+      {
+        "name": "Union pour un mouvement populaire",
+        "start": "2002-01-01",
+        "end": "2015-01-01"
+      }
+    ],
+    "wikidataId": "Q2942097",
+    "image": "Vautrin_1503548.jpg"
+  },
+  {
+    "id": "thomas-cazenave",
+    "name": "Thomas Cazenave",
+    "birthDate": "1978-03-06",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "haut fonctionnaire ou haute fonctionnaire",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance"
+      }
+    ],
+    "wikidataId": "Q28653600",
+    "image": "Thomas_Cazenave_%28cropped%29.jpg"
+  },
+  {
+    "id": "arnaud-rousseau",
+    "name": "Arnaud Rousseau",
+    "birthDate": "1974-01-15",
+    "gender": "masculin",
+    "categories": [
+      "agriculteurs sur moyenne exploitation",
+      "exploitant ou exploitante agricole",
+      "personnalité politique",
+      "personnalité du monde des affaires"
+    ],
+    "parties": [],
+    "wikidataId": "Q62077623",
+    "image": "Arnaud_Rousseau_2025.jpg"
+  },
+  {
+    "id": "karl-olive",
+    "name": "Karl Olive",
+    "birthDate": "1969-03-29",
+    "gender": "masculin",
+    "categories": [
+      "professions de l'information, des arts et des spectacles",
+      "chefs d'entreprise de 10 salariés ou plus",
+      "journaliste",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "divers droite",
+        "start": "2009-01-01",
+        "end": "2010-01-13"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2010-01-13",
+        "end": "2017-09-28"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2017-09-28"
+      }
+    ],
+    "wikidataId": "Q3193433",
+    "image": "Karl_Olive_%C3%A0_Poissy.jpg"
+  },
+  {
+    "id": "michel-biero",
+    "name": "Michel Biero",
+    "birthDate": "1973-03-01",
+    "gender": "masculin",
+    "categories": ["personnalité du monde des affaires"],
+    "parties": []
+  },
+  {
+    "id": "jean-francois-piege",
+    "name": "Jean-François Piège",
+    "birthDate": "1970-09-25",
+    "gender": "masculin",
+    "categories": ["chef cuisinier ou chef cuisinière"],
+    "parties": [],
+    "wikidataId": "Q580118",
+    "image": "Jean-Fran%C3%A7ois_Pi%C3%A8ge_in_2006.png"
+  },
+  {
+    "id": "edouard-baer",
+    "name": "Edouard Baer",
+    "birthDate": "1966-12-01",
+    "gender": "masculin",
+    "categories": [
+      "acteur ou actrice de cinéma",
+      "acteur ou actrice de télévision",
+      "réalisateur ou réalisatrice",
+      "producteur ou productrice de cinéma",
+      "animateur ou animatrice de radio",
+      "réalisateur ou réalisatrice de cinéma",
+      "acteur ou actrice de théâtre",
+      "acteur ou actrice",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q274227",
+    "image": "Edouard_Baer_Cabourg_2018.jpg"
+  },
+  {
+    "id": "haim-korsia",
+    "name": "Haïm Korsia",
+    "birthDate": "1963-09-27",
+    "gender": "masculin",
+    "categories": ["aumônier militaire", "rabbin"],
+    "parties": [],
+    "wikidataId": "Q3128924",
+    "image": "Ha%C3%AFm_Korsia_par_Claude_Truong-Ngoc_octobre_2014.jpg"
+  },
+  {
+    "id": "firmine-richard",
+    "name": "Firmine Richard",
+    "birthDate": "1947-09-25",
+    "gender": "féminin",
+    "categories": ["acteur ou actrice de cinéma", "acteur ou actrice"],
+    "parties": [],
+    "wikidataId": "Q447709",
+    "image": "Firmine_Richard.jpg"
+  },
+  {
+    "id": "alain-krakovitch",
+    "name": "Alain Krakovitch",
+    "birthDate": "1969-05-16",
+    "gender": "masculin",
+    "categories": ["personnalité du monde des affaires"],
+    "parties": [],
+    "wikidataId": "Q27999138",
+    "image": "Alain_Krakovitch_2.jpg"
+  },
+  {
+    "id": "renaud-capucon",
+    "name": "Renaud Capuçon",
+    "birthDate": "1976-01-27",
+    "gender": "masculin",
+    "categories": ["violoniste", "chef ou cheffe d'orchestre ou de chœur"],
+    "parties": [],
+    "wikidataId": "Q552845",
+    "image": "Renaud_Capu%C3%A7on_2013.jpg"
+  },
+  {
+    "id": "arnaud-gaillot",
+    "name": "Arnaud Gaillot",
+    "gender": "masculin",
+    "categories": ["cartographe"],
+    "parties": [],
+    "wikidataId": "Q124408722"
+  },
+  {
+    "id": "cristiana-reali",
+    "name": "Cristiana Reali",
+    "birthDate": "1965-03-16",
+    "gender": "féminin",
+    "categories": [
+      "acteur ou actrice de cinéma",
+      "mannequin",
+      "acteur ou actrice de théâtre",
+      "acteur ou actrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q462318",
+    "image": "Cristiana_Reali_2017_2.jpg"
+  },
+  {
+    "id": "richard-berry",
+    "name": "Richard Berry",
+    "birthDate": "1950-07-31",
+    "gender": "masculin",
+    "categories": [
+      "acteur ou actrice de cinéma",
+      "producteur ou productrice de cinéma",
+      "réalisateur ou réalisatrice de cinéma",
+      "acteur ou actrice de théâtre",
+      "chanteur ou chanteuse",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q958109",
+    "image": "Richard_Berry_2015.jpg"
+  },
+  {
+    "id": "karin-viard",
+    "name": "Karin Viard",
+    "birthDate": "1966-01-24",
+    "gender": "féminin",
+    "categories": [
+      "acteur ou actrice de cinéma",
+      "acteur ou actrice de théâtre",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q271944",
+    "image": "Karin_Viard_Lumi%C3%A8res_2015.jpg"
+  },
+  {
+    "id": "didier-barbelivien",
+    "name": "Didier Barbelivien",
+    "birthDate": "1954-03-10",
+    "gender": "masculin",
+    "categories": [
+      "animateur ou animatrice de radio",
+      "auteur-compositeur-interprète",
+      "chanteur ou chanteuse",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q1210514",
+    "image": "Didier_Barbelivien_2012.jpg"
+  },
+  {
+    "id": "michel-boujenah",
+    "name": "Michel Boujenah",
+    "birthDate": "1952-11-03",
+    "gender": "masculin",
+    "categories": [
+      "acteur ou actrice de cinéma",
+      "acteur ou actrice de télévision",
+      "réalisateur ou réalisatrice de cinéma",
+      "acteur ou actrice de théâtre",
+      "auteur",
+      "humoriste",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q2917346",
+    "image": "Michel_Boujenah_2002.jpg"
+  },
+  {
+    "id": "raquel-garrido",
+    "name": "Raquel Garrido",
+    "birthDate": "1974-04-23",
+    "gender": "féminin",
+    "categories": [
+      "personnalité politique",
+      "professions libérales et assimilés",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "La France insoumise",
+        "start": "2016-02-10",
+        "end": "2017-09-03"
+      },
+      {
+        "name": "La France insoumise",
+        "start": "2020-01-31",
+        "end": "2024-05-21"
+      },
+      {
+        "name": "L'Après",
+        "start": "2024-05-21"
+      },
+      {
+        "name": "Parti de gauche",
+        "start": "2008-11-29",
+        "end": "2024-05-21"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "1993-01-01",
+        "end": "2008-11-29"
+      }
+    ],
+    "wikidataId": "Q28477665",
+    "image": "Raquel_Garrido_-_photo_15_oct_2015_-_1.jpg"
+  },
+  {
+    "id": "isabelle-boulay",
+    "name": "Isabelle Boulay",
+    "birthDate": "1972-07-06",
+    "gender": "féminin",
+    "categories": ["interprète", "chanteur ou chanteuse"],
+    "parties": [],
+    "wikidataId": "Q261019",
+    "image": "Isabelle_Boulay.jpg"
+  },
+  {
+    "id": "virginie-ledoyen",
+    "name": "Virginie Ledoyen",
+    "birthDate": "1976-11-15",
+    "gender": "féminin",
+    "categories": [
+      "acteur ou actrice de cinéma",
+      "mannequin",
+      "acteur ou actrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q234683",
+    "image": "AVP_Enrag%C3%A9s_2016_3.jpg"
+  },
+  {
+    "id": "alain-chamfort",
+    "name": "Alain Chamfort",
+    "birthDate": "1949-03-02",
+    "gender": "masculin",
+    "categories": [
+      "artiste d'enregistrement",
+      "auteur-compositeur ou autrice-compositrice",
+      "pianiste",
+      "chanteur ou chanteuse",
+      "acteur ou actrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q2829653",
+    "image": "AlainChamfort.jpg"
+  },
+  {
+    "id": "anne-sophie-jahn",
+    "name": "Anne-Sophie Jahn",
+    "birthDate": "1986-01-01",
+    "gender": "féminin",
+    "categories": [
+      "réalisateur ou réalisatrice",
+      "réalisateur ou réalisatrice de cinéma",
+      "journaliste",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q133577790"
+  },
+  {
+    "id": "yonathan-arfi",
+    "name": "Yonathan Arfi",
+    "birthDate": "1980-04-14",
+    "gender": "masculin",
+    "categories": ["chef ou cheffe d'entreprise"],
+    "parties": [],
+    "wikidataId": "Q112731154"
+  },
+  {
+    "id": "juan-arbelaez",
+    "name": "Juan Arbelaez",
+    "birthDate": "1988-01-18",
+    "gender": "masculin",
+    "categories": [
+      "animateur ou animatrice de télévision",
+      "entrepreneur ou entrepreneuse",
+      "chef cuisinier ou chef cuisinière"
+    ],
+    "parties": [],
+    "wikidataId": "Q36695510"
+  },
+  {
+    "id": "jean-marc-sene",
+    "name": "Jean-Marc Sène",
+    "birthDate": "1972-01-01",
+    "gender": "masculin",
+    "categories": ["médecin"],
+    "parties": [],
+    "wikidataId": "Q106508799"
+  },
+  {
+    "id": "segolene-alunni",
+    "name": "Ségolène Alunni",
+    "gender": "féminin",
+    "categories": ["acteur ou actrice de voix-off"],
+    "parties": [],
+    "wikidataId": "Q118512580"
+  },
+  {
+    "id": "roxana-maracineanu",
+    "name": "Roxana Maracineanu",
+    "birthDate": "1975-05-07",
+    "gender": "féminin",
+    "categories": [
+      "anciens cadres",
+      "nageur ou nageuse",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ],
+    "wikidataId": "Q446170",
+    "image": "Roxana_Maracineanu_-_2018_%28cropped%29.jpg"
+  },
+  {
+    "id": "thierry-marx",
+    "name": "Thierry Marx",
+    "birthDate": "1959-09-21",
+    "gender": "masculin",
+    "categories": ["chef cuisinier ou chef cuisinière"],
+    "parties": [],
+    "wikidataId": "Q2895874",
+    "image": "Thierry_Marx.jpg"
+  },
+  {
+    "id": "guy-drut",
+    "name": "Guy Drut",
+    "birthDate": "1950-12-06",
+    "gender": "masculin",
+    "categories": ["athlète", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire"
+      },
+      {
+        "name": "Rassemblement pour la République"
+      },
+      {
+        "name": "Les Républicains"
+      }
+    ],
+    "wikidataId": "Q365638",
+    "image": "Extract_Guy_Drut_%281969%29.jpg"
+  },
+  {
+    "id": "alexandra-bensaid",
+    "name": "Alexandra Bensaïd",
+    "birthDate": "1973-06-28",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q57296962"
+  },
+  {
+    "id": "fatiha-agag-boudjahlat",
+    "name": "Fatiha Agag-Boudjahlat",
+    "birthDate": "1979-12-29",
+    "gender": "féminin",
+    "categories": [
+      "professeur d'histoire-géographie",
+      "professeurs, professions scientifiques",
+      "militant ou militante pour les droits des femmes",
+      "auteur ou autrice de non-fiction",
+      "militant ou militante politique"
+    ],
+    "parties": [
+      {
+        "name": "Mouvement républicain et citoyen"
+      }
+    ],
+    "wikidataId": "Q52316428"
+  },
+  {
+    "id": "herve-gattegno",
+    "name": "Hervé Gattegno",
+    "birthDate": "1964-07-01",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q3134496"
+  },
+  {
+    "id": "francis-letellier",
+    "name": "Francis Letellier",
+    "birthDate": "1964-12-19",
+    "gender": "masculin",
+    "categories": ["journaliste", "présentateur ou présentatrice de journal"],
+    "parties": [],
+    "wikidataId": "Q3081551"
+  },
+  {
+    "id": "samia-ghali",
+    "name": "Samia Ghali",
+    "birthDate": "1968-06-10",
+    "gender": "féminin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "1984-01-01",
+        "end": "2018-12-31"
+      },
+      {
+        "name": "Divers gauche",
+        "start": "2019-01-01"
+      }
+    ],
+    "wikidataId": "Q3470800",
+    "image": "Samia_Ghali.jpg"
+  },
+  {
+    "id": "samah-soula",
+    "name": "Samah Soula",
+    "birthDate": "1953-01-01",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q3470601"
+  },
+  {
+    "id": "mohamed-bouhafsi",
+    "name": "Mohamed Bouhafsi",
+    "birthDate": "1992-05-17",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q54868237"
+  },
+  {
+    "id": "anne-sophie-lapix",
+    "name": "Anne-Sophie Lapix",
+    "birthDate": "1972-04-29",
+    "gender": "féminin",
+    "categories": [
+      "journaliste",
+      "animateur ou animatrice de télévision",
+      "présentateur ou présentatrice de journal"
+    ],
+    "parties": [],
+    "wikidataId": "Q2850938",
+    "image": "Anne-Sophie_Lapix_Cannes_2018.jpg"
+  },
+  {
+    "id": "enrico-letta",
+    "name": "Enrico Letta",
+    "birthDate": "1966-08-20",
+    "gender": "masculin",
+    "categories": [
+      "auteur ou autrice de non-fiction",
+      "universitaire",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "La Marguerite",
+        "start": "2002-01-01",
+        "end": "2007-01-01"
+      },
+      {
+        "name": "Parti populaire italien",
+        "start": "1994-01-01",
+        "end": "2002-01-01"
+      },
+      {
+        "name": "Parti démocrate",
+        "start": "2007-01-01"
+      },
+      {
+        "name": "Démocratie chrétienne",
+        "end": "1994-01-01"
+      }
+    ],
+    "wikidataId": "Q674957",
+    "image": "Former_Prime_Minister_of_Italy_Enrico_Letta_in_2024_%28cropped%29.jpg"
+  },
+  {
+    "id": "gilles-bornstein",
+    "name": "Gilles Bornstein",
+    "gender": "masculin",
+    "categories": [
+      "commentateur politique",
+      "animateur ou animatrice de télévision"
+    ],
+    "parties": [],
+    "wikidataId": "Q105437396"
+  },
+  {
+    "id": "patrick-stefanini",
+    "name": "Patrick Stefanini",
+    "birthDate": "1953-07-11",
+    "gender": "masculin",
+    "categories": [
+      "haut fonctionnaire ou haute fonctionnaire",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      }
+    ],
+    "wikidataId": "Q3369867"
+  },
+  {
+    "id": "carole-gaessler",
+    "name": "Carole Gaessler",
+    "birthDate": "1968-02-23",
+    "gender": "féminin",
+    "categories": ["journaliste", "présentateur ou présentatrice de journal"],
+    "parties": [],
+    "wikidataId": "Q2377466"
+  },
+  {
+    "id": "djamel-mazi",
+    "name": "Djamel Mazi",
+    "birthDate": "1986-01-01",
+    "gender": "masculin",
+    "categories": ["journaliste", "présentateur ou présentatrice de journal"],
+    "parties": [],
+    "wikidataId": "Q98462895"
+  },
+  {
+    "id": "emilie-tran-nguyen",
+    "name": "Emilie Tran Nguyen",
+    "birthDate": "1985-03-27",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q23926240"
+  },
+  {
+    "id": "philippe-poutou",
+    "name": "Philippe Poutou",
+    "birthDate": "1967-03-14",
+    "gender": "masculin",
+    "categories": [
+      "ouvriers qualifiés de type industriel",
+      "syndicaliste",
+      "travailleur ou travailleuse",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Nouveau Parti anticapitaliste"
+      },
+      {
+        "name": "Ligue communiste révolutionnaire",
+        "start": "2000-01-01",
+        "end": "2009-01-01"
+      },
+      {
+        "name": "Lutte ouvrière",
+        "start": "1995-01-01",
+        "end": "1997-01-01"
+      }
+    ],
+    "wikidataId": "Q2631198",
+    "image": "Philippe_Poutou_2020_%28cropped%29.png"
+  },
+  {
+    "id": "isabelle-florennes",
+    "name": "Isabelle Florennes",
+    "birthDate": "1967-08-02",
+    "gender": "féminin",
+    "categories": ["personnalité politique", "cadres de la fonction publique"],
+    "parties": [
+      {
+        "name": "Mouvement démocrate"
+      }
+    ],
+    "wikidataId": "Q30349307",
+    "image": "Isabelle Florennes,_sénatrice_des_Hauts-de-Seine.jpg"
+  },
+  {
+    "id": "brigitte-foure",
+    "name": "Brigitte Fouré",
+    "birthDate": "1955-08-13",
+    "gender": "féminin",
+    "categories": [
+      "personnalité politique",
+      "professeur d'université",
+      "professeurs, professions scientifiques"
+    ],
+    "parties": [
+      {
+        "name": "Union des démocrates et indépendants"
+      }
+    ],
+    "wikidataId": "Q594672"
+  },
+  {
+    "id": "rivenzi",
+    "name": "Rivenzi",
+    "gender": "masculin",
+    "categories": ["streameur ou streameuse"],
+    "parties": [],
+    "wikidataId": "Q110986556",
+    "image": "Rivenzi_en_2025.png"
+  },
+  {
+    "id": "mathilde-imer",
+    "name": "Mathilde Imer",
+    "birthDate": "1990-06-14",
+    "gender": "féminin",
+    "categories": ["écologiste", "menuisier", "charpentier ou charpentière"],
+    "parties": [],
+    "wikidataId": "Q106696490",
+    "image": "Mathilde_Imer_%C3%A0_La_Derni%C3%A8re_02.jpg"
+  },
+  {
+    "id": "fibretigre",
+    "name": "FibreTigre",
+    "birthDate": "1978-06-20",
+    "gender": "masculin",
+    "categories": [
+      "auteur ou autrice de bande dessinée",
+      "concepteur ou conceptrice de jeux de rôle",
+      "dessinateur ou dessinatrice de bande dessinée",
+      "concepteur ou conceptrice de jeu",
+      "auteur ou autrice de jeux de société",
+      "créateur ou créatrice de bandes dessinées",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q61715223",
+    "image": "Fibretigre_2025.jpg"
+  },
+  {
+    "id": "florie-marie",
+    "name": "Florie Marie",
+    "birthDate": "1987-01-01",
+    "gender": "féminin",
+    "categories": [
+      "ingénieurs et cadres techniques d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Jeunes écologistes",
+        "start": "2010-01-01",
+        "end": "2017-01-01"
+      },
+      {
+        "name": "Les Écologistes",
+        "start": "2011-01-01",
+        "end": "2013-01-01"
+      },
+      {
+        "name": "Parti pirate",
+        "start": "2017-04-01"
+      }
+    ],
+    "wikidataId": "Q63646223",
+    "image": "Florie_marie_%28cropped%29.jpg"
+  },
+  {
+    "id": "julien-menielle",
+    "name": "Julien Ménielle",
+    "birthDate": "1974-06-26",
+    "gender": "masculin",
+    "categories": [
+      "youtubeur ou youtubeuse",
+      "journaliste",
+      "infirmière ou infirmier",
+      "acteur ou actrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q73275930",
+    "image": "Julien_M%C3%A9nielle.png"
+  },
+  {
+    "id": "daz",
+    "name": "DazJDM",
+    "birthDate": "1993-02-22",
+    "gender": "masculin",
+    "categories": ["streameur ou streameuse"],
+    "parties": []
+  },
+  {
+    "id": "daniel-andreyev",
+    "name": "Daniel Andreyev",
+    "gender": "masculin",
+    "categories": ["journaliste", "traducteur ou traductrice"],
+    "parties": [],
+    "wikidataId": "Q123680189"
+  },
+  {
+    "id": "lea-chamboncel",
+    "name": "Léa Chamboncel",
+    "birthDate": "1986-01-01",
+    "gender": "féminin",
+    "categories": [
+      "podcasteur ou podcasteuse",
+      "publiciste",
+      "écrivain ou écrivaine"
+    ],
+    "parties": [],
+    "wikidataId": "Q111378866"
+  },
+  {
+    "id": "daniele-obono",
+    "name": "Danièle Obono",
+    "birthDate": "1980-07-12",
+    "gender": "féminin",
+    "categories": [
+      "cadres de la fonction publique",
+      "bibliothécaire",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "La France insoumise",
+        "start": "2016-01-01"
+      }
+    ],
+    "wikidataId": "Q30335340",
+    "image": "Marche_des_fiert%C3%A9s_de_Paris_2017-22.jpg"
+  },
+  {
+    "id": "kronomuzik",
+    "name": "Kronomuzik",
+    "birthDate": "1991-01-01",
+    "gender": "masculin",
+    "categories": [
+      "vlogueur ou vlogueuse",
+      "musicien ou musicienne",
+      "producteur ou productrice de disques"
+    ],
+    "parties": [],
+    "wikidataId": "Q111012020",
+    "image": "PXL_20221104_200653937~2.jpg"
+  },
+  {
+    "id": "ultia",
+    "name": "Ultia",
+    "birthDate": "1995-09-11",
+    "gender": "féminin",
+    "categories": [
+      "streameur ou streameuse",
+      "réalisateur ou réalisatrice de cinéma"
+    ],
+    "parties": [],
+    "wikidataId": "Q110986591",
+    "image": "Ultia%2C_lors_du_ZEVENT_2025.jpg"
+  },
+  {
+    "id": "deujna",
+    "name": "Deujna",
+    "birthDate": "1997-03-01",
+    "gender": "féminin",
+    "categories": ["streameur ou streameuse"],
+    "parties": [],
+    "wikidataId": "Q115920489"
+  },
+  {
+    "id": "simon-puech",
+    "name": "Simon Puech",
+    "birthDate": "1996-06-19",
+    "gender": "masculin",
+    "categories": ["vidéaste web"],
+    "parties": [],
+    "wikidataId": "Q133770963",
+    "image": "Simon_Puech_en_2023.png"
+  },
+  {
+    "id": "ken-bogard",
+    "name": "Ken Bogard",
+    "birthDate": "1985-03-13",
+    "gender": "masculin",
+    "categories": ["commentateur sportif"],
+    "parties": [],
+    "wikidataId": "Q23021041",
+    "image": "Kenbogard2.jpg"
+  },
+  {
+    "id": "livio-bernardo",
+    "name": "Livio Bernardo",
+    "birthDate": "1986-01-26",
+    "gender": "masculin",
+    "categories": [
+      "dessinateur ou dessinatrice humoristique",
+      "illustrateur ou illustratrice",
+      "graphiste"
+    ],
+    "parties": [],
+    "wikidataId": "Q106729034",
+    "image": "Portrait_Livio_Bernardo_par_Alexis_Jarret.jpg"
+  },
+  {
+    "id": "maxime-biaggi",
+    "name": "Maxime Biaggi",
+    "birthDate": "1997-06-11",
+    "gender": "masculin",
+    "categories": [
+      "streameur ou streameuse",
+      "youtubeur ou youtubeuse",
+      "acteur ou actrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q111393745",
+    "image": "Maxime_Biaggi_en_2025.jpg"
+  },
+  {
+    "id": "zerator",
+    "name": "Zerator",
+    "birthDate": "1990-03-01",
+    "gender": "masculin",
+    "categories": ["streameur ou streameuse"],
+    "parties": [],
+    "wikidataId": "Q29838448",
+    "image": "2019-06_ZrT_Trackmania_Cup_52.jpg"
+  },
+  {
+    "id": "lam-hua",
+    "name": "Lâm Hua",
+    "gender": "masculin",
+    "categories": ["streameur ou streameuse", "journaliste"],
+    "parties": [],
+    "wikidataId": "Q124350946"
+  },
+  {
+    "id": "exserv",
+    "name": "ExServ",
+    "gender": "masculin",
+    "categories": ["développeur de jeux vidéo", "journaliste"],
+    "parties": [],
+    "wikidataId": "Q108117104"
+  },
+  {
+    "id": "frederique-dumas",
+    "name": "Frédérique Dumas",
+    "birthDate": "1963-05-18",
+    "gender": "féminin",
+    "categories": [
+      "producteur ou productrice de cinéma",
+      "chef ou cheffe d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union des démocrates et indépendants"
+      }
+    ],
+    "wikidataId": "Q3090377",
+    "image": "PFDumas.jpg"
+  },
+  {
+    "id": "samuel-grzybowski",
+    "name": "Samuel Grzybowski",
+    "birthDate": "1992-05-20",
+    "gender": "masculin",
+    "categories": ["entrepreneur social ou entrepreneuse sociale"],
+    "parties": [],
+    "wikidataId": "Q17640151",
+    "image": "Samuel_Grzybowski_au_festival_international_de_g%C3%A9ographie_2024.jpg"
+  },
+  {
+    "id": "misterfox",
+    "name": "Misterfox",
+    "gender": "masculin",
+    "categories": ["vidéaste web"],
+    "parties": [],
+    "wikidataId": "Q136029927"
+  },
+  {
+    "id": "aurelien-tache",
+    "name": "Aurélien Taché",
+    "birthDate": "1984-05-26",
+    "gender": "masculin",
+    "categories": ["cadres de la fonction publique", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "end": "2017-01-01"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2017-01-01",
+        "end": "2020-05-16"
+      },
+      {
+        "name": "Les Nouveaux Démocrates",
+        "start": "2020-12-16",
+        "end": "2022-10-23"
+      },
+      {
+        "name": "Les Écologistes",
+        "start": "2022-10-23",
+        "end": "2024-03-13"
+      },
+      {
+        "name": "La France insoumise",
+        "start": "2024-03-13"
+      }
+    ],
+    "wikidataId": "Q30390884",
+    "image": "20250709-P1240323_Tache_Aurelien_Wikipedia.jpg"
+  },
+  {
+    "id": "zack-nani",
+    "name": "Zack Nani",
+    "birthDate": "1995-03-31",
+    "gender": "masculin",
+    "categories": [
+      "diffuseur",
+      "créateur ou créatrice de contenu",
+      "streameur ou streameuse",
+      "youtubeur ou youtubeuse",
+      "vidéaste"
+    ],
+    "parties": [],
+    "wikidataId": "Q123764822",
+    "image": "Zack_Nani_-_Zack_en_Roue_Libre_%28S06E16%29.jpg"
+  },
+  {
+    "id": "joanie-lemercier",
+    "name": "Joanie Lemercier",
+    "birthDate": "1982-01-01",
+    "gender": "masculin",
+    "categories": ["plasticien ou plasticienne"],
+    "parties": [],
+    "wikidataId": "Q125628529",
+    "image": "F%C3%AAte_des_Lumi%C3%A8res_2023_202312_0024_%2853394274547%29.jpg"
+  },
+  {
+    "id": "manes-nadel",
+    "name": "Manès Nadel",
+    "birthDate": "2007-01-01",
+    "gender": "masculin",
+    "categories": ["syndicaliste", "lycéen ou lycéenne"],
+    "parties": [],
+    "wikidataId": "Q117457653"
+  },
+  {
+    "id": "olivier-blazy",
+    "name": "Olivier Blazy",
+    "birthDate": "1986-01-01",
+    "gender": "masculin",
+    "categories": ["informaticien ou informaticienne"],
+    "parties": [],
+    "wikidataId": "Q60643173"
+  },
+  {
+    "id": "emilie-delaunay",
+    "name": "Emilie Delaunay",
+    "birthDate": "1983-05-04",
+    "gender": "féminin",
+    "categories": [
+      "réalisateur ou réalisatrice de cinéma",
+      "acteur ou actrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q3588847"
+  },
+  {
+    "id": "jerome-guedj",
+    "name": "Jérôme Guedj",
+    "birthDate": "1972-01-23",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "professions libérales et assimilés",
+      "haut fonctionnaire ou haute fonctionnaire",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ],
+    "wikidataId": "Q3190925",
+    "image": "J%C3%A9r%C3%B4me_Guedj_2010.jpg"
+  },
+  {
+    "id": "elsa-mari",
+    "name": "Elsa Mari",
+    "birthDate": "1980-02-25",
+    "gender": "féminin",
+    "categories": ["marathonien", "athlète"],
+    "parties": [],
+    "wikidataId": "Q457628",
+    "image": "Marisa_Barros_6620.jpg"
+  },
+  {
+    "id": "louis-boyard",
+    "name": "Louis Boyard",
+    "birthDate": "2000-08-26",
+    "gender": "masculin",
+    "categories": ["élèves, étudiants", "personnalité politique"],
+    "parties": [
+      {
+        "name": "La France insoumise"
+      }
+    ],
+    "wikidataId": "Q112654108",
+    "image": "Louis_Boyard_%28cropped%29.jpg"
+  },
+  {
+    "id": "vincent-manileve",
+    "name": "Vincent Manilève",
+    "gender": "masculin",
+    "categories": ["journaliste", "écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q134716186"
+  },
+  {
+    "id": "antoine-leaument",
+    "name": "Antoine Léaument",
+    "birthDate": "1989-09-04",
+    "gender": "masculin",
+    "categories": [
+      "personnes diverses sans activité professionnelle de moins de 60 ans sauf retraités",
+      "cadres administratifs et commerciaux d'entreprise",
+      "vlogueur ou vlogueuse",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "La France insoumise",
+        "start": "2016-01-01"
+      },
+      {
+        "name": "Parti de gauche",
+        "start": "2011-01-01"
+      }
+    ],
+    "wikidataId": "Q62976462",
+    "image": "Antoine_L%C3%A9aument_le_21_juillet_2024.jpg"
+  },
+  {
+    "id": "arthur-delaporte",
+    "name": "Arthur Delaporte",
+    "birthDate": "1991-10-07",
+    "gender": "masculin",
+    "categories": [
+      "professeurs, professions scientifiques",
+      "professeur d'université",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ],
+    "wikidataId": "Q112641115",
+    "image": "20240708-P1010210.jpg"
+  },
+  {
+    "id": "stephane-vojetta",
+    "name": "Stéphane Vojetta",
+    "birthDate": "1974-07-19",
+    "gender": "masculin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "chef ou cheffe d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance"
+      }
+    ],
+    "wikidataId": "Q108823633",
+    "image": "20240708-P1010459_St%C3%A9phane_Vojetta_Wikipedia.jpg"
+  },
+  {
+    "id": "david-perrotin",
+    "name": "David Perrotin",
+    "birthDate": "1989-11-01",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q110263260"
+  },
+  {
+    "id": "genevieve-darrieussecq",
+    "name": "Geneviève Darrieussecq",
+    "birthDate": "1956-03-04",
+    "gender": "féminin",
+    "categories": [
+      "professions libérales et assimilés",
+      "personnalité politique",
+      "médecin"
+    ],
+    "parties": [
+      {
+        "name": "Mouvement démocrate"
+      }
+    ],
+    "wikidataId": "Q3100615",
+    "image": "Genevi%C3%A8ve_Darrieussecq_-_2017.jpg"
+  },
+  {
+    "id": "olivier-serva",
+    "name": "Olivier Serva",
+    "birthDate": "1974-06-21",
+    "gender": "masculin",
+    "categories": [
+      "personnalité politique",
+      "professions libérales et assimilés",
+      "expert-comptable"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2017-03-12",
+        "end": "2022-06-12"
+      },
+      {
+        "name": "Ultra-marins, Territoires, Indépendants, Liberté, Écologie et Solidarité",
+        "start": "2023-03-24"
+      }
+    ],
+    "wikidataId": "Q30390327",
+    "image": "Olivier_Serva.jpg"
+  },
+  {
+    "id": "salome-saque",
+    "name": "Salomé Saqué",
+    "birthDate": "1995-05-10",
+    "gender": "féminin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q110507860",
+    "image": "R%C3%A9ponse_de_Macron_aux_Jeunes%2C_La_Grande_Illusion_%E2%80%94_Salom%C3%A9_Saqu%C3%A9.png"
+  },
+  {
+    "id": "pierre-lapin",
+    "name": "Pierre Lapin",
+    "birthDate": "1988-06-27",
+    "gender": "masculin",
+    "categories": [
+      "streameur ou streameuse",
+      "animateur ou animatrice",
+      "vlogueur ou vlogueuse",
+      "photographe",
+      "podcasteur ou podcasteuse"
+    ],
+    "parties": [],
+    "wikidataId": "Q105725280",
+    "image": "PierreLapin2021.jpg"
+  },
+  {
+    "id": "bolchegeek",
+    "name": "Bolchegeek",
+    "birthDate": "1986-08-01",
+    "gender": "masculin",
+    "categories": ["vidéaste"],
+    "parties": [],
+    "wikidataId": "Q133283104"
+  },
+  {
+    "id": "philippe-dominati",
+    "name": "Philippe Dominati",
+    "birthDate": "1954-04-12",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Union pour la démocratie française",
+        "start": "1989-01-01",
+        "end": "1998-01-01"
+      },
+      {
+        "name": "Démocratie libérale",
+        "start": "1998-01-01",
+        "end": "2002-04-23"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2002-04-23"
+      }
+    ],
+    "wikidataId": "Q3379746"
+  },
+  {
+    "id": "christine-lavarde",
+    "name": "Christine Lavarde",
+    "birthDate": "1984-10-16",
+    "gender": "féminin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Les Républicains"
+      }
+    ],
+    "wikidataId": "Q41055355"
+  },
+  {
+    "id": "sylvie-retailleau",
+    "name": "Sylvie Retailleau",
+    "birthDate": "1965-02-24",
+    "gender": "féminin",
+    "categories": [
+      "professeur de physique",
+      "professeur des universités",
+      "physicien ou physicienne"
+    ],
+    "parties": [
+      {
+        "name": "Gouvernement",
+        "start": "2022-05-20",
+        "end": "2024-09-21"
+      }
+    ],
+    "wikidataId": "Q47498954",
+    "image": "Sylvie_Retailleau_2018_%28crop%29.jpg"
+  },
+  {
+    "id": "ava-mind",
+    "name": "Ava Mind",
+    "birthDate": "1992-03-01",
+    "gender": "féminin",
+    "categories": ["streameur ou streameuse", "disc jockey"],
+    "parties": [],
+    "wikidataId": "Q135907692",
+    "image": "Ava_Mind_en_2022.png"
+  },
+  {
+    "id": "jeremie-perin",
+    "name": "Jérémie Périn",
+    "birthDate": "1978-01-01",
+    "gender": "masculin",
+    "categories": ["réalisateur ou réalisatrice de cinéma", "scénariste"],
+    "parties": [],
+    "wikidataId": "Q13188504",
+    "image": "J%C3%A9r%C3%A9mie-P%C3%A9rin.jpg"
+  },
+  {
+    "id": "ici-japon",
+    "name": "Ici Japon",
+    "birthDate": "1980-01-24",
+    "gender": "masculin",
+    "categories": [
+      "youtubeur ou youtubeuse",
+      "vidéaste",
+      "entrepreneur ou entrepreneuse"
+    ],
+    "parties": [],
+    "wikidataId": "Q122879636",
+    "image": "Tev_Ici_Japon_en_2023_Zack_en_Roue_Libre.png"
+  },
+  {
+    "id": "aymeric-lompret",
+    "name": "Aymeric Lompret",
+    "birthDate": "1988-03-17",
+    "gender": "masculin",
+    "categories": ["auteur comique", "acteur ou actrice"],
+    "parties": [],
+    "wikidataId": "Q2874965",
+    "image": "Aymeric_Lompret_%C3%A0_La_Derni%C3%A8re_03_%28cropped%29.jpg"
+  },
+  {
+    "id": "maxime-combes",
+    "name": "Maxime Combes",
+    "birthDate": "1950-01-01",
+    "gender": "masculin",
+    "categories": ["économiste"],
+    "parties": [],
+    "wikidataId": "Q47015882"
+  },
+  {
+    "id": "nicolas-lellouche",
+    "name": "Nicolas Lellouche",
+    "categories": ["chercheur ou chercheuse"],
+    "parties": [],
+    "wikidataId": "Q114511911"
+  },
+  {
+    "id": "monsieur-poulpe",
+    "name": "Monsieur Poulpe",
+    "birthDate": "1981-02-07",
+    "gender": "masculin",
+    "categories": [
+      "animateur ou animatrice de télévision",
+      "créateur ou créatrice de bandes dessinées",
+      "humoriste",
+      "acteur ou actrice",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q3321452",
+    "image": "Monsieur_Poulpe_2018.jpg"
+  },
+  {
+    "id": "philippe-brun",
+    "name": "Philippe Brun",
+    "birthDate": "1991-10-16",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "magistrat ou magistrate",
+      "personnalité politique"
+    ],
+    "parties": [],
+    "wikidataId": "Q112649913",
+    "image": "LOUVIERS_-_4e_circo_Eure_-_Philippe_Brun_nouveau_d%C3%A9put%C3%A9_22_juin_2022_%281%29_%28cropped%29.jpg"
+  },
+  {
+    "id": "emilio-meslet",
+    "name": "Emilio Meslet",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q107785683"
+  },
+  {
+    "id": "mistermv",
+    "name": "MisterMV",
+    "birthDate": "1980-08-26",
+    "gender": "masculin",
+    "categories": ["streameur ou streameuse", "compositeur ou compositrice"],
+    "parties": [],
+    "wikidataId": "Q88555012",
+    "image": "Xavier_Dang.jpg"
+  },
+  {
+    "id": "elsa-faucillon",
+    "name": "Elsa Faucillon",
+    "birthDate": "1981-08-06",
+    "gender": "féminin",
+    "categories": [
+      "cadres administratifs et commerciaux d'entreprise",
+      "employé du secteur privé",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti communiste français"
+      }
+    ],
+    "wikidataId": "Q30349257",
+    "image": "Elsa_Faucillon_20231010.jpg"
+  },
+  {
+    "id": "charles-villa",
+    "name": "Charles Villa",
+    "gender": "masculin",
+    "categories": [
+      "vlogueur ou vlogueuse",
+      "journaliste",
+      "reporter ou reportrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q90879923"
+  },
+  {
+    "id": "aurore-lalucq",
+    "name": "Aurore Lalucq",
+    "birthDate": "1979-04-17",
+    "gender": "féminin",
+    "categories": ["économiste", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Place publique",
+        "start": "2019-01-01"
+      },
+      {
+        "name": "Génération.s",
+        "start": "2017-01-01",
+        "end": "2019-01-01"
+      }
+    ],
+    "wikidataId": "Q56320702",
+    "image": "Aurore_Lalucq_-_20250320_EP-182300A_AHA_014_%28cropped%29.jpg"
+  },
+  {
+    "id": "mounir-satouri",
+    "name": "Mounir Satouri",
+    "birthDate": "1975-05-25",
+    "gender": "masculin",
+    "categories": ["cadre supérieur", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      },
+      {
+        "name": "Les Écologistes"
+      },
+      {
+        "name": "Les Verts"
+      }
+    ],
+    "wikidataId": "Q63537174",
+    "image": "1721737240269_20240723_EP-171121A_PB9_053.jpg"
+  },
+  {
+    "id": "sacha-houlie",
+    "name": "Sacha Houlié",
+    "birthDate": "1988-10-08",
+    "gender": "masculin",
+    "categories": [
+      "professions libérales et assimilés",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance"
+      }
+    ],
+    "wikidataId": "Q30349465",
+    "image": "Sacha_Houli%C3%A9_02_%28cropped%29.jpg"
+  },
+  {
+    "id": "sophie-taille-polian",
+    "name": "Sophie Taillé-Polian",
+    "birthDate": "1974-10-04",
+    "gender": "féminin",
+    "categories": ["cadres de la fonction publique", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ],
+    "wikidataId": "Q41075996",
+    "image": "Sophie_Taill%C3%A9-Polian_au_S%C3%A9nat.png"
+  },
+  {
+    "id": "marie-pierre-vedrenne",
+    "name": "Marie-Pierre Vedrenne",
+    "birthDate": "1982-12-13",
+    "gender": "féminin",
+    "categories": ["juriste", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Renaissance"
+      }
+    ],
+    "wikidataId": "Q63965965",
+    "image": "WTO_Public_Forum_2019_Day_2_-_Marie-Pierre_Vedrenne.jpg"
+  },
+  {
+    "id": "fabienne-keller",
+    "name": "Fabienne Keller",
+    "birthDate": "1959-10-20",
+    "gender": "féminin",
+    "categories": ["banquier", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Union pour un mouvement populaire"
+      },
+      {
+        "name": "Union pour la démocratie française"
+      }
+    ],
+    "wikidataId": "Q440151",
+    "image": "Fabienne_Keller_par_Claude_Truong-Ngoc_avril_2013.jpg"
+  },
+  {
+    "id": "olivier-besancenot",
+    "name": "Olivier Besancenot",
+    "birthDate": "1974-04-18",
+    "gender": "masculin",
+    "categories": [
+      "communiste",
+      "syndicaliste",
+      "facteur ou factrice",
+      "auteur",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Nouveau Parti anticapitaliste"
+      },
+      {
+        "name": "Ligue communiste révolutionnaire"
+      }
+    ],
+    "wikidataId": "Q12932",
+    "image": "Meeting_NPA_-_Toulouse_-_2012-04-17_-_21h25_%28cropped%29.jpg"
+  },
+  {
+    "id": "raphael-arnault",
+    "name": "Raphaël Arnault",
+    "birthDate": "1995-01-08",
+    "gender": "masculin",
+    "categories": [
+      "employés civils et agents de service de la fonction publique",
+      "antifasciste",
+      "militant ou militante",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Nouveau Parti anticapitaliste"
+      }
+    ],
+    "wikidataId": "Q116870344",
+    "image": "Manifestation_du_22_novembre_2025_%C3%A0_Paris_contre_les_violences_sexistes%2C_sexuelles_et_de_genre_%E2%80%94_090.jpg"
+  },
+  {
+    "id": "fabien-gay",
+    "name": "Fabien Gay",
+    "birthDate": "1984-01-13",
+    "gender": "masculin",
+    "categories": ["personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti communiste français"
+      }
+    ],
+    "wikidataId": "Q41099326",
+    "image": "Fabien_Gay_s%C3%A9nateur_communiste.png"
+  },
+  {
+    "id": "rosa-moussaoui",
+    "name": "Rosa Moussaoui",
+    "gender": "féminin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q131427928"
+  },
+  {
+    "id": "lucie-castets",
+    "name": "Lucie Castets",
+    "birthDate": "1987-03-03",
+    "gender": "féminin",
+    "categories": [
+      "militant ou militante",
+      "enseignant-chercheur associé",
+      "haut fonctionnaire ou haute fonctionnaire",
+      "personnalité politique",
+      "porte-parole"
+    ],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "start": "2008-01-01",
+        "end": "2011-01-01"
+      }
+    ],
+    "wikidataId": "Q47259175",
+    "image": "Lucie_Castets_31_juillet_2024.jpg"
+  },
+  {
+    "id": "iman-ahmed",
+    "name": "Iman Ahmed",
+    "categories": ["chercheur ou chercheuse"],
+    "parties": [],
+    "wikidataId": "Q89313617"
+  },
+  {
+    "id": "julien-bisson",
+    "name": "Julien Bisson",
+    "birthDate": "1983-01-01",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q46018185",
+    "image": "Julien_bisson_LSlaP_100839.jpg"
+  },
+  {
+    "id": "antoine-bristielle",
+    "name": "Antoine Bristielle",
+    "birthDate": "1992-01-01",
+    "gender": "masculin",
+    "categories": ["chercheur ou chercheuse en sciences sociales"],
+    "parties": [],
+    "wikidataId": "Q106291727"
+  },
+  {
+    "id": "sebastian-marx",
+    "name": "Sebastian Marx",
+    "birthDate": "1979-01-01",
+    "gender": "masculin",
+    "categories": ["humoriste de scène", "acteur ou actrice"],
+    "parties": [],
+    "wikidataId": "Q131427679",
+    "image": "Sebastian_Marx.png"
+  },
+  {
+    "id": "julien-vaulpre",
+    "name": "Julien Vaulpré",
+    "birthDate": "1975-10-14",
+    "gender": "masculin",
+    "categories": ["personnalité du monde des affaires"],
+    "parties": [],
+    "wikidataId": "Q33103503"
+  },
+  {
+    "id": "fanny-lacroix",
+    "name": "Fanny Lacroix",
+    "birthDate": "1985-04-24",
+    "gender": "féminin",
+    "categories": [
+      "cadres de la fonction publique",
+      "techniciens",
+      "personnalité politique"
+    ],
+    "parties": [],
+    "wikidataId": "Q98236558"
+  },
+  {
+    "id": "stephane-troussel",
+    "name": "Stéphane Troussel",
+    "birthDate": "1970-04-07",
+    "gender": "masculin",
+    "categories": ["fonctionnaire de catégorie A", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste"
+      }
+    ],
+    "wikidataId": "Q3502112",
+    "image": "St%C3%A9phane_Troussel_-_avril_2021_%282cropped%29.jpg"
+  },
+  {
+    "id": "ugo-bernalicis",
+    "name": "Ugo Bernalicis",
+    "birthDate": "1989-09-25",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "attaché d'administration centrale",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Parti de gauche",
+        "start": "2009-01-01"
+      },
+      {
+        "name": "Parti socialiste",
+        "start": "2007-01-01",
+        "end": "2008-01-01"
+      },
+      {
+        "name": "La France insoumise",
+        "start": "2016-01-01"
+      }
+    ],
+    "wikidataId": "Q30339370",
+    "image": "R%C3%A9union_publique_FI%2C_Le_Creusot%2C_15_May_2019_-_01_%28cropped%29.jpg"
+  },
+  {
+    "id": "erwan-balanant",
+    "name": "Erwan Balanant",
+    "birthDate": "1971-02-21",
+    "gender": "masculin",
+    "categories": [
+      "professions de l'information, des arts et des spectacles",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Mouvement démocrate"
+      }
+    ],
+    "wikidataId": "Q30348579",
+    "image": "Balanant.jpg"
+  },
+  {
+    "id": "yannick-kergoat",
+    "name": "Yannick Kergoat",
+    "birthDate": "2000-01-01",
+    "gender": "masculin",
+    "categories": [
+      "monteur ou monteuse",
+      "réalisateur ou réalisatrice de cinéma",
+      "scénariste"
+    ],
+    "parties": [],
+    "wikidataId": "Q8048880",
+    "image": "Yannick_Kergoat.jpg"
+  },
+  {
+    "id": "pascal-canfin",
+    "name": "Pascal Canfin",
+    "birthDate": "1974-08-22",
+    "gender": "masculin",
+    "categories": [
+      "journaliste",
+      "professeur d'université",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Écologistes",
+        "start": "2010-01-01",
+        "end": "2015-01-01"
+      },
+      {
+        "name": "Renaissance"
+      },
+      {
+        "name": "Les Verts",
+        "start": "2001-01-01",
+        "end": "2010-01-01"
+      }
+    ],
+    "wikidataId": "Q929393",
+    "image": "1721813521340_20240723_EP-171139A_AR2_263.jpg"
+  },
+  {
+    "id": "maryse-dumas",
+    "name": "Maryse Dumas",
+    "birthDate": "1953-04-25",
+    "gender": "féminin",
+    "categories": ["syndicaliste"],
+    "parties": [],
+    "wikidataId": "Q3296320"
+  },
+  {
+    "id": "pauline-ferrari",
+    "name": "Pauline Ferrari",
+    "gender": "féminin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q130297993",
+    "image": "Pauline_ferrari.jpg"
+  },
+  {
+    "id": "michel-fournier",
+    "name": "Michel Fournier",
+    "birthDate": "1950-01-11",
+    "gender": "masculin",
+    "categories": [
+      "anciens artisans, commerçants, chefs d'entreprise",
+      "pensionné",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Divers droite"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-12"
+      }
+    ],
+    "wikidataId": "Q65582016",
+    "image": "Fournier_Matignon_(cropped).jpg"
+  },
+  {
+    "id": "cyrielle-chatelain",
+    "name": "Cyrielle Chatelain",
+    "birthDate": "1987-07-15",
+    "gender": "féminin",
+    "categories": ["cadres de la fonction publique", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Les Écologistes",
+        "start": "2005-01-01"
+      }
+    ],
+    "wikidataId": "Q112648926",
+    "image": "Cyrielle_Chatelain_crop.jpg"
+  },
+  {
+    "id": "pascal-brun",
+    "name": "Pascal Brun",
+    "birthDate": "",
+    "gender": "masculin",
+    "categories": ["militant ou militante politique"],
+    "parties": []
+  },
+  {
+    "id": "sophie-catala",
+    "name": "Sophie Catala",
+    "gender": "féminin",
+    "categories": ["cadres de la fonction publique"],
+    "parties": []
+  },
+  {
+    "id": "alexandre-peron",
+    "name": "Alexandre Peron",
+    "birthDate": "",
+    "gender": "masculin",
+    "categories": ["entrepreneur ou entrepreneuse"],
+    "parties": []
+  },
+  {
+    "id": "pierre-hurmic",
+    "name": "Pierre Hurmic",
+    "birthDate": "1955-04-10",
+    "gender": "masculin",
+    "categories": [
+      "professions libérales et assimilés",
+      "personnalité politique",
+      "avocat ou avocate"
+    ],
+    "parties": [
+      {
+        "name": "Les Écologistes"
+      }
+    ],
+    "wikidataId": "Q55599019",
+    "image": "Portrait_Pierre_Hurmic.jpg"
+  },
+  {
+    "id": "malek-delegue",
+    "name": "Malek Délégué",
+    "birthDate": "",
+    "gender": "masculin",
+    "categories": ["consultant en communication politique"],
+    "parties": []
+  },
+  {
+    "id": "hardisk",
+    "name": "Hardisk",
+    "birthDate": "",
+    "gender": "masculin",
+    "categories": ["vidéaste web"],
+    "parties": []
+  },
+  {
+    "id": "elie-revah",
+    "name": "Elie Revah",
+    "birthDate": "1995-04-01",
+    "gender": "masculin",
+    "categories": ["conseiller ou conseillère politique"],
+    "parties": [
+      {
+        "name": "Divers droite",
+        "end": "2021-10-15"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2021-10-15"
+      }
+    ]
+  },
+  {
+    "id": "nox",
+    "name": "Nox",
+    "birthDate": "",
+    "gender": "féminin",
+    "categories": ["streameur ou streameuse"],
+    "parties": []
+  },
+  {
+    "id": "nota-bene",
+    "name": "Benjamin Brillaud",
+    "birthDate": "1988-06-18",
+    "gender": "masculin",
+    "categories": [
+      "youtubeur ou youtubeuse",
+      "vulgarisateur ou vulgarisatrice historique",
+      "vlogueur ou vlogueuse",
+      "vidéaste"
+    ],
+    "parties": [],
+    "wikidataId": "Q28495674",
+    "image": "Benjamin_Brillaud.jpg"
+  },
+  {
+    "id": "ponce",
+    "name": "Ponce",
+    "birthDate": "1991-09-21",
+    "gender": "masculin",
+    "categories": [
+      "streameur ou streameuse",
+      "directeur général ou directrice générale",
+      "acteur ou actrice"
+    ],
+    "parties": [],
+    "wikidataId": "Q100705519",
+    "image": "Aurélien_Gilles_(Ponce)_lors_du_ZEVENT_2025.jpg"
+  },
+  {
+    "id": "sebastien-carassou",
+    "name": "Sébastien Carassou",
+    "birthDate": "1992-02-01",
+    "gender": "masculin",
+    "categories": [
+      "vulgarisateur ou vulgarisatrice scientifique",
+      "conférencier ou conférencière"
+    ],
+    "parties": []
   }
 ]

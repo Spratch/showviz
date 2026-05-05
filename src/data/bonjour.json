@@ -1,0 +1,1314 @@
+{
+  "slug": "bonjour",
+  "title": "Bonjour ! La Matinale TF1",
+  "channel": "TF1",
+  "start": "2024-01-08",
+  "end": "",
+  "diffusions": [
+    {
+      "id": "01",
+      "date": "2024-01-08",
+      "guestsIds": ["xavier-bertrand", "pascal-obispo"]
+    },
+    {
+      "id": "02",
+      "date": "2024-01-09",
+      "guestsIds": ["josiane-balasko", "fabien-roussel"]
+    },
+    {
+      "id": "03",
+      "date": "2024-01-10",
+      "guestsIds": ["francois-xavier-demaison", "gerard-larcher"]
+    },
+    {
+      "id": "04",
+      "date": "2024-01-11",
+      "guestsIds": ["arthur", "marion-marechal"]
+    },
+    {
+      "id": "05",
+      "date": "2024-01-12",
+      "guestsIds": ["clementine-autain", "messmer"]
+    },
+    {
+      "id": "06",
+      "date": "2024-01-15",
+      "guestsIds": ["michel-edouard-leclerc", "lorie-pester"]
+    },
+    {
+      "id": "07",
+      "date": "2024-01-16",
+      "guestsIds": ["jordan-bardella", "jean-francois-piege"]
+    },
+    {
+      "id": "08",
+      "date": "2024-01-17",
+      "guestsIds": ["yael-braun-pivet", "marc-lavoine"]
+    },
+    {
+      "id": "09",
+      "date": "2024-01-18",
+      "guestsIds": ["sandrine-rousseau"]
+    },
+    {
+      "id": "10",
+      "date": "2024-01-19",
+      "guestsIds": ["christophe-bechu"]
+    },
+    {
+      "id": "11",
+      "date": "2024-01-22",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "12",
+      "date": "2024-01-23",
+      "guestsIds": ["philippe-croizon", "vincent-jeanbrun"]
+    },
+    {
+      "id": "13",
+      "date": "2024-01-24",
+      "guestsIds": ["frederic-saldmann", "marine-tondelier"]
+    },
+    {
+      "id": "14",
+      "date": "2024-01-25",
+      "guestsIds": ["carole-delga", "lara-fabian"]
+    },
+    {
+      "id": "15",
+      "date": "2024-01-26",
+      "guestsIds": ["nicolas-dupont-aignan"]
+    },
+    {
+      "id": "16",
+      "date": "2024-01-29",
+      "guestsIds": ["chantal-ladesou", "nadine-morano"]
+    },
+    {
+      "id": "17",
+      "date": "2024-01-30",
+      "guestsIds": ["mathilde-panot"]
+    },
+    {
+      "id": "18",
+      "date": "2024-01-31",
+      "guestsIds": ["bruno-retailleau"]
+    },
+    {
+      "id": "19",
+      "date": "2024-02-01",
+      "guestsIds": ["yannick-alleno", "renaud-muselier"]
+    },
+    {
+      "id": "20",
+      "date": "2024-02-02",
+      "guestsIds": ["michel-biero", "amelie-oudea-castera"]
+    },
+    {
+      "id": "21",
+      "date": "2024-02-05",
+      "guestsIds": ["clementine-celarie", "alexis-corbiere"]
+    },
+    {
+      "id": "22",
+      "date": "2024-02-06",
+      "guestsIds": ["anne-roumanoff", "prisca-thevenot"]
+    },
+    {
+      "id": "23",
+      "date": "2024-02-07",
+      "guestsIds": ["edouard-baer", "haim-korsia"]
+    },
+    {
+      "id": "24",
+      "date": "2024-02-08",
+      "guestsIds": ["xavier-bertrand", "pierre-garnier"]
+    },
+    {
+      "id": "25",
+      "date": "2024-02-09",
+      "guestsIds": ["maud-bregeon", "thierry-reboul"]
+    },
+    {
+      "id": "26",
+      "date": "2024-02-12",
+      "guestsIds": ["kev-adams", "sophie-binet", "firmine-richard"]
+    },
+    {
+      "id": "27",
+      "date": "2024-02-13",
+      "guestsIds": ["jean-luc-reichmann", "arnaud-rousseau"]
+    },
+    {
+      "id": "28",
+      "date": "2024-02-14",
+      "guestsIds": ["dr-jimmy-mohamed", "dominique-schelcher"]
+    },
+    {
+      "id": "29",
+      "date": "2024-02-15",
+      "guestsIds": ["eric-ciotti", "cristina-cordula"]
+    },
+    {
+      "id": "30",
+      "date": "2024-02-16",
+      "guestsIds": ["alain-krakovitch"]
+    },
+    {
+      "id": "31",
+      "date": "2024-02-19",
+      "guestsIds": ["louis-aliot", "renaud-capucon"]
+    },
+    {
+      "id": "32",
+      "date": "2024-02-20",
+      "guestsIds": ["arnaud-gaillot", "philippe-lellouche"]
+    },
+    {
+      "id": "33",
+      "date": "2024-02-21",
+      "guestsIds": ["patrick-bruel", "david-lisnard"]
+    },
+    {
+      "id": "34",
+      "date": "2024-02-22",
+      "guestsIds": ["christian-estrosi", "cristiana-reali"]
+    },
+    {
+      "id": "35",
+      "date": "2024-02-23",
+      "guestsIds": ["marc-fesneau"]
+    },
+    {
+      "id": "36",
+      "date": "2024-02-26",
+      "guestsIds": ["michel-biero", "booder"]
+    },
+    {
+      "id": "37",
+      "date": "2024-02-27",
+      "guestsIds": ["jerome-bayle", "richard-berry"]
+    },
+    {
+      "id": "38",
+      "date": "2024-02-28",
+      "guestsIds": ["jean-luc-melenchon", "karin-viard"]
+    },
+    {
+      "id": "39",
+      "date": "2024-02-29",
+      "guestsIds": ["anny-duperey", "anne-hidalgo", "francis-perrin"]
+    },
+    {
+      "id": "40",
+      "date": "2024-03-01",
+      "guestsIds": ["jean-noel-barrot", "patrice-douret"]
+    },
+    {
+      "id": "41",
+      "date": "2024-03-04",
+      "guestsIds": ["didier-barbelivien", "aurore-berge"]
+    },
+    {
+      "id": "42",
+      "date": "2024-03-05",
+      "guestsIds": ["michel-boujenah", "thierry-cotillard"]
+    },
+    {
+      "id": "43",
+      "date": "2024-03-06",
+      "guestsIds": ["raquel-garrido", "caroline-vigneaux"]
+    },
+    {
+      "id": "44",
+      "date": "2024-03-07",
+      "guestsIds": ["isabelle-boulay", "sebastien-chenu"]
+    },
+    {
+      "id": "45",
+      "date": "2024-03-08",
+      "guestsIds": ["marlene-schiappa"]
+    },
+    {
+      "id": "46",
+      "date": "2024-04-19",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "47",
+      "date": "2024-04-22",
+      "guestsIds": ["virginie-ledoyen", "amelie-oudea-castera"]
+    },
+    {
+      "id": "48",
+      "date": "2024-04-23",
+      "guestsIds": ["louis-aliot", "nicoletta"]
+    },
+    {
+      "id": "49",
+      "date": "2024-04-24",
+      "guestsIds": ["christophe-dechavanne", "karl-olive"]
+    },
+    {
+      "id": "50",
+      "date": "2024-04-30",
+      "guestsIds": ["alain-chamfort", "bruno-retailleau"]
+    },
+    {
+      "id": "51",
+      "date": "2024-05-03",
+      "guestsIds": ["leon-deffontaines", "anne-sophie-jahn"]
+    },
+    {
+      "id": "52",
+      "date": "2024-05-06",
+      "guestsIds": ["yonathan-arfi", "maitena-biraben", "jean-pierre-raffarin"]
+    },
+    {
+      "id": "53",
+      "date": "2024-05-07",
+      "guestsIds": ["maud-bregeon", "adriana-karembeu"]
+    },
+    {
+      "id": "54",
+      "date": "2024-05-08",
+      "guestsIds": ["juan-arbelaez"]
+    },
+    {
+      "id": "55",
+      "date": "2024-05-09",
+      "guestsIds": ["alexandre-cressiot", "valerie-hayer"]
+    },
+    {
+      "id": "56",
+      "date": "2024-05-10",
+      "guestsIds": ["alexis-corbiere"]
+    },
+    {
+      "id": "57",
+      "date": "2024-05-27",
+      "guestsIds": ["olivier-faure"]
+    },
+    {
+      "id": "58",
+      "date": "2024-05-30",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "59",
+      "date": "2024-06-07",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "60",
+      "date": "2024-06-11",
+      "guestsIds": ["olivier-faure"]
+    },
+    {
+      "id": "61",
+      "date": "2024-06-20",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "62",
+      "date": "2024-06-24",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "63",
+      "date": "2024-07-05",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "64",
+      "date": "2024-07-18",
+      "guestsIds": ["alexandre-jardin", "bruno-retailleau"]
+    },
+    {
+      "id": "65",
+      "date": "2024-07-22",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "66",
+      "date": "2024-07-24",
+      "guestsIds": ["olivier-faure"]
+    },
+    {
+      "id": "67",
+      "date": "2024-08-05",
+      "guestsIds": ["elie-semoun"]
+    },
+    {
+      "id": "68",
+      "date": "2024-08-06",
+      "guestsIds": ["roxana-maracineanu", "thierry-marx"]
+    },
+    {
+      "id": "69",
+      "date": "2024-08-07",
+      "guestsIds": ["guy-drut"]
+    },
+    {
+      "id": "70",
+      "date": "2024-08-08",
+      "guestsIds": ["sylvain-tesson"]
+    },
+    {
+      "id": "71",
+      "date": "2024-08-09",
+      "guestsIds": []
+    },
+    {
+      "id": "72",
+      "date": "2024-08-12",
+      "guestsIds": ["laetitia-dosch", "karim-leklou"]
+    },
+    {
+      "id": "73",
+      "date": "2024-08-13",
+      "guestsIds": ["mathilde-guenegan", "douchka-volaric"]
+    },
+    {
+      "id": "74",
+      "date": "2024-08-14",
+      "guestsIds": []
+    },
+    {
+      "id": "75",
+      "date": "2024-08-15",
+      "guestsIds": ["melissa-da-costa"]
+    },
+    {
+      "id": "76",
+      "date": "2024-08-16",
+      "guestsIds": []
+    },
+    {
+      "id": "77",
+      "date": "2024-08-19",
+      "guestsIds": [
+        "marc-brincourt",
+
+        "stephane-freiss",
+
+        "norbert-saada",
+        "aurelie-trouve"
+      ]
+    },
+    {
+      "id": "78",
+      "date": "2024-08-20",
+      "guestsIds": ["anne-roumanoff"]
+    },
+    {
+      "id": "79",
+      "date": "2024-08-21",
+      "guestsIds": ["jacques-legros", "sabrina-agresti-roubache"]
+    },
+    {
+      "id": "80",
+      "date": "2024-08-22",
+      "guestsIds": ["clement-beaune", "tatiana-silva"]
+    },
+    {
+      "id": "81",
+      "date": "2024-08-23",
+      "guestsIds": ["fabien-roussel"]
+    },
+    {
+      "id": "82",
+      "date": "2024-08-26",
+      "guestsIds": ["philippe-collin", "sandrine-rousseau"]
+    },
+    {
+      "id": "83",
+      "date": "2024-08-27",
+      "guestsIds": ["sebastien-chenu", "charlotte-de-turckheim"]
+    },
+    {
+      "id": "84",
+      "date": "2024-08-28",
+      "guestsIds": ["aurore-berge", "lucie-bernardoni", "sofia-pace"]
+    },
+    {
+      "id": "85",
+      "date": "2024-08-29",
+      "guestsIds": ["yves-camdeborde", "carole-delga"]
+    },
+    {
+      "id": "86",
+      "date": "2024-08-30",
+      "guestsIds": ["karim-bouamrane"]
+    },
+    {
+      "id": "87",
+      "date": "2024-09-02",
+      "guestsIds": ["didier-bourdon", "jean-philippe-tanguy"]
+    },
+    {
+      "id": "88",
+      "date": "2024-09-03",
+      "guestsIds": ["jean-francois-cope", "julie-gayet", "jul"]
+    },
+    {
+      "id": "89",
+      "date": "2024-09-04",
+      "guestsIds": ["francois-xavier-demaison", "olivier-faure"]
+    },
+    {
+      "id": "90",
+      "date": "2024-09-05",
+      "guestsIds": ["laurent-jacobelli", "patrick-timsit"]
+    },
+    {
+      "id": "91",
+      "date": "2024-09-11",
+      "guestsIds": ["eric-ciotti"]
+    },
+    {
+      "id": "92",
+      "date": "2024-09-19",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "93",
+      "date": "2024-09-23",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "94",
+      "date": "2024-09-30",
+      "guestsIds": ["marie-anne-chazel", "michel-leeb", "mathieu-lefevre"]
+    },
+    {
+      "id": "95",
+      "date": "2024-10-01",
+      "guestsIds": ["evelyne-dheliat", "olivier-faure", "georges-salinas"]
+    },
+    {
+      "id": "96",
+      "date": "2024-10-07",
+      "guestsIds": ["patrick-hernandez", "francois-hollande"]
+    },
+    {
+      "id": "97",
+      "date": "2024-10-08",
+      "guestsIds": ["louis-aliot", "michel-jonasz"]
+    },
+    {
+      "id": "98",
+      "date": "2024-10-09",
+      "guestsIds": ["christophe-bechu", "patrick-sabatier"]
+    },
+    {
+      "id": "99",
+      "date": "2024-10-10",
+      "guestsIds": ["nikos-aliagas", "sandrine-rousseau"]
+    },
+    {
+      "id": "100",
+      "date": "2024-10-11",
+      "guestsIds": ["eric-coquerel"]
+    },
+    {
+      "id": "101",
+      "date": "2024-10-14",
+      "guestsIds": ["sebastien-chenu", "antoine-dulery"]
+    },
+    {
+      "id": "102",
+      "date": "2024-10-15",
+      "guestsIds": ["francois-berleand", "sophie-binet"]
+    },
+    {
+      "id": "103",
+      "date": "2024-10-16",
+      "guestsIds": ["arnaud-rousseau", "marc-veyrat"]
+    },
+    {
+      "id": "104",
+      "date": "2024-10-17",
+      "guestsIds": ["anne-genetet", "kylie-minogue", "tanguy-pastureau"]
+    },
+    {
+      "id": "105",
+      "date": "2024-10-22",
+      "guestsIds": ["antoine-armand", "gerard-lanvin", "fabien-onteniente"]
+    },
+    {
+      "id": "106",
+      "date": "2024-10-23",
+      "guestsIds": ["booder", "astrid-panosyan-bouvet"]
+    },
+    {
+      "id": "107",
+      "date": "2024-10-24",
+      "guestsIds": ["thierry-ardisson", "aurore-berge"]
+    },
+    {
+      "id": "108",
+      "date": "2024-10-30",
+      "guestsIds": ["pauline-deroulede", "david-lisnard"]
+    },
+    {
+      "id": "109",
+      "date": "2024-10-31",
+      "guestsIds": ["laure-lavalette", "ibrahim-maalouf"]
+    },
+    {
+      "id": "110",
+      "date": "2024-11-01",
+      "guestsIds": ["prisca-thevenot"]
+    },
+    {
+      "id": "111",
+      "date": "2024-11-06",
+      "guestsIds": ["thierry-breton"]
+    },
+    {
+      "id": "112",
+      "date": "2024-11-07",
+      "guestsIds": ["anne-le-nen", "marion-marechal", "muriel-robin"]
+    },
+    {
+      "id": "113",
+      "date": "2024-11-08",
+      "guestsIds": ["francois-durovray"]
+    },
+    {
+      "id": "114",
+      "date": "2024-11-12",
+      "guestsIds": ["annie-genevard", "claude-lelouch"]
+    },
+    {
+      "id": "115",
+      "date": "2024-11-13",
+      "guestsIds": ["chimene-badi", "eric-ciotti"]
+    },
+    {
+      "id": "116",
+      "date": "2024-11-14",
+      "guestsIds": ["sebastien-chenu", "robert-menard"]
+    },
+    {
+      "id": "117",
+      "date": "2024-11-15",
+      "guestsIds": ["sebastien-chenu", "pascal-obispo"]
+    },
+    {
+      "id": "118",
+      "date": "2024-11-18",
+      "guestsIds": ["xavier-bertrand"]
+    },
+    {
+      "id": "119",
+      "date": "2024-11-19",
+      "guestsIds": ["maud-bregeon", "arnaud-ducret"]
+    },
+    {
+      "id": "120",
+      "date": "2024-11-20",
+      "guestsIds": ["louis-aliot", "louis-chedid"]
+    },
+    {
+      "id": "121",
+      "date": "2024-11-21",
+      "guestsIds": ["nicolas-daragon", "florent-peyre"]
+    },
+    {
+      "id": "122",
+      "date": "2024-11-22",
+      "guestsIds": ["valerie-pecresse"]
+    },
+    {
+      "id": "123",
+      "date": "2024-11-25",
+      "guestsIds": ["cedric-doumbe", "marc-fesneau"]
+    },
+    {
+      "id": "124",
+      "date": "2024-11-26",
+      "guestsIds": ["jeremy-frerot"]
+    },
+    {
+      "id": "125",
+      "date": "2024-11-27",
+      "guestsIds": ["valerie-bonneton", "benjamin-haddad", "kad-merad"]
+    },
+    {
+      "id": "126",
+      "date": "2024-11-28",
+      "guestsIds": ["renaud-muselier", "vincent-niclo"]
+    },
+    {
+      "id": "127",
+      "date": "2024-11-29",
+      "guestsIds": ["didier-migaud"]
+    },
+    {
+      "id": "128",
+      "date": "2024-12-02",
+      "guestsIds": ["aurore-berge", "denis-brogniart"]
+    },
+    {
+      "id": "129",
+      "date": "2024-12-03",
+      "guestsIds": ["francois-regis-gaudry", "bruno-retailleau"]
+    },
+    {
+      "id": "130",
+      "date": "2024-12-04",
+      "guestsIds": ["laure-lavalette", "natasha-st-pier"]
+    },
+    {
+      "id": "131",
+      "date": "2024-12-05",
+      "guestsIds": ["jean-louis-aubert", "francois-ruffin"]
+    },
+    {
+      "id": "132",
+      "date": "2024-12-06",
+      "guestsIds": ["pierre-herme", "yannick-jadot"]
+    },
+    {
+      "id": "133",
+      "date": "2024-12-11",
+      "guestsIds": ["eric-carriere", "eric-coquerel", "francis-ginibre"]
+    },
+    {
+      "id": "134",
+      "date": "2024-12-12",
+      "guestsIds": ["guy-savoy", "jean-philippe-tanguy"]
+    },
+    {
+      "id": "135",
+      "date": "2024-12-13",
+      "guestsIds": ["aurelien-rousseau"]
+    },
+    {
+      "id": "136",
+      "date": "2024-12-16",
+      "guestsIds": ["manuel-bompard", "thierry-lhermitte"]
+    },
+    {
+      "id": "137",
+      "date": "2024-12-17",
+      "guestsIds": [
+        "angelique-angarni-filopon",
+        "yani-khezzar",
+        "laure-lavalette"
+      ]
+    },
+    {
+      "id": "138",
+      "date": "2024-12-18",
+      "guestsIds": ["arnaud-ducret", "marc-fesneau", "tom-villa"]
+    },
+    {
+      "id": "139",
+      "date": "2024-12-19",
+      "guestsIds": ["gerard-larcher", "stephanie-le-quellec"]
+    },
+    {
+      "id": "140",
+      "date": "2024-12-20",
+      "guestsIds": ["pierre-chomet", "christophe-michalak", "bruno-millienne"]
+    },
+    {
+      "id": "141",
+      "date": "2024-12-23",
+      "guestsIds": [
+        "raphael-glucksmann",
+        "claire-heitzler",
+        "camille-lellouche"
+      ]
+    },
+    {
+      "id": "142",
+      "date": "2024-12-24",
+      "guestsIds": ["gerald-ariano", "arthur", "karl-olive", "maxime-tabart"]
+    },
+    {
+      "id": "143",
+      "date": "2024-12-30",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "144",
+      "date": "2025-01-09",
+      "guestsIds": ["olivier-faure"]
+    },
+    {
+      "id": "145",
+      "date": "2025-01-22",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "146",
+      "date": "2025-02-12",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "147",
+      "date": "2025-02-19",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "148",
+      "date": "2025-02-25",
+      "guestsIds": ["eric-ciotti"]
+    },
+    {
+      "id": "149",
+      "date": "2025-02-27",
+      "guestsIds": ["lucien-jean-baptiste"]
+    },
+    {
+      "id": "150",
+      "date": "2025-03-03",
+      "guestsIds": ["chantal-ladesou", "manu-payet"]
+    },
+    {
+      "id": "151",
+      "date": "2025-03-04",
+      "guestsIds": ["redouane-bougheraba"]
+    },
+    {
+      "id": "152",
+      "date": "2025-03-06",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "153",
+      "date": "2025-03-21",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "154",
+      "date": "2025-03-25",
+      "guestsIds": ["olivier-faure"]
+    },
+    {
+      "id": "155",
+      "date": "2025-03-26",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "156",
+      "date": "2025-04-21",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "157",
+      "date": "2025-05-14",
+      "guestsIds": ["olivier-faure"]
+    },
+    {
+      "id": "158",
+      "date": "2025-05-15",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "159",
+      "date": "2025-05-23",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "160",
+      "date": "2025-06-03",
+      "guestsIds": ["olivier-faure"]
+    },
+    {
+      "id": "161",
+      "date": "2025-06-17",
+      "guestsIds": ["eric-ciotti"]
+    },
+    {
+      "id": "162",
+      "date": "2025-06-27",
+      "guestsIds": ["frederic-plan"]
+    },
+    {
+      "id": "163",
+      "date": "2025-07-08",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "164",
+      "date": "2025-07-11",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "165",
+      "date": "2025-08-01",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "166",
+      "date": "2025-08-28",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "167",
+      "date": "2025-09-18",
+      "guestsIds": ["olivier-faure"]
+    },
+    {
+      "id": "168",
+      "date": "2025-09-23",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "169",
+      "date": "2025-09-24",
+      "guestsIds": ["eric-ciotti"]
+    },
+    {
+      "id": "170",
+      "date": "2025-10-06",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "171",
+      "date": "2025-10-22",
+      "guestsIds": ["eric-ciotti"]
+    },
+    {
+      "id": "172",
+      "date": "2025-11-27",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "173",
+      "date": "2025-12-15",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "174",
+      "date": "2025-12-26",
+      "guestsIds": ["sabrina-agresti-roubache"]
+    },
+    {
+      "id": "175",
+      "date": "2025-12-29",
+      "guestsIds": ["agnes-ricard-hibon"]
+    },
+    {
+      "id": "176",
+      "date": "2025-12-30",
+      "guestsIds": ["philippe-ballard"]
+    },
+    {
+      "id": "177",
+      "date": "2025-12-31",
+      "guestsIds": ["aurelie-trouve"]
+    },
+    {
+      "id": "178",
+      "date": "2026-01-01",
+      "guestsIds": ["edwige-diaz"]
+    },
+    {
+      "id": "179",
+      "date": "2026-01-02",
+      "guestsIds": ["david-amiel"]
+    },
+    {
+      "id": "180",
+      "date": "2026-01-05",
+      "guestsIds": ["pascal-confavreux"]
+    },
+    {
+      "id": "181",
+      "date": "2026-01-06",
+      "guestsIds": ["arnaud-rousseau"]
+    },
+    {
+      "id": "182",
+      "date": "2026-01-07",
+      "guestsIds": ["dominique-schelcher"]
+    },
+    {
+      "id": "183",
+      "date": "2026-01-08",
+      "guestsIds": ["pierre-yves-bournazel"]
+    },
+    {
+      "id": "184",
+      "date": "2026-01-09",
+      "guestsIds": ["benjamin-haddad"]
+    },
+    {
+      "id": "185",
+      "date": "2026-01-12",
+      "guestsIds": ["remy-heitz"]
+    },
+    {
+      "id": "186",
+      "date": "2026-01-13",
+      "guestsIds": ["maud-bregeon"]
+    },
+    {
+      "id": "187",
+      "date": "2026-01-14",
+      "guestsIds": ["xavier-bertrand"]
+    },
+    {
+      "id": "188",
+      "date": "2026-01-15",
+      "guestsIds": ["jean-philippe-tanguy"]
+    },
+    {
+      "id": "189",
+      "date": "2026-01-16",
+      "guestsIds": ["emmanuel-gregoire"]
+    },
+    {
+      "id": "190",
+      "date": "2026-01-19",
+      "guestsIds": ["elisabeth-borne"]
+    },
+    {
+      "id": "191",
+      "date": "2026-01-20",
+      "guestsIds": ["annie-genevard"]
+    },
+    {
+      "id": "192",
+      "date": "2026-01-21",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "193",
+      "date": "2026-01-22",
+      "guestsIds": ["rachida-dati"]
+    },
+    {
+      "id": "194",
+      "date": "2026-01-23",
+      "guestsIds": ["eric-coquerel"]
+    },
+    {
+      "id": "195",
+      "date": "2026-01-26",
+      "guestsIds": ["aurore-berge"]
+    },
+    {
+      "id": "196",
+      "date": "2026-01-27",
+      "guestsIds": ["mathilde-panot"]
+    },
+    {
+      "id": "197",
+      "date": "2026-01-28",
+      "guestsIds": ["franck-allisio"]
+    },
+    {
+      "id": "198",
+      "date": "2026-01-29",
+      "guestsIds": ["michel-edouard-leclerc"]
+    },
+    {
+      "id": "199",
+      "date": "2026-01-30",
+      "guestsIds": ["roland-lescure"]
+    },
+    {
+      "id": "200",
+      "date": "2026-02-02",
+      "guestsIds": ["segolene-royal"]
+    },
+    {
+      "id": "201",
+      "date": "2026-02-03",
+      "guestsIds": ["laurent-nunez"]
+    },
+    {
+      "id": "202",
+      "date": "2026-02-04",
+      "guestsIds": ["jean-philippe-tanguy"]
+    },
+    {
+      "id": "203",
+      "date": "2026-02-05",
+      "guestsIds": ["serge-papin"]
+    },
+    {
+      "id": "204",
+      "date": "2026-02-06",
+      "guestsIds": ["clementine-autain"]
+    },
+    {
+      "id": "205",
+      "date": "2026-02-09",
+      "guestsIds": ["clement-beaune"]
+    },
+    {
+      "id": "206",
+      "date": "2026-02-10",
+      "guestsIds": ["sebastien-martin"]
+    },
+    {
+      "id": "207",
+      "date": "2026-02-11",
+      "guestsIds": ["jeremie-patrier-leitus"]
+    },
+    {
+      "id": "208",
+      "date": "2026-02-12",
+      "guestsIds": ["marine-tondelier"]
+    },
+    {
+      "id": "209",
+      "date": "2026-02-13",
+      "guestsIds": ["maud-bregeon"]
+    },
+    {
+      "id": "210",
+      "date": "2026-02-16",
+      "guestsIds": ["olivia-gregoire"]
+    },
+    {
+      "id": "211",
+      "date": "2026-02-17",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "212",
+      "date": "2026-02-18",
+      "guestsIds": ["yael-braun-pivet"]
+    },
+    {
+      "id": "213",
+      "date": "2026-02-19",
+      "guestsIds": ["philippe-tabarot"]
+    },
+    {
+      "id": "214",
+      "date": "2026-02-23",
+      "guestsIds": ["eric-coquerel"]
+    },
+    {
+      "id": "215",
+      "date": "2026-02-24",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "216",
+      "date": "2026-02-25",
+      "guestsIds": ["sophie-binet"]
+    },
+    {
+      "id": "217",
+      "date": "2026-02-26",
+      "guestsIds": ["manuel-valls"]
+    },
+    {
+      "id": "218",
+      "date": "2026-02-27",
+      "guestsIds": ["arnaud-rousseau"]
+    },
+    {
+      "id": "219",
+      "date": "2026-03-02",
+      "guestsIds": ["joshua-laurent-zarka"]
+    },
+    {
+      "id": "220",
+      "date": "2026-03-03",
+      "guestsIds": ["alice-rufo"]
+    },
+    {
+      "id": "221",
+      "date": "2026-03-04",
+      "guestsIds": ["eleonore-caroit"]
+    },
+    {
+      "id": "222",
+      "date": "2026-03-05",
+      "guestsIds": ["maud-bregeon"]
+    },
+    {
+      "id": "223",
+      "date": "2026-03-06",
+      "guestsIds": ["jean-yves-le-drian"]
+    },
+    {
+      "id": "224",
+      "date": "2026-03-09",
+      "guestsIds": ["bernard-cazeneuve"]
+    },
+    {
+      "id": "225",
+      "date": "2026-03-10",
+      "guestsIds": ["serge-papin"]
+    },
+    {
+      "id": "226",
+      "date": "2026-03-11",
+      "guestsIds": ["jean-noel-barrot"]
+    },
+    {
+      "id": "227",
+      "date": "2026-03-12",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "228",
+      "date": "2026-03-13",
+      "guestsIds": ["jean-philippe-tanguy"]
+    },
+    {
+      "id": "229",
+      "date": "2026-03-16",
+      "guestsIds": ["pierre-jouvet"]
+    },
+    {
+      "id": "230",
+      "date": "2026-03-17",
+      "guestsIds": ["marlene-schiappa"]
+    },
+    {
+      "id": "231",
+      "date": "2026-03-18",
+      "guestsIds": ["manuel-bompard"]
+    },
+    {
+      "id": "232",
+      "date": "2026-03-19",
+      "guestsIds": ["sandrine-rousseau"]
+    },
+    {
+      "id": "233",
+      "date": "2026-03-20",
+      "guestsIds": ["othman-nasrou"]
+    },
+    {
+      "id": "234",
+      "date": "2026-03-23",
+      "guestsIds": ["michel-barnier"]
+    },
+    {
+      "id": "235",
+      "date": "2026-03-24",
+      "guestsIds": ["elisabeth-borne"]
+    },
+    {
+      "id": "236",
+      "date": "2026-03-25",
+      "guestsIds": ["christophe-bechu"]
+    },
+    {
+      "id": "237",
+      "date": "2026-03-26",
+      "guestsIds": ["marc-fesneau"]
+    },
+    {
+      "id": "238",
+      "date": "2026-03-27",
+      "guestsIds": ["david-amiel"]
+    },
+    {
+      "id": "239",
+      "date": "2026-03-30",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "240",
+      "date": "2026-03-31",
+      "guestsIds": ["amir-reza-tofighi"]
+    },
+    {
+      "id": "241",
+      "date": "2026-04-01",
+      "guestsIds": ["maud-bregeon"]
+    },
+    {
+      "id": "242",
+      "date": "2026-04-02",
+      "guestsIds": ["thierry-cotillard"]
+    },
+    {
+      "id": "243",
+      "date": "2026-04-03",
+      "guestsIds": ["philippe-tabarot"]
+    },
+    {
+      "id": "244",
+      "date": "2026-04-06",
+      "guestsIds": ["karl-olive"]
+    },
+    {
+      "id": "245",
+      "date": "2026-04-07",
+      "guestsIds": ["jean-francois-loiseau"]
+    },
+    {
+      "id": "246",
+      "date": "2026-04-08",
+      "guestsIds": ["dominique-schelcher"]
+    },
+    {
+      "id": "247",
+      "date": "2026-04-09",
+      "guestsIds": ["jean-pierre-farandou"]
+    },
+    {
+      "id": "248",
+      "date": "2026-04-10",
+      "guestsIds": ["marylise-leon"]
+    },
+    {
+      "id": "249",
+      "date": "2026-04-13",
+      "guestsIds": ["david-lisnard"]
+    },
+    {
+      "id": "250",
+      "date": "2026-04-14",
+      "guestsIds": ["nicolas-dufourcq"]
+    },
+    {
+      "id": "251",
+      "date": "2026-04-15",
+      "guestsIds": ["olivier-gantois"]
+    },
+    {
+      "id": "252",
+      "date": "2026-04-16",
+      "guestsIds": ["clement-beaune"]
+    },
+    {
+      "id": "253",
+      "date": "2026-04-17",
+      "guestsIds": ["catherine-vautrin"]
+    },
+    {
+      "id": "254",
+      "date": "2026-04-20",
+      "guestsIds": ["eric-coquerel"]
+    },
+    {
+      "id": "255",
+      "date": "2026-04-21",
+      "guestsIds": ["laurent-jacobelli"]
+    },
+    {
+      "id": "256",
+      "date": "2026-04-22",
+      "guestsIds": ["thomas-cazenave"]
+    },
+    {
+      "id": "257",
+      "date": "2026-04-23",
+      "guestsIds": ["raphael-glucksmann"]
+    },
+    {
+      "id": "258",
+      "date": "2026-04-24",
+      "guestsIds": ["nicolas-dupont-aignan"]
+    }
+  ]
+}

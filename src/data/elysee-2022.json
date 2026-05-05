@@ -1,0 +1,178 @@
+{
+  "slug": "elysee-2022",
+  "title": "Élysée 2022",
+  "channel": "France 2",
+  "start": "2021-09-23",
+  "end": "2022-04-05",
+  "diffusions": [
+    {
+      "id": "01",
+      "date": "2021-09-23",
+      "guestsIds": [
+        "valerie-pecresse",
+        "gerald-darmanin",
+        "camille-etienne",
+        "jean-michel-aphatie",
+        "alexandra-bensaid",
+        "fatiha-agag-boudjahlat",
+        "tugdual-denis",
+        "david-djaiz",
+        "herve-gattegno",
+        "francis-letellier",
+        "jean-baptiste-marteau",
+        "nathalie-saint-cricq",
+        "brice-teinturier"
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Congrès LR: le débat décisif",
+      "date": "2021-11-30",
+      "guestsIds": [
+        "michel-barnier",
+        "xavier-bertrand",
+        "eric-ciotti",
+        "philippe-juvin",
+        "valerie-pecresse"
+      ]
+    },
+    {
+      "id": "03",
+      "date": "2021-12-09",
+      "guestsIds": ["eric-zemmour", "bruno-le-maire", "samia-ghali"]
+    },
+    {
+      "id": "04",
+      "date": "2022-02-10",
+      "guestsIds": ["jean-luc-melenchon", "geoffroy-roux-de-bezieux"]
+    },
+    {
+      "id": "05",
+      "date": "2022-02-17",
+      "guestsIds": [
+        "yannick-jadot",
+        "jordan-bardella",
+        "julian-bugier",
+        "claire-chazal",
+        "francis-letellier",
+        "dominique-seux",
+        "samah-soula"
+      ]
+    },
+    {
+      "id": "06",
+      "date": "2022-03-03",
+      "guestsIds": [
+        "marine-le-pen",
+        "enrico-letta",
+        "mohamed-bouhafsi",
+        "hugo-clement",
+        "anne-sophie-lapix",
+        "francis-letellier",
+        "nathalie-saint-cricq"
+      ]
+    },
+    {
+      "id": "07",
+      "date": "2022-03-17",
+      "guestsIds": [
+        "eric-zemmour",
+        "yannick-jadot",
+        "thomas-snegaroff",
+        "nathalie-saint-cricq",
+        "dominique-seux",
+        "anne-hidalgo",
+        "christophe-castaner",
+        "patrick-cohen",
+        "francis-letellier",
+        "nicolas-dupont-aignan",
+        "roland-lescure"
+      ]
+    },
+    {
+      "id": "08",
+      "date": "2022-03-24",
+      "guestsIds": [
+        "jean-luc-melenchon",
+        "maryse-burgot",
+        "francis-letellier",
+        "thomas-snegaroff",
+        "valerie-pecresse",
+        "nathalie-saint-cricq",
+        "anne-sophie-lapix",
+        "patrick-cohen",
+        "fabien-roussel",
+        "sandrine-rousseau",
+        "dominique-seux",
+        "gilles-bornstein",
+        "nathalie-arthaud",
+        "jean-lassalle",
+        "laurent-jacobelli",
+        "patrick-stefanini"
+      ]
+    },
+    {
+      "id": "09",
+      "date": "2022-03-31",
+      "guestsIds": [
+        "nicolas-dupont-aignan",
+        "jean-baptiste-marteau",
+        "marine-le-pen",
+        "julian-bugier",
+        "jean-lassalle",
+        "emilie-tran-nguyen",
+        "nathalie-arthaud",
+        "djamel-mazi",
+        "fabien-roussel",
+        "nathalie-saint-cricq",
+        "jean-luc-melenchon",
+        "carole-gaessler"
+      ]
+    },
+    {
+      "id": "10",
+      "date": "2022-04-05",
+      "guestsIds": [
+        "philippe-poutou",
+        "gilles-bornstein",
+        "eric-zemmour",
+        "nathalie-saint-cricq",
+        "yannick-jadot",
+        "camille-girerd",
+        "valerie-pecresse",
+        "francis-letellier",
+        "anne-hidalgo",
+        "dominique-seux",
+        "emmanuel-macron"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Legislatives, 1er tour",
+      "date": "2022-06-09",
+      "guestsIds": [
+        "ian-brossat",
+        "adrien-quatennens",
+        "olivier-faure",
+        "julien-bayou",
+        "isabelle-florennes",
+        "olivier-veran",
+        "brigitte-foure",
+        "charles-consigny",
+        "jordan-bardella",
+        "guillaume-peltier"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Legislatives, 2d tour",
+      "date": "2022-06-16",
+      "guestsIds": [
+        "philippe-ballard",
+        "francois-bayrou",
+        "jean-francois-cope",
+        "mathilde-panot"
+      ]
+    }
+  ]
+}
