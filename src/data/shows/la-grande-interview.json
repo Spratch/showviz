@@ -4,6 +4,7 @@
   "channel": "CNews",
   "start": "2023-08-28",
   "end": "",
+  "firstSeason": 0,
   "diffusions": [
     {
       "id": "00-01",

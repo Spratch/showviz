@@ -5,7 +5,6 @@ import { getDateFromOrigin, monthIndex, startOfMonth } from "./utils";
 
 export const selectedShowAtom = atom(shows[0]);
 
-export const hideNeutralEpisodesAtom = atom(false);
 export const showParliamentAtom = atom(true);
 
 export const showDateRangeAtom = atom({ min: 0, max: 10000 });

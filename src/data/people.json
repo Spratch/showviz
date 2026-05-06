@@ -26059,7 +26059,17 @@
     ],
     "parties": [
       {
-        "name": "Union pour un mouvement populaire"
+        "name": "Les Républicains",
+        "end": "2017-06-19"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2017-06-19",
+        "end": "2021-10-09"
+      },
+      {
+        "name": "Horizons",
+        "start": "2021-10-09"
       }
     ],
     "wikidataId": "Q16669934",
@@ -27780,7 +27790,12 @@
     ],
     "parties": [
       {
-        "name": "Nouveau Parti anticapitaliste"
+        "name": "Nouveau Parti anticapitaliste",
+        "end": "2024-01-01"
+      },
+      {
+        "name": "La France insoumise",
+        "start": "2024-01-01"
       }
     ],
     "wikidataId": "Q116870344",
@@ -27914,17 +27929,17 @@
     ],
     "parties": [
       {
-        "name": "Parti de gauche",
-        "start": "2009-01-01"
-      },
-      {
         "name": "Parti socialiste",
         "start": "2007-01-01",
         "end": "2008-01-01"
       },
       {
         "name": "La France insoumise",
-        "start": "2016-01-01"
+        "start": "2016-02-10"
+      },
+      {
+        "name": "Parti de gauche",
+        "start": "2009-01-01"
       }
     ],
     "wikidataId": "Q30339370",
@@ -28248,7 +28263,13 @@
     ],
     "parties": [
       {
-        "name": "Union pour un mouvement populaire"
+        "name": "Union pour un mouvement populaire",
+        "end": "2006-09-05"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2002-05-07",
+        "end": "2004-03-30"
       }
     ],
     "wikidataId": "Q740110",
@@ -28401,7 +28422,13 @@
     ],
     "parties": [
       {
-        "name": "Union pour un mouvement populaire"
+        "name": "Les Républicains",
+        "start": "2002-04-23",
+        "end": "2021-10-09"
+      },
+      {
+        "name": "Horizons",
+        "start": "2021-10-09"
       }
     ],
     "wikidataId": "Q2863211",
@@ -28466,16 +28493,28 @@
     "birthDate": "1961-08-17",
     "gender": "masculin",
     "categories": [
+      "personnalité politique",
       "permanent politique",
-      "administrateur des services de l'Assemblée nationale",
-      "personnalité politique"
+      "administrateur des services de l'Assemblée nationale"
     ],
     "parties": [
       {
-        "name": "Union pour la démocratie française"
+        "name": "Union pour la démocratie française",
+        "end": "2007-11-30"
       },
       {
-        "name": "Parti républicain"
+        "name": "Union des démocrates et indépendants",
+        "start": "2012-04-11",
+        "end": "2017-12-16"
+      },
+      {
+        "name": "Les Centristes",
+        "start": "2007-11-30"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2007-05-18",
+        "end": "2010-11-13"
       }
     ],
     "wikidataId": "Q521021",
@@ -28603,10 +28642,22 @@
     "categories": ["personnalité politique"],
     "parties": [
       {
-        "name": "Union pour la démocratie française"
+        "name": "Droite libérale-chrétienne",
+        "end": "2003-09-25"
       },
       {
-        "name": "Parti républicain"
+        "name": "Les Républicains",
+        "start": "2003-09-25",
+        "end": "2021-12-01"
+      },
+      {
+        "name": "Reconquête",
+        "start": "2021-12-01"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "1995-05-18",
+        "end": "1997-06-02"
       }
     ],
     "wikidataId": "Q2368327",
@@ -28633,7 +28684,12 @@
     "categories": ["personnalité politique", "avocat ou avocate"],
     "parties": [
       {
-        "name": "Union pour un mouvement populaire"
+        "name": "Les Républicains"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2024-09-21",
+        "end": "2025-10-05"
       }
     ],
     "wikidataId": "Q12944",
@@ -28698,13 +28754,12 @@
     "categories": ["diplomate", "personnalité politique"],
     "parties": [
       {
-        "name": "Libres"
+        "name": "Les Républicains"
       },
       {
-        "name": "Rassemblement pour la République"
-      },
-      {
-        "name": "Union pour un mouvement populaire"
+        "name": "Gouvernement",
+        "start": "2007-05-18",
+        "end": "2011-08-24"
       }
     ],
     "wikidataId": "Q1059511",

@@ -10,7 +10,6 @@ import useScreenDimensions from "@/hooks/useScreenWidth";
 import {
   convertedDateRangeAtom,
   filteredDateRangeAtom,
-  hideNeutralEpisodesAtom,
   originTotalAtom,
   selectedShowAtom,
   showDateRangeAtom,
@@ -112,23 +111,12 @@ export default function Show({ params }: { params: { showSlug: string } }) {
   }, [seasons, setShowDateRange, setDateRange, totalMonths]);
 
   const [min, max] = useAtomValue(convertedDateRangeAtom);
-  const hideNeutralEpisodes = useAtomValue(hideNeutralEpisodesAtom);
 
   const displayedSeasons = seasons
     .sort((a, b) => b.id.localeCompare(a.id))
     .map((season) => {
       const filteredEpisodes = season.episodes.filter((e) => {
         const episodeDate = new Date(e.date);
-
-        const politicalGuestIds = hideNeutralEpisodes
-          ? new Set(season.politicalGuests.map((g) => g.id))
-          : null;
-
-        if (
-          politicalGuestIds &&
-          !e.guestsIds.some((id) => politicalGuestIds.has(id))
-        )
-          return false;
 
         return episodeDate >= min && episodeDate <= max;
       });
@@ -187,7 +175,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
   const mostInvitedGuests = Object.entries(
     displayedSeasons
       .flatMap((season) =>
-        hideNeutralEpisodes ? season.politicalGuests : season.seasonGuests,
+        showParliament ? season.politicalGuests : season.seasonGuests,
       )
       .reduce(
         (
@@ -304,13 +292,40 @@ export default function Show({ params }: { params: { showSlug: string } }) {
       [],
     );
 
+  const entries = Object.entries(mostInvitedParties).filter(
+    ([, [, party]]) => party.abbr !== "Gouv",
+  );
+
+  const total = fakeParliamentMembers.length;
+
+  const rawPercentages = entries.map(([id, [, party]]) => ({
+    id,
+    party,
+    raw: (party.occurences / total) * 100,
+    floored: Math.floor((party.occurences / total) * 100),
+  }));
+
+  const sumFloored = rawPercentages.reduce(
+    (acc, { floored }) => acc + floored,
+    0,
+  );
+  const remainder = 100 - sumFloored;
+
+  const withPercentages = rawPercentages
+    .map((item) => ({ ...item, decimal: item.raw - item.floored }))
+    .sort((a, b) => b.decimal - a.decimal)
+    .map((item, i) => ({
+      ...item,
+      percentage: item.floored + (i < remainder ? 1 : 0),
+    }));
+
   return (
     <>
       <Header displayedSeasons={displayedSeasons} />
-      <main className="flex w-full max-w-5xl grow flex-col gap-8 overflow-x-hidden px-2 pb-8 md:gap-16 md:pt-6">
+      <main className="flex w-full max-w-5xl grow flex-col gap-8 overflow-x-hidden px-2 md:gap-16 md:pt-6">
         {!showParliament ? (
           <section className="flex flex-col gap-3">
-            <h2 className="font-display text-xl font-medium">
+            <h2 className="font-display text-base font-medium sm:text-xl">
               Invités par saisons
             </h2>
             <div className="flex w-full flex-col gap-8">
@@ -321,7 +336,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
           </section>
         ) : (
           <section className="flex w-full flex-col">
-            <h2 className="font-display text-xl font-medium">
+            <h2 className="font-display text-base font-medium sm:text-xl">
               Répartition des invités politiques
             </h2>
             <div className="flex min-h-64 w-full items-center justify-center sm:h-96 md:h-150">
@@ -378,6 +393,41 @@ export default function Show({ params }: { params: { showSlug: string } }) {
           </section>
         )}
 
+        <div className="flex h-10 w-full overflow-hidden rounded-sm">
+          {withPercentages
+            .sort(
+              (a, b) =>
+                (partiesOrder.get(a.party.name) ?? Infinity) -
+                (partiesOrder.get(b.party.name) ?? Infinity),
+            )
+            .map(({ id, party, percentage }) => {
+              return (
+                <div
+                  key={id}
+                  className="bg-current-blended text-2xs h-full overflow-hidden font-mono"
+                  data-color={party.name}
+                  style={
+                    {
+                      width: `${percentage}%`,
+                      "--current-color": party.color,
+                    } as React.CSSProperties
+                  }
+                >
+                  <div className="flex h-full flex-col justify-between px-0.75 pt-px">
+                    {party.abbr && percentage > 3 && (
+                      <span className="text-primary">{party.abbr}</span>
+                    )}
+                    {percentage > 3 && (
+                      <span className="text-3xs max-sm:hidden">
+                        {percentage.toFixed(1)}%
+                      </span>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+        </div>
+
         <Separator
           orientation="horizontal"
           className={"bg-border/50 mx-48 h-px"}
@@ -406,7 +456,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
 
           {mostInvitedGuests.length > 0 && (
             <TopList<PersonWithOccurencesType>
-              title="Invités les plus fréquents"
+              title={`Invités${showParliament ? " politiques" : ""} les plus fréquents`}
               list={mostInvitedGuests}
               renderItem={(id, guest) => (
                 <div

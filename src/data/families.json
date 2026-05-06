@@ -1315,6 +1315,13 @@
             "full_name_de": "Republikanische Freiheitspartei"
           },
           {
+            "name": "DLC",
+            "full_name": "Droite libérale-chrétienne",
+            "full_name_en": "Liberal-Christian right",
+            "full_name_de": "Liberal-christliches Recht",
+            "period": "1998-2003"
+          },
+          {
             "name": "HOR",
             "full_name": "Horizons",
             "full_name_en": "Horizons",

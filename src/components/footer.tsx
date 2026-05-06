@@ -17,12 +17,13 @@ export default function Footer() {
   const dateSliderMax = totalMonths - 1;
 
   return (
-    <footer className="sticky bottom-0 z-30 flex w-full max-w-5xl flex-col items-start justify-between gap-4 px-2 pt-2 pb-2 md:pt-8">
+    <footer className="pointer-events-none fixed bottom-0 z-30 flex w-full max-w-5xl flex-col items-start justify-between gap-4 px-2 pt-2 pb-2 font-mono md:pt-8">
       <SliderControlled
         title="Filtrer par date"
         labels={dateRangeLabels}
         max={dateSliderMax}
         value={dateRange}
+        className="pointer-events-auto"
         onValueChange={(value) =>
           setDateRange(value as number[] | readonly number[])
         }
