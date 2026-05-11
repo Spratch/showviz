@@ -7,6 +7,7 @@ import elysee2022 from "@/data/shows/elysee-2022.json";
 import enSociete from "@/data/shows/en-societe.json";
 import levenement from "@/data/shows/l-evenement.json";
 import gdeItw from "@/data/shows/la-grande-interview.json";
+import gdJury from "@/data/shows/le-grand-jury.json";
 import quelleEpoque from "@/data/shows/quelle-epoque.json";
 import thinkerview from "@/data/shows/thinkerview.json";
 import type { ShowType } from "@/types";
@@ -23,4 +24,5 @@ export const shows: ShowType[] = [
   elysee2022,
   backseat,
   gdeItw,
+  gdJury,
 ];
