@@ -52,6 +52,7 @@ export type PersonType = PersonDataType & {
     date: string;
     title?: string;
   };
+  wikipediaUrl?: string;
 };
 
 export type PersonWithOccurencesType = PersonType & {
@@ -97,3 +98,26 @@ export type TooltipContentType = {
 };
 
 export type ListItemType = PersonWithOccurencesType | PartyWithOccurencesType;
+
+export type RegimeType = {
+  name: string;
+  name_en?: string;
+  name_de?: string;
+  begin?: string;
+  end?: string;
+  legislatures: LegislatureType[];
+  source?: string[];
+};
+
+export type LegislatureType = {
+  legislature: number;
+  total_deputies: number;
+  duration?: number;
+  begin: string;
+  end: string;
+  parties: {
+    name: string;
+    deputies: number;
+  }[];
+  source?: string[];
+};

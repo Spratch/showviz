@@ -23,6 +23,10 @@ const channelOwners = {
     color: "#3875C6",
     channels: ["CNews"],
   },
+  Bertelsmann: {
+    color: "#032D64",
+    channels: ["RTL"],
+  },
   Indépendant: {
     color: "#CDCCCD",
     channels: ["Indépendant"],
@@ -50,7 +54,7 @@ export default function Index() {
   const { screenWidth } = screenDimensions;
 
   return (
-    <main className="flex w-full min-w-0 grow scale-90 flex-wrap items-center justify-center gap-8 overflow-x-hidden px-2 pb-8 md:gap-0 md:pt-6">
+    <main className="flex w-full min-w-0 grow flex-wrap items-center justify-center gap-8 overflow-x-hidden px-2 pb-8 md:gap-0 md:pt-6">
       {Object.entries(showsByChannelOwner).map(([owner, showList]) => (
         <div
           key={owner}
@@ -107,7 +111,7 @@ export default function Index() {
                   endYear && endYear !== startYear
                     ? `${startYear}-${endYear}`
                     : !endYear
-                      ? `${startYear}-`
+                      ? `${startYear}⇢`
                       : undefined;
 
                 return (

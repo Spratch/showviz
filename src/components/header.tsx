@@ -4,7 +4,7 @@ import type { SeasonType } from "@/types";
 import ListIcon from "~icons/tabler/list-details";
 import { Tabs, TabsList, TabsTrigger } from "./ui/tabs";
 
-import { useAtomValue, useSetAtom } from "jotai";
+import { useAtom, useAtomValue } from "jotai";
 import { useLocation } from "wouter";
 import {
   Select,
@@ -20,7 +20,7 @@ export default function Header({
 }: {
   displayedSeasons: SeasonType[];
 }) {
-  const setShowParliament = useSetAtom(showParliamentAtom);
+  const [showParliament, setShowParliament] = useAtom(showParliamentAtom);
   const selectedShow = useAtomValue(selectedShowAtom);
   const [, navigate] = useLocation();
   const titles = shows.map((show) => ({
@@ -94,7 +94,10 @@ export default function Header({
           </p>
         </div>
 
-        <Tabs defaultValue="hemicycle" className="font-display">
+        <Tabs
+          value={showParliament ? "hemicycle" : "list"}
+          className="font-display"
+        >
           <TabsList>
             <TabsTrigger
               value="hemicycle"
@@ -114,7 +117,7 @@ export default function Header({
   );
 }
 
-function HemicycleIcon() {
+export function HemicycleIcon() {
   return (
     <svg
       width="15"

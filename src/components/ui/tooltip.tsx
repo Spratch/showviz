@@ -94,7 +94,7 @@ export function TooltipContent({ screenDimensions, tooltipContent }: Props) {
             </Button>
           </div>
 
-          <div className="scroll-mask-y overflow-x-hidden overflow-y-scroll">
+          <div className="scroll-mask-y overflow-x-hidden overflow-y-scroll select-text">
             {content}
           </div>
         </div>

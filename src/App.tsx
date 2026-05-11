@@ -1,5 +1,4 @@
 import "@/App.css";
-import Footer from "@/components/footer";
 import Index from "@/pages";
 import Show from "@/pages/show";
 import { Route, Switch } from "wouter";
@@ -11,7 +10,6 @@ export default function App() {
         <Route path="/" component={Index} />
         <Route path=":showSlug" component={Show} />
       </Switch>
-      <Footer />
     </div>
   );
 }

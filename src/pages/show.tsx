@@ -1,5 +1,7 @@
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import HemicyclePersonCircle from "@/components/hemicyclePersonCircle";
+import PercentageBar from "@/components/percentageBar";
 import PersonCircle from "@/components/personCircle";
 import Season from "@/components/season";
 import TopList from "@/components/topList";
@@ -292,9 +294,23 @@ export default function Show({ params }: { params: { showSlug: string } }) {
       [],
     );
 
-  const entries = Object.entries(mostInvitedParties).filter(
-    ([, [, party]]) => party.abbr !== "Gouv",
-  );
+  const entries = Object.entries(mostInvitedParties)
+    .map(([id, [name, party]]): [string, [string, PartyWithOccurencesType]] => {
+      if (party.abbr !== "Gouv") return [id, [name, party]];
+      return [
+        id,
+        [
+          name,
+          {
+            ...party,
+            occurences: party.episodes.filter(
+              (episode) => episode.person?.party?.name === "Gouvernement",
+            ).length,
+          },
+        ],
+      ];
+    })
+    .filter(([, [, party]]) => party.occurences > 0);
 
   const total = fakeParliamentMembers.length;
 
@@ -318,6 +334,13 @@ export default function Show({ params }: { params: { showSlug: string } }) {
       ...item,
       percentage: item.floored + (i < remainder ? 1 : 0),
     }));
+
+  const everyGuestWhoDoesntHaveInfos = displayedSeasons
+    .flatMap((season) => season.seasonGuests)
+    .filter((g) => !g.gender)
+    .map((g) => g.id)
+    .join(" ");
+  if (everyGuestWhoDoesntHaveInfos) console.log(everyGuestWhoDoesntHaveInfos);
 
   return (
     <>
@@ -349,21 +372,20 @@ export default function Show({ params }: { params: { showSlug: string } }) {
                       .filter(Boolean),
                   ),
                 ]
-                  .map((name) =>
-                    name === "Gouvernement"
-                      ? `
-                      main:has([data-color="${name}"]:hover) [data-dot-size]:not(.border-2), main:has([data-color="${name}"]:focus-visible) [data-dot-size]:not(.border-2) {
+                  .map((name) => {
+                    const selector = `[data-party="${name}"]`;
+                    const el = `[data-party]:not(${selector})${name === "Gouvernement" ? ":not(.border-2)" : ""}`;
+                    return `
+                      main:has(${selector}:hover) ${el} {
                         opacity: 0.1!important;
-                        transition-duration: 300ms;
+                        transition-duration: 150ms;
+                        transition-property: opacity;
                       }
-                    `
-                      : `
-                      main:has([data-color="${name}"]:hover) [data-dot-size]:not([data-color="${name}"]), main:has([data-color="${name}"]:focus-visible) [data-dot-size]:not([data-color="${name}"]) {
+                      main:has(${selector}:focus-visible) ${el} {
                         opacity: 0.1!important;
-                        transition-duration: 300ms;
                       }
-                    `,
-                  )
+                    `;
+                  })
                   .join("")}
                   `}</style>
                 {fakeParliamentMembers.length > 0 &&
@@ -393,40 +415,18 @@ export default function Show({ params }: { params: { showSlug: string } }) {
           </section>
         )}
 
-        <div className="flex h-10 w-full overflow-hidden rounded-sm">
-          {withPercentages
-            .sort(
-              (a, b) =>
-                (partiesOrder.get(a.party.name) ?? Infinity) -
-                (partiesOrder.get(b.party.name) ?? Infinity),
-            )
-            .map(({ id, party, percentage }) => {
-              return (
-                <div
-                  key={id}
-                  className="bg-current-blended text-2xs h-full overflow-hidden font-mono"
-                  data-color={party.name}
-                  style={
-                    {
-                      width: `${percentage}%`,
-                      "--current-color": party.color,
-                    } as React.CSSProperties
-                  }
-                >
-                  <div className="flex h-full flex-col justify-between px-0.75 pt-px">
-                    {party.abbr && percentage > 3 && (
-                      <span className="text-primary">{party.abbr}</span>
-                    )}
-                    {percentage > 3 && (
-                      <span className="text-3xs max-sm:hidden">
-                        {percentage.toFixed(1)}%
-                      </span>
-                    )}
-                  </div>
-                </div>
-              );
-            })}
-        </div>
+        <PercentageBar
+          parties={withPercentages.sort(
+            (a, b) =>
+              (partiesOrder.get(a.party.name) ?? Infinity) -
+              (partiesOrder.get(b.party.name) ?? Infinity),
+          )}
+          title="Représentation des partis dans l'émission"
+          comparizon={{
+            start: new Date(min).toISOString(),
+            end: new Date(max).toISOString(),
+          }}
+        />
 
         <Separator
           orientation="horizontal"
@@ -493,6 +493,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
         </div>
       </main>
       <Tooltip screenDimensions={screenDimensions} />
+      <Footer />
     </>
   );
 }

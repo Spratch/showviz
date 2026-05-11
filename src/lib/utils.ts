@@ -1,4 +1,4 @@
-import type { FamilyType, PartyType, PersonType } from "@/types";
+import type { FamilyType, PersonType } from "@/types";
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 import families from "../data/families.json";
@@ -29,16 +29,28 @@ export const partiesOrder = new Map(
   currents.flatMap((c) => c.parties).map((p, i) => [p.full_name, i]),
 );
 
-export const getPartyInfos = (party: PartyType) => {
+export const getPartyInfos = (partyName: string, isFullName = true) => {
   const partyCurrent = currents.find((c) =>
-    c.parties.flatMap((p) => p.full_name).includes(party.name),
+    c.parties
+      .flatMap((p) => (isFullName ? p.full_name : p.name))
+      .includes(partyName),
   );
-  const partyAbbr = partyCurrent?.parties.find(
-    (p) => p.full_name === party.name,
-  )?.name;
+  const foundParty = partyCurrent?.parties.find(
+    (p) => (isFullName ? p.full_name : p.name) === partyName,
+  );
+
+  const partyAbbr = isFullName ? foundParty?.name : partyName;
+
+  const partyFullName = foundParty?.full_name;
+
   return partyCurrent
-    ? { color: partyCurrent.color, abbr: partyAbbr, partyCurrent }
-    : { color: "lime", abbr: party.name, partyCurrent };
+    ? {
+        color: partyCurrent.color,
+        abbr: partyAbbr,
+        partyCurrent,
+        full_name: partyFullName,
+      }
+    : { color: "lime", abbr: partyName, partyCurrent };
 };
 
 export const getPersonInfos = (
@@ -72,7 +84,7 @@ export const getPersonInfos = (
         party.name === "Gouvernement",
     );
   const { abbr, color, partyCurrent } = foundParty
-    ? getPartyInfos(foundParty)
+    ? getPartyInfos(foundParty.name)
     : {};
   const party = foundParty
     ? {

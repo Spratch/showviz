@@ -12,9 +12,13 @@ export function useTooltip(
 
   const getCoords = () => {
     const rect = elementRef.current?.getBoundingClientRect();
-    const xOffset = elementRef.current?.getAttribute("data-offset");
+    const [xOffset, yOffset] =
+      elementRef.current?.getAttribute("data-offset")?.split(",") ?? [];
     return rect
-      ? { y: rect.top, x: rect.left + (xOffset ? parseInt(xOffset) : 0) }
+      ? {
+          y: rect.top + (yOffset ? parseInt(yOffset) : 0),
+          x: rect.left + (xOffset ? parseInt(xOffset) : 0),
+        }
       : null;
   };
 

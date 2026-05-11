@@ -8,15 +8,19 @@ export default function PersonInfos({
   guest: PersonType;
   showImage?: boolean;
 }) {
+  const LinkOrDiv = guest.wikipediaUrl ? "a" : "div";
+  const wikipediaUrl = guest.wikipediaUrl
+    ? `https://fr.wikipedia.org/wiki/${guest.wikipediaUrl}`
+    : undefined;
   return (
     <div
       style={{ "--party-color": guest.party?.color } as React.CSSProperties}
       className="z-0 flex max-w-[35ch] shrink-0 items-center gap-2.5 overflow-hidden"
     >
       {showImage && (
-        <a
-          href={`https://fr.wikipedia.org/wiki/${guest.name}`}
-          target="_blank"
+        <LinkOrDiv
+          href={wikipediaUrl}
+          target={wikipediaUrl ? "_blank" : undefined}
           className={
             "flex aspect-square size-12 shrink-0 items-center justify-center overflow-hidden rounded-full bg-olive-300" +
             (guest.party
@@ -33,20 +37,20 @@ export default function PersonInfos({
           ) : (
             <UserIcon className="size-6 text-olive-400" />
           )}
-        </a>
+        </LinkOrDiv>
       )}
 
       <div className="font-display flex min-w-0 flex-col overflow-hidden text-sm">
         <p
           className={`flex min-w-0 overflow-hidden ${!showImage ? "flex-col items-start" : "items-center gap-1.5"}`}
         >
-          <a
-            href={`https://fr.wikipedia.org/wiki/${guest.name}`}
-            target="_blank"
+          <LinkOrDiv
+            href={wikipediaUrl}
+            target={wikipediaUrl ? "_blank" : undefined}
             className="text-primary shrink-0 text-nowrap"
           >
             {guest.name}
-          </a>
+          </LinkOrDiv>
 
           {guest.party && (
             <span className="flex items-center gap-1.5">

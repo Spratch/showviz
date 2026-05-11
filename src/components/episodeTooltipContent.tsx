@@ -4,9 +4,13 @@ import PersonInfos from "./personInfos";
 export function EpisodeTooltipContent({ guests }: { guests: PersonType[] }) {
   return (
     <div className="flex flex-col items-start gap-x-2 gap-y-2">
-      {guests.map((guest) => (
-        <PersonInfos key={guest.episode?.date + guest.id} guest={guest} />
-      ))}
+      {guests.length > 0 ? (
+        guests.map((guest) => (
+          <PersonInfos key={guest.episode?.date + guest.id} guest={guest} />
+        ))
+      ) : (
+        <p className="font-mono text-xs">Aucun invité détecté</p>
+      )}
     </div>
   );
 }
