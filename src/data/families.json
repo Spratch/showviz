@@ -1009,6 +1009,13 @@
             "full_name": "Union des démocrates et indépendants",
             "full_name_en": "Union of Democrats and Independents",
             "full_name_de": "Union der Demokraten und Unabhängigen"
+          },
+          {
+            "name": "And",
+            "full_name": "Anders",
+            "full_name_en": "Anders",
+            "full_name_de": "Anders",
+            "keyword": "Anders (parti politique)"
           }
         ]
       },
@@ -1611,6 +1618,12 @@
             "full_name_en": "Les Patriotes",
             "full_name_de": "Les Patriotes",
             "keyword": "Les Patriotes (parti politique)"
+          },
+          {
+            "name": "EP",
+            "full_name": "Russie unie",
+            "full_name_en": "United Russia",
+            "full_name_de": "Einiges Russland"
           }
         ]
       },

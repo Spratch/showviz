@@ -1,0 +1,1030 @@
+{
+  "slug": "face-a-fogiel",
+  "title": "Face à Fogiel",
+  "channel": "RTL",
+  "start": "2025-08-22",
+  "end": "",
+  "firstSeason": "00",
+  "diffusions": [
+    {
+      "id": "01",
+      "title": "Rendez-vous lundi !",
+      "date": "2025-08-22",
+      "guestsIds": []
+    },
+    {
+      "id": "02",
+      "title": "Anne-Laure Abitbol, sœur d'Ilan Halimi : \"Emmanuel Macron ne fait rien pour prendre des mesures contre les actes antisémites\"",
+      "date": "2025-08-25",
+      "guestsIds": ["anne-laure-abitbol"]
+    },
+    {
+      "id": "04",
+      "title": "Lila Salet, ex-compagne de Jean Imbert : \"J'ai eu peur pour ma vie\"",
+      "date": "2025-08-27",
+      "guestsIds": ["lila-salet"]
+    },
+    {
+      "id": "06",
+      "title": "Pako, combattant français en Ukraine : \"On nous traite souvent de mercenaires, ce n'est pas vrai\"",
+      "date": "2025-08-29",
+      "guestsIds": []
+    },
+    {
+      "id": "09",
+      "title": "Alexis et Félix Lebrun : \"On ne peut pas dire que c'est une vie normale\"",
+      "date": "2025-09-02",
+      "guestsIds": ["alexis-lebrun", "felix-lebrun"]
+    },
+    {
+      "id": "10",
+      "title": "Charlotte Arnould, plaignante accusant Gérard Depardieu : \"Il ne me fait pas peur\"",
+      "date": "2025-09-03",
+      "guestsIds": ["charlotte-arnould"]
+    },
+    {
+      "id": "11",
+      "title": "Olivier Véran sur RTL : \"J'aurais dû partir en 2022, J'avais des divergences avec Macron\"",
+      "date": "2025-09-04",
+      "guestsIds": ["olivier-veran"]
+    },
+    {
+      "id": "12",
+      "title": "Présidentielle 2027, taxe Zucman, franchises médicales... L'interview intégrale de François Bayrou",
+      "date": "2025-09-05",
+      "guestsIds": ["francois-bayrou"]
+    },
+    {
+      "id": "16",
+      "title": "Jordan Bardella : \"Nous avons intégré que le combat judiciaire faisait partie du combat politique\"",
+      "date": "2025-09-09",
+      "guestsIds": ["jordan-bardella"]
+    },
+    {
+      "id": "17",
+      "title": "Gérald Darmanin : \"Je n'ai pas d'autre envie que de rester au ministère de la Justice\"",
+      "date": "2025-09-10",
+      "guestsIds": ["gerald-darmanin"]
+    },
+    {
+      "id": "18",
+      "title": "Hubert Bonneau : \"La police tue ? Les forces de l'ordre sauvent\"",
+      "date": "2025-09-11",
+      "guestsIds": ["hubert-bonneau"]
+    },
+    {
+      "id": "19",
+      "title": "Florent Pagny : \"L'envie a mis du temps à revenir\"",
+      "date": "2025-09-12",
+      "guestsIds": ["florent-pagny"]
+    },
+    {
+      "id": "20",
+      "title": "Enrico Macias : \"L'interdiction du concert en Turquie, c'est une atteinte à ma liberté\"",
+      "date": "2025-09-15",
+      "guestsIds": ["enrico-macias"]
+    },
+    {
+      "id": "22",
+      "title": "Le capitaine Nicolas, pilote miraculé de la Patrouille de France : \"Je me retourne et il y a l'avion en feu\"",
+      "date": "2025-09-16",
+      "guestsIds": ["nicolas-brault"]
+    },
+    {
+      "id": "23",
+      "title": "\"Si c'était à refaire, je le referais\" : Didier Peillon, médecin hospitalier, raconte avoir pratiqué deux euthanasies, hors du cadre légal",
+      "date": "2025-09-17",
+      "guestsIds": ["didier-peillon"]
+    },
+    {
+      "id": "24",
+      "title": "Julien Marissiaux, leader du mouvement \"Bloquons tout\" : \"On est contre les manifestations\"",
+      "date": "2025-09-18",
+      "guestsIds": ["julien-marissiaux"]
+    },
+    {
+      "id": "25",
+      "title": "Blandine Le Noir de Carlan, la mère de Philippine : \"Est-ce que je connaîtrai avant ma mort la vérité ?\"",
+      "date": "2025-09-19",
+      "guestsIds": []
+    },
+    {
+      "id": "28",
+      "title": "Jennifer C., ex-compagne de Cédric Jubillar : \"Il m'a dit que c'était prémédité\"",
+      "date": "2025-09-22",
+      "guestsIds": []
+    },
+    {
+      "id": "29",
+      "title": "Éric Larchevêque : \"La taxe Zucman n'est pas une bonne manière de vouloir taxer\"",
+      "date": "2025-09-23",
+      "guestsIds": ["eric-larcheveque"]
+    },
+    {
+      "id": "30",
+      "title": "Philippe Martinez : \"Emmanuel Macron n'en a rien à faire des syndicats\"",
+      "date": "2025-09-24",
+      "guestsIds": ["philippe-martinez"]
+    },
+    {
+      "id": "31",
+      "title": "Alexey Meshkov, ambassadeur de Russie en France, est face à Marc-Olivier Fogiel",
+      "date": "2025-09-25",
+      "guestsIds": ["alexey-meshkov"]
+    },
+    {
+      "id": "32",
+      "title": "CNews, une \"chaîne d'extrême droite\" ? Sur RTL, la patronne de France télévisions \"assume\" ses propos et appelle à \"ne pas avancer masqué\"",
+      "date": "2025-09-26",
+      "guestsIds": ["delphine-ernotte"]
+    },
+    {
+      "id": "33",
+      "title": "Jean-Michel Aulas : à Lyon, \"on est dans une situation de décadence absolue\"",
+      "date": "2025-09-29",
+      "guestsIds": ["jean-michel-aulas"]
+    },
+    {
+      "id": "35",
+      "title": "Priscilla Beaulieu-Presley, ex-femme d'Elvis : \"Je l'aime encore aujourd'hui\"",
+      "date": "2025-09-30",
+      "guestsIds": ["priscilla-presley"]
+    },
+    {
+      "id": "36",
+      "title": "Kendji Girac : \"Je n'ai jamais voulu en finir\"",
+      "date": "2025-10-01",
+      "guestsIds": ["kendji-girac"]
+    },
+    {
+      "id": "37",
+      "title": "Marylise Léon : \"Le sujet aujourd'hui, c'est la question du travailler tous\"",
+      "date": "2025-10-02",
+      "guestsIds": ["marylise-leon"]
+    },
+    {
+      "id": "39",
+      "title": "Mary, veuve d'Arnaud Garcia : \"Je n'accepte pas les excuses de Mohamed Amra\"",
+      "date": "2025-10-03",
+      "guestsIds": ["mary-garcia"]
+    },
+    {
+      "id": "40",
+      "title": "Dimitri Zoulas, chef de l'Office antistupéfiants : \"200.000 personnes vivent de la drogue en France\"",
+      "date": "2025-10-06",
+      "guestsIds": ["dimitri-zoulas"]
+    },
+    {
+      "id": "41",
+      "title": "\"L'État n'est plus tenu\" : sur RTL, Édouard Philippe appelle Emmanuel Macron à organiser une \"présidentielle anticipée\" après le vote du budget",
+      "date": "2025-10-07",
+      "guestsIds": ["edouard-philippe"]
+    },
+    {
+      "id": "42",
+      "title": "Yasmine Belkaid : la crise de la recherche scientifique aux États-Unis \"est un cauchemar pour nous tous\"",
+      "date": "2025-10-08",
+      "guestsIds": ["yasmine-belkaid"]
+    },
+    {
+      "id": "43",
+      "title": "Donat-Jean Maquet : \"Pour moi, Cédric Jubillar est coupable\"",
+      "date": "2025-10-09",
+      "guestsIds": ["donat-jean-maquet"]
+    },
+    {
+      "id": "44",
+      "title": "Christine Grandjean-Paccoud : \"L'homophobie est une arme\"",
+      "date": "2025-10-10",
+      "guestsIds": ["christine-grandjean-paccoud"]
+    },
+    {
+      "id": "45",
+      "title": "Joshua Zarka : \"La guerre est finie, si le Hamas décide de ne pas renouveler les hostilités\"",
+      "date": "2025-10-13",
+      "guestsIds": ["joshua-zarka"]
+    },
+    {
+      "id": "46",
+      "title": "Roselyne Bachelot : \"De Gaulle, réveille-toi, ils sont devenus fous\"",
+      "date": "2025-10-14",
+      "guestsIds": ["roselyne-bachelot"]
+    },
+    {
+      "id": "47",
+      "title": "François Hollande : la suspension de la réforme des retraites est \"une défaite pour le RN\"",
+      "date": "2025-10-15",
+      "guestsIds": ["francois-hollande"]
+    },
+    {
+      "id": "48",
+      "title": "Philippe Aghion : \"Emmanuel Macron pense à un référendum sur l'idée de la réforme à points\"",
+      "date": "2025-10-16",
+      "guestsIds": ["philippe-aghion"]
+    },
+    {
+      "id": "49",
+      "title": "Maîtres Emmanuelle Franck et Alexandre Martin sont face à Marc-Olivier Fogiel",
+      "date": "2025-10-17",
+      "guestsIds": ["emmanuelle-franck", "alexandre-martin"]
+    },
+    {
+      "id": "50",
+      "title": "Patrick Balkany se souvient de son passage à la prison de la Santé : \"Le plus dur, c'est quand vous arrivez dans votre cellule\"",
+      "date": "2025-10-20",
+      "guestsIds": ["patrick-balkany"]
+    },
+    {
+      "id": "51",
+      "title": "Éric Zemmour pour la présidentielle 2027 : \"Je m'y prépare\"",
+      "date": "2025-10-21",
+      "guestsIds": ["eric-zemmour"]
+    },
+    {
+      "id": "53",
+      "title": "Le général Pierre Schill, Le chef d'état-major de l'armée de terre, évoque des \"menaces plus urgentes, plus radicales\"",
+      "date": "2025-10-22",
+      "guestsIds": ["pierre-schill"]
+    },
+    {
+      "id": "54",
+      "title": "Gabriel Zucman : \"L'ISF ne fonctionnait pas\", l'économiste défend sa mesure pour taxer les plus riches",
+      "date": "2025-10-23",
+      "guestsIds": ["gabriel-zucman"]
+    },
+    {
+      "id": "55",
+      "title": "Mathieu Blanchard : \"Le mal de mer, c'est très douloureux\"",
+      "date": "2025-10-24",
+      "guestsIds": ["mathieu-blanchard"]
+    },
+    {
+      "id": "56",
+      "title": "Arthur Rinderknech et Valentin Vacherot, joueurs de tennis : \"Avoir le cousin en face, c'est un pur bonheur\"",
+      "date": "2025-10-27",
+      "guestsIds": ["arthur-rinderknech", "valentin-vacherot"]
+    },
+    {
+      "id": "57",
+      "title": "Delphine et Thibault Daviet, mère et frère de Lola, après la condamnation de la meurtrière : \"On espère qu'elle ne fera pas appel\"",
+      "date": "2025-10-28",
+      "guestsIds": ["delphine-daviet", "thibault-daviet"]
+    },
+    {
+      "id": "58",
+      "title": "Sofiane Sehili : \"J'étais en état de choc\", raconte sur RTL le cycliste détenu pendant 51 jours en Russie raconte son incarcération",
+      "date": "2025-10-29",
+      "guestsIds": ["sofiane-sehili"]
+    },
+    {
+      "id": "59",
+      "title": "Laure Beccuau : les nouvelles perquisitions \"n'ont pas permis de retrouver les bijoux\" volés au Louvre",
+      "date": "2025-10-30",
+      "guestsIds": ["laure-beccuau"]
+    },
+    {
+      "id": "60",
+      "title": "Ary Abittan, après son non-lieu dans une affaire de viol : \"J'ai pensé disparaître\"",
+      "date": "2025-10-31",
+      "guestsIds": ["ary-abittan"]
+    },
+    {
+      "id": "61",
+      "title": "Nikola Karabatic se dit \"toujours prêt à payer plus\" d'impôts",
+      "date": "2025-11-03",
+      "guestsIds": ["nikola-karabatic"]
+    },
+    {
+      "id": "62",
+      "title": "\"On s'est posé la question d'arrêter\" : sur RTL, le propriétaire du BHV Marais assure que Shein l'a \"convaincu de continuer\", après le scandale des poupées pédopornographiques",
+      "date": "2025-11-04",
+      "guestsIds": ["frederic-merlin"]
+    },
+    {
+      "id": "63",
+      "title": "\"C'était très émouvant\" : sur RTL, l'ambassadeur de France en Iran raconte le coup de fil entre Cécile Kohler et Jacques Paris et Emmanuel Macron",
+      "date": "2025-11-05",
+      "guestsIds": ["pierre-cochard"]
+    },
+    {
+      "id": "64",
+      "title": "Mouhamadou Fall : \"Il y a beaucoup plus de dopage qu'on ne le pense\"",
+      "date": "2025-11-06",
+      "guestsIds": ["mouhamadou-fall"]
+    },
+    {
+      "id": "65",
+      "title": "Rafael Mariano Grossi, patron de l'Agence internationale de l'énergie atomique : \"La possibilité d'un conflit nucléaire est bien réelle\"",
+      "date": "2025-11-07",
+      "guestsIds": ["rafael-mariano-grossi"]
+    },
+    {
+      "id": "66",
+      "title": "Charlotte, rescapée de l'attentat du Bataclan : \"Pourquoi moi j'ai survécu et pas d'autres\"",
+      "date": "2025-11-10",
+      "guestsIds": []
+    },
+    {
+      "id": "68",
+      "title": "DOCUMENT RTL - \"Vous vous sentez comme mort\" : l'ex-otage Maxim Herkin témoigne, après 2 ans de captivité aux mains du Hamas",
+      "date": "2025-11-11",
+      "guestsIds": ["maxim-herkin"]
+    },
+    {
+      "id": "69",
+      "title": "Lydia Hadjara, ex-membre de la secte de Raël, porte plainte contre le gourou et deux disciples du mouvement : \"C'est prescrit mais c'est utile\"",
+      "date": "2025-11-12",
+      "guestsIds": ["lydia-hadjara"]
+    },
+    {
+      "id": "71",
+      "title": "\"Sonia\", témoin protégée depuis les attentats du 13-Novembre :  \"Un fardeau lourd, mais pour la bonne cause\"",
+      "date": "2025-11-13",
+      "guestsIds": []
+    },
+    {
+      "id": "72",
+      "title": "Alain Souchon sur une victoire du RN à la présidentielle 2027 : \"Je ne crois pas que les Français soient assez cons\"",
+      "date": "2025-11-14",
+      "guestsIds": ["alain-souchon"]
+    },
+    {
+      "id": "74",
+      "title": "Line Renaud en colère contre les coupes budgétaires dans la recherche : \"Donald Trump fout tout en l'air\"",
+      "date": "2025-11-17",
+      "guestsIds": ["line-renaud"]
+    },
+    {
+      "id": "75",
+      "title": "\"C'est une première\" : l'avocat de la famille Kessaci réagit à la piste du crime d'avertissement après l'assassinat de Mehdi à Marseille",
+      "date": "2025-11-18",
+      "guestsIds": ["mathieu-croizet"]
+    },
+    {
+      "id": "76",
+      "title": "Carlos Ghosn raconte sur RTL sa vie \"confiné\" au Liban : \"Ma fortune a complètement fondu\"",
+      "date": "2025-11-19",
+      "guestsIds": ["carlos-ghosn"]
+    },
+    {
+      "id": "77",
+      "title": "\"Les navires russes, on les voit très régulièrement\" : le chef d'état-major de la Marine raconte sur RTL les tensions avec Moscou en mer",
+      "date": "2025-11-20",
+      "guestsIds": ["nicolas-vaujour"]
+    },
+    {
+      "id": "78",
+      "title": "Lio : \"C'est inimaginable de perdre un enfant\"",
+      "date": "2025-11-21",
+      "guestsIds": ["lio"]
+    },
+    {
+      "id": "79",
+      "title": "David Pelicot et Bruno Solo : \"Le silence des hommes doit cesser\"",
+      "date": "2025-11-24",
+      "guestsIds": ["david-pelicot", "bruno-solo"]
+    },
+    {
+      "id": "80",
+      "title": "Le guide Michelin n'a plus le monopole des prix de la gastronomie ? \"Heureusement\", répond le chef Guy Savoy, sacré meilleur restaurant du monde",
+      "date": "2025-11-25",
+      "guestsIds": ["guy-savoy"]
+    },
+    {
+      "id": "81",
+      "title": "\"Ce n'est qu'une statue\" : faut-il empêcher les touristes de toucher les seins du buste de Dalida ? Sur RTL, son frère Orlando défend un geste \"affectueux\"",
+      "date": "2025-11-26",
+      "guestsIds": ["bruno-gigliotti"]
+    },
+    {
+      "id": "82",
+      "title": "\"Le système ne l'a pas protégée\" : sur RTL, la colère d'une mère dont la petite fille dénonce des violences sexuelles d'un animateur périscolaire",
+      "date": "2025-11-27",
+      "guestsIds": []
+    },
+    {
+      "id": "84",
+      "title": "Vincent Van Quickenborne, ex-ministre belge de la Justice : \"Les barons de la drogue sont maintenant partout en Belgique\"",
+      "date": "2025-12-01",
+      "guestsIds": ["vincent-van-quickenborne"]
+    },
+    {
+      "id": "85",
+      "title": "\"Si on veut me comparer avec Shein, ça me va\" : le fondateur de Blacksheep, la marque de lunettes \"made in China\", défend son modèle sur RTL",
+      "date": "2025-12-02",
+      "guestsIds": ["pierre-wizman"]
+    },
+    {
+      "id": "86",
+      "title": "Contre le narcotrafic : aucune figure marseillaise en soutien ? \"C'est décevant\", estime Philippe Pujol",
+      "date": "2025-12-03",
+      "guestsIds": ["philippe-pujol"]
+    },
+    {
+      "id": "87",
+      "title": "\"C'est une dictature\" : Boualem Sansal dénonce sur RTL un \"acharnement\" de l'Algérie après la condamnation en appel du journaliste français Christophe Gleizes",
+      "date": "2025-12-04",
+      "guestsIds": ["boualem-sansal"]
+    },
+    {
+      "id": "88",
+      "title": "Helena, lauréate du Prix de l'Album RTL 2025 : \"J'ai vécu une phase de chaos\"",
+      "date": "2025-12-05",
+      "guestsIds": ["helena"]
+    },
+    {
+      "id": "90",
+      "title": "Gaël Perdriau, ex-maire de Saint-Étienne : \"Je n'ai jamais commandité cette vidéo\"",
+      "date": "2025-12-08",
+      "guestsIds": ["gael-perdriau"]
+    },
+    {
+      "id": "91",
+      "title": "Nadine de Rothschild : \"Ma belle-fille n'a aucun droit sur ma collection\"",
+      "date": "2025-12-09",
+      "guestsIds": ["nadine-de-rothschild"]
+    },
+    {
+      "id": "92",
+      "title": "Le général Pierre de Villiers alerte sur le \"retour du monde bipolaire\"",
+      "date": "2025-12-10",
+      "guestsIds": ["pierre-de-villiers"]
+    },
+    {
+      "id": "93",
+      "title": "\"Qu'elle ne touche pas un centime\" : sur RTL, Alain Fabien Delon accuse sa sœur d'avoir \"profité de la faiblesse\" de son père pour le second testament",
+      "date": "2025-12-11",
+      "guestsIds": ["alain-fabien-delon"]
+    },
+    {
+      "id": "94",
+      "title": "Gaël Monfils évoque son départ à la retraite : \"L'annoncer à mon père, ça a été le plus dur\"",
+      "date": "2025-12-12",
+      "guestsIds": ["gael-monfils"]
+    },
+    {
+      "id": "95",
+      "title": "Randall Schwerdorffer : \"Frédéric Péchier est convaincu qu'il y a un empoisonneur dans la clinique\"",
+      "date": "2025-12-15",
+      "guestsIds": ["randall-schwerdorffer"]
+    },
+    {
+      "id": "96",
+      "title": "\"On voudrait aussi vous admirer en dehors du terrain\" : sur RTL, la mère et le beau-père de Christophe Gleizes, journaliste détenu en Algérie, lancent un appel à Zidane, Mbappé et Benzema",
+      "date": "2025-12-16",
+      "guestsIds": []
+    },
+    {
+      "id": "97",
+      "title": "La ministre de l'Agriculture Annie Genevard annonce que la France va avoir \"900.000 doses de vaccins\" jeudi",
+      "date": "2025-12-17",
+      "guestsIds": ["annie-genevard"]
+    },
+    {
+      "id": "98",
+      "title": "\"Nos vaches, c'était nos bébés\" : sur RTL, un couple d'éleveurs raconte la perte de leur troupeau après un cas de dermatose nodulaire",
+      "date": "2025-12-18",
+      "guestsIds": []
+    },
+    {
+      "id": "99",
+      "title": "\"J'allais m'éteindre à France 2\" : Olivier Minne revient sur son départ de France Télévisions",
+      "date": "2025-12-19",
+      "guestsIds": ["olivier-minne"]
+    },
+    {
+      "id": "101",
+      "title": "Beatrice Pilloud, procureur générale du Valais, explique pourquoi les gérants français du bar de Crans-Montana ne sont pas en détention",
+      "date": "2026-01-06",
+      "guestsIds": ["beatrice-pilloud"]
+    },
+    {
+      "id": "102",
+      "title": "Vanessa Perrée, procureure à la tête du parquet national anticriminalité organisée : \"On a les moyens d'éradiquer le narcotrafic\"",
+      "date": "2026-01-07",
+      "guestsIds": ["vanessa-perree"]
+    },
+    {
+      "id": "103",
+      "title": "\"Une phrase tronquée\" : l'urgentiste Mathias Wargon se défend de vouloir faire payer ceux qui auraient refusé la vaccination contre la grippe",
+      "date": "2026-01-08",
+      "guestsIds": ["mathias-wargon"]
+    },
+    {
+      "id": "104",
+      "title": "Rachel dénonce les agressions sexuelles de l'abbé Pierre lorsqu'elle avait 8 ans et témoigne d'un \"crime continu\"",
+      "date": "2026-01-09",
+      "guestsIds": []
+    },
+    {
+      "id": "106",
+      "title": "\"J'ai fait mon devoir\" : le héros de l'attentat antisémite de Sydney raconte comment il a désarmé un assaillant",
+      "date": "2026-01-12",
+      "guestsIds": []
+    },
+    {
+      "id": "107",
+      "title": "L'avocat du Parlement européen dans l'affaire des assistants du RN se dit \"pas très pessimiste sur l'issue\" du procès en appel",
+      "date": "2026-01-13",
+      "guestsIds": ["patrick-maisonneuve"]
+    },
+    {
+      "id": "108",
+      "title": "Le président de la FNSEA demande à ce que la question agricole soit \"traitée d'ici la présidentielle\"",
+      "date": "2026-01-14",
+      "guestsIds": []
+    },
+    {
+      "id": "109",
+      "title": "\"Ils ont plus cru la parole d'un homme\" : sur RTL, la mère de Chloé, miraculée d'un féminicide, dénonce des \"défaillances\" de la police avant le procès de son ex-compagnon",
+      "date": "2026-01-15",
+      "guestsIds": ["arnaud-rousseau"]
+    },
+    {
+      "id": "110",
+      "title": "\"La médecine ne me propose plus rien\" : sur RTL, le comédien Arnaud Denis explique pourquoi il envisage l'euthanasie après une opération qui a viré au cauchemar",
+      "date": "2026-01-16",
+      "guestsIds": ["arnaud-denis"]
+    },
+    {
+      "id": "111",
+      "title": "Mohammad Amin-Nejad, ambassadeur d'Iran en France accuse les États-Unis et Israël de \"manipuler\" les manifestants",
+      "date": "2026-01-19",
+      "guestsIds": ["mohammad-amin-nejad"]
+    },
+    {
+      "id": "112",
+      "title": "Thomas Stern, veuf de Catherine Laborde : \"Elle a été la douce jusqu'au bout\"",
+      "date": "2026-01-20",
+      "guestsIds": ["thomas-stern"]
+    },
+    {
+      "id": "113",
+      "title": "Christine Lagarde, présidente de la BCE, pointe le \"degré d'incertitude créé par Donald Trump\"",
+      "date": "2026-01-21",
+      "guestsIds": ["christine-lagarde"]
+    },
+    {
+      "id": "114",
+      "title": "Le chercheur français Laurent Vinatier estime avoir été \"un pion\" dans le \"jeu politique\" entre Moscou et Paris",
+      "date": "2026-01-22",
+      "guestsIds": ["laurent-vinatier"]
+    },
+    {
+      "id": "116",
+      "title": "Les avocats de Jessica Moretti estiment qu'il est \"trop tôt pour désigner les coupables idéaux\" à Crans-Montana",
+      "date": "2026-01-23",
+      "guestsIds": ["jessica-moretti"]
+    },
+    {
+      "id": "117",
+      "title": "La députée Sandrine Josso, victime de soumission chimique : \"J'allais voir un ami, j'ai découvert un agresseur\"",
+      "date": "2026-01-26",
+      "guestsIds": ["sandrine-josso"]
+    },
+    {
+      "id": "119",
+      "title": "Isabelle Nanty donne de ses nouvelles après son grave accident de la route : \"Je me suis dit 'C'est à ce moment-là que je vais mourir'\"",
+      "date": "2026-01-27",
+      "guestsIds": ["isabelle-nanty"]
+    },
+    {
+      "id": "120",
+      "title": "Sonia, héroïne oubliée du 13-Novembre, est \"reconnaissante\" pour la cagnotte qui dépasse les 345.000 euros",
+      "date": "2026-01-28",
+      "guestsIds": []
+    },
+    {
+      "id": "121",
+      "title": "La mère d'Elias, poignardé à mort à 14 ans, raconte son combat pour \"comprendre l'enchaînement judiciaire\" qui a conduit au meurtre",
+      "date": "2026-01-29",
+      "guestsIds": []
+    },
+    {
+      "id": "122",
+      "title": "Charlotte Casiraghi : \"J'ai toujours ressenti un décalage avec l'image qu'on avait de moi\"",
+      "date": "2026-01-30",
+      "guestsIds": ["charlotte-casiraghi"]
+    },
+    {
+      "id": "123",
+      "title": "Sophie Marceau partage son inquiétude de voir notre \"civilisation s'épuiser\"",
+      "date": "2026-02-02",
+      "guestsIds": ["sophie-marceau"]
+    },
+    {
+      "id": "124",
+      "title": "Patrick Bruel ironise sur Marion Maréchal qui affirme que Jean-Marie Le Pen n'était \"pas antisémite\"",
+      "date": "2026-02-03",
+      "guestsIds": ["patrick-bruel"]
+    },
+    {
+      "id": "125",
+      "title": "Jack Lang : \"Je n'ai pas connu Jeffrey Epstein comme prédateur sexuel\"",
+      "date": "2026-02-04",
+      "guestsIds": ["jack-lang"]
+    },
+    {
+      "id": "126",
+      "title": "\"On est 20 millions à avoir des parents étrangers\" : sur RTL Karine Le Marchand défend \"l'apport\" de l'immigration en France",
+      "date": "2026-02-05",
+      "guestsIds": ["karine-le-marchand"]
+    },
+    {
+      "id": "127",
+      "title": "\"J'ai été abusé sexuellement\" : sur RTL, Tom Félix, acquitté de trafic de stupéfiants en Malaisie, raconte ses 909 jours de calvaire en détention",
+      "date": "2026-02-06",
+      "guestsIds": ["tom-felix"]
+    },
+    {
+      "id": "128",
+      "title": "\"400 km dans l'espace aujourd'hui, c'est comme un Paris-Lyon\" : l'astronaute Sophie Adenot se confie sur RTL avant son grand départ pour l'ISS",
+      "date": "2026-02-09",
+      "guestsIds": ["sophie-adenot"]
+    },
+    {
+      "id": "129",
+      "title": "\"Ce serait un simulacre de justice\" : l'avocat de Cédric Jubillar estime qu'il n'est pas en état \"mental et physique\" de comparaître à son procès en appel",
+      "date": "2026-02-10",
+      "guestsIds": ["pierre-debuisson"]
+    },
+    {
+      "id": "130",
+      "title": "Pourquoi Camélia \"s'est retrouvée toute seule dehors\" le jour de son suicide ? Son père dénonce sur RTL \"un dysfonctionnement\" de son lycée",
+      "date": "2026-02-11",
+      "guestsIds": []
+    },
+    {
+      "id": "131",
+      "title": "Nicolas de Tavernost dénonce \"une procédure non loyale\" après l'imbroglio sur les droits TV du mondial 2026",
+      "date": "2026-02-12",
+      "guestsIds": ["nicolas-de-tavernost"]
+    },
+    {
+      "id": "132",
+      "title": "Serge Lama se confie : \"J'ai pas envie de chanter assis\"",
+      "date": "2026-02-13",
+      "guestsIds": ["serge-lama"]
+    },
+    {
+      "id": "133",
+      "title": "Gisèle Pelicot raconte comment elle s'est \"reconstruite sur un champ de ruines\"",
+      "date": "2026-02-16",
+      "guestsIds": ["gisele-pelicot"]
+    },
+    {
+      "id": "134",
+      "title": "Joann Sfar décrit sur RTL un Proche-Orient \"broyé par la violence\" et plaide pour \"relayer la voix\" des peuples opprimés",
+      "date": "2026-02-17",
+      "guestsIds": ["joann-sfar"]
+    },
+    {
+      "id": "135",
+      "title": "Les biathlètes Émilien Jacquelin et Éric Perrot se confient après avoir décrochés l'or au relais masculin",
+      "date": "2026-02-18",
+      "guestsIds": ["emilien-jacquelin", "eric-perrot"]
+    },
+    {
+      "id": "136",
+      "title": "\"Il s'agit d'un meurtre en bande organisée\", affirme l'avocat des parents de Quentin Deranque sur RTL",
+      "date": "2026-02-19",
+      "guestsIds": ["fabien-rajon"]
+    },
+    {
+      "id": "137",
+      "title": "\"La nuit, c'est du vol, c'est du viol, c'est du froid\" : le cri d'alarme de Philippe Torreton après ses maraudes avec le Samu social",
+      "date": "2026-02-20",
+      "guestsIds": ["philippe-torreton"]
+    },
+    {
+      "id": "138",
+      "title": "\"Où va l'argent ?\" : Hélène Mercier-Arnault, épouse de Bernard Arnault, se demande ce que l'État fait des impôts",
+      "date": "2026-02-23",
+      "guestsIds": ["helene-mercier-arnault"]
+    },
+    {
+      "id": "139",
+      "title": "\"Je gagne zéro\" : sur RTL, l'agriculteur Jérôme Bayle dénonce \"un malaise agricole\" en France et une situation \"de plus en plus compliquée\" en raison des normes",
+      "date": "2026-02-24",
+      "guestsIds": ["jerome-bayle"]
+    },
+    {
+      "id": "140",
+      "title": "\"Il sait que c'est un pervers\" : Stéphane Bern assure que le roi Charles III \"déteste\" son frère, l'ex-prince Andrew, mis en cause dans l'affaire Epstein",
+      "date": "2026-02-25",
+      "guestsIds": ["stephane-bern"]
+    },
+    {
+      "id": "141",
+      "title": "\"On aura aussi nos zombies\" : le journaliste Romain Bolzinger affirme que le fentanyl est en train d'arriver en Europe",
+      "date": "2026-02-26",
+      "guestsIds": ["romain-bolzinger"]
+    },
+    {
+      "id": "142",
+      "title": "Sofia, jeune ukrainienne de 14 ans, raconte sa reconstruction en France : \"Je ne pensais pas que c'était pour toujours\"",
+      "date": "2026-02-27",
+      "guestsIds": []
+    },
+    {
+      "id": "143",
+      "title": "L'ambassadeur d'Israël en France, Joshua Zarka, affirme se préparer à une guerre de \"quelques semaines\" contre l'Iran",
+      "date": "2026-03-02",
+      "guestsIds": ["joshua-zarka"]
+    },
+    {
+      "id": "144",
+      "title": "Bernadette, mère de Samuel Paty : \"La justice l'a abandonné\"",
+      "date": "2026-03-03",
+      "guestsIds": []
+    },
+    {
+      "id": "145",
+      "title": "Duckens Nazon, footballeur franco-haïtien, raconte son incroyable périple pour fuir l'Iran : \"L'urgence était de quitter le pays\"",
+      "date": "2026-03-04",
+      "guestsIds": ["duckens-nazon"]
+    },
+    {
+      "id": "146",
+      "title": "Gilles Kepel sur la guerre en Iran : \"Ce n'est plus un conflit régional, c'est un conflit international\"",
+      "date": "2026-03-05",
+      "guestsIds": ["gilles-kepel"]
+    },
+    {
+      "id": "147",
+      "title": "Le vice-amiral Jacques Mallard est l'invité de Céline Landreau",
+      "date": "2026-03-06",
+      "guestsIds": ["jacques-mallard"]
+    },
+    {
+      "id": "148",
+      "title": "Philippe Aghion prévoit \"une reprise de l'inflation et une baisse de la croissance\" sans effondrement",
+      "date": "2026-03-09",
+      "guestsIds": ["philippe-aghion"]
+    },
+    {
+      "id": "149",
+      "title": "Le président du directoire de l'Institut Curie trace les grandes orientations de la recherche contre le cancer",
+      "date": "2026-03-10",
+      "guestsIds": ["alain-puisieux"]
+    },
+    {
+      "id": "150",
+      "title": "Vincent Strubel, directeur général de l'Agence nationale de la sécurité des systèmes d'information",
+      "date": "2026-03-11",
+      "guestsIds": ["vincent-strubel"]
+    },
+    {
+      "id": "151",
+      "title": "Siavosh Ghazi, correspondant en Iran : \"Le travail du journaliste, c'est de pousser les lignes rouges\"",
+      "date": "2026-03-12",
+      "guestsIds": ["siavosh-ghazi"]
+    },
+    {
+      "id": "152",
+      "title": "Philippe Lacheau : \"On nous remercie pour cette bulle d'oxygène\"",
+      "date": "2026-03-13",
+      "guestsIds": ["philippe-lacheau"]
+    },
+    {
+      "id": "153",
+      "title": "Jean-François Copé invite Dati et Bournazel à s'unir et à refuser la main tendue de Knafo",
+      "date": "2026-03-16",
+      "guestsIds": ["jean-francois-cope"]
+    },
+    {
+      "id": "154",
+      "title": "\"Je ne vais pas faire un spectacle sur les viols de Mazan\" : le fils de Gisèle Pelicot raconte sur RTL son projet de one-man show",
+      "date": "2026-03-17",
+      "guestsIds": ["florian-pelicot"]
+    },
+    {
+      "id": "155",
+      "title": "Bruno Tertrais prévient que la chute du pouvoir iranien \"prendra du temps\"",
+      "date": "2026-03-18",
+      "guestsIds": ["bruno-tertrais"]
+    },
+    {
+      "id": "156",
+      "title": "Sophia Chikirou se dit \"plus proche\" d'Emmanuel Grégoire que de Rachida Dati",
+      "date": "2026-03-19",
+      "guestsIds": ["sophia-chikirou"]
+    },
+    {
+      "id": "157",
+      "title": "Charlotte Perefarres, 21 ans, maire de Saint-Béat-Lez : \"Le plus important, c'est de dynamiser le village\"",
+      "date": "2026-03-20",
+      "guestsIds": ["charlotte-perefarres"]
+    },
+    {
+      "id": "158",
+      "title": "Boris Vallaud dénonce les alliances avec LFI \"qui n'ont pas marché\" lors des municipales",
+      "date": "2026-03-23",
+      "guestsIds": ["boris-vallaud"]
+    },
+    {
+      "id": "159",
+      "title": "Éric Perrot : \"Je mange biathlon matin, midi et soir\"",
+      "date": "2026-03-24",
+      "guestsIds": ["eric-perrot"]
+    },
+    {
+      "id": "160",
+      "title": "Jérôme Fourquet : \"La greffe macroniste n'a absolument pas pris dans les territoires\"",
+      "date": "2026-03-25",
+      "guestsIds": ["jerome-fourquet"]
+    },
+    {
+      "id": "162",
+      "title": "Karine Viseur accuse Patrick Bruel d'agression sexuelle : \"C'est un prédateur\", selon elle",
+      "date": "2026-03-26",
+      "guestsIds": ["karine-viseur"]
+    },
+    {
+      "id": "163",
+      "title": "Marie-Hélène Dini, victime d'une tentative d'assassinat par des militaires de la DGSE, dit souffrir de \"stress post-traumatique\"",
+      "date": "2026-03-27",
+      "guestsIds": ["marie-helene-dini"]
+    },
+    {
+      "id": "164",
+      "title": "\"C'est terrifiant d'entendre ça\" : la famille juive intoxiquée par une nourrice à Levallois espère que \"l'antisémitisme sera retenu\" lors du procès en appel",
+      "date": "2026-03-30",
+      "guestsIds": []
+    },
+    {
+      "id": "165",
+      "title": "Benjamin Locoge de \"Paris-Match\" dévoile les premiers détails du retour de Céline Dion à Paris",
+      "date": "2026-03-31",
+      "guestsIds": ["benjamin-locoge"]
+    },
+    {
+      "id": "166",
+      "title": "Les parents d'Elio, 4 ans, atteint d'une leucémie, lancent un appel aux dons de moelle osseuse",
+      "date": "2026-04-01",
+      "guestsIds": []
+    },
+    {
+      "id": "167",
+      "title": "Corentin Sellin : \"Donald Trump a toujours considéré que sa présidence n'est qu'un aspect supplémentaire de son entreprise de spectacle\"",
+      "date": "2026-04-02",
+      "guestsIds": ["corentin-sellin"]
+    },
+    {
+      "id": "168",
+      "title": "Y a-t-il un contrat sur la tête d'Amine Kessaci ? Le nouvel adjoint au maire de Marseille raconte sa vie \"menacée chaque jour\"",
+      "date": "2026-04-03",
+      "guestsIds": ["amine-kessaci"]
+    },
+    {
+      "id": "169",
+      "title": "Alexandre Delpérier revient sur son virage de la télévision à la peinture : \"Je n'ai pas choisi de peindre... ça s'est imposé à moi\"",
+      "date": "2026-04-06",
+      "guestsIds": ["alexandre-delperier"]
+    },
+    {
+      "id": "170",
+      "title": "Le témoignage d'une mère de deux enfants qui accuse de viols des animateurs d'une école parisienne",
+      "date": "2026-04-07",
+      "guestsIds": []
+    },
+    {
+      "id": "171",
+      "title": "Christine Ockrent : \"Donald Trump a décrédibilisé la parole présidentielle\"",
+      "date": "2026-04-08",
+      "guestsIds": ["christine-ockrent"]
+    },
+    {
+      "id": "172",
+      "title": "\"Je leur ai dit : 'on part demain'\" : l'ambassadeur de France en Iran raconte sur RTL les coulisses de la libération de Cécile Kohler et Jacques Paris",
+      "date": "2026-04-09",
+      "guestsIds": ["pierre-cochard"]
+    },
+    {
+      "id": "173",
+      "title": "Laurent Joffrin et Pauline Delassus : \"À table, Jean-Marie Le Pen comptait les juifs\"",
+      "date": "2026-04-10",
+      "guestsIds": ["laurent-joffrin", "pauline-delassus"]
+    },
+    {
+      "id": "174",
+      "title": "\"J'appréhende beaucoup\" : la mère d'Evaëlle, qui s'est suicidée à 11 ans, dénonce un \"acharnement\" sur RTL, à quelques heures du verdict de la cour d'appel",
+      "date": "2026-04-13",
+      "guestsIds": []
+    },
+    {
+      "id": "175",
+      "title": "Stéphane Richard, le nouveau président du club, dévoile sa feuille de route pour faire briller le club phocéen",
+      "date": "2026-04-14",
+      "guestsIds": ["stephane-richard"]
+    },
+    {
+      "id": "176",
+      "title": "\"Il était outré\" : sur RTL, l'avocat de Claude Guéant estime que Nicolas Sarkozy a \"fait basculer son procès en sa défaveur\"",
+      "date": "2026-04-15",
+      "guestsIds": ["bouchez-el-ghozi"]
+    },
+    {
+      "id": "177",
+      "title": "Procès DZ Mafia : \"Ce n'est que le début d'une série\", prévient Christian Sainte, le directeur national de la police judiciaire",
+      "date": "2026-04-16",
+      "guestsIds": ["christian-sainte"]
+    },
+    {
+      "id": "178",
+      "title": "Muriel Robin : \"Je remercie les gens d'être là encore, c'est une histoire magnifique avec le public depuis 40 ans\"",
+      "date": "2026-04-17",
+      "guestsIds": ["muriel-robin"]
+    },
+    {
+      "id": "179",
+      "title": "Nicolas Guillou, juge français à la Cour pénale internationale, raconte son quotidien sous sanctions américaines",
+      "date": "2026-04-20",
+      "guestsIds": ["nicolas-guillou"]
+    },
+    {
+      "id": "180",
+      "title": "Jean-Michel Jarre estime que l'IA générative est un outil \"neutre\" qui \"moissonne\" autant que les artistes",
+      "date": "2026-04-21",
+      "guestsIds": ["jean-michel-jarre"]
+    },
+    {
+      "id": "181",
+      "title": "La mère de Cyane, serveuse morte dans l'incendie de Crans-Montana, appelle le couple Moretti à \"assumer\" ses responsabilités",
+      "date": "2026-04-22",
+      "guestsIds": []
+    },
+    {
+      "id": "182",
+      "title": "\"Ces soldats ne sont pas morts pour rien\" : sur RTL, Jean-Marie Bockel, dont le fils est mort au Mali en 2019, indique que la France a \"raison\" d'être au Liban",
+      "date": "2026-04-23",
+      "guestsIds": ["jean-marie-bockel"]
+    },
+    {
+      "id": "183",
+      "title": "Jacques Weber rend hommage à Nathalie Baye : \"Seule la maladie pouvait ternir ce rayon de soleil\"",
+      "date": "2026-04-24",
+      "guestsIds": ["jacques-weber"]
+    },
+    {
+      "id": "185",
+      "title": "Si le détroit d'Ormuz reste fermé, \"l'Asie et l'Afrique risquent de crever de faim\" : l'alerte du spécialiste du Moyen-Orient, Gilles Kepel, sur RTL",
+      "date": "2026-04-28",
+      "guestsIds": ["gilles-kepel"]
+    },
+    {
+      "id": "186",
+      "title": "Frédéric Pommier brise le silence sur les viols subis durant son enfance pour \"rendre justice au garçon\" qu'il était",
+      "date": "2026-04-29",
+      "guestsIds": ["frederic-pommier"]
+    },
+    {
+      "id": "187",
+      "title": "Pascal de Izaguirre, PDG de Corsair : \"Pas de rupture à court terme\" sur le kérosène",
+      "date": "2026-04-30",
+      "guestsIds": ["pascal-de-izaguirre"]
+    },
+    {
+      "id": "188",
+      "title": "Élise Blanchard, journaliste, évoque \"son choc\" après son enquête dans la maison d'un taliban",
+      "date": "2026-05-01",
+      "guestsIds": ["elise-blanchard"]
+    },
+    {
+      "id": "189",
+      "title": "\"La gravité du mensonge d'État\" : le journaliste Patrice Duhamel raconte sur RTL comment il a dû cacher la maladie des anciens présidents",
+      "date": "2026-05-04",
+      "guestsIds": ["patrice-duhamel"]
+    },
+    {
+      "id": "190",
+      "title": "\"Des baisers avec la langue, des attouchements...\" : Coline Berry renouvelle ses accusations contre son père Richard Berry",
+      "date": "2026-05-05",
+      "guestsIds": ["coline-berry"]
+    },
+    {
+      "id": "191",
+      "title": "Jackie Lombard, productrice de Michael Jackson, nie les accusations de pédocriminalité visant le roi de la pop",
+      "date": "2026-05-06",
+      "guestsIds": ["jackie-lombard"]
+    },
+    {
+      "id": "192",
+      "title": "Marie-Thérèse, une Française de 85 ans incarcérée par l'immigration américaine, \"un cauchemar\", raconte son calvaire",
+      "date": "2026-05-07",
+      "guestsIds": []
+    },
+    {
+      "id": "194",
+      "title": "Accusé d'avoir recruté des mannequins pour Jeffrey Epstein, Daniel Siad sort du silence",
+      "date": "2026-05-08",
+      "guestsIds": ["daniel-siad"]
+    },
+    {
+      "id": "195",
+      "title": "Le général Benoît Villeminoz : \"Actuellement, les cryptorapts sont l'une des menaces principales\"",
+      "date": "2026-05-11",
+      "guestsIds": ["benoit-villeminoz"]
+    }
+  ]
+}

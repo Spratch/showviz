@@ -5,6 +5,7 @@ import yeuxdAgathe from "@/data/shows/dans-les-yeux-dagathe.json";
 import dimancheEnPolitique from "@/data/shows/dimanche-en-politique.json";
 import elysee2022 from "@/data/shows/elysee-2022.json";
 import enSociete from "@/data/shows/en-societe.json";
+import faceAFogiel from "@/data/shows/face-a-fogiel.json";
 import levenement from "@/data/shows/l-evenement.json";
 import gdeItw from "@/data/shows/la-grande-interview.json";
 import gdJury from "@/data/shows/le-grand-jury.json";
@@ -25,4 +26,5 @@ export const shows: ShowType[] = [
   backseat,
   gdeItw,
   gdJury,
+  faceAFogiel,
 ];
