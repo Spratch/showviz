@@ -45,28 +45,49 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-theme-50: var(--theme-50);
+  --color-theme-100: var(--theme-100);
+  --color-theme-300: light-dark(var(--theme-300), var(--theme-700));
+  --color-theme-500: var(--theme-500);
+  --color-theme-700: light-dark(var(--theme-700), var(--theme-300));
+  --color-theme-900: var(--theme-900);
+  --color-theme-950: var(--theme-950);
 }
 
 :root {
+  color-scheme: light dark;
+
+  --theme-50: var(--color-olive-50);
+  --theme-100: var(--color-olive-100);
+  --theme-200: var(--color-olive-200);
+  --theme-300: var(--color-olive-300);
+  --theme-400: var(--color-olive-400);
+  --theme-500: var(--color-olive-500);
+  --theme-600: var(--color-olive-600);
+  --theme-700: var(--color-olive-700);
+  --theme-800: var(--color-olive-800);
+  --theme-900: var(--color-olive-900);
+  --theme-950: var(--color-olive-950);
+
   --radius: 0.625rem;
-  --background: var(--color-olive-200);
-  --foreground: var(--color-olive-600);
+  --background: light-dark(var(--theme-200), var(--theme-800));
+  --foreground: light-dark(var(--theme-600), var(--theme-300));
   --card: var(--background);
   --card-foreground: var(--foreground);
   --popover: var(--background);
   --popover-foreground: var(--foreground);
-  --primary: var(--color-olive-800);
-  --primary-foreground: var(--color-olive-50);
-  --secondary: var(--color-olive-100);
+  --primary: light-dark(var(--theme-800), var(--theme-100));
+  --primary-foreground: var(--theme-50);
+  --secondary: light-dark(var(--color-olive-100), var(--theme-900));
   --secondary-foreground: var(--primary);
   --muted: var(--secondary);
-  --muted-foreground: var(--color-olive-500);
+  --muted-foreground: light-dark(var(--theme-500), var(--theme-400));
   --accent: var(--secondary);
   --accent-foreground: var(--primary);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: var(--color-olive-400);
-  --input: var(--color-olive-400);
-  --ring: var(--color-olive-400);
+  --border: light-dark(var(--theme-400), var(--theme-600));
+  --input: light-dark(var(--theme-400), var(--theme-500));
+  --ring: var(--theme-400);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -113,10 +134,9 @@
 
 @layer utilities {
   .bg-current-blended {
-    background-color: color-mix(
-      in srgb,
-      var(--current-color) 75%,
-      var(--color-background)
+    background-color: light-dark(
+      color-mix(in srgb, var(--current-color) 75%, var(--color-background)),
+      color-mix(in srgb, var(--current-color) 80%, var(--color-background))
     );
   }
 }

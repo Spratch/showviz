@@ -10,25 +10,25 @@ export default function Season({ season }: { season: SeasonType }) {
 
   return (
     <section className="flex flex-col gap-2">
-      <div className="flex flex-wrap items-baseline justify-between gap-x-2 font-mono text-olive-700">
+      <div className="text-primary flex flex-wrap items-baseline justify-between gap-x-2 font-mono">
         <div className="flex items-baseline gap-2 text-sm sm:text-base">
           <h2>
             S{season.id}
-            <span className="ml-1.5 text-xs text-olive-600 sm:ml-2 sm:text-sm">
+            <span className="text-foreground ml-1.5 text-xs sm:ml-2 sm:text-sm">
               {yearRange}
             </span>
           </h2>
-          <p className="text-xs text-olive-500 sm:text-sm">
+          <p className="text-muted-foreground text-xs sm:text-sm">
             [<span className="italic">{season.episodes.length} épisodes</span>]
           </p>
         </div>
-        <p className="text-xs text-olive-500 sm:text-sm">
+        <p className="text-muted-foreground text-xs sm:text-sm">
           [
-          <span className="text-olive-700">
+          <span className="text-primary">
             {season.politicalGuests.length} politiques
           </span>
           &thinsp;/&thinsp;{season.seasonGuests.length} invités{" "}
-          <span className="text-olive-700">
+          <span className="text-primary">
             (
             {(
               (season.politicalGuests.length / season.seasonGuests.length) *

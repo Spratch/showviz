@@ -5,7 +5,7 @@ import { Route, Switch } from "wouter";
 
 export default function App() {
   return (
-    <div className="flex min-h-svh w-svw flex-col items-center bg-olive-200 pb-27.5 text-olive-600 antialiased">
+    <div className="bg-background text-foreground flex min-h-svh w-svw flex-col items-center pb-27.5 antialiased">
       <Switch>
         <Route path="/" component={Index} />
         <Route path=":showSlug" component={Show} />

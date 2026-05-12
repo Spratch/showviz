@@ -8,7 +8,7 @@ export default function PersonInfos({
   guest: PersonType;
   showImage?: boolean;
 }) {
-  const LinkOrDiv = guest.wikipediaUrl ? "a" : "div";
+  const LinkOrSpan = guest.wikipediaUrl ? "a" : "span";
   const wikipediaUrl = guest.wikipediaUrl
     ? `https://fr.wikipedia.org/wiki/${guest.wikipediaUrl}`
     : undefined;
@@ -18,11 +18,11 @@ export default function PersonInfos({
       className="z-0 flex max-w-[35ch] shrink-0 items-center gap-2.5 overflow-hidden"
     >
       {showImage && (
-        <LinkOrDiv
+        <LinkOrSpan
           href={wikipediaUrl}
           target={wikipediaUrl ? "_blank" : undefined}
           className={
-            "flex aspect-square size-12 shrink-0 items-center justify-center overflow-hidden rounded-full bg-olive-300" +
+            "bg-theme-300 flex aspect-square size-12 shrink-0 items-center justify-center overflow-hidden rounded-full" +
             (guest.party
               ? ` border-2 border-(--party-color)`
               : " border-border border")
@@ -35,22 +35,22 @@ export default function PersonInfos({
               alt=""
             />
           ) : (
-            <UserIcon className="size-6 text-olive-400" />
+            <UserIcon className="text-border size-6" />
           )}
-        </LinkOrDiv>
+        </LinkOrSpan>
       )}
 
       <div className="font-display flex min-w-0 flex-col overflow-hidden text-sm">
         <p
           className={`flex min-w-0 overflow-hidden ${!showImage ? "flex-col items-start" : "items-center gap-1.5"}`}
         >
-          <LinkOrDiv
+          <LinkOrSpan
             href={wikipediaUrl}
             target={wikipediaUrl ? "_blank" : undefined}
             className="text-primary shrink-0 text-nowrap"
           >
             {guest.name}
-          </LinkOrDiv>
+          </LinkOrSpan>
 
           {guest.party && (
             <span className="flex items-center gap-1.5">

@@ -46,7 +46,7 @@ export default function Header({
                 className="hover:bg-muted relative z-0 -ml-2.5 inline-flex w-fit gap-x-2.5 border-none bg-transparent max-sm:-mt-1"
                 aria-label="Sélectionner une émission"
               >
-                <SelectValue className="text-xl/tight text-olive-800 italic sm:text-2xl" />
+                <SelectValue className="text-primary text-xl/tight italic sm:text-2xl" />
               </SelectTrigger>
               <SelectContent className="border shadow-none ring-0">
                 <SelectGroup className="flex flex-col gap-1">
@@ -54,7 +54,7 @@ export default function Header({
                     <SelectItem
                       key={item.value}
                       value={item.value}
-                      className="aria-[selected=false]:text-olive-500"
+                      className="aria-[selected=false]:text-muted-foreground"
                     >
                       <span className="flex flex-col">
                         <span className="-mb-px font-mono text-xs">
@@ -71,9 +71,9 @@ export default function Header({
             </Select>
           </h1>
 
-          <p className="font-mono text-xs text-nowrap text-olive-500 sm:text-sm">
+          <p className="text-muted-foreground font-mono text-xs text-nowrap sm:text-sm">
             [
-            <span className="text-olive-700">
+            <span className="text-theme-700">
               {displayedSeasons.flatMap((s) => s.politicalGuests).length}{" "}
               politiques
             </span>
@@ -81,7 +81,7 @@ export default function Header({
             {
               displayedSeasons.flatMap((s) => s.seasonGuests).length
             } invités{" "}
-            <span className="text-olive-700">
+            <span className="text-theme-700">
               (
               {(
                 (displayedSeasons.flatMap((s) => s.politicalGuests).length /

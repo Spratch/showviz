@@ -39,7 +39,7 @@ function Slider({
             Array.from({ length: (max - min) / props.step }).map((_, index) => (
               <div
                 key={index}
-                className="absolute my-1 h-2 w-px bg-olive-300/50"
+                className="bg-background/50 absolute my-1 h-2 w-px"
                 style={{ left: `${((index + 1) * 100) / (max - min)}%` }}
               ></div>
             ))}

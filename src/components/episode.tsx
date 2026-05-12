@@ -33,9 +33,9 @@ export default function Episode({
       ref={elementRef}
       {...tooltipHandlers}
       tabIndex={0}
-      className={`outline-ring relative flex flex-row items-start gap-px rounded-[20px] border-olive-400 bg-olive-300 outline-offset-2 sm:rounded-3xl md:rounded-[28px]`}
+      className={`outline-ring border-border bg-theme-300 relative flex flex-row items-start gap-px rounded-[20px] outline-offset-2 sm:rounded-3xl md:rounded-[28px]`}
     >
-      <div className="flex aspect-square size-10 shrink-0 flex-wrap content-center items-center justify-center rounded-full border-olive-400 bg-olive-300 p-1.5 sm:size-12 sm:p-2 md:size-14 md:p-2">
+      <div className="border-border bg-theme-300 flex aspect-square size-10 shrink-0 flex-wrap content-center items-center justify-center rounded-full p-1.5 sm:size-12 sm:p-2 md:size-14 md:p-2">
         {Array.from({
           length: episode.guestsIds.length,
         }).map((_, i) => {
@@ -45,11 +45,10 @@ export default function Episode({
           return (
             <span
               key={i}
-              className={`bg-current-blended aspect-square size-1.75 rounded-full sm:size-2 md:size-2.25 ${guest?.isGouv ? "border border-olive-600" : ""}`}
+              className={`bg-current-blended aspect-square size-1.75 rounded-full sm:size-2 md:size-2.25 ${guest?.isGouv ? "border-foreground border" : ""}`}
               style={
                 {
-                  "--current-color":
-                    guest?.party?.color ?? "var(--color-olive-400)",
+                  "--current-color": guest?.party?.color ?? "var(--input)",
                 } as React.CSSProperties
               }
             ></span>

@@ -339,7 +339,7 @@ export default function Show({ params }: { params: { showSlug: string } }) {
     .flatMap((season) => season.seasonGuests)
     .filter((g) => !g.gender)
     .map((g) => g.id)
-    .join(" ");
+    .join(", ");
   if (everyGuestWhoDoesntHaveInfos) console.log(everyGuestWhoDoesntHaveInfos);
 
   return (
@@ -375,16 +375,18 @@ export default function Show({ params }: { params: { showSlug: string } }) {
                   .map((name) => {
                     const selector = `[data-party="${name}"]`;
                     const el = `[data-party]:not(${selector})${name === "Gouvernement" ? ":not(.border-2)" : ""}`;
-                    return `
-                      main:has(${selector}:hover) ${el} {
-                        opacity: 0.1!important;
-                        transition-duration: 150ms;
-                        transition-property: opacity;
-                      }
-                      main:has(${selector}:focus-visible) ${el} {
-                        opacity: 0.1!important;
-                      }
-                    `;
+                    const elDirect = `${el}:not(:has([data-tohide]))`;
+                    const elChild = `${el}:has([data-tohide]) [data-tohide]`;
+
+                    const fade = (trigger: string, withTransition: boolean) => `
+                    main:has(${selector}:${trigger}) ${elDirect},
+                    main:has(${selector}:${trigger}) ${elChild} {
+                      opacity: 0.2!important;
+                      ${withTransition ? "transition-duration: 150ms; transition-property: opacity;" : ""}
+                    }
+                  `;
+
+                    return fade("hover", true) + fade("focus-visible", false);
                   })
                   .join("")}
                   `}</style>
@@ -461,8 +463,9 @@ export default function Show({ params }: { params: { showSlug: string } }) {
               renderItem={(id, guest) => (
                 <div
                   key={id}
+                  data-tohide
                   className={
-                    "flex aspect-square size-14 shrink-0 items-center justify-center overflow-hidden rounded-full bg-olive-300" +
+                    "bg-theme-300 flex aspect-square size-14 shrink-0 items-center justify-center overflow-hidden rounded-full" +
                     (guest.party
                       ? ` border-2 border-(--party-color)`
                       : " border-border border")

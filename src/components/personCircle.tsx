@@ -14,8 +14,9 @@ export default function PersonCircle({
     <motion.div
       layoutId={person.episode.date + person.id}
       layoutDependency={position?.x || viewMode}
+      data-tohide
       id={person.episode.date + person.id}
-      className={`ring-ring text-2xs outline-foreground bg-current-blended flex aspect-square flex-col items-center justify-center overflow-hidden rounded-full p-1.5 ${person?.isGouv ? "border-2 border-olive-600" : ""} ${position ? "absolute size-6 sm:size-8 md:size-12 md:text-xs" : "relative size-10 text-xs sm:size-12 sm:text-sm md:size-14"}`}
+      className={`ring-ring text-2xs outline-foreground bg-current-blended flex aspect-square flex-col items-center justify-center overflow-hidden rounded-full p-1.5 ${person?.isGouv ? "border-primary border-2" : ""} ${position ? "absolute size-6 sm:size-8 md:size-12 md:text-xs" : "relative size-10 text-xs sm:size-12 sm:text-sm md:size-14"}`}
       style={
         {
           "--current-color": person?.party?.color,
@@ -24,7 +25,7 @@ export default function PersonCircle({
         } as React.CSSProperties
       }
     >
-      <p className="max-w-full truncate font-mono text-olive-800">
+      <p className="text-primary max-w-full truncate font-mono">
         {person?.party?.abbr}
       </p>
     </motion.div>
