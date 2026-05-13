@@ -168,6 +168,7 @@ export function PercentageParty({
             ></span>
           )}{" "}
           {party.full_name || party.name}
+          {party.abbr === "Gouv" ? " (sans étiquette)" : ""}
         </span>
       </p>
     ),

@@ -10969,21 +10969,6 @@
     "wikipediaUrl": "Marjane_Satrapi"
   },
   {
-    "id": "philippe-caverivière",
-    "name": "Philippe Caverivière",
-    "birthDate": "1971-02-08",
-    "gender": "masculin",
-    "categories": [
-      "chroniqueur de télévision",
-      "animateur ou animatrice de télévision",
-      "humoriste"
-    ],
-    "parties": [],
-    "wikidataId": "Q114669707",
-    "image": "Philippe_Caveriviere_1515932.jpg",
-    "wikipediaUrl": "Philippe_Caverivi%C3%A8re"
-  },
-  {
     "id": "gaspard-koenig",
     "name": "Gaspard Koenig",
     "birthDate": "1982-12-03",
@@ -12764,17 +12749,6 @@
     "wikipediaUrl": "Henry_Rousso"
   },
   {
-    "id": "francois-molins",
-    "name": "François Molins",
-    "birthDate": "1953-08-28",
-    "gender": "masculin",
-    "categories": ["magistrat ou magistrate"],
-    "parties": [],
-    "wikidataId": "Q3085387",
-    "image": "Fran%C3%A7ois_MOLINS_12-02-2018.jpg",
-    "wikipediaUrl": "Fran%C3%A7ois_Molins"
-  },
-  {
     "id": "geraldine-muhlmann",
     "name": "Géraldine Muhlmann",
     "birthDate": "1972-01-12",
@@ -12938,7 +12912,11 @@
     "birthDate": "1971-07-25",
     "gender": "masculin",
     "categories": ["pompier ou pompière", "personnalité politique"],
-    "parties": [],
+    "parties": [
+      {
+        "name": "Renaissance"
+      }
+    ],
     "wikidataId": "Q125789969",
     "image": "1718798679783_20240618_ALLIONE_Gregory_FR_009.jpg",
     "wikipediaUrl": "Gr%C3%A9gory_Allione"
@@ -30952,6 +30930,10 @@
     "categories": ["personnalité du monde des affaires"],
     "parties": [
       {
+        "name": "Parti socialiste",
+        "end": "2005-01-01"
+      },
+      {
         "name": "Gouvernement",
         "start": "2024-12-23",
         "end": "2025-10-05"
@@ -31466,24 +31448,6 @@
     "wikipediaUrl": "Nicolas_Bay"
   },
   {
-    "id": "jean-rottner",
-    "name": "Jean Rottner",
-    "birthDate": "1967-01-28",
-    "gender": "masculin",
-    "categories": ["personnalité politique", "médecin"],
-    "parties": [
-      {
-        "name": "Union pour la démocratie française"
-      },
-      {
-        "name": "Union pour un mouvement populaire"
-      }
-    ],
-    "wikidataId": "Q1685800",
-    "image": "Jean-Rottner-14-juillet-2019-credit-Julien-Di-Giusto_(cropped).jpg",
-    "wikipediaUrl": "Jean_Rottner"
-  },
-  {
     "id": "karine-lacombe",
     "name": "Karine Lacombe",
     "birthDate": "1970-03-30",
@@ -31945,7 +31909,11 @@
     "birthDate": "1959-08-22",
     "gender": "masculin",
     "categories": ["diplomate", "ambassadeur"],
-    "parties": [{ "name": "Russie unie" }],
+    "parties": [
+      {
+        "name": "Russie unie"
+      }
+    ],
     "wikidataId": "Q2643961",
     "image": "Alexey_Meshkov,_2016.jpg",
     "wikipediaUrl": "Alexeï_Mechkov"
@@ -32284,7 +32252,6 @@
   {
     "id": "jessica-moretti",
     "name": "Jessica Moretti",
-
     "gender": "féminin",
     "categories": ["gérant", "acteur ou actrice de télévision", "mannequin"],
     "parties": [],
@@ -32487,24 +32454,18 @@
   {
     "id": "marie-helene-dini",
     "name": "Marie-Hélène Dini",
-    "birthDate": null,
     "gender": "féminin",
     "categories": [],
     "parties": [],
-    "wikidataId": "Q135933042",
-    "image": null,
-    "wikipediaUrl": null
+    "wikidataId": "Q135933042"
   },
   {
     "id": "benjamin-locoge",
     "name": "Benjamin Locoge",
-    "birthDate": null,
     "gender": "masculin",
     "categories": ["journaliste"],
     "parties": [],
-    "wikidataId": "Q129900368",
-    "image": null,
-    "wikipediaUrl": null
+    "wikidataId": "Q129900368"
   },
   {
     "id": "alexandre-delperier",
@@ -32533,17 +32494,6 @@
     "wikipediaUrl": "Laurent_Joffrin"
   },
   {
-    "id": "c-sainte-rose",
-    "name": "C Sainte-Rose",
-    "birthDate": null,
-    "gender": null,
-    "categories": ["chercheur ou chercheuse"],
-    "parties": [],
-    "wikidataId": "Q96105821",
-    "image": null,
-    "wikipediaUrl": null
-  },
-  {
     "id": "nicolas-guillou",
     "name": "Nicolas Guillou",
     "birthDate": "1975-08-13",
@@ -32551,7 +32501,6 @@
     "categories": ["juge", "juriste"],
     "parties": [],
     "wikidataId": "Q125985448",
-    "image": null,
     "wikipediaUrl": "Nicolas_Guillou_(juge)"
   },
   {
@@ -32590,20 +32539,14 @@
     "gender": "masculin",
     "categories": ["personnalité du monde des affaires"],
     "parties": [],
-    "wikidataId": "Q33262637",
-    "image": null,
-    "wikipediaUrl": null
+    "wikidataId": "Q33262637"
   },
   {
     "id": "elise-blanchard",
     "name": "Elise Blanchard",
-    "birthDate": "1953-09-29",
     "gender": "féminin",
-    "categories": ["anciens employés"],
-    "parties": [],
-    "wikidataId": "Q127330276",
-    "image": null,
-    "wikipediaUrl": null
+    "categories": ["journaliste"],
+    "parties": []
   },
   {
     "id": "coline-berry-rojtman",
@@ -32612,41 +32555,454 @@
     "gender": "féminin",
     "categories": ["psychanalyste"],
     "parties": [],
-    "wikidataId": "Q139681313",
-    "image": null,
-    "wikipediaUrl": null
+    "wikidataId": "Q139681313"
   },
   {
     "id": "jackie-lombard",
     "name": "Jackie Lombard",
-    "birthDate": null,
+    "birthDate": "1943-01-01",
     "gender": "féminin",
     "categories": ["producteur ou productrice", "acteur ou actrice de cinéma"],
     "parties": [],
     "wikidataId": "Q30726997",
-    "image": null,
     "wikipediaUrl": "Jackie_Lombard"
   },
   {
     "id": "daniel-siad",
     "name": "Daniel Siad",
-    "birthDate": null,
+    "birthDate": "1957-01-01",
     "gender": "masculin",
     "categories": ["recruteur ou recruteuse"],
     "parties": [],
     "wikidataId": "Q138031415",
-    "image": null,
     "wikipediaUrl": "Daniel_Siad"
   },
   {
-    "id": "",
-    "name": "",
+    "id": "benoit-villeminoz",
+    "name": "Benoît Villeminoz",
     "birthDate": "1977-08-10",
     "gender": "masculin",
     "categories": ["officier"],
     "parties": [],
     "wikidataId": "Q136687352",
+    "wikipediaUrl": null
+  },
+  {
+    "id": "alexandre-brugere",
+    "name": "Alexandre Brugère",
+    "gender": "masculin",
+    "categories": ["haut fonctionnaire ou haute fonctionnaire"],
+    "parties": [],
+    "wikidataId": "Q115988559",
+    "image": "Brug%C3%A8re-1.jpg"
+  },
+  {
+    "id": "alexandre-bompard",
+    "name": "Alexandre Bompard",
+    "birthDate": "1972-10-04",
+    "gender": "masculin",
+    "categories": [
+      "chef ou cheffe d'entreprise",
+      "animateur ou animatrice de radio"
+    ],
+    "parties": [],
+    "wikidataId": "Q2833474",
+    "image": "Alexandre_Bompard%2C_Carrefour_CEO.png"
+  },
+  {
+    "id": "andy-kerbrat",
+    "name": "Andy Kerbrat",
+    "birthDate": "1990-10-01",
+    "gender": "masculin",
+    "categories": [
+      "employés administratifs d'entreprise",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "La France insoumise",
+        "start": "2016-01-01"
+      }
+    ],
+    "wikidataId": "Q112650362",
+    "image": "Andy_Kerbrat_2022.jpg"
+  },
+  {
+    "id": "francois-xavier-lauch",
+    "name": "François-Xavier Lauch",
+    "birthDate": "1981-01-01",
+    "gender": "masculin",
+    "categories": ["haut fonctionnaire ou haute fonctionnaire"],
+    "parties": [],
+    "wikidataId": "Q47502136"
+  },
+  {
+    "id": "maxime-grousset",
+    "name": "Maxime Grousset",
+    "birthDate": "1999-04-24",
+    "gender": "masculin",
+    "categories": ["nageur ou nageuse"],
+    "parties": [],
+    "wikidataId": "Q56254291"
+  },
+  {
+    "id": "jean-luc-moudenc",
+    "name": "Jean-Luc Moudenc",
+    "birthDate": "1960-07-19",
+    "gender": "masculin",
+    "categories": [
+      "cadres de la fonction publique",
+      "grand corps de l'État",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Union pour la démocratie française",
+        "start": "1977-12-01",
+        "end": "2002-04-23"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2002-04-23",
+        "end": "2022-11-07"
+      },
+      {
+        "name": "Divers droite",
+        "start": "2022-11-07"
+      }
+    ],
+    "wikidataId": "Q3082845",
+    "image": "Jean-Luc_Moudenc_-_Sarkozy%27s_meeting_in_Toulouse_for_the_2007_French_presidential_election_0069_2007-04-12_cropped.jpg"
+  },
+  {
+    "id": "guillaume-albert",
+    "name": "Guillaume Albert",
+    "gender": "masculin",
+    "categories": ["fromager"],
+    "parties": []
+  },
+  {
+    "id": "didier-lallement",
+    "name": "Didier Lallement",
+    "birthDate": "1956-08-27",
+    "gender": "masculin",
+    "categories": ["haut fonctionnaire ou haute fonctionnaire"],
+    "parties": [],
+    "wikidataId": "Q3027060"
+  },
+  {
+    "id": "leila-shahid",
+    "name": "Leila Shahid",
+    "birthDate": "1949-07-13",
+    "gender": "féminin",
+    "categories": ["diplomate", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Fatah"
+      }
+    ],
+    "wikidataId": "Q1963057",
+    "image": "Leila_Shahid_%282015%29.jpg"
+  },
+  {
+    "id": "jean-francois-bohnert",
+    "name": "Jean-François Bohnert",
+    "birthDate": "1961-03-27",
+    "gender": "masculin",
+    "categories": ["magistrat ou magistrate"],
+    "parties": [],
+    "wikidataId": "Q66372718",
+    "image": "Jean-Fran%C3%A7ois_BOHNERT%2C_procureur_de_la_R%C3%A9publique_financier%2C_Paris.jpg"
+  },
+  {
+    "id": "florence-portelli",
+    "name": "Florence Portelli",
+    "birthDate": "1978-03-23",
+    "gender": "féminin",
+    "categories": [
+      "personnalité politique locale",
+      "personnes diverses sans activité professionnelle de moins de 60 ans sauf retraités",
+      "personnalité politique"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "start": "1996-01-01",
+        "end": "2019-06-06"
+      },
+      {
+        "name": "Les Républicains",
+        "start": "2021-10-14"
+      },
+      {
+        "name": "Libres",
+        "start": "2018-02-15"
+      }
+    ],
+    "wikidataId": "Q38206639",
+    "image": "Florence_Portelli_-_20170910.jpg"
+  },
+  {
+    "id": "benoit-payan",
+    "name": "Benoît Payan",
+    "birthDate": "1978-01-31",
+    "gender": "masculin",
+    "categories": ["cadres de la fonction publique", "personnalité politique"],
+    "parties": [
+      {
+        "name": "Parti socialiste",
+        "end": "2020-12-15"
+      },
+      {
+        "name": "Divers gauche",
+        "start": "2020-12-15"
+      }
+    ],
+    "wikidataId": "Q63766719",
+    "image": "Beno%C3%AEt_Payan_2025_%28cropped%29.jpg"
+  },
+  {
+    "id": "patrick-martin",
+    "name": "Patrick Martin",
+    "birthDate": "1960-03-03",
+    "gender": "masculin",
+    "categories": ["chef ou cheffe d'entreprise"],
+    "parties": [],
+    "wikidataId": "Q116871810",
+    "image": "Patrick_Martin_MARTIN_BELAYSOUD_MEDEF.jpg",
+    "wikipediaUrl": "Patrick_Martin_(chef_d'entreprise)"
+  },
+  {
+    "id": "francois-marciano",
+    "name": "François Marciano",
+    "birthDate": null,
+    "gender": "masculin",
+    "categories": [],
+    "parties": [],
+    "wikidataId": "Q139473054",
     "image": null,
     "wikipediaUrl": null
+  },
+  {
+    "id": "stephanie-rist",
+    "name": "Stéphanie Rist",
+    "birthDate": "1973-08-06",
+    "gender": "féminin",
+    "categories": [
+      "personnalité politique",
+      "médecin",
+      "professeurs, professions scientifiques"
+    ],
+    "parties": [
+      {
+        "name": "Renaissance",
+        "start": "2016-04-06"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-12"
+      }
+    ],
+    "wikidataId": "Q30339281",
+    "image": "Stéphanie_Rist.jpg",
+    "wikipediaUrl": "Stéphanie_Rist"
+  },
+  {
+    "id": "amine-benyamina",
+    "name": "Amine Benyamina",
+    "birthDate": "1966-10-14",
+    "gender": "masculin",
+    "categories": ["addictologue", "médecin"],
+    "parties": [],
+    "wikidataId": "Q85852673",
+    "wikipediaUrl": "Amine_Benyamina"
+  },
+  {
+    "id": "eric-chenut",
+    "name": "Éric Chenut",
+    "birthDate": "1973-02-16",
+    "gender": "masculin",
+    "categories": ["juriste"],
+    "parties": [],
+    "wikidataId": "Q111208881",
+    "image": null,
+    "wikipediaUrl": "Éric_Chenut"
+  },
+  {
+    "id": "laure-miller",
+    "name": "Laure Miller",
+    "birthDate": "1983-12-25",
+    "gender": "féminin",
+    "categories": [
+      "personnalité politique",
+      "conseiller juridique",
+      "personnes diverses sans activité professionnelle de moins de 60 ans sauf retraités"
+    ],
+    "parties": [
+      {
+        "name": "Les Républicains",
+        "end": "2022-05-08"
+      },
+      {
+        "name": "Renaissance",
+        "start": "2022-05-08"
+      }
+    ],
+    "wikidataId": "Q63766458",
+    "image": "11_novembre_2022_1503524_(Laure_Miller).jpg",
+    "wikipediaUrl": "Laure_Miller"
+  },
+  {
+    "id": "pascal-prache",
+    "name": "Pascal Prache",
+    "birthDate": "1970-01-01",
+    "gender": "masculin",
+    "categories": ["magistrat ou magistrate"],
+    "parties": [],
+    "wikidataId": "Q130486929"
+  },
+  {
+    "id": "maurice-szafran",
+    "name": "Maurice Szafran",
+    "birthDate": "1954-09-10",
+    "gender": "masculin",
+    "categories": ["journaliste", "écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q3301430",
+    "image": "Maurice_Szafran_-_Janvier_2012.jpg",
+    "wikipediaUrl": "Maurice_Szafran"
+  },
+  {
+    "id": "nicolas-domenach",
+    "name": "Nicolas Domenach",
+    "birthDate": "1950-03-29",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q3340267",
+    "wikipediaUrl": "Nicolas_Domenach"
+  },
+  {
+    "id": "anne-toulouse",
+    "name": "Anne Toulouse",
+    "birthDate": "1948-03-01",
+    "gender": "féminin",
+    "categories": ["journaliste", "essayiste"],
+    "parties": [],
+    "wikidataId": "Q119371389"
+  },
+  {
+    "id": "edouard-geffray",
+    "name": "Édouard Geffray",
+    "birthDate": "1978-10-02",
+    "gender": "masculin",
+    "categories": ["haut fonctionnaire ou haute fonctionnaire"],
+    "parties": [
+      {
+        "name": "Gouvernement",
+        "start": "2012-05-03",
+        "end": "2017-06-19"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2019-07-24",
+        "end": "2024-07-31"
+      },
+      {
+        "name": "Gouvernement",
+        "start": "2025-10-12"
+      }
+    ],
+    "wikidataId": "Q33138734",
+    "image": "Portrait_Geffrey_(cropped).jpg",
+    "wikipediaUrl": "Édouard_Geffray"
+  },
+  {
+    "id": "caroline-pigozzi",
+    "name": "Caroline Pigozzi",
+    "birthDate": "1952-11-29",
+    "gender": "féminin",
+    "categories": ["journaliste", "écrivain ou écrivaine"],
+    "parties": [],
+    "wikidataId": "Q11984912",
+    "wikipediaUrl": "Caroline_Pigozzi"
+  },
+  {
+    "id": "philippe-crehange",
+    "name": "Philippe Créhange",
+    "birthDate": "1976-01-01",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q115706747"
+  },
+  {
+    "id": "nicolas-prissette",
+    "name": "Nicolas Prissette",
+    "birthDate": "1972-01-01",
+    "gender": "masculin",
+    "categories": ["journaliste"],
+    "parties": [],
+    "wikidataId": "Q46090671",
+    "wikipediaUrl": "Nicolas_Prissette"
+  },
+  {
+    "id": "emmanuel-riviere",
+    "name": "Emmanuel Rivière",
+    "gender": "masculin",
+    "categories": ["politologue"],
+    "parties": []
+  },
+  {
+    "id": "francois-heisbourg",
+    "name": "François Heisbourg",
+    "birthDate": "1949-06-24",
+    "gender": "masculin",
+    "categories": ["diplomate"],
+    "parties": [],
+    "wikidataId": "Q3084845",
+    "image": "Katrin_Göring-Eckardt,_Francois_Heisbourg_(cropped).jpg",
+    "wikipediaUrl": "François_Heisbourg"
+  },
+  {
+    "id": "loic-mizon",
+    "name": "Loïc Mizon",
+    "birthDate": "1967-09-20",
+    "gender": "masculin",
+    "categories": ["militaire"],
+    "parties": [],
+    "wikidataId": "Q126923891",
+    "image": "Général_de_corps_d'armée,_Loïc_MIZON,_Gouverneur_militaire_de_Paris.jpg"
+  },
+  {
+    "id": "philippe-laurent",
+    "name": "Philippe Laurent",
+    "birthDate": "1954-05-14",
+    "gender": "masculin",
+    "categories": [
+      "personnalité politique",
+      "ingénieur-conseil",
+      "anciens artisans, commerçants, chefs d'entreprise",
+      "anciens cadres"
+    ],
+    "parties": [
+      {
+        "name": "Union pour la démocratie française",
+        "start": "1977-01-01",
+        "end": "2007-11-30"
+      },
+      {
+        "name": "Divers centre",
+        "start": "2007-11-30",
+        "end": "2012-10-21"
+      },
+      {
+        "name": "Union des démocrates et indépendants",
+        "start": "2012-10-21"
+      }
+    ],
+    "wikidataId": "Q3380156",
+    "image": "Philippe_Laurent_(homme_politique)_Photo_officielle_juillet_2007.jpg",
+    "wikipediaUrl": "Philippe_Laurent_(homme_politique)"
   }
 ]

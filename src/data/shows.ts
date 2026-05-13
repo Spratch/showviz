@@ -7,6 +7,7 @@ import elysee2022 from "@/data/shows/elysee-2022.json";
 import enSociete from "@/data/shows/en-societe.json";
 import faceAFogiel from "@/data/shows/face-a-fogiel.json";
 import levenement from "@/data/shows/l-evenement.json";
+import linviteRtl740 from "@/data/shows/l-invite-rtl-de-7h40.json";
 import gdeItw from "@/data/shows/la-grande-interview.json";
 import gdJury from "@/data/shows/le-grand-jury.json";
 import quelleEpoque from "@/data/shows/quelle-epoque.json";
@@ -27,4 +28,5 @@ export const shows: ShowType[] = [
   gdeItw,
   gdJury,
   faceAFogiel,
+  linviteRtl740,
 ];

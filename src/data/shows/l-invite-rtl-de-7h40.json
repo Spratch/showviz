@@ -1,0 +1,1419 @@
+{
+  "slug": "l-invite-rtl-de-7h40",
+  "title": "L'invité RTL de 7h40",
+  "channel": "RTL",
+  "start": "2025-05-21",
+  "end": "",
+  "diffusions": [
+    {
+      "id": "01",
+      "title": "FRÈRES MUSULMANS - Alexandre Brugère, préfet des Hauts-de-Seine, est l'invité de Thomas Sotto",
+      "date": "2025-05-21",
+      "guestsIds": ["alexandre-brugere"]
+    },
+    {
+      "id": "02",
+      "title": "POLITIQUE - Pierre Moscovici est l'invité de Thomas Sotto",
+      "date": "2025-05-26",
+      "guestsIds": ["pierre-moscovici"]
+    },
+    {
+      "id": "03",
+      "title": "CLIMAT SOCIAL - Marylise Léon est l'invitée de Thomas Sotto",
+      "date": "2025-05-27",
+      "guestsIds": ["marylise-leon"]
+    },
+    {
+      "id": "04",
+      "title": "PS - Nicolas Mayer-Rossignol est l'invité de Thomas Sotto",
+      "date": "2025-05-28",
+      "guestsIds": ["nicolas-mayer-rossignol"]
+    },
+    {
+      "id": "05",
+      "title": "VIOLENCES DES MINEURS - Jean-Marie Vilain, maire de Viry-Châtillon, est l'invité de Olivier Boy",
+      "date": "2025-05-29",
+      "guestsIds": ["jean-marie-vilain"]
+    },
+    {
+      "id": "06",
+      "title": "TABAGISME - François Braun, ancien ministre de la Santé, est l'invité de Olivier Boy",
+      "date": "2025-05-30",
+      "guestsIds": ["francois-braun"]
+    },
+    {
+      "id": "07",
+      "title": "PSG - Laurent Nunez est l'invité de Thomas Sotto",
+      "date": "2025-06-02",
+      "guestsIds": ["laurent-nunez"]
+    },
+    {
+      "id": "08",
+      "title": "POLITIQUE - Michel Barnier est l'invité de Thomas Sotto",
+      "date": "2025-06-03",
+      "guestsIds": ["michel-barnier"]
+    },
+    {
+      "id": "09",
+      "title": "POLITIQUE - Bruno Retailleau est l'invité de Thomas Sotto",
+      "date": "2025-06-04",
+      "guestsIds": ["bruno-retailleau"]
+    },
+    {
+      "id": "10",
+      "title": "ÉDUCATION - La ministre Élisabeth Borne est l'invitée de Thomas Sotto",
+      "date": "2025-06-05",
+      "guestsIds": ["elisabeth-borne"]
+    },
+    {
+      "id": "11",
+      "title": "GÉOPOLITIQUE - Jean-Noël Barrot est l'invité de Thomas Sotto",
+      "date": "2025-06-06",
+      "guestsIds": ["jean-noel-barrot"]
+    },
+    {
+      "id": "12",
+      "title": "POLITIQUE - Nicolas Dupont-Aignan est l'invité de Thomas Sotto",
+      "date": "2025-06-09",
+      "guestsIds": ["nicolas-dupont-aignan"]
+    },
+    {
+      "id": "13",
+      "title": "BUDGET 2026 - Amélie de Montchalin, ministre chargée des Comptes publics, est l'invitée de Thomas Sotto",
+      "date": "2025-06-10",
+      "guestsIds": ["amelie-de-montchalin"]
+    },
+    {
+      "id": "14",
+      "title": "SURVEILLANTE POIGNARDÉE - Yaël Braun-Pivet est l'invitée de Thomas Sotto",
+      "date": "2025-06-11",
+      "guestsIds": ["yael-braun-pivet"]
+    },
+    {
+      "id": "15",
+      "title": "POLITIQUE - Olivier Faure est l'invité de Thomas Sotto",
+      "date": "2025-06-12",
+      "guestsIds": ["olivier-faure"]
+    },
+    {
+      "id": "16",
+      "title": "GAZA - Joshua Zarka, ambassadeur d'Israël en France.",
+      "date": "2025-06-13",
+      "guestsIds": ["joshua-zarka"]
+    },
+    {
+      "id": "17",
+      "title": "POLITIQUE - Jordan Bardella est l'invité de Thomas Sotto",
+      "date": "2025-06-16",
+      "guestsIds": ["jordan-bardella"]
+    },
+    {
+      "id": "18",
+      "title": "RETRAITES - Marylise Léon, Secrétaire générale de la CFDT, est l'invitée de Thomas Sotto",
+      "date": "2025-06-17",
+      "guestsIds": ["marylise-leon"]
+    },
+    {
+      "id": "19",
+      "title": "POLITIQUE - Manuel Bompard est l'invité de Thomas Sotto",
+      "date": "2025-06-18",
+      "guestsIds": ["manuel-bompard"]
+    },
+    {
+      "id": "20",
+      "title": "EMPLOI À DOMICILE - Jean-Louis Borloo est l'invité de Thomas Sotto",
+      "date": "2025-06-19",
+      "guestsIds": ["jean-louis-borloo"]
+    },
+    {
+      "id": "21",
+      "title": "POLITIQUE - Jean-Philippe Tanguy est l'invité de Thomas Sotto",
+      "date": "2025-06-20",
+      "guestsIds": ["jean-philippe-tanguy"]
+    },
+    {
+      "id": "22",
+      "title": "IRAN - Mohammad Amin Nejad, ambassadeur de la République Islamique d'Iran en France, est l'invité de Thomas Sotto",
+      "date": "2025-06-23",
+      "guestsIds": ["mohammad-amin-nejad"]
+    },
+    {
+      "id": "23",
+      "title": "RETRAITES - Michel Picon, Marine Tondelier et Louis Aliot sont les invités de Thomas Sotto",
+      "date": "2025-06-24",
+      "guestsIds": ["michel-picon", "marine-tondelier", "louis-aliot"]
+    },
+    {
+      "id": "27",
+      "title": "POLITIQUE - Edouard Philippe est l'invité de Thomas Sotto",
+      "date": "2025-06-25",
+      "guestsIds": ["edouard-philippe"]
+    },
+    {
+      "id": "28",
+      "title": "POLITIQUE - Eric Ciotti est l'invité de Thomas Sotto",
+      "date": "2025-06-26",
+      "guestsIds": ["eric-ciotti"]
+    },
+    {
+      "id": "29",
+      "title": "RETRAITES - Astrid Panosyan-Bouvet, ministre en charge du Travail et de l'Emploi, est l'invitée de Thomas Sotto",
+      "date": "2025-06-27",
+      "guestsIds": ["astrid-panosyan-bouvet"]
+    },
+    {
+      "id": "30",
+      "title": "POLITIQUE - Gérald Darmanin est l'invité de Thomas Sotto",
+      "date": "2025-06-30",
+      "guestsIds": ["gerald-darmanin"]
+    },
+    {
+      "id": "32",
+      "title": "POLITIQUE - Boris Vallaud est l'invité de Thomas Sotto",
+      "date": "2025-07-01",
+      "guestsIds": ["boris-vallaud"]
+    },
+    {
+      "id": "33",
+      "title": "CONSOMMATION - Alexandre Bompard est l'invité de Thomas Sotto",
+      "date": "2025-07-02",
+      "guestsIds": ["alexandre-bompard"]
+    },
+    {
+      "id": "34",
+      "title": "POLITIQUE - Marine Le Pen est l'invitée de Thomas Sotto",
+      "date": "2025-07-03",
+      "guestsIds": ["marine-le-pen"]
+    },
+    {
+      "id": "35",
+      "title": "POLITIQUE - Amélie de Montchalin est l'invitée de Thomas Sotto",
+      "date": "2025-07-04",
+      "guestsIds": ["amelie-de-montchalin"]
+    },
+    {
+      "id": "36",
+      "title": "DROITS DE DOUANE - Laurent Saint-Martin, ministre délégué chargé du Commerce extérieur, est l'invité de Olivier Bost",
+      "date": "2025-07-07",
+      "guestsIds": ["laurent-saint-martin"]
+    },
+    {
+      "id": "37",
+      "title": "POLICE - Louis Laugier est l'invité de Olivier Bost",
+      "date": "2025-07-08",
+      "guestsIds": ["louis-laugier"]
+    },
+    {
+      "id": "38",
+      "title": "POLITIQUE - Sophie Primas, porte-parole du gouvernement, est l'invitée de Olivier Bost",
+      "date": "2025-07-09",
+      "guestsIds": ["sophie-primas"]
+    },
+    {
+      "id": "39",
+      "title": "RN - Sébastien Chenu est l'invité de Olivier Bost",
+      "date": "2025-07-10",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "40",
+      "title": "DOCUMENT RTL - Andy Kerbrat est l'invité de Olivier Bost",
+      "date": "2025-07-11",
+      "guestsIds": ["andy-kerbrat"]
+    },
+    {
+      "id": "41",
+      "title": "14 JUILLET - Le général Loïc Mizon est l'invité de Stéphane Carpentier",
+      "date": "2025-07-14",
+      "guestsIds": ["loic-mizon"]
+    },
+    {
+      "id": "42",
+      "title": "BUDGET - Éric Coquerel est l'invité de Stéphane Carpentier",
+      "date": "2025-07-15",
+      "guestsIds": ["eric-coquerel"]
+    },
+    {
+      "id": "43",
+      "title": "BUDGET - Sophie Binet, secrétaire générale de la CGT, est l'invitée de Stéphane Carpentier",
+      "date": "2025-07-16",
+      "guestsIds": ["sophie-binet"]
+    },
+    {
+      "id": "44",
+      "title": "CENSURE - Sophie Primas, porte-parole du gouvernement, est l'invitée de Stéphane Carpentier",
+      "date": "2025-07-17",
+      "guestsIds": ["sophie-primas"]
+    },
+    {
+      "id": "45",
+      "title": "CONGÉS - Astrid Panosyan-Bouvet, ministre chargée du Travail et de l'Emploi, est l'invitée de Stéphane Carpentier",
+      "date": "2025-07-18",
+      "guestsIds": ["astrid-panosyan-bouvet"]
+    },
+    {
+      "id": "46",
+      "title": "VIOLENCES- François-Xavier Lauch, préfet de l'Hérault",
+      "date": "2025-07-21",
+      "guestsIds": ["francois-xavier-lauch"]
+    },
+    {
+      "id": "48",
+      "title": "SANTE- Yannick Neuder, Ministre chargé de la Santé et de l'Accès aux soins est l'invité de RTL",
+      "date": "2025-07-23",
+      "guestsIds": ["yannick-neuder"]
+    },
+    {
+      "id": "49",
+      "title": "DATI- Emmanuel Grégoire, député socialiste et candidat à la mairie de Paris est l'invité de RTL matin",
+      "date": "2025-07-24",
+      "guestsIds": ["emmanuel-gregoire"]
+    },
+    {
+      "id": "50",
+      "title": "MACRONIE- François-Xavier Bellamy, député européen et vice-président des Républicains est l'invité de RTL Soir",
+      "date": "2025-07-25",
+      "guestsIds": ["francois-xavier-bellamy"]
+    },
+    {
+      "id": "51",
+      "title": "DROITS DE DOUANE - Marc Ferracci, ministre chargé de l'Industrie et de l'Énergie, est l'invité de RTL Matin",
+      "date": "2025-07-28",
+      "guestsIds": ["marc-ferracci"]
+    },
+    {
+      "id": "52",
+      "title": "DROITS DE DOUANE- Thierry Breton, ancien commissaire européen au marché intérieur est l'invité de RTL Matin",
+      "date": "2025-07-29",
+      "guestsIds": ["thierry-breton"]
+    },
+    {
+      "id": "53",
+      "title": "DROITS DE DOUANE- Éric Lombard, ministre de l'Économie, des Finances et de la Souveraineté industrielle et numérique l'invité de RTL Matin",
+      "date": "2025-07-30",
+      "guestsIds": ["eric-lombard"]
+    },
+    {
+      "id": "54",
+      "title": "NARCOTRAFIC - David Lisnard, maire LR de Cannes et président de l'Association des maires de France, est l'invité de RTL Matin",
+      "date": "2025-07-31",
+      "guestsIds": ["david-lisnard"]
+    },
+    {
+      "id": "56",
+      "title": "NATATION - Maxime Grousset est l'invité de RTL Matin",
+      "date": "2025-08-04",
+      "guestsIds": ["maxime-grousset"]
+    },
+    {
+      "id": "57",
+      "title": "NARCOTRAFIC - Matthieu Valet est l'invité RTL de 7h40 du 05 août 2025",
+      "date": "2025-08-05",
+      "guestsIds": ["matthieu-valet"]
+    },
+    {
+      "id": "58",
+      "title": "LOGEMENT - Éric Piolle, maire Les Écologistes de Grenoble, est l'invité de RTL Matin",
+      "date": "2025-08-06",
+      "guestsIds": ["eric-piolle"]
+    },
+    {
+      "id": "60",
+      "title": "AUDE - Grégory Allione est l'invité de Vincent Derosier",
+      "date": "2025-08-08",
+      "guestsIds": ["gregory-allione"]
+    },
+    {
+      "id": "61",
+      "title": "CANICULE - Jean-Luc Moudenc, maire de Toulouse, est l'invité de RTL",
+      "date": "2025-08-11",
+      "guestsIds": ["jean-luc-moudenc"]
+    },
+    {
+      "id": "63",
+      "title": "TRANSITION ÉCOLOGIQUE - Agnès Pannier-Runacher est l'invitée de RTL Matin",
+      "date": "2025-08-13",
+      "guestsIds": ["agnes-pannier-runacher"]
+    },
+    {
+      "id": "64",
+      "title": "Guillaume Albert est l'invité de RTL Matin",
+      "date": "2025-08-14",
+      "guestsIds": ["guillaume-albert"]
+    },
+    {
+      "id": "66",
+      "title": "Patrick Martin-Genier est l'invité de RTL Matin",
+      "date": "2025-08-18",
+      "guestsIds": ["patrick-martin-genier"]
+    },
+    {
+      "id": "68",
+      "title": "Philippe Laurent est l'invité de RTL Matin",
+      "date": "2025-08-20",
+      "guestsIds": ["philippe-laurent"]
+    },
+    {
+      "id": "69",
+      "title": "Manuel Bompard est l'invité de RTL Matin",
+      "date": "2025-08-21",
+      "guestsIds": ["manuel-bompard"]
+    },
+    {
+      "id": "70",
+      "title": "Marine Tondelier est l'invitée de RTL Matin",
+      "date": "2025-08-22",
+      "guestsIds": ["marine-tondelier"]
+    },
+    {
+      "id": "71",
+      "title": "Clémentine Autain : \"Je suis favorable à la grève générale\"",
+      "date": "2025-08-25",
+      "guestsIds": ["clementine-autain"]
+    },
+    {
+      "id": "72",
+      "title": "Jean-Noël Barrot : le vote de confiance est \"un acte de courage et de lucidité\" de la part de François Bayrou",
+      "date": "2025-08-26",
+      "guestsIds": ["jean-noel-barrot"]
+    },
+    {
+      "id": "73",
+      "title": "François Ruffin sur RTL : \"L'honneur réclamerait qu'Emmanuel Macron pose sa démission\"",
+      "date": "2025-08-27",
+      "guestsIds": ["francois-ruffin"]
+    },
+    {
+      "id": "74",
+      "title": "Marylise Léon : \"Ma préoccupation, c'est pas l'avenir de François Bayrou, c'est ce qu'il y aura dans le budget\"",
+      "date": "2025-08-28",
+      "guestsIds": ["marylise-leon"]
+    },
+    {
+      "id": "75",
+      "title": "Valérie Pécresse : \"Il faut être raisonnable et il faut voter contre le chaos\"",
+      "date": "2025-08-29",
+      "guestsIds": ["valerie-pecresse"]
+    },
+    {
+      "id": "76",
+      "title": "Élisabeth Borne : \"2.500 professeurs manquants à la rentrée, moins que l'an dernier\"",
+      "date": "2025-09-01",
+      "guestsIds": ["elisabeth-borne"]
+    },
+    {
+      "id": "77",
+      "title": "Jean-François Copé : \"Bayrou a privilégié la dramatisation à la pédagogie\"",
+      "date": "2025-09-02",
+      "guestsIds": ["jean-francois-cope"]
+    },
+    {
+      "id": "78",
+      "title": "Louis Aliot : \"Si on écoute François Bayrou, on ne voit pas où il veut aller\"",
+      "date": "2025-09-03",
+      "guestsIds": ["louis-aliot"]
+    },
+    {
+      "id": "79",
+      "title": "Olivier Faure : \"La messe est dite, notre décision est irrévocable\"",
+      "date": "2025-09-04",
+      "guestsIds": ["olivier-faure"]
+    },
+    {
+      "id": "80",
+      "title": "François Bayrou : \"Ce n'est pas une tournée d'adieu\"",
+      "date": "2025-09-05",
+      "guestsIds": ["francois-bayrou"]
+    },
+    {
+      "id": "81",
+      "title": "Pascal Perrineau : le discours de Bayrou sera \"le chant du cygne du projet d'Emmanuel Macron\"",
+      "date": "2025-09-08",
+      "guestsIds": ["pascal-perrineau"]
+    },
+    {
+      "id": "82",
+      "title": "Yaël Braun-Pivet Première ministre ? \"S'il fallait assurer cette mission, je ne rechignerais pas\"",
+      "date": "2025-09-09",
+      "guestsIds": ["yael-braun-pivet"]
+    },
+    {
+      "id": "83",
+      "title": "Boris Vallaud : \"La majorité des Français qui veulent un changement de cap\"",
+      "date": "2025-09-10",
+      "guestsIds": ["boris-vallaud"]
+    },
+    {
+      "id": "84",
+      "title": "Raphaël Glucksmann : \"Entrer au gouvernement avec M. Retailleau honnêtement, non\"",
+      "date": "2025-09-11",
+      "guestsIds": ["raphael-glucksmann"]
+    },
+    {
+      "id": "85",
+      "title": "Xavier Bertrand : \"Le responsable de cette situation, c'est Emmanuel Macron\"",
+      "date": "2025-09-12",
+      "guestsIds": ["xavier-bertrand"]
+    },
+    {
+      "id": "86",
+      "title": "Jean-Philippe Tanguy : hisser le drapeau palestinien sur les mairie le 22 septembre ? \"Une prime au terrorisme\"",
+      "date": "2025-09-15",
+      "guestsIds": ["jean-philippe-tanguy"]
+    },
+    {
+      "id": "87",
+      "title": "Manuel Bompard sur RTL : \"L'attitude du Parti socialiste est consternante\"",
+      "date": "2025-09-16",
+      "guestsIds": ["manuel-bompard"]
+    },
+    {
+      "id": "88",
+      "title": "Pascal Demurger : \"Je pense que le patron du Medef se trompe\"",
+      "date": "2025-09-17",
+      "guestsIds": ["pascal-demurger"]
+    },
+    {
+      "id": "89",
+      "title": "Fabien Roussel : \"On ne s'accordera pas sur des miettes\"",
+      "date": "2025-09-18",
+      "guestsIds": ["fabien-roussel"]
+    },
+    {
+      "id": "90",
+      "title": "Didier Lallement : \"La police est un obstacle mais la police ne tue pas\"",
+      "date": "2025-09-19",
+      "guestsIds": ["didier-lallement"]
+    },
+    {
+      "id": "91",
+      "title": "Leila Shahid : \"Macron entérine ce que les présidents français essayent de faire depuis de Gaulle\"",
+      "date": "2025-09-22",
+      "guestsIds": ["leila-shahid"]
+    },
+    {
+      "id": "92",
+      "title": "Joshua Zarka : \"La France devient un agent déstabilisateur au Moyen-Orient\"",
+      "date": "2025-09-23",
+      "guestsIds": ["joshua-zarka"]
+    },
+    {
+      "id": "93",
+      "title": "Éric Dupond-Moretti : Cnews \"est une chaîne de désinformation continue\"",
+      "date": "2025-09-24",
+      "guestsIds": ["eric-dupond-moretti"]
+    },
+    {
+      "id": "94",
+      "title": "Marion Maréchal : \"Les Français doivent faire des enfants\"",
+      "date": "2025-09-25",
+      "guestsIds": ["marion-marechal"]
+    },
+    {
+      "id": "95",
+      "title": "Henri Guaino : \"On a assisté à l'apothéose du jugement sans preuve\"",
+      "date": "2025-09-26",
+      "guestsIds": ["henri-guaino"]
+    },
+    {
+      "id": "96",
+      "title": "Jean-François Bohnert : \"Nous n'avons pas de haine\" envers Nicolas Sarkozy",
+      "date": "2025-09-29",
+      "guestsIds": ["jean-francois-bohnert"]
+    },
+    {
+      "id": "97",
+      "title": "Michel Barnier sur RTL : \"Pensez à la France\", l'appel aux partis politiques avant la nomination du gouvernement de Sébastien Lecornu",
+      "date": "2025-09-30",
+      "guestsIds": ["michel-barnier"]
+    },
+    {
+      "id": "98",
+      "title": "Michel Picon, président de l'union des entreprises de proximité : \"Le Medef est en train de mettre en place une lutte des classes inversée\"",
+      "date": "2025-10-01",
+      "guestsIds": ["michel-picon"]
+    },
+    {
+      "id": "99",
+      "title": "\"Si pas de rupture, il y aura censure\" : sur RTL, la mise en garde du RN Sébastien Chenu à Sébastien Lecornu",
+      "date": "2025-10-02",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "100",
+      "title": "Mathilde Panot : \"Je demande solennellement à Emmanuel Macron d'expulser l'ambassadeur d'Israël en France\"",
+      "date": "2025-10-03",
+      "guestsIds": ["mathilde-panot"]
+    },
+    {
+      "id": "101",
+      "title": "Xavier Bertrand : \"Nous ne pouvons pas participer\" au gouvernement de Sébastien Lecornu",
+      "date": "2025-10-06",
+      "guestsIds": ["xavier-bertrand"]
+    },
+    {
+      "id": "102",
+      "title": "Manuel Bompard ne croit pas que l'hypothèse d'un ministre de gauche \"soit sur la table\"",
+      "date": "2025-10-07",
+      "guestsIds": ["manuel-bompard"]
+    },
+    {
+      "id": "103",
+      "title": "Yaël Braun-Pivet : \"Non, nous n'avons pas évoqué la dissolution avec Emmanuel Macron\"",
+      "date": "2025-10-08",
+      "guestsIds": ["yael-braun-pivet"]
+    },
+    {
+      "id": "104",
+      "title": "Aurore Bergé répond sur RTL à l'idée d'Édouard Philippe : \"On ne demande pas la démission du président\"",
+      "date": "2025-10-09",
+      "guestsIds": ["aurore-berge"]
+    },
+    {
+      "id": "105",
+      "title": "François Villeroy de Galhau : la France \"c'est le wagon de queue\" de l'Europe",
+      "date": "2025-10-10",
+      "guestsIds": ["francois-villeroy-de-galhau"]
+    },
+    {
+      "id": "106",
+      "title": "Maud Bregeon : \"La censure, c'est l'autoroute vers la dissolution\"",
+      "date": "2025-10-13",
+      "guestsIds": ["maud-bregeon"]
+    },
+    {
+      "id": "107",
+      "title": "Retraites, impôts, taxe : \"On fait tout ce qu'il ne faut pas faire\", selon Patrick Martin, président du Medef",
+      "date": "2025-10-14",
+      "guestsIds": ["patrick-martin"]
+    },
+    {
+      "id": "108",
+      "title": "Roland Lescure, ministre de l'Économie : \"Le matraquage fiscal, ça ne marche pas\"",
+      "date": "2025-10-15",
+      "guestsIds": ["roland-lescure"]
+    },
+    {
+      "id": "109",
+      "title": "Florence Portelli : \"Si j'étais députée, j'aurais voté la censure\"",
+      "date": "2025-10-16",
+      "guestsIds": ["florence-portelli"]
+    },
+    {
+      "id": "110",
+      "title": "Serge Papin : \"Je suis le ministre du quotidien\"",
+      "date": "2025-10-17",
+      "guestsIds": ["serge-papin"]
+    },
+    {
+      "id": "111",
+      "title": "Sébastien Chenu : la directrice du musée du Louvre doit \"nous éclairer sur ses choix d'investissement\"",
+      "date": "2025-10-20",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "112",
+      "title": "Olivier Faure : \"La censure est possible à tout moment\"",
+      "date": "2025-10-21",
+      "guestsIds": ["olivier-faure"]
+    },
+    {
+      "id": "113",
+      "title": "Pierre Moscovici : \"Ça ne va pas du tout\" le premier président de la Cour des Comptes demande un budget qui \"marque une inflexion\"",
+      "date": "2025-10-22",
+      "guestsIds": ["pierre-moscovici"]
+    },
+    {
+      "id": "114",
+      "title": "Vincent Jeanbrun : le marché immobilier en France est \"catastrophique\" indique le ministre de la Ville et du Logement",
+      "date": "2025-10-23",
+      "guestsIds": ["vincent-jeanbrun"]
+    },
+    {
+      "id": "115",
+      "title": "Franz-Olivier Giesbert : la condamnation de Nicolas Sarkozy est \"une forme de régicide\"",
+      "date": "2025-10-24",
+      "guestsIds": ["franz-olivier-giesbert"]
+    },
+    {
+      "id": "116",
+      "title": "\"Il n'y a pas de deal\" : sur RTL, Boris Vallaud ne rejette pas l'hypothèse d'une censure du gouvernement",
+      "date": "2025-10-27",
+      "guestsIds": ["boris-vallaud"]
+    },
+    {
+      "id": "117",
+      "title": "\"Pas de chantage à la censure\" : Laurent Wauquiez assure sur RTL ne pas vouloir faire \"tomber un gouvernement à la légère\"",
+      "date": "2025-10-28",
+      "guestsIds": ["laurent-wauquiez"]
+    },
+    {
+      "id": "118",
+      "title": "\"Encore moins votable qu'hier\" : sur RTL, Bruno Retailleau dénonce une \"folie fiscale\" sur le budget",
+      "date": "2025-10-29",
+      "guestsIds": ["bruno-retailleau"]
+    },
+    {
+      "id": "119",
+      "title": "\"444 plans de licenciement\" : sur RTL, Sophie Binet dévoile le recensement de la CGT, un \"petit bout de l'iceberg\"",
+      "date": "2025-10-30",
+      "guestsIds": ["sophie-binet"]
+    },
+    {
+      "id": "120",
+      "title": "Jordan Bardella : \"Le rôle du ministre de la Justice, s'il est astreint à une sobriété sur le fond, doit vérifier les conditions de sécurité des détenus\"",
+      "date": "2025-10-31",
+      "guestsIds": ["jordan-bardella"]
+    },
+    {
+      "id": "123",
+      "title": "Jean-Noël Barrot : \"Nous allons obtenir la libération définitive\" de Cécile Kohler et Jacques Paris",
+      "date": "2025-11-05",
+      "guestsIds": ["jean-noel-barrot"]
+    },
+    {
+      "id": "125",
+      "title": "\"Un antisémitisme qui prend d'autres visages\" : Bernard Cazeneuve dénonce la responsabilité de \"l'extrême gauche\"",
+      "date": "2025-11-07",
+      "guestsIds": ["bernard-cazeneuve"]
+    },
+    {
+      "id": "127",
+      "title": "\"Le débat d'aujourd'hui me désole\" : sur RTL, Thierry Breton affirme qu'il ne voterait \"jamais\" la suspension de la réforme des retraites",
+      "date": "2025-11-11",
+      "guestsIds": ["thierry-breton"]
+    },
+    {
+      "id": "128",
+      "title": "\"Une évidence\" : si elle est condamnée en appel, Le Pen voit la candidature de Bardella en 2027 comme \"une décision qui s'impose\"",
+      "date": "2025-11-12",
+      "guestsIds": ["marine-le-pen"]
+    },
+    {
+      "id": "129",
+      "title": "Municipales à Paris : sur RTL, Anne Hidalgo estime que \"d'un point de vue moral, ça fait longtemps\" que Rachida Dati \"aurait dû abandonner son mandat\"",
+      "date": "2025-11-13",
+      "guestsIds": ["anne-hidalgo"]
+    },
+    {
+      "id": "130",
+      "title": "\"On va se diversifier\" : sur RTL, le patron de Duralex révèle les projets de la verrerie, après le succès fou de la levée de fonds",
+      "date": "2025-11-14",
+      "guestsIds": ["francois-marciano"]
+    },
+    {
+      "id": "131",
+      "title": "Drogues : sur RTL, la ministre de la Santé Stéphanie Rist voit les consommateurs comme \"des malades\" et \"des tristesses\" pour leurs familles",
+      "date": "2025-11-17",
+      "guestsIds": ["stephanie-rist"]
+    },
+    {
+      "id": "132",
+      "title": "\"Il y a du sang dans chaque barrette de shit\" : sur RTL, Roussel réclame le renfort de 60.000 agents de la fonction publique pour lutter contre le narcotrafic",
+      "date": "2025-11-18",
+      "guestsIds": ["fabien-roussel"]
+    },
+    {
+      "id": "133",
+      "title": "Benoît Payan, maire de Marseille : \"J'ai reçu 402 menaces de mort\"",
+      "date": "2025-11-19",
+      "guestsIds": ["benoit-payan"]
+    },
+    {
+      "id": "134",
+      "title": "Amine Benyamina, addictologue, affirme que la drogue est \"partout\", y compris dans les petits villages",
+      "date": "2025-11-20",
+      "guestsIds": ["amine-benyamina"]
+    },
+    {
+      "id": "135",
+      "title": "Marguerite, \"la sauveuse du RER C\", raconte comment elle s'est interposée lors d'une tentative de viol",
+      "date": "2025-11-21",
+      "guestsIds": []
+    },
+    {
+      "id": "136",
+      "title": "Michel-Édouard Leclerc dénonce une \"hystérie\" et des propos \"racistes\" après la polémique Shein",
+      "date": "2025-11-24",
+      "guestsIds": ["michel-edouard-leclerc"]
+    },
+    {
+      "id": "138",
+      "title": "Narcotrafic, terrorisme... Sur RTL, Gérald Darmanin promet de \"changer la loi\" pour limiter les permissions de sortir des détenus en prison de haute sécurité",
+      "date": "2025-11-26",
+      "guestsIds": ["gerald-darmanin"]
+    },
+    {
+      "id": "139",
+      "title": "\"C'est une plaisanterie\" : sur RTL, Clémence Guetté dénonce le comportement \"pathétique\" du PS après les propos de François Hollande sur le 49.3",
+      "date": "2025-11-27",
+      "guestsIds": ["clemence-guette"]
+    },
+    {
+      "id": "140",
+      "title": "\"On peut être amené à baisser les prestations\" : sur RTL, la mise en garde du ministre du Travail  en cas d'absence de vote du budget de la Sécu",
+      "date": "2025-11-28",
+      "guestsIds": ["jean-pierre-farandou"]
+    },
+    {
+      "id": "141",
+      "title": "\"Ils se moquent du monde\" : le ministre du Commerce Serge Papin dénonce le \"dumping\" de Shein",
+      "date": "2025-12-01",
+      "guestsIds": ["serge-papin"]
+    },
+    {
+      "id": "142",
+      "title": "Jordan Bardella agressé : \"S'il avait eu un revolver, le résultat n'aurait pas été le même\", réagit sur RTL le maire de Perpignan Louis Aliot (RN)",
+      "date": "2025-12-02",
+      "guestsIds": ["louis-aliot"]
+    },
+    {
+      "id": "144",
+      "title": "Gabriel Attal : \"L'absence de 49.3 a agi comme un détecteur de mensonges\"",
+      "date": "2025-12-04",
+      "guestsIds": ["gabriel-attal"]
+    },
+    {
+      "id": "145",
+      "title": "Raphaël Glucksmann dit vouloir continuer sa lutte pour que \"la France ne bascule pas dans le camp de Trump ou Poutine\"",
+      "date": "2025-12-05",
+      "guestsIds": ["raphael-glucksmann"]
+    },
+    {
+      "id": "147",
+      "title": "Budget 2026 : sur RTL, François Hollande appelle à \"procéder à son adoption par le 49.3\"",
+      "date": "2025-12-09",
+      "guestsIds": ["francois-hollande"]
+    },
+    {
+      "id": "148",
+      "title": "Roland Lescure : \"Il va falloir trouver 4,5 milliards d'économies dans les comptes de l'État\"",
+      "date": "2025-12-10",
+      "guestsIds": ["roland-lescure"]
+    },
+    {
+      "id": "149",
+      "title": "Robert Ménard réagit à la polémique \"sales connes\" de Brigitte Macron",
+      "date": "2025-12-11",
+      "guestsIds": ["robert-menard"]
+    },
+    {
+      "id": "150",
+      "title": "Dermatose dans une ferme en Ariège : 500 manifestants et quatre interpellations annonce Laurent Nuñez sur RTL",
+      "date": "2025-12-12",
+      "guestsIds": ["laurent-nunez"]
+    },
+    {
+      "id": "151",
+      "title": "Amine Kessaci assure que sa \"parole est une garantie de survie\" un mois après l'assassinat de son frère",
+      "date": "2025-12-15",
+      "guestsIds": ["amine-kessaci"]
+    },
+    {
+      "id": "152",
+      "title": "\"Un déni collectif\" : le patron de la Mutualité française dénonce sur RTL \"une TVA sur la santé\" et appelle à réguler les dépenses de santé",
+      "date": "2025-12-16",
+      "guestsIds": ["eric-chenut"]
+    },
+    {
+      "id": "153",
+      "title": "Dominique de Villepin dénonce \"la menace identitaire que représente le Rassemblement national\"",
+      "date": "2025-12-17",
+      "guestsIds": ["dominique-de-villepin"]
+    },
+    {
+      "id": "154",
+      "title": "Emmanuel Grégoire salue une union historique de la gauche sans LFI pour protéger la capitale d'un \"backlash conservateur\"",
+      "date": "2025-12-18",
+      "guestsIds": ["emmanuel-gregoire"]
+    },
+    {
+      "id": "155",
+      "title": "\"Nous ne tolérerons plus de blocages\", prévient la porte-parole du gouvernement pour que les Français rejoignent leurs familles pour les fêtes",
+      "date": "2025-12-19",
+      "guestsIds": ["maud-bregeon"]
+    },
+    {
+      "id": "156",
+      "title": "\"Là, ce n'est pas un drame\" : sur RTL, Éric Coquerel estime que \"la situation ne va pas devenir catastrophique parce qu'il y a une loi spéciale\" sur le budget",
+      "date": "2025-12-22",
+      "guestsIds": ["eric-coquerel"]
+    },
+    {
+      "id": "157",
+      "title": "\"Les passagers n'ont pas été en insécurité\" : sur RTL, le ministre des Transports évoque un \"incident désagréable\" après l'atterrissage en urgence d'un vol Paris-Ajaccio",
+      "date": "2025-12-23",
+      "guestsIds": ["philippe-tabarot"]
+    },
+    {
+      "id": "158",
+      "title": "\"Où trouvez-vous toute cette énergie ?\" Sur RTL, Sébastien Chenu tance Roselyne Bachelot \"plus à l'aise dans le registre des 'Grosses Têtes'\"",
+      "date": "2025-12-24",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "159",
+      "title": "\"C'est le passage du religieux dans le civil\" : Jean-François Colosimo analyse sur RTL comment Noël s'est imposé dans la société",
+      "date": "2025-12-25",
+      "guestsIds": ["jean-francois-colosimo"]
+    },
+    {
+      "id": "160",
+      "title": "\"Monsieur Trump ne gouverne pas l'Europe et il faudra qu'il s'y fasse\" : Bernard Guetta fulmine contre l'administration Trump",
+      "date": "2025-12-26",
+      "guestsIds": ["bernard-guetta"]
+    },
+    {
+      "id": "161",
+      "title": "La ministre Marie-Pierre Vedrenne s'interroge sur la naturalisation de George Clooney : \"Ce n'est pas le bon message qui est envoyé\"",
+      "date": "2025-12-29",
+      "guestsIds": ["marie-pierre-vedrenne"]
+    },
+    {
+      "id": "162",
+      "title": "Thierry Breton, ancien commissaire européen interdit de séjour aux États-Unis : \"C'est au-delà de ma personne\"",
+      "date": "2025-12-30",
+      "guestsIds": ["thierry-breton"]
+    },
+    {
+      "id": "163",
+      "title": "Réveillon du Nouvel An : alcool, stupéfiants et protoxyde d'azote \"particulièrement ciblés\" dans les contrôles routiers, prévient la préfecture de police de Paris sur RTL",
+      "date": "2025-12-31",
+      "guestsIds": ["helene-denechere"]
+    },
+    {
+      "id": "164",
+      "title": "Philippe Juvin : \"Ce n'était pas un grand soir de vœux\"",
+      "date": "2026-01-01",
+      "guestsIds": ["philippe-juvin"]
+    },
+    {
+      "id": "165",
+      "title": "La députée EPR Laure Miller défend l'interdiction des réseaux sociaux aux moins de 15 ans",
+      "date": "2026-01-02",
+      "guestsIds": ["laure-miller"]
+    },
+    {
+      "id": "166",
+      "title": "Manuel Bompard dénonce une \"déclaration honteuse\" d'Emmanuel Macron après la capture de Nicolás Maduro",
+      "date": "2026-01-05",
+      "guestsIds": ["manuel-bompard"]
+    },
+    {
+      "id": "167",
+      "title": "Groenland : sur RTL, Xavier Bertrand demande à Emmanuel Macron \"d'exiger la convocation d'un conseil de l'OTAN\"",
+      "date": "2026-01-06",
+      "guestsIds": ["xavier-bertrand"]
+    },
+    {
+      "id": "169",
+      "title": "\"Je n'exclus rien qui puisse donner un budget à la France\" : sur RTL, Amélie de Montchalin ne ferme pas la porte au 49.3 pour le budget",
+      "date": "2026-01-08",
+      "guestsIds": ["amelie-de-montchalin"]
+    },
+    {
+      "id": "171",
+      "title": "Plainte contre Jordan Bardella : le nouveau procureur national financier évoque sur RTL \"une analyse en cours\"",
+      "date": "2026-01-12",
+      "guestsIds": ["pascal-prache"]
+    },
+    {
+      "id": "172",
+      "title": "\"Macron essaye de couillonner les Français\" : sur RTL, Jean-Philippe Tanguy (RN) dénonce un \"cinéma total\" sur le dossier du Mercosur",
+      "date": "2026-01-13",
+      "guestsIds": ["jean-philippe-tanguy"]
+    },
+    {
+      "id": "173",
+      "title": "Jean-Noël Barrot, ministre des Affaires étrangères, demande à ce que le \"chantage\" américain \"cesse\"",
+      "date": "2026-01-14",
+      "guestsIds": ["jean-noel-barrot"]
+    },
+    {
+      "id": "174",
+      "title": "Jean-François Colosimo questionne l'envoi de troupes au Groenland : \"On va tirer sur les soldats américains ?\"",
+      "date": "2026-01-15",
+      "guestsIds": ["jean-francois-colosimo"]
+    },
+    {
+      "id": "175",
+      "title": "Sarah Knafo sur les municipales à Paris : \"Je suis là pour multiplier les voix de la droite\"",
+      "date": "2026-01-16",
+      "guestsIds": ["sarah-knafo"]
+    },
+    {
+      "id": "176",
+      "title": "Boris Vallaud, patron des députés PS : \"On a besoin d'un budget\"",
+      "date": "2026-01-19",
+      "guestsIds": ["boris-vallaud"]
+    },
+    {
+      "id": "177",
+      "title": "Franck Allisio, candidat RN à Marseille : Depuis 5 ans, Benoît Payan c'est le maire de l'impuissance, ou de l'incompétence\"",
+      "date": "2026-01-20",
+      "guestsIds": ["franck-allisio"]
+    },
+    {
+      "id": "178",
+      "title": "David Lisnard : \"Bruno Retailleau doit être le patron\"",
+      "date": "2026-01-21",
+      "guestsIds": ["david-lisnard"]
+    },
+    {
+      "id": "179",
+      "title": "Roland Lescure évoque \"un premier bon signe\" mais reste \"vigilant\" face à \"l'imprévisibilité\" de Donald Trump",
+      "date": "2026-01-22",
+      "guestsIds": ["roland-lescure"]
+    },
+    {
+      "id": "180",
+      "title": "Stéphane Audoin-Rouzeau : \"Donald Trump incarne une forme de fascisme américain\"",
+      "date": "2026-01-23",
+      "guestsIds": ["stephane-audoin-rouzeau"]
+    },
+    {
+      "id": "181",
+      "title": "Gabriel Attal : l'interdiction des réseaux sociaux pour les moins de 15 ans \"entrera en vigueur le 1er septembre\" si le texte est voté",
+      "date": "2026-01-26",
+      "guestsIds": ["gabriel-attal"]
+    },
+    {
+      "id": "182",
+      "title": "Catherine Vautrin répond à Donald Trump qui a qualifié de \"planquées\" les armées alliées en Afghanistan",
+      "date": "2026-01-27",
+      "guestsIds": ["catherine-vautrin"]
+    },
+    {
+      "id": "183",
+      "title": "Gérard Larcher, président du Sénat : \"C'est un mauvais budget\"",
+      "date": "2026-01-28",
+      "guestsIds": ["gerard-larcher"]
+    },
+    {
+      "id": "184",
+      "title": "Jordan Bardella, président du RN, sur Donald Trump : \"Je n'ai de fascination pour personne, encore moins pour un dirigeant étranger\"",
+      "date": "2026-01-29",
+      "guestsIds": ["jordan-bardella"]
+    },
+    {
+      "id": "185",
+      "title": "\"S'il choisit l'argent, la politique c'est fini\" : sur RTL, les journalistes Maurice Szafran et Nicolas Domenach évoquent l'avenir de Macron",
+      "date": "2026-01-30",
+      "guestsIds": ["maurice-szafran", "nicolas-domenach"]
+    },
+    {
+      "id": "186",
+      "title": "Procès de Marine Le Pen : sur RTL, Marion Maréchal dit avoir \"le sentiment que les gens de droite ne sont pas traités de la même façon que ceux de gauche\"",
+      "date": "2026-02-02",
+      "guestsIds": ["marion-marechal"]
+    },
+    {
+      "id": "187",
+      "title": "Maud Bregeon, porte-parole du gouvernement, évoque un possible remaniement \"dans les jours à venir\"",
+      "date": "2026-02-03",
+      "guestsIds": ["maud-bregeon"]
+    },
+    {
+      "id": "188",
+      "title": "Gérald Darmanin veut, \"qu'à l'été\", le centre et la droite aient choisi leur candidat pour 2027",
+      "date": "2026-02-04",
+      "guestsIds": ["gerald-darmanin"]
+    },
+    {
+      "id": "189",
+      "title": "\"C'est un choc à chaque fois\" : le compagnon d'Agnès Lassalle, professeur poignardée par un élève en 2023, témoigne sur RTL",
+      "date": "2026-02-05",
+      "guestsIds": []
+    },
+    {
+      "id": "190",
+      "title": "\"Cette date, c'est la ligne rouge\" : la journaliste franco-américaine Anne Toulouse explique pourquoi 2008 est une date clé dans l'affaire Epstein",
+      "date": "2026-02-06",
+      "guestsIds": ["anne-toulouse"]
+    },
+    {
+      "id": "191",
+      "title": "Professeure poignardée à Sanary-sur-Mer : le ministre de l'Éducation Édouard Geffray indique sur RTL que son état de santé \"s'améliore un petit peu\"",
+      "date": "2026-02-09",
+      "guestsIds": ["edouard-geffray"]
+    },
+    {
+      "id": "192",
+      "title": "\"Pas d'alliance avec LFI\" : pour Jérôme Guedj sur RTL, si Mélenchon est au second tour en 2027, \"ce serait la certitude de la victoire de Bardella\"",
+      "date": "2026-02-10",
+      "guestsIds": ["jerome-guedj"]
+    },
+    {
+      "id": "193",
+      "title": "Diplomate français mis en cause dans l'affaire Epstein : le ministre des Affaires étrangères Jean-Noël Barrot se dit \"effaré\" sur RTL",
+      "date": "2026-02-11",
+      "guestsIds": ["jean-noel-barrot"]
+    },
+    {
+      "id": "194",
+      "title": "Sandra Chirac Kollarik, avocate de Marine Le Pen, espère une \"peine adaptée\" à l'issue du procès en appel du RN",
+      "date": "2026-02-12",
+      "guestsIds": ["sandra-chirac-kollarik"]
+    },
+    {
+      "id": "195",
+      "title": "Une candidature \"sobre\" et \"sans envolées lyriques\" : pour Franz-Olivier Giesbert, Bruno Retailleau est \"l'anti Macron\"",
+      "date": "2026-02-13",
+      "guestsIds": ["franz-olivier-giesbert"]
+    },
+    {
+      "id": "196",
+      "title": "\"LFI brutalise le débat public\" : après la mort de Quentin, Raphaël Glucksmann dénonce sur RTL \"une responsabilité des dirigeants politiques qui attisent la haine\"",
+      "date": "2026-02-16",
+      "guestsIds": ["raphael-glucksmann"]
+    },
+    {
+      "id": "197",
+      "title": "Éric Coquerel assure sur RTL que LFI n'a \"aucun rapport\" avec la mort de Quentin Deranque et dénonce \"une récupération sordide\"",
+      "date": "2026-02-17",
+      "guestsIds": ["eric-coquerel"]
+    },
+    {
+      "id": "198",
+      "title": "Mort de Quentin Deranque  : sur RTL, Rachida Dati assure que \"toute la gauche est concernée\" par des liens avec la Jeune Garde",
+      "date": "2026-02-18",
+      "guestsIds": ["rachida-dati"]
+    },
+    {
+      "id": "199",
+      "title": "\"S'il avait un peu d'honneur...\" : sur RTL, Valérie Pécresse demande la démission du député LFI Raphaël Arnault, cofondateur de la Jeune Garde",
+      "date": "2026-02-19",
+      "guestsIds": ["valerie-pecresse"]
+    },
+    {
+      "id": "200",
+      "title": "Mort de Quentin Deranque : Laurent Nuñez annonce sur RTL ne pas demander l'interdiction de la marche à Lyon, des renforts policiers déployés",
+      "date": "2026-02-20",
+      "guestsIds": ["laurent-nunez"]
+    },
+    {
+      "id": "201",
+      "title": "\"Une faute qu'il paiera\" : sur RTL, François Hollande affirme que \"Mélenchon a une responsabilité morale\" pour son soutien à la Jeune Garde",
+      "date": "2026-02-23",
+      "guestsIds": ["francois-hollande"]
+    },
+    {
+      "id": "202",
+      "title": "Mort de Quentin Deranque : sur RTL, Yaël Braun-Pivet accuse Jean-Luc Mélenchon d'être \"d'une complaisance totale\" avec la Jeune Garde",
+      "date": "2026-02-24",
+      "guestsIds": ["yael-braun-pivet"]
+    },
+    {
+      "id": "203",
+      "title": "\"Le ménage a été fait\" : Jean-Philippe Tanguy affirme sur RTL que le RN n'a \"aucune connexion\" avec des groupuscules violents d'ultradroite",
+      "date": "2026-02-25",
+      "guestsIds": ["jean-philippe-tanguy"]
+    },
+    {
+      "id": "204",
+      "title": "\"La peste et le choléra\" : sur RTL, Éric Dupond-Moretti met dos à dos LFI, RN et Reconquête et juge que \"la France est bien trop belle pour être confiée aux extrêmes\"",
+      "date": "2026-02-26",
+      "guestsIds": ["eric-dupond-moretti"]
+    },
+    {
+      "id": "205",
+      "title": "\"C'est inadmissible\" : sur RTL, l'ex-ministre Éric Lombard estime que Jean-Luc Mélenchon \"est antisémite\", après ses derniers propos sur l'affaire Epstein",
+      "date": "2026-02-27",
+      "guestsIds": ["eric-lombard"]
+    },
+    {
+      "id": "206",
+      "title": "Mariam Pirzadeh, journaliste franco-iranienne : \"L'opposition est en prison\"",
+      "date": "2026-03-02",
+      "guestsIds": ["mariam-pirzadeh"]
+    },
+    {
+      "id": "207",
+      "title": "Bruno Retailleau estime que Jean-Luc Mélenchon est \"le premier danger de la démocratie française\"",
+      "date": "2026-03-03",
+      "guestsIds": ["bruno-retailleau"]
+    },
+    {
+      "id": "208",
+      "title": "Marine Le Pen n'a \"rien trouvé de choquant\" dans l'allocution d'Emmanuel Macron sur la guerre en Iran",
+      "date": "2026-03-04",
+      "guestsIds": ["marine-le-pen"]
+    },
+    {
+      "id": "209",
+      "title": "Catherine Vautrin, ministre des Armées, annonce de nouvelles évacuations pour les Français bloqués au Moyen-Orient",
+      "date": "2026-03-05",
+      "guestsIds": ["catherine-vautrin"]
+    },
+    {
+      "id": "210",
+      "title": "\"Un bouclier pour protéger les Français\" : la députée LFI Clémence Guetté demande sur RTL un blocage des prix du carburant face à la guerre en Iran",
+      "date": "2026-03-06",
+      "guestsIds": ["clemence-guette"]
+    },
+    {
+      "id": "211",
+      "title": "Maud Bregeon annonce une réunion avec les distributeurs d'essence en fin de semaine",
+      "date": "2026-03-09",
+      "guestsIds": ["maud-bregeon"]
+    },
+    {
+      "id": "212",
+      "title": "Michel Picon,  président de l'union des entreprises de proximité : \"Le gouvernement a les moyens de vérifier ceux qui prennent les Français pour des dindons\"",
+      "date": "2026-03-10",
+      "guestsIds": ["michel-picon"]
+    },
+    {
+      "id": "213",
+      "title": "\"Nous n'avons plus d'argent\" : sur RTL, le gouverneur de la Banque de France déconseille de mettre en place des aides publiques sur les carburants",
+      "date": "2026-03-11",
+      "guestsIds": ["francois-villeroy-de-galhau"]
+    },
+    {
+      "id": "214",
+      "title": "Xavier Bertrand dénonce sur RTL des \"profiteurs\" de la crise et propose \"un plafonnement\" des prix",
+      "date": "2026-03-12",
+      "guestsIds": ["xavier-bertrand"]
+    },
+    {
+      "id": "215",
+      "title": "Michel-Édouard Leclerc : \"Bloquer les prix, c'est du cinéma\"",
+      "date": "2026-03-13",
+      "guestsIds": ["michel-edouard-leclerc"]
+    },
+    {
+      "id": "216",
+      "title": "Sébastien Chenu annonce sur RTL \"24 maires RN déjà élus\" et pose son parti en \"rempart\" contre la gauche",
+      "date": "2026-03-16",
+      "guestsIds": ["sebastien-chenu"]
+    },
+    {
+      "id": "217",
+      "title": "Marine Tondelier sur les alliances avec LFI aux municipales : \"La gauche qui s'allie à la gauche, c'est assez normal\"",
+      "date": "2026-03-17",
+      "guestsIds": ["marine-tondelier"]
+    },
+    {
+      "id": "218",
+      "title": "Christian Estrosi : \"Marine Tondelier a fracassé le front républicain\"",
+      "date": "2026-03-18",
+      "guestsIds": ["christian-estrosi"]
+    },
+    {
+      "id": "219",
+      "title": "Rachida Dati assure qu'il n'y a \"pas d'accord\" avec Sarah Knafo pour les municipales à Paris",
+      "date": "2026-03-19",
+      "guestsIds": ["rachida-dati"]
+    },
+    {
+      "id": "220",
+      "title": "\"Rachida Dati est devenue la candidate de l'extrême droite\" : Emmanuel Grégoire dénonce sur RTL une \"capitulation morale\" aux municipales à Paris",
+      "date": "2026-03-20",
+      "guestsIds": ["emmanuel-gregoire"]
+    },
+    {
+      "id": "221",
+      "title": "Valérie Pécresse appelle à une \"candidature unique de la droite et du centre\" au lendemain des municipales",
+      "date": "2026-03-23",
+      "guestsIds": ["valerie-pecresse"]
+    },
+    {
+      "id": "222",
+      "title": "Laurent Wauquiez appelle à un rassemblement à droite \"d'Édouard  Philippe à Sarah Knafo\", qui n'est \"pas une néonazie\"",
+      "date": "2026-03-24",
+      "guestsIds": ["laurent-wauquiez"]
+    },
+    {
+      "id": "223",
+      "title": "Manuel Bompard dénonce \"l'impuissance de la France\" et demande à \"condamner l'agression illégale\" des États-Unis et d'Israël contre l'Iran",
+      "date": "2026-03-25",
+      "guestsIds": ["manuel-bompard"]
+    },
+    {
+      "id": "224",
+      "title": "Le ministre de l'Économie promet des \"mesures ciblées\" qui seront annoncées dans les \"prochains jours\"",
+      "date": "2026-03-26",
+      "guestsIds": ["roland-lescure"]
+    },
+    {
+      "id": "225",
+      "title": "\"Y'a plus un sou\" : sur RTL, le patron de Bpifrance met en garde contre un risque de \"dépendance de la France à des pays extérieurs prédateurs\"",
+      "date": "2026-03-27",
+      "guestsIds": ["nicolas-dufourcq"]
+    },
+    {
+      "id": "227",
+      "title": "\"On a plus les moyens d'arroser le sable comme en 2022\" : Marylise Léon de la CFDT estime sur RTL qu'\"il ne faut pas  tout attendre de l'État\" face aux prix des carburants",
+      "date": "2026-03-31",
+      "guestsIds": ["marylise-leon"]
+    },
+    {
+      "id": "228",
+      "title": "Violences sexuelles dans le périscolaire : le ministre de l'Éducation Édouard Geffray admet sur RTL que \"le niveau de contrôle a été manifestement insuffisant pour certains animateurs\"",
+      "date": "2026-04-01",
+      "guestsIds": ["edouard-geffray"]
+    },
+    {
+      "id": "229",
+      "title": "Le PDG des magasins U s'inquiète pour le prix et la \"disponibilité\" du carburant si la guerre s'étire au-delà de 2 semaines",
+      "date": "2026-04-02",
+      "guestsIds": ["dominique-schelcher"]
+    },
+    {
+      "id": "230",
+      "title": "\"Emmanuel Macron regarde les papes les yeux dans les yeux\" : une spécialiste du Vatican explique comment va se dérouler la rencontre du président avec Léon XIV le 10 avril",
+      "date": "2026-04-03",
+      "guestsIds": ["caroline-pigozzi"]
+    },
+    {
+      "id": "231",
+      "title": "Le président de la commission d'enquête sur l'audiovisuel public se dit \"indigné\" par la comparaison de son rapporteur Charles Alloncle avec Zola et l'affaire Dreyfus",
+      "date": "2026-04-06",
+      "guestsIds": ["jeremie-patrier-leitus"]
+    },
+    {
+      "id": "232",
+      "title": "Le patron de l'Union française des industries pétrolières : \"Nous ne voyons pas d'avril noir poindre en Europe ou en France\"",
+      "date": "2026-04-07",
+      "guestsIds": ["olivier-gantois"]
+    },
+    {
+      "id": "233",
+      "title": "Jean-François Copé invite sa famille politique à \"rester étanche\" avec le RN",
+      "date": "2026-04-08",
+      "guestsIds": ["jean-francois-cope"]
+    },
+    {
+      "id": "234",
+      "title": "La ministre déléguée aux Armées dénonce des frappes \"inacceptables\" au Liban fragilisant le cessez-le-feu",
+      "date": "2026-04-09",
+      "guestsIds": ["alice-rufo"]
+    },
+    {
+      "id": "235",
+      "title": "\"Beaucoup de proximité\" avec LFI : sur RTL, Michel Barnier considère que les idées de Dominique de Villepin ressemblent \"plus à celles de Jean-Luc Mélenchon\"",
+      "date": "2026-04-10",
+      "guestsIds": ["michel-barnier"]
+    },
+    {
+      "id": "236",
+      "title": "Proposition de loi du 1er-Mai : Sophie Binet (CGT) dénonce un \"passage en force inacceptable d'Attal allié avec l'extrême droite\"",
+      "date": "2026-04-13",
+      "guestsIds": ["sophie-binet"]
+    },
+    {
+      "id": "237",
+      "title": "Le coup de gueule de Yaël Braun-Pivet sur RTL après le renoncement du gouvernement sur le travail le 1er-Mai qui restera chômé",
+      "date": "2026-04-14",
+      "guestsIds": ["yael-braun-pivet"]
+    },
+    {
+      "id": "238",
+      "title": "Bally Bagayoko reconnaît qu'Emmanuel Macron n'est \"pas raciste\" mais a trouvé sa réaction trop tardive",
+      "date": "2026-04-15",
+      "guestsIds": ["bally-bagayoko"]
+    },
+    {
+      "id": "239",
+      "title": "Robert Ménard fait son \"mea culpa\" sur RTL et parle \"d'aveuglement\" après ses affiches anti-immigration à Béziers en 2015",
+      "date": "2026-04-16",
+      "guestsIds": ["robert-menard"]
+    },
+    {
+      "id": "240",
+      "title": "L'énigme Xavier Dupont de Ligonnès \"hante\" ceux qui s'en approchent : le journaliste Philippe Créhange dit que son enquête l'a fait \"cauchemarder\"",
+      "date": "2026-04-17",
+      "guestsIds": ["philippe-crehange"]
+    },
+    {
+      "id": "241",
+      "title": "Le patron de la confédération des PME dit sur RTL vouloir \"discuter avec tout le monde\", y compris le RN",
+      "date": "2026-04-20",
+      "guestsIds": ["amir-reza-tofighi"]
+    },
+    {
+      "id": "242",
+      "title": "Crise des prix de l'énergie : le ministre de l'Économie Roland Lescure annonce sur RTL la reconduction des \"mesures de soutien\" en mai",
+      "date": "2026-04-21",
+      "guestsIds": ["roland-lescure"]
+    },
+    {
+      "id": "243",
+      "title": "\"Un double standard\" : sur RTL, Gabriel Attal balaye les accusations \"d'impudeur\" lorsqu'il évoque son couple avec Stéphane Séjourné",
+      "date": "2026-04-22",
+      "guestsIds": ["gabriel-attal"]
+    },
+    {
+      "id": "244",
+      "title": "Gérard Araud, ancien ambassadeur de France aux États-Unis et en Israël : \"L'incohérence de Trump\" et \"l'arrogance\" de Téhéran sont les deux obstacles pour la paix",
+      "date": "2026-04-23",
+      "guestsIds": ["gerard-araud"]
+    },
+    {
+      "id": "245",
+      "title": "\"On passe notre temps à leur dire qu'ils sont fainéants\" : Nicolas Prissette et Emmanuel Rivière démontent les idées reçues sur le rapport des Français au travail",
+      "date": "2026-04-24",
+      "guestsIds": ["nicolas-prissette", "emmanuel-riviere"]
+    },
+    {
+      "id": "246",
+      "title": "L'analyste François Heisbourg estime sur RTL que la tentative d'attentat contre Donald Trump va lui \"bénéficier\"",
+      "date": "2026-04-27",
+      "guestsIds": ["francois-heisbourg"]
+    },
+    {
+      "id": "247",
+      "title": "Aurore Bergé juge \"extrêmement vulgaire\" la chanson de Patrick Sébastien visant Delphine Ernotte, la patronne de France Télévisions \"a raison de porter plainte\"",
+      "date": "2026-04-28",
+      "guestsIds": ["aurore-berge"]
+    },
+    {
+      "id": "249",
+      "title": "Olivier Faure sur les superprofits de TotalEnergies : \"Une forme d'indécence\"",
+      "date": "2026-04-30",
+      "guestsIds": ["olivier-faure"]
+    },
+    {
+      "id": "250",
+      "title": "Franz-Olivier Giesbert sur le 1er-Mai : \"C'est un psychodrame stupide\"",
+      "date": "2026-05-01",
+      "guestsIds": ["franz-olivier-giesbert"]
+    },
+    {
+      "id": "251",
+      "title": "Charles Alloncle, rapporteur de la Commission sur l'audiovisuel public : la plainte pour prise illégale d'intérêts est \"une énième tentative de diversion\"",
+      "date": "2026-05-04",
+      "guestsIds": ["charles-alloncle"]
+    },
+    {
+      "id": "252",
+      "title": "La députée LFI Clémence Guetté estime sur RTL que \"nationaliser Total serait rentable dès la première année\"",
+      "date": "2026-05-05",
+      "guestsIds": ["clemence-guette"]
+    },
+    {
+      "id": "254",
+      "title": "Jean-Noël Barrot dit refuser de lever \"la moindre sanction\" contre l'Iran tant que le détroit d'Ormuz est bloqué",
+      "date": "2026-05-07",
+      "guestsIds": ["jean-noel-barrot"]
+    },
+    {
+      "id": "255",
+      "title": "Raphaël Glucksmann, député européen, appelle à ne plus \"dépendre des États-Unis\"",
+      "date": "2026-05-08",
+      "guestsIds": ["raphael-glucksmann"]
+    },
+    {
+      "id": "256",
+      "title": "\"Ne pas créer les impôts de demain\" : sur RTL, le président de l'Union des entreprises de proximité appelle à \"cibler\" les aides publiques sur les carburants",
+      "date": "2026-05-11",
+      "guestsIds": ["michel-picon"]
+    },
+    {
+      "id": "257",
+      "title": "Hantavirus : \"On ne devrait pas avoir d'épidémie d'ampleur\", rassure l'infectiologue Karine Lacombe sur RTL",
+      "date": "2026-05-12",
+      "guestsIds": ["karine-lacombe"]
+    }
+  ]
+}
